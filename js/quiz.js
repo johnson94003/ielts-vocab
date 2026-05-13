@@ -252,11 +252,41 @@ function submitDictation(item) {
 }
 
 // === 模式 2：例句填空 ===
+function buildWordVariants(word) {
+  // 處理單字的常見變化形（複數、過去式、ing 形式）
+  const variants = new Set([word]);
+  // 多字片語：直接整組
+  if (word.includes(" ")) return [...variants];
+  if (word.endsWith("y")) {
+    const stem = word.slice(0, -1);
+    variants.add(stem + "ies");
+    variants.add(stem + "ied");
+    variants.add(word + "ing"); // studying
+  } else if (word.endsWith("e")) {
+    variants.add(word + "s");
+    variants.add(word + "d");
+    variants.add(word.slice(0, -1) + "ing");
+  } else {
+    variants.add(word + "s");
+    variants.add(word + "es");
+    variants.add(word + "ed");
+    variants.add(word + "ing");
+  }
+  // 按長度由長到短排序（避免短的先 match）
+  return [...variants].sort((a, b) => b.length - a.length);
+}
+
 function renderCloze(item) {
   const example = item.examples[0];
   const blank = "______";
-  const re = new RegExp(`\\b${escapeRegex(item.word)}(s|es|ed|ing|d)?\\b`, "i");
-  const sentence = example.en.replace(re, `<span class="cloze-blank">${blank}</span>`);
+  const variants = buildWordVariants(item.word);
+  const re = new RegExp(`\\b(${variants.map(escapeRegex).join("|")})\\b`, "i");
+  let sentence = example.en.replace(re, `<span class="cloze-blank">${blank}</span>`);
+  // 後備：如果沒匹配到，至少把 item.word 強制替換
+  if (!sentence.includes("cloze-blank")) {
+    const fallbackRe = new RegExp(escapeRegex(item.word), "i");
+    sentence = example.en.replace(fallbackRe, `<span class="cloze-blank">${blank}</span>`);
+  }
 
   // 產生 4 個選項
   const choices = [item.word];
