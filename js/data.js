@@ -598,6 +598,202 @@ const VOCAB = [
       en: "There are numerous innovations from Neolithic farmers.",
       zh: "新石器時代農夫帶來許多創新。"
     }]
+  },
+
+  // === 閱讀 Ancient Rome and Piracy (5/13 下午) ===
+  {
+    id: 210, word: "piracy", pos: "n.", zh: "海盜行為", level: 5,
+    category: "歷史社會", source: "Rome Piracy",
+    examples: [{
+      en: "Piracy was an issue ancient Rome had to deal with.",
+      zh: "海盜行為是古羅馬必須處理的問題。"
+    }]
+  },
+  {
+    id: 211, word: "pirate", pos: "n.", zh: "海盜", level: 4,
+    category: "歷史社會", source: "Rome Piracy",
+    examples: [{
+      en: "Pirate attacks on grain ships led to angry voices in the Senate.",
+      zh: "海盜對運糧船的攻擊引起元老院的憤怒聲浪。"
+    }]
+  },
+  {
+    id: 212, word: "Mediterranean", pos: "n./adj.", zh: "地中海（的）", level: 5,
+    category: "歷史社會", source: "Rome Piracy",
+    examples: [{
+      en: "The Roman Republic had to deal with piracy in the Mediterranean.",
+      zh: "羅馬共和國必須處理地中海上的海盜問題。"
+    }]
+  },
+  {
+    id: 213, word: "raid", pos: "n./v.", zh: "劫掠、突襲", level: 5,
+    category: "歷史社會", source: "Rome Piracy",
+    examples: [{
+      en: "Pirate raids provided a steady source of slaves.",
+      zh: "海盜的劫掠提供了穩定的奴隸來源。"
+    }]
+  },
+  {
+    id: 214, word: "slave", pos: "n.", zh: "奴隸", level: 4,
+    category: "歷史社會", source: "Rome Piracy",
+    examples: [{
+      en: "Pirates supplied slaves that were important for Rome's industries.",
+      zh: "海盜提供了對羅馬產業重要的奴隸。"
+    }]
+  },
+  {
+    id: 215, word: "mining", pos: "n.", zh: "採礦", level: 5,
+    category: "歷史社會", source: "Rome Piracy",
+    examples: [{
+      en: "Slaves were essential for Rome's agriculture and mining industries.",
+      zh: "奴隸對羅馬的農業和採礦業至關重要。"
+    }]
+  },
+  {
+    id: 216, word: "agriculture", pos: "n.", zh: "農業", level: 4,
+    category: "歷史社會", source: "Rome Piracy",
+    examples: [{
+      en: "Essential for Rome's agriculture and mining industries.",
+      zh: "對羅馬的農業和採礦業至關重要。"
+    }]
+  },
+  {
+    id: 217, word: "Senate", pos: "n.", zh: "元老院、參議院", level: 5,
+    category: "歷史社會", source: "Rome Piracy",
+    examples: [{
+      en: "Attacks led to angry voices in the Senate.",
+      zh: "這些攻擊引起元老院的憤怒聲浪。"
+    }]
+  },
+  {
+    id: 218, word: "ransom", pos: "n.", zh: "贖金", level: 6,
+    category: "歷史社會", source: "Rome Piracy Q26",
+    examples: [{
+      en: "Emboldened pirates kidnapped Roman dignitaries, asking for a large ransom.",
+      zh: "膽子變大的海盜綁架羅馬要員，索取鉅額贖金。"
+    }]
+  },
+  {
+    id: 219, word: "kidnap", pos: "v.", zh: "綁架", level: 5,
+    category: "動詞", source: "Rome Piracy",
+    examples: [{
+      en: "Emboldened pirates kidnapped prominent Roman dignitaries.",
+      zh: "膽子變大的海盜綁架了顯赫的羅馬要員。"
+    }]
+  },
+  {
+    id: 220, word: "dignitary", pos: "n.", zh: "顯要人物", level: 7,
+    category: "歷史社會", source: "Rome Piracy",
+    examples: [{
+      en: "Pirates kidnapped prominent Roman dignitaries.",
+      zh: "海盜綁架顯赫的羅馬要員。"
+    }]
+  },
+  {
+    id: 221, word: "hostage", pos: "n.", zh: "人質", level: 5,
+    category: "歷史社會", source: "Rome Piracy",
+    examples: [{
+      en: "Their most famous hostage was none other than Julius Caesar.",
+      zh: "他們最有名的人質正是凱撒大帝。"
+    }]
+  },
+  {
+    id: 222, word: "culprit", pos: "n.", zh: "肇事者、罪犯", level: 6,
+    category: "歷史社會", source: "Rome Piracy",
+    examples: [{
+      en: "The Senate demanded punishment of the culprits.",
+      zh: "元老院要求懲罰肇事者。"
+    }]
+  },
+  {
+    id: 223, word: "emboldened", pos: "adj.", zh: "變大膽的", level: 6,
+    category: "形容詞", source: "Rome Piracy",
+    examples: [{
+      en: "Emboldened pirates kidnapped prominent Roman dignitaries.",
+      zh: "膽子變大的海盜綁架顯赫的羅馬要員。"
+    }]
+  },
+  {
+    id: 224, word: "prominent", pos: "adj.", zh: "顯赫的、突出的", level: 5,
+    category: "形容詞", source: "Rome Piracy",
+    examples: [{
+      en: "Pirates kidnapped prominent Roman dignitaries.",
+      zh: "海盜綁架顯赫的羅馬要員。"
+    }]
+  },
+  {
+    id: 225, word: "calls for", pos: "v.phr.", zh: "要求、呼籲", level: 5,
+    category: "搭配", source: "Rome Piracy Q25",
+    examples: [{
+      en: "Attacks led to calls for punishment for the pirates responsible.",
+      zh: "這些攻擊導致眾人要求懲罰相關的海盜。"
+    }]
+  },
+  {
+    id: 226, word: "essential", pos: "adj.", zh: "至關重要的", level: 5,
+    category: "形容詞", source: "Rome Piracy",
+    examples: [{
+      en: "Slaves were essential for Rome's agriculture industries.",
+      zh: "奴隸對羅馬的農業至關重要。"
+    }]
+  },
+  {
+    id: 227, word: "profit from", pos: "v.phr.", zh: "從...獲利", level: 5,
+    category: "搭配", source: "Rome Piracy",
+    examples: [{
+      en: "Rome profited greatly from the existence of piracy.",
+      zh: "羅馬從海盜的存在中獲利甚多。"
+    }]
+  },
+  {
+    id: 228, word: "deal with", pos: "v.phr.", zh: "處理、應對", level: 4,
+    category: "搭配", source: "Rome Piracy",
+    examples: [{
+      en: "Piracy was an issue ancient Rome had to deal with.",
+      zh: "海盜行為是古羅馬必須處理的問題。"
+    }]
+  },
+
+  // === Céide Fields 補充字 (上次漏的) ===
+  {
+    id: 230, word: "innovation", pos: "n.", zh: "創新", level: 5,
+    category: "名詞", source: "Céide",
+    examples: [{
+      en: "This is one of many innovations from Neolithic farmers.",
+      zh: "這是新石器時代農夫帶來的眾多創新之一。"
+    }]
+  },
+  {
+    id: 231, word: "acidity", pos: "n.", zh: "酸性", level: 6,
+    category: "科學", source: "Céide",
+    examples: [{
+      en: "The acidity of the peat helps preserve objects.",
+      zh: "泥炭的酸性有助於保存物品。"
+    }]
+  },
+  {
+    id: 232, word: "preserve", pos: "v.", zh: "保存", level: 5,
+    category: "動詞", source: "Céide",
+    examples: [{
+      en: "The remains of the settlement are extremely well-preserved.",
+      zh: "聚落的遺跡保存得非常完好。"
+    }]
+  },
+  {
+    id: 233, word: "fragment", pos: "n.", zh: "碎片", level: 5,
+    category: "名詞", source: "Céide",
+    examples: [{
+      en: "Fragments of Neolithic pots have been found in Céide.",
+      zh: "在 Céide 發現了新石器時代陶罐的碎片。"
+    }]
+  },
+  {
+    id: 234, word: "insert", pos: "v.", zh: "插入", level: 5,
+    category: "動詞", source: "Céide",
+    examples: [{
+      en: "He inserted iron probes into the bog.",
+      zh: "他把鐵探針插入沼澤裡。"
+    }]
   }
 ];
 
