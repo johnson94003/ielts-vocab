@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>雅思單字 - 測驗</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>📝 雅思單字測驗</h1>
+    <nav>
+      <a href="index.html">瀏覽</a>
+      <a href="quiz.html" class="active">測驗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 模式選擇 -->
+    <section id="modeSelect" class="mode-select">
+      <h2>選擇測驗模式</h2>
+      <div class="mode-cards">
+        <button class="mode-card" data-mode="dictation">
+          <span class="mode-icon">🎧</span>
+          <span class="mode-title">聽寫</span>
+          <span class="mode-desc">聽發音 → 輸入單字<br>最像雅思聽力</span>
+        </button>
+        <button class="mode-card" data-mode="cloze">
+          <span class="mode-icon">📝</span>
+          <span class="mode-title">例句填空</span>
+          <span class="mode-desc">看上下文 → 4 選 1<br>像閱讀填空</span>
+        </button>
+        <button class="mode-card" data-mode="zh2en">
+          <span class="mode-icon">🔤</span>
+          <span class="mode-title">中翻英</span>
+          <span class="mode-desc">看中文 → 輸入英文<br>對口說/寫作最有幫助</span>
+        </button>
+      </div>
+
+      <div class="quiz-options">
+        <h3>選項</h3>
+        <label>
+          題數：
+          <select id="quizLength">
+            <option value="10">10 題</option>
+            <option value="20" selected>20 題</option>
+            <option value="50">50 題</option>
+            <option value="all">全部</option>
+          </select>
+        </label>
+        <label>
+          範圍：
+          <select id="quizScope">
+            <option value="all">全部單字</option>
+            <option value="starred">只考 ⭐ 標記</option>
+            <option value="unmastered">只考未掌握</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <!-- 測驗進行中 -->
+    <section id="quizArea" class="quiz-area" style="display:none;">
+      <div class="quiz-header">
+        <span id="quizProgress">1 / 20</span>
+        <span id="quizScore">✓ 0 ✗ 0</span>
+        <button id="quitQuiz" class="btn-quit">退出</button>
+      </div>
+
+      <div id="questionBox" class="question-box"></div>
+
+      <div id="answerBox" class="answer-box"></div>
+
+      <div id="feedbackBox" class="feedback-box" style="display:none;"></div>
+
+      <div class="quiz-actions">
+        <button id="nextBtn" class="btn-primary" style="display:none;">下一題 →</button>
+      </div>
+    </section>
+
+    <!-- 測驗結束 -->
+    <section id="resultArea" class="result-area" style="display:none;">
+      <h2>測驗結果</h2>
+      <div class="result-stats">
+        <div class="stat-card">
+          <span class="stat-label">總題數</span>
+          <span id="resultTotal" class="stat-value">0</span>
+        </div>
+        <div class="stat-card correct">
+          <span class="stat-label">答對</span>
+          <span id="resultCorrect" class="stat-value">0</span>
+        </div>
+        <div class="stat-card wrong">
+          <span class="stat-label">答錯</span>
+          <span id="resultWrong" class="stat-value">0</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">正確率</span>
+          <span id="resultRate" class="stat-value">0%</span>
+        </div>
+      </div>
+      <div class="result-actions">
+        <button id="restartBtn" class="btn-primary">再來一次</button>
+        <button id="backToModeBtn" class="btn-secondary">回模式選擇</button>
+      </div>
+      <h3 style="margin-top:32px;">答錯的單字（自動加 ⭐）</h3>
+      <ul id="wrongList" class="wrong-list"></ul>
+    </section>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/quiz.js"></script>
+</body>
+</html>
