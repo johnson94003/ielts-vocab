@@ -72,6 +72,37 @@ if (window.speechSynthesis) {
   window.speechSynthesis.getVoices();
 }
 
+// === 拼字寬容判斷 ===
+function normaliseSpelling(s) {
+  // UK ↔ US 拼字統一
+  return s
+    .toLowerCase()
+    .trim()
+    .replace(/our\b/g, "or")        // colour → color
+    .replace(/ise\b/g, "ize")       // analyse → analyze, customise → customize
+    .replace(/ising\b/g, "izing")
+    .replace(/ised\b/g, "ized")
+    .replace(/isation/g, "ization") // organisation → organization
+    .replace(/yse\b/g, "yze")       // analyse → analyze
+    .replace(/tre\b/g, "ter")       // centre → center, theatre → theater
+    .replace(/ogue\b/g, "og")       // catalogue → catalog
+    .replace(/ence\b/g, "ense");    // defence → defense
+}
+
+function isAnswerCorrect(userInput, correctWord) {
+  const user = (userInput || "").trim().toLowerCase();
+  const correct = correctWord.toLowerCase();
+  if (user === correct) return true;
+  // UK/US 拼字寬容
+  if (normaliseSpelling(user) === normaliseSpelling(correct)) return true;
+  // 複數/變化形寬容（單字版）
+  if (!correct.includes(" ")) {
+    const variants = buildWordVariants(correct);
+    if (variants.some(v => v.toLowerCase() === user)) return true;
+  }
+  return false;
+}
+
 // === 自訂彈窗 ===
 function customConfirm(message, onYes) {
   const overlay = document.createElement("div");
@@ -127,6 +158,16 @@ if ($catSelect && typeof CATEGORIES !== "undefined") {
     $catSelect.appendChild(opt);
   });
 }
+
+// === URL 參數預設（例如從「我的單字」過來時 ?scope=starred）===
+function applyURLParams() {
+  const params = new URLSearchParams(window.location.search);
+  const scopeEl = document.getElementById("quizScope");
+  if (params.get("scope") && scopeEl) {
+    scopeEl.value = params.get("scope");
+  }
+}
+applyURLParams();
 
 // === 顯示每日打卡（在模式選擇頁）===
 function renderStreak() {
@@ -245,9 +286,8 @@ function renderDictation(item) {
 function submitDictation(item) {
   if (currentAnswered) return;
   const input = document.getElementById("dictInput");
-  const user = (input.value || "").trim().toLowerCase();
-  const correct = item.word.toLowerCase();
-  const ok = user === correct;
+  const user = (input.value || "").trim();
+  const ok = isAnswerCorrect(user, item.word);
   handleAnswer(item, ok, user);
 }
 
@@ -278,7 +318,9 @@ function buildWordVariants(word) {
 
 function renderCloze(item) {
   const example = item.examples[0];
-  const blank = "______";
+  // 空格長度約略匹配單字長度
+  const wordLen = item.word.replace(/\s/g, "").length;
+  const blank = "_".repeat(Math.max(4, Math.min(wordLen, 14)));
   const variants = buildWordVariants(item.word);
   const re = new RegExp(`\\b(${variants.map(escapeRegex).join("|")})\\b`, "i");
   let sentence = example.en.replace(re, `<span class="cloze-blank">${blank}</span>`);
@@ -386,9 +428,8 @@ function renderZh2En(item) {
 function submitZh2En(item) {
   if (currentAnswered) return;
   const input = document.getElementById("zh2enInput");
-  const user = (input.value || "").trim().toLowerCase();
-  const correct = item.word.toLowerCase();
-  const ok = user === correct;
+  const user = (input.value || "").trim();
+  const ok = isAnswerCorrect(user, item.word);
   handleAnswer(item, ok, user);
 }
 
@@ -423,7 +464,7 @@ function handleAnswer(item, isCorrect, userAnswer) {
       <div class="answer-display" data-word="${escapeHtml(item.word)}">${escapeHtml(item.word)} 🔊</div>
       <div class="feedback-zh">${escapeHtml(item.zh)}</div>
       <div class="example-display">
-        <em>${escapeHtml(example.en)}</em><br>
+        <em data-sentence="${escapeHtml(example.en)}">${escapeHtml(example.en)} <span class="play-sentence">🔊</span></em><br>
         <small>${escapeHtml(example.zh)}</small>
       </div>
     `;
@@ -439,7 +480,7 @@ function handleAnswer(item, isCorrect, userAnswer) {
       <div class="answer-display" data-word="${escapeHtml(item.word)}">正解：${escapeHtml(item.word)} 🔊</div>
       <div class="feedback-zh">${escapeHtml(item.zh)}</div>
       <div class="example-display">
-        <em>${escapeHtml(example.en)}</em><br>
+        <em data-sentence="${escapeHtml(example.en)}">${escapeHtml(example.en)} <span class="play-sentence">🔊</span></em><br>
         <small>${escapeHtml(example.zh)}</small>
       </div>
     `;
@@ -449,6 +490,15 @@ function handleAnswer(item, isCorrect, userAnswer) {
   $feedbackBox.querySelectorAll(".answer-display").forEach(el => {
     el.style.cursor = "pointer";
     el.addEventListener("click", () => speak(el.dataset.word));
+  });
+
+  // 點 🔊 念整句
+  $feedbackBox.querySelectorAll(".play-sentence").forEach(el => {
+    el.addEventListener("click", e => {
+      e.stopPropagation();
+      const sentence = el.closest("[data-sentence]").dataset.sentence;
+      speak(sentence);
+    });
   });
 
   $feedbackBox.style.display = "block";

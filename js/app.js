@@ -120,10 +120,11 @@ function renderVocab() {
       card.className = "vocab-card";
       if (s.starred) card.classList.add("starred");
       if (s.mastered) card.classList.add("mastered");
+      if (document.getElementById("flipMode")?.checked) card.classList.add("flip-mode");
 
       const examplesHtml = v.examples.map(ex => `
         <div class="vocab-example">
-          <div class="en">${escapeHtml(ex.en)}</div>
+          <div class="en" data-sentence="${escapeHtml(ex.en)}">${escapeHtml(ex.en)} <span class="play-sentence" title="念整句">🔊</span></div>
           <div class="zh-trans">${escapeHtml(ex.zh)}</div>
         </div>
       `).join("");
@@ -183,12 +184,27 @@ $list.addEventListener("click", e => {
     const s = getStatus(id);
     setStatus(id, "mastered", !s.mastered);
     renderVocab();
-  } else if (e.target.classList.contains("vocab-example") || e.target.closest(".vocab-example .en")) {
-    // 點例句也念
-    const en = e.target.closest(".vocab-example").querySelector(".en").textContent;
+  } else if (e.target.classList.contains("play-sentence")) {
+    // 念整句
+    const en = e.target.closest(".en").dataset.sentence;
     speak(en);
+  } else if (e.target.closest(".vocab-card.flip-mode")) {
+    // 翻面模式：點卡片翻開
+    const card = e.target.closest(".vocab-card.flip-mode");
+    card.classList.toggle("revealed");
   }
 });
+
+// 翻面模式切換
+const $flipMode = document.getElementById("flipMode");
+if ($flipMode) {
+  $flipMode.checked = localStorage.getItem("flipMode") === "1";
+  if ($flipMode.checked) document.querySelector(".vocab-list")?.classList.add("flip-active");
+  $flipMode.addEventListener("change", () => {
+    localStorage.setItem("flipMode", $flipMode.checked ? "1" : "0");
+    renderVocab();
+  });
+}
 
 $search.addEventListener("input", renderVocab);
 $catFilter.addEventListener("change", renderVocab);

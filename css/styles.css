@@ -739,6 +739,93 @@ footer {
   font-size: 16px;
 }
 
+/* === 新增：我的單字頁 Tabs === */
+.my-words-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.tab-btn {
+  flex: 0 0 auto;
+  padding: 10px 16px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+.tab-btn:hover {
+  background: var(--bg);
+}
+.tab-btn.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+.my-words-actions {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.my-words-actions button {
+  flex: 1;
+  min-width: 140px;
+  padding: 10px 16px;
+}
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-light);
+}
+.empty-state a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+/* === 新增：例句發音按鈕 === */
+.play-sentence {
+  display: inline-block;
+  margin-left: 6px;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: opacity 0.15s;
+}
+.play-sentence:hover {
+  opacity: 1;
+}
+
+/* === 新增：單字卡翻面 === */
+.vocab-card.flip-mode .vocab-zh,
+.vocab-card.flip-mode .vocab-example {
+  filter: blur(6px);
+  cursor: pointer;
+  transition: filter 0.2s;
+  user-select: none;
+}
+.vocab-card.flip-mode.revealed .vocab-zh,
+.vocab-card.flip-mode.revealed .vocab-example {
+  filter: none;
+}
+.flip-mode-toggle {
+  margin-bottom: 12px;
+  text-align: right;
+}
+.flip-mode-toggle label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-light);
+  cursor: pointer;
+  user-select: none;
+}
+
 /* === Mobile === */
 @media (max-width: 600px) {
   header h1 {
