@@ -49,13 +49,14 @@ def deploy():
     if pages_url:
         print(f"   URL: {pages_url}")
 
-    # 需要部署的檔案
+    # 需要部署的檔案：所有 .html + css/ + js/
     files = [
-        "index.html",
-        "quiz.html",
         "css",
         "js",
     ]
+    # 動態加入所有 .html
+    for html in ROOT.glob("*.html"):
+        files.append(html.name)
 
     # 用暫時目錄建 gh-pages 內容
     with tempfile.TemporaryDirectory() as tmp:
