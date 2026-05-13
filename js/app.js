@@ -1,6 +1,29 @@
 // === 單字瀏覽頁邏輯 ===
 
 const STORAGE_KEY = "ielts_vocab_progress";
+const STREAK_KEY = "ielts_vocab_streak";
+
+// === 每日打卡顯示 ===
+function renderStreak() {
+  try {
+    const s = JSON.parse(localStorage.getItem(STREAK_KEY)) || { days: [], todayCount: 0, lastDate: "" };
+    const today = new Date().toISOString().slice(0, 10);
+    let streak = 0;
+    let d = new Date();
+    while (true) {
+      const dateStr = d.toISOString().slice(0, 10);
+      if (s.days.includes(dateStr)) {
+        streak++;
+        d.setDate(d.getDate() - 1);
+      } else break;
+    }
+    const todayCount = s.lastDate === today ? s.todayCount : 0;
+    const $streak = document.getElementById("streakInfo");
+    if ($streak) {
+      $streak.innerHTML = `🔥 連續 <strong>${streak}</strong> 天｜今日已練 <strong>${todayCount}</strong> 題`;
+    }
+  } catch (e) {}
+}
 
 function loadProgress() {
   try {
@@ -173,3 +196,4 @@ $levelFilter.addEventListener("change", renderVocab);
 $statusFilter.addEventListener("change", renderVocab);
 
 renderVocab();
+renderStreak();

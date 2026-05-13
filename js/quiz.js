@@ -1,6 +1,7 @@
 // === 測驗頁邏輯 ===
 
 const STORAGE_KEY = "ielts_vocab_progress";
+const STREAK_KEY = "ielts_vocab_streak";
 
 function loadProgress() {
   try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; }
@@ -18,6 +19,42 @@ function setStatus(id, key, value) {
   saveProgress(progress);
 }
 
+// === 每日打卡 ===
+function loadStreak() {
+  try { return JSON.parse(localStorage.getItem(STREAK_KEY)) || { days: [], todayCount: 0, lastDate: "" }; }
+  catch (e) { return { days: [], todayCount: 0, lastDate: "" }; }
+}
+function saveStreak(s) { localStorage.setItem(STREAK_KEY, JSON.stringify(s)); }
+function recordPracticeToday() {
+  const s = loadStreak();
+  const today = new Date().toISOString().slice(0, 10);
+  if (s.lastDate !== today) {
+    s.todayCount = 0;
+    s.lastDate = today;
+    if (!s.days.includes(today)) s.days.push(today);
+  }
+  s.todayCount++;
+  saveStreak(s);
+}
+function getStreakInfo() {
+  const s = loadStreak();
+  const today = new Date().toISOString().slice(0, 10);
+  // 計算連續天數
+  let streak = 0;
+  let d = new Date();
+  while (true) {
+    const dateStr = d.toISOString().slice(0, 10);
+    if (s.days.includes(dateStr)) {
+      streak++;
+      d.setDate(d.getDate() - 1);
+    } else break;
+  }
+  return {
+    todayCount: s.lastDate === today ? s.todayCount : 0,
+    streak: streak,
+  };
+}
+
 // === TTS ===
 function speak(text) {
   if (!window.speechSynthesis) return;
@@ -33,6 +70,30 @@ function speak(text) {
 if (window.speechSynthesis) {
   window.speechSynthesis.onvoiceschanged = () => {};
   window.speechSynthesis.getVoices();
+}
+
+// === 自訂彈窗 ===
+function customConfirm(message, onYes) {
+  const overlay = document.createElement("div");
+  overlay.className = "modal-overlay";
+  overlay.innerHTML = `
+    <div class="modal-box">
+      <div class="modal-msg">${message}</div>
+      <div class="modal-actions">
+        <button class="btn-secondary modal-no">取消</button>
+        <button class="btn-primary modal-yes">確定</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+  overlay.querySelector(".modal-yes").addEventListener("click", () => {
+    overlay.remove();
+    onYes();
+  });
+  overlay.querySelector(".modal-no").addEventListener("click", () => overlay.remove());
+  overlay.addEventListener("click", e => {
+    if (e.target === overlay) overlay.remove();
+  });
 }
 
 // === 狀態 ===
@@ -56,6 +117,27 @@ const $feedbackBox = document.getElementById("feedbackBox");
 const $nextBtn = document.getElementById("nextBtn");
 const $quitBtn = document.getElementById("quitQuiz");
 
+// === 初始化類別下拉選單 ===
+const $catSelect = document.getElementById("quizCategory");
+if ($catSelect && typeof CATEGORIES !== "undefined") {
+  CATEGORIES.forEach(cat => {
+    const opt = document.createElement("option");
+    opt.value = cat;
+    opt.textContent = cat;
+    $catSelect.appendChild(opt);
+  });
+}
+
+// === 顯示每日打卡（在模式選擇頁）===
+function renderStreak() {
+  const info = getStreakInfo();
+  const $streakArea = document.getElementById("streakInfo");
+  if ($streakArea) {
+    $streakArea.innerHTML = `🔥 連續 <strong>${info.streak}</strong> 天｜今日已練 <strong>${info.todayCount}</strong> 題`;
+  }
+}
+renderStreak();
+
 // === 啟動 ===
 document.querySelectorAll(".mode-card").forEach(btn => {
   btn.addEventListener("click", () => {
@@ -67,6 +149,10 @@ document.querySelectorAll(".mode-card").forEach(btn => {
 function startQuiz() {
   const length = document.getElementById("quizLength").value;
   const scope = document.getElementById("quizScope").value;
+  const purposeEl = document.getElementById("quizPurpose");
+  const categoryEl = document.getElementById("quizCategory");
+  const purpose = purposeEl ? purposeEl.value : "all";
+  const category = categoryEl ? categoryEl.value : "";
 
   // 篩選題庫
   let pool = VOCAB.slice();
@@ -74,6 +160,12 @@ function startQuiz() {
     pool = pool.filter(v => getStatus(v.id).starred);
   } else if (scope === "unmastered") {
     pool = pool.filter(v => !getStatus(v.id).mastered);
+  }
+  if (purpose !== "all") {
+    pool = pool.filter(v => v.purpose === purpose);
+  }
+  if (category) {
+    pool = pool.filter(v => v.category === category);
   }
 
   if (pool.length < 4) {
@@ -110,6 +202,7 @@ function renderQuestion() {
   $progress.textContent = `${quizIndex + 1} / ${quizQueue.length}`;
   $score.textContent = `✓ ${quizCorrect}  ✗ ${quizWrong}`;
   $feedbackBox.style.display = "none";
+  $feedbackBox.classList.remove("show");
   $nextBtn.style.display = "none";
 
   if (quizMode === "dictation") {
@@ -130,6 +223,10 @@ function renderDictation(item) {
   `;
   $answerBox.innerHTML = `
     <input type="text" id="dictInput" placeholder="輸入聽到的單字..." autocomplete="off" autocapitalize="off" />
+    <div class="answer-row">
+      <button class="btn-secondary btn-skip" id="skipBtn">跳過</button>
+      <button class="btn-primary btn-submit" id="submitBtn">送出</button>
+    </div>
   `;
   document.getElementById("playBtn").addEventListener("click", () => speak(item.word));
   // 自動播放一次
@@ -141,14 +238,8 @@ function renderDictation(item) {
     if (e.key === "Enter") submitDictation(item);
   });
 
-  // 加 submit button below
-  const submit = document.createElement("button");
-  submit.className = "btn-primary";
-  submit.textContent = "送出";
-  submit.style.marginTop = "12px";
-  submit.style.width = "100%";
-  submit.addEventListener("click", () => submitDictation(item));
-  $answerBox.appendChild(submit);
+  document.getElementById("submitBtn").addEventListener("click", () => submitDictation(item));
+  document.getElementById("skipBtn").addEventListener("click", () => skipQuestion(item));
 }
 
 function submitDictation(item) {
@@ -164,7 +255,6 @@ function submitDictation(item) {
 function renderCloze(item) {
   const example = item.examples[0];
   const blank = "______";
-  // 把例句裡的單字（含複數變化）替換成底線
   const re = new RegExp(`\\b${escapeRegex(item.word)}(s|es|ed|ing|d)?\\b`, "i");
   const sentence = example.en.replace(re, `<span class="cloze-blank">${blank}</span>`);
 
@@ -175,7 +265,6 @@ function renderCloze(item) {
   while (choices.length < 4 && pool.length > 0) {
     choices.push(pool.shift().word);
   }
-  // 如果同詞性不夠，補其他的
   if (choices.length < 4) {
     const all = VOCAB.filter(v => v.id !== item.id);
     shuffle(all);
@@ -189,9 +278,17 @@ function renderCloze(item) {
   $questionBox.innerHTML = `
     <div class="prompt">選擇正確的單字填入空格</div>
     <div class="cloze-sentence">${sentence}</div>
-    <div class="cloze-zh">${escapeHtml(example.zh)}</div>
+    <div class="cloze-hint-wrap">
+      <button class="btn-hint" id="hintBtn">💡 顯示中文提示</button>
+      <div class="cloze-zh-hidden" id="hintText" style="display:none;">${escapeHtml(example.zh)}</div>
+    </div>
   `;
-  $answerBox.innerHTML = `<div class="choices"></div>`;
+  $answerBox.innerHTML = `
+    <div class="choices"></div>
+    <div class="answer-row" style="margin-top:8px;">
+      <button class="btn-secondary btn-skip" id="skipBtn">跳過</button>
+    </div>
+  `;
   const $choices = $answerBox.querySelector(".choices");
   choices.forEach(c => {
     const btn = document.createElement("button");
@@ -203,7 +300,6 @@ function renderCloze(item) {
       if (ok) btn.classList.add("correct");
       else {
         btn.classList.add("wrong");
-        // 標出正確答案
         $choices.querySelectorAll(".choice-btn").forEach(b => {
           if (b.textContent === item.word) b.classList.add("correct");
         });
@@ -212,6 +308,21 @@ function renderCloze(item) {
     });
     $choices.appendChild(btn);
   });
+
+  // 提示按鈕
+  document.getElementById("hintBtn").addEventListener("click", () => {
+    const $h = document.getElementById("hintText");
+    const $b = document.getElementById("hintBtn");
+    if ($h.style.display === "none") {
+      $h.style.display = "block";
+      $b.textContent = "🔼 隱藏中文";
+    } else {
+      $h.style.display = "none";
+      $b.textContent = "💡 顯示中文提示";
+    }
+  });
+
+  document.getElementById("skipBtn").addEventListener("click", () => skipQuestion(item));
 }
 
 function escapeRegex(s) {
@@ -227,6 +338,10 @@ function renderZh2En(item) {
   `;
   $answerBox.innerHTML = `
     <input type="text" id="zh2enInput" placeholder="輸入英文單字..." autocomplete="off" autocapitalize="off" />
+    <div class="answer-row">
+      <button class="btn-secondary btn-skip" id="skipBtn">跳過</button>
+      <button class="btn-primary btn-submit" id="submitBtn">送出</button>
+    </div>
   `;
   const input = document.getElementById("zh2enInput");
   input.focus();
@@ -234,13 +349,8 @@ function renderZh2En(item) {
     if (e.key === "Enter") submitZh2En(item);
   });
 
-  const submit = document.createElement("button");
-  submit.className = "btn-primary";
-  submit.textContent = "送出";
-  submit.style.marginTop = "12px";
-  submit.style.width = "100%";
-  submit.addEventListener("click", () => submitZh2En(item));
-  $answerBox.appendChild(submit);
+  document.getElementById("submitBtn").addEventListener("click", () => submitZh2En(item));
+  document.getElementById("skipBtn").addEventListener("click", () => skipQuestion(item));
 }
 
 function submitZh2En(item) {
@@ -252,14 +362,26 @@ function submitZh2En(item) {
   handleAnswer(item, ok, user);
 }
 
+// === 跳過 ===
+function skipQuestion(item) {
+  if (currentAnswered) return;
+  handleAnswer(item, false, "(跳過)");
+}
+
 // === 共通處理 ===
 function handleAnswer(item, isCorrect, userAnswer) {
   currentAnswered = true;
+  recordPracticeToday();
   const example = item.examples[0];
+
+  // 隱藏輸入區（讓使用者專心看回饋）
+  const submitBtn = document.getElementById("submitBtn");
+  const skipBtn = document.getElementById("skipBtn");
+  if (submitBtn) submitBtn.style.display = "none";
+  if (skipBtn) skipBtn.style.display = "none";
 
   if (isCorrect) {
     quizCorrect++;
-    // 連續答對 +1，達 3 次自動標 ✓
     const s = getStatus(item.id);
     setStatus(item.id, "correctStreak", (s.correctStreak || 0) + 1);
     if ((s.correctStreak || 0) + 1 >= 3 && !s.mastered) {
@@ -267,9 +389,9 @@ function handleAnswer(item, isCorrect, userAnswer) {
     }
     $feedbackBox.className = "feedback-box correct";
     $feedbackBox.innerHTML = `
-      <div>✅ 答對！</div>
-      <div class="answer-display">${escapeHtml(item.word)} 🔊</div>
-      <div>${escapeHtml(item.zh)}</div>
+      <div class="feedback-title">✅ 答對！</div>
+      <div class="answer-display" data-word="${escapeHtml(item.word)}">${escapeHtml(item.word)} 🔊</div>
+      <div class="feedback-zh">${escapeHtml(item.zh)}</div>
       <div class="example-display">
         <em>${escapeHtml(example.en)}</em><br>
         <small>${escapeHtml(example.zh)}</small>
@@ -277,16 +399,15 @@ function handleAnswer(item, isCorrect, userAnswer) {
     `;
   } else {
     quizWrong++;
-    // 答錯：清空 streak，自動標 ⭐
     setStatus(item.id, "correctStreak", 0);
     setStatus(item.id, "starred", true);
     wrongAnswers.push(item);
     $feedbackBox.className = "feedback-box wrong";
     $feedbackBox.innerHTML = `
-      <div>❌ 答錯</div>
-      <div>你寫的：<strong>${escapeHtml(userAnswer || "(空白)")}</strong></div>
-      <div class="answer-display">正解：${escapeHtml(item.word)} 🔊</div>
-      <div>${escapeHtml(item.zh)}</div>
+      <div class="feedback-title">❌ 答錯</div>
+      <div class="feedback-your">你寫的：<strong>${escapeHtml(userAnswer || "(空白)")}</strong></div>
+      <div class="answer-display" data-word="${escapeHtml(item.word)}">正解：${escapeHtml(item.word)} 🔊</div>
+      <div class="feedback-zh">${escapeHtml(item.zh)}</div>
       <div class="example-display">
         <em>${escapeHtml(example.en)}</em><br>
         <small>${escapeHtml(example.zh)}</small>
@@ -294,17 +415,20 @@ function handleAnswer(item, isCorrect, userAnswer) {
     `;
   }
 
-  // 加發音按鈕功能
+  // 點答案發音
   $feedbackBox.querySelectorAll(".answer-display").forEach(el => {
     el.style.cursor = "pointer";
-    el.addEventListener("click", () => speak(item.word));
+    el.addEventListener("click", () => speak(el.dataset.word));
   });
 
   $feedbackBox.style.display = "block";
+  // 觸發動畫
+  setTimeout(() => $feedbackBox.classList.add("show"), 10);
+
   $nextBtn.style.display = "inline-block";
+  $nextBtn.focus();
   $score.textContent = `✓ ${quizCorrect}  ✗ ${quizWrong}`;
 
-  // 自動播放正解發音
   setTimeout(() => speak(item.word), 400);
 }
 
@@ -313,11 +437,20 @@ $nextBtn.addEventListener("click", () => {
   renderQuestion();
 });
 
+// 鍵盤：答完後 Enter 直接下一題
+document.addEventListener("keydown", e => {
+  if (e.key === "Enter" && currentAnswered && $quizArea.style.display !== "none") {
+    quizIndex++;
+    renderQuestion();
+  }
+});
+
 $quitBtn.addEventListener("click", () => {
-  if (confirm("確定要退出嗎？目前的進度會丟失")) {
+  customConfirm("確定要退出嗎？目前的進度會丟失。", () => {
     $quizArea.style.display = "none";
     $modeSelect.style.display = "block";
-  }
+    renderStreak();
+  });
 });
 
 // === 結算 ===
@@ -354,6 +487,7 @@ document.getElementById("restartBtn").addEventListener("click", startQuiz);
 document.getElementById("backToModeBtn").addEventListener("click", () => {
   $resultArea.style.display = "none";
   $modeSelect.style.display = "block";
+  renderStreak();
 });
 
 // === Utils ===

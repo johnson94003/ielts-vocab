@@ -591,6 +591,154 @@ footer {
   color: var(--text-light);
 }
 
+/* === 新增：自訂彈窗 === */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.15s ease-out;
+}
+.modal-box {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 360px;
+  width: 90%;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  animation: scaleIn 0.15s ease-out;
+}
+.modal-msg {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.modal-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.modal-actions button {
+  padding: 8px 20px;
+  font-size: 14px;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes scaleIn {
+  from { transform: scale(0.92); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* === 新增：跳過 + 送出 並排 === */
+.answer-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+.btn-skip {
+  flex: 0 0 auto;
+  padding: 12px 20px;
+  background: var(--card);
+  color: var(--text-light);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 15px;
+}
+.btn-skip:hover {
+  background: var(--bg);
+}
+.btn-submit {
+  flex: 1;
+}
+
+/* === 新增：例句填空提示按鈕 === */
+.cloze-hint-wrap {
+  margin-top: 12px;
+}
+.btn-hint {
+  background: transparent;
+  border: 1px dashed var(--border);
+  color: var(--text-light);
+  padding: 6px 14px;
+  border-radius: 16px;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.btn-hint:hover {
+  background: var(--bg);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+.cloze-zh-hidden {
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--text-light);
+  background: var(--bg);
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+/* === 強化：填空空格更明顯 === */
+.cloze-blank {
+  display: inline-block;
+  background: #fff8e1;
+  border-bottom: 3px solid var(--warning);
+  min-width: 100px;
+  padding: 2px 12px;
+  border-radius: 4px 4px 0 0;
+  color: var(--warning);
+  font-weight: 600;
+}
+
+/* === 新增：回饋動畫 === */
+.feedback-box {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.25s ease-out, transform 0.25s ease-out;
+}
+.feedback-box.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.feedback-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.feedback-zh {
+  font-size: 15px;
+  margin: 4px 0;
+}
+.feedback-your {
+  font-size: 14px;
+  margin: 4px 0;
+  color: var(--text-light);
+}
+
+/* === 新增：每日打卡資訊 === */
+.streak-info {
+  text-align: center;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, #fff8e1, #fff3e0);
+  border-radius: 12px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: var(--text);
+  border: 1px solid #ffe0b2;
+}
+.streak-info strong {
+  color: #f57c00;
+  font-size: 16px;
+}
+
 /* === Mobile === */
 @media (max-width: 600px) {
   header h1 {
