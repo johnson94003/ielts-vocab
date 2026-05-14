@@ -2053,7 +2053,24 @@ const VOCAB = [
   { id: 3142, word: "abundant", pos: "adj.", zh: "豐富的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", examples: [{ en: "The country has abundant resources.", zh: "這個國家資源豐富。" }] },
   { id: 3143, word: "scarce", pos: "adj.", zh: "稀少的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", examples: [{ en: "Water is becoming scarce.", zh: "水變得稀少。" }] },
   { id: 3144, word: "diverse", pos: "adj.", zh: "多元的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", examples: [{ en: "We have a diverse team.", zh: "我們有多元的團隊。" }] },
-  { id: 3145, word: "uniform", pos: "adj.", zh: "一致的", level: 4, category: "形容詞高頻", source: "主題詞庫", purpose: "active", examples: [{ en: "The results show a uniform pattern.", zh: "結果顯示一致的模式。" }] }
+  { id: 3145, word: "uniform", pos: "adj.", zh: "一致的", level: 4, category: "形容詞高頻", source: "主題詞庫", purpose: "active", examples: [{ en: "The results show a uniform pattern.", zh: "結果顯示一致的模式。" }] },
+  { id: 3146, word: "tune", pos: "v./n.", zh: "調音 / 曲調", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", examples: [{ en: "He always starts by getting us to tune our guitars.", zh: "他總是先讓我們調音。" }] },
+  { id: 3147, word: "by ear", pos: "phr.", zh: "憑聽覺、靠耳朵", level: 5, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", examples: [{ en: "Some people have an app they use, but others do it by ear.", zh: "有些人用 app，但有人靠耳朵調音。" }] },
+  { id: 3148, word: "strumming", pos: "n.", zh: "刷弦", level: 5, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", examples: [{ en: "We usually spend about ten minutes doing some strumming.", zh: "我們通常花十分鐘做刷弦練習。" }] },
+  { id: 3149, word: "chord", pos: "n.", zh: "和弦", level: 5, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", examples: [{ en: "Gary reminds us where to put our fingers for each chord.", zh: "Gary 提醒我們每個和弦的指法。" }] },
+  { id: 3150, word: "plectrum", pos: "n.", zh: "撥片", level: 6, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "passive", examples: [{ en: "So is that using ... what are they called ... plectrums?", zh: "是用那個 ... 叫什麼來著 ... 撥片嗎？" }] },
+  { id: 3151, word: "fingerpicking", pos: "n.", zh: "指彈", level: 6, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", examples: [{ en: "Do you do any fingerpicking?", zh: "你們會學指彈嗎？" }] },
+  { id: 3152, word: "recording", pos: "n.", zh: "錄音", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", examples: [{ en: "He often brings a recording of a song and plays it to us first.", zh: "他常常會帶一首歌的錄音先放給我們聽。" }] },
+  { id: 3153, word: "individual notes", pos: "n.", zh: "單音", level: 5, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", examples: [{ en: "We pick out the individual notes from a tune he's made up.", zh: "我們從他編的曲子裡挑出單音。" }] },
+  { id: 3154, word: "keep time", pos: "phr.", zh: "保持節奏", level: 5, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", examples: [{ en: "We're so bad at keeping time, so Gary starts clapping.", zh: "我們完全抓不到節奏，所以 Gary 開始拍手。" }] },
+  { id: 3155, word: "clap", pos: "v.", zh: "拍手", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", examples: [{ en: "Gary starts clapping to help us.", zh: "Gary 開始拍手幫我們抓拍。" }] },
+  { id: 3156, word: "pick out", pos: "phr. v.", zh: "挑出、分辨出", level: 5, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", examples: [{ en: "We pick out the individual notes from a tune.", zh: "我們從曲子中挑出單音。" }] },
+  { id: 3157, word: "make up", pos: "phr. v.", zh: "編造、自創", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", examples: [{ en: "It's a tune he's made up.", zh: "這是他自己編的曲子。" }] },
+  { id: 3158, word: "hand out", pos: "phr. v.", zh: "發放", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", examples: [{ en: "He hands out the song.", zh: "他把歌譜發給我們。" }] },
+  { id: 3159, word: "go round", pos: "phr. v.", zh: "走動巡視", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", examples: [{ en: "Gary goes round and helps them.", zh: "Gary 走動巡視並幫忙他們。" }] },
+  { id: 3160, word: "get used to", pos: "phr.", zh: "習慣於", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", examples: [{ en: "I've got used to it now.", zh: "我現在已經習慣了。" }] },
+  { id: 3161, word: "concentrate", pos: "v.", zh: "專心", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", examples: [{ en: "People like it because they can really concentrate.", zh: "大家喜歡這部分因為可以全神貫注。" }] },
+  { id: 3162, word: "impressive", pos: "adj.", zh: "令人印象深刻的", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", examples: [{ en: "If we're all playing well, it sounds quite impressive.", zh: "如果大家都彈得好，聽起來相當不錯。" }] }
 ];
 
 const CATEGORIES = [...new Set(VOCAB.map(v => v.category))].sort();
