@@ -2177,7 +2177,16 @@ const VOCAB = [
   { id: 3266, word: "cold-room", pos: "n.", zh: "冷藏室", level: 5, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", examples: [{ en: "You'll need to get more ice from the cold-room.", zh: "你需要從冷藏室拿更多的冰。" }] },
   { id: 3267, word: "frostbite", pos: "n.", zh: "凍傷", level: 6, category: "超市職場", source: "聽力 C19T4P1", purpose: "passive", examples: [{ en: "It's cold enough in there to get frostbite.", zh: "那裡冷到足以造成凍傷。" }] },
   { id: 3268, word: "thermal", pos: "adj.", zh: "保暖的、隔熱的", level: 5, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", examples: [{ en: "Make sure you put on thermal gloves.", zh: "務必戴上保暖手套。" }] },
-  { id: 3269, word: "rucksack", pos: "n.", zh: "背包", level: 4, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", examples: [{ en: "Put your coat and rucksack in one of the lockers.", zh: "把大衣和背包放進其中一個置物櫃。" }] }
+  { id: 3269, word: "rucksack", pos: "n.", zh: "背包", level: 4, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", examples: [{ en: "Put your coat and rucksack in one of the lockers.", zh: "把大衣和背包放進其中一個置物櫃。" }] },
+  { id: 3270, word: "upward", pos: "adj.", zh: "向上的（方向，注意不是 upper）", level: 4, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", examples: [{ en: "Firstly, there was an overall upward trend.", zh: "首先，整體呈現一個上升趨勢。" }] },
+  { id: 3271, word: "opposite", pos: "adj.", zh: "相反的", level: 4, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", examples: [{ en: "In contrast, the figure for Asia showed the opposite trend.", zh: "相比之下，亞洲的數字顯示出相反的趨勢。" }] },
+  { id: 3272, word: "proportion", pos: "n.", zh: "比例（拼字弱點⭐，不是 portion）", level: 5, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", examples: [{ en: "Then, the proportion fell sharply in the last five years.", zh: "接著，這個比例在最後五年急遽下降。" }] },
+  { id: 3273, word: "peak", pos: "v.", zh: "達到高峰", level: 5, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", examples: [{ en: "The figure peaked in 2010.", zh: "這個數字在 2010 年達到高峰。" }] },
+  { id: 3274, word: "level off", pos: "phr.", zh: "走平、持平（不是 level up）", level: 5, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", examples: [{ en: "The unemployment rate leveled off.", zh: "失業率維持持平。" }] },
+  { id: 3275, word: "whereas", pos: "conj.", zh: "而（句中連兩個子句作對比）", level: 5, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", examples: [{ en: "Exports rose sharply, whereas imports remained stable.", zh: "出口量大幅上升，而進口量維持穩定。" }] },
+  { id: 3276, word: "in contrast", pos: "phr.", zh: "相比之下（句首）", level: 5, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", examples: [{ en: "In contrast, the figure for Asia was much lower.", zh: "相比之下，亞洲的數字低得多。" }] },
+  { id: 3277, word: "likewise", pos: "adv.", zh: "同樣地（句首，同向連接）", level: 6, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", examples: [{ en: "Likewise, the number of women increased.", zh: "同樣地，女性人數也增加了。" }] },
+  { id: 3278, word: "conversely", pos: "adv.", zh: "相反地（句首，異向連接）", level: 6, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", examples: [{ en: "Conversely, sales of tea declined.", zh: "相反地，茶的銷量下降了。" }] }
 ];
 
 const CATEGORIES = [...new Set(VOCAB.map(v => v.category))].sort();
