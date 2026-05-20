@@ -2186,7 +2186,18 @@ const VOCAB = [
   { id: 3275, word: "whereas", pos: "conj.", zh: "而（句中連兩個子句作對比）", level: 5, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", examples: [{ en: "Exports rose sharply, whereas imports remained stable.", zh: "出口量大幅上升，而進口量維持穩定。" }] },
   { id: 3276, word: "in contrast", pos: "phr.", zh: "相比之下（句首）", level: 5, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", examples: [{ en: "In contrast, the figure for Asia was much lower.", zh: "相比之下，亞洲的數字低得多。" }] },
   { id: 3277, word: "likewise", pos: "adv.", zh: "同樣地（句首，同向連接）", level: 6, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", examples: [{ en: "Likewise, the number of women increased.", zh: "同樣地，女性人數也增加了。" }] },
-  { id: 3278, word: "conversely", pos: "adv.", zh: "相反地（句首，異向連接）", level: 6, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", examples: [{ en: "Conversely, sales of tea declined.", zh: "相反地，茶的銷量下降了。" }] }
+  { id: 3278, word: "conversely", pos: "adv.", zh: "相反地（句首，異向連接）", level: 6, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", examples: [{ en: "Conversely, sales of tea declined.", zh: "相反地，茶的銷量下降了。" }] },
+  { id: 3279, word: "approximately", pos: "adv.", zh: "大約（拼字弱點⭐ ap-prox-i-mate-ly）", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", examples: [{ en: "Coffee sales rose to approximately 110,000 in 2020.", zh: "咖啡銷量在 2020 年上升到大約 11 萬。" }] },
+  { id: 3280, word: "roughly", pos: "adv.", zh: "大約（口語）", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", examples: [{ en: "The figure stood at roughly 50%.", zh: "這個數字大約是 50%。" }] },
+  { id: 3281, word: "just over", pos: "phr.", zh: "剛超過（值在數字上方）", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", examples: [{ en: "Smart TVs were owned by just over half of households.", zh: "智慧電視的擁有率剛超過一半家戶。" }] },
+  { id: 3282, word: "just under", pos: "phr.", zh: "剛不到（值在數字下方）", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", examples: [{ en: "Tablets were owned by just under half of households.", zh: "平板的擁有率剛不到一半家戶。" }] },
+  { id: 3283, word: "slightly more than", pos: "phr.", zh: "略多於", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", examples: [{ en: "Cars accounted for slightly more than half of all sales.", zh: "汽車佔了略多於一半的總銷量。" }] },
+  { id: 3284, word: "slightly less than", pos: "phr.", zh: "略少於", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", examples: [{ en: "The unemployment rate fell to slightly less than 5%.", zh: "失業率跌到略少於 5%。" }] },
+  { id: 3285, word: "exactly", pos: "adv.", zh: "恰好（修飾數字用副詞，不是 exact）", level: 4, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", examples: [{ en: "The proportion remained stable at exactly 25%.", zh: "這個比例維持在恰好 25%。" }] },
+  { id: 3286, word: "precisely", pos: "adv.", zh: "精確地", level: 6, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", examples: [{ en: "Sales stood at precisely 100,000 units.", zh: "銷量精確落在 10 萬單位。" }] },
+  { id: 3287, word: "accounted for", pos: "phr.", zh: "佔了（適用比例分配，如圓餅圖）", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", examples: [{ en: "Cars accounted for just over half of all sales.", zh: "汽車佔了略超過一半的總銷量。" }] },
+  { id: 3288, word: "by far", pos: "phr.", zh: "遠遠（強調最高級）", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", examples: [{ en: "Smartphones were by far the most owned device.", zh: "智慧型手機是遠遠最多人擁有的裝置。" }] },
+  { id: 3289, word: "peak at", pos: "phr.", zh: "在某值達到高峰（不是 peak to）", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", examples: [{ en: "Unemployment peaked at about 8% in 2018.", zh: "失業率在 2018 年達到大約 8% 的高峰。" }] }
 ];
 
 const CATEGORIES = [...new Set(VOCAB.map(v => v.category))].sort();
