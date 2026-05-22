@@ -139,7 +139,7 @@ function renderVocab() {
   let list = VOCAB.filter(v => {
     if (keyword && !v.word.toLowerCase().includes(keyword) && !v.zh.includes(keyword)) return false;
     if (category && v.category !== category) return false;
-    if (level && v.level < parseInt(level)) return false;
+    if (level && v.level !== parseInt(level)) return false;
     const s = getStatus(v.id);
     if (status === "starred" && !s.starred) return false;
     if (status === "mastered" && !s.mastered) return false;
