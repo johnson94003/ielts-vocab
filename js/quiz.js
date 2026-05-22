@@ -2,6 +2,7 @@
 
 const STORAGE_KEY = "ielts_vocab_progress";
 const STREAK_KEY = "ielts_vocab_streak";
+const STAR_LIMIT = 20;
 
 function loadProgress() {
   try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; }
@@ -11,12 +12,24 @@ function saveProgress(p) { localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
 const progress = loadProgress();
 
 function getStatus(id) {
-  return progress[id] || { starred: false, mastered: false, correctStreak: 0 };
+  const s = progress[id] || {};
+  return {
+    starred: s.starred || false,
+    starredAt: s.starredAt || null,
+    mastered: s.mastered || false,
+    correctStreak: s.correctStreak || 0,
+  };
 }
 function setStatus(id, key, value) {
   if (!progress[id]) progress[id] = { starred: false, mastered: false, correctStreak: 0 };
   progress[id][key] = value;
   saveProgress(progress);
+}
+function countStarredUnmastered() {
+  return VOCAB.filter(v => {
+    const s = getStatus(v.id);
+    return s.starred && !s.mastered;
+  }).length;
 }
 
 // === 每日打卡 ===
@@ -471,7 +484,16 @@ function handleAnswer(item, isCorrect, userAnswer) {
   } else {
     quizWrong++;
     setStatus(item.id, "correctStreak", 0);
-    setStatus(item.id, "starred", true);
+    const wasStarred = getStatus(item.id).starred;
+    let starHintHtml = "";
+    if (!wasStarred) {
+      if (countStarredUnmastered() >= STAR_LIMIT) {
+        starHintHtml = `<div class="feedback-zh" style="color:#e67e22;">⚠️ ⭐ 已滿 ${STAR_LIMIT}，這題沒被自動標記，請先去複習</div>`;
+      } else {
+        setStatus(item.id, "starred", true);
+        setStatus(item.id, "starredAt", new Date().toISOString());
+      }
+    }
     wrongAnswers.push(item);
     $feedbackBox.className = "feedback-box wrong";
     $feedbackBox.innerHTML = `
@@ -483,6 +505,7 @@ function handleAnswer(item, isCorrect, userAnswer) {
         <em data-sentence="${escapeHtml(example.en)}">${escapeHtml(example.en)} <span class="play-sentence">🔊</span></em><br>
         <small>${escapeHtml(example.zh)}</small>
       </div>
+      ${starHintHtml}
     `;
   }
 

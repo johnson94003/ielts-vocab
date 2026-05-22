@@ -2,6 +2,7 @@
 
 const STORAGE_KEY = "ielts_vocab_progress";
 const STREAK_KEY = "ielts_vocab_streak";
+const STAR_LIMIT = 20;
 
 // === 每日打卡顯示 ===
 function renderStreak() {
@@ -40,13 +41,49 @@ function saveProgress(progress) {
 const progress = loadProgress();
 
 function getStatus(id) {
-  return progress[id] || { starred: false, mastered: false, correctStreak: 0 };
+  const s = progress[id] || {};
+  return {
+    starred: s.starred || false,
+    starredAt: s.starredAt || null,
+    mastered: s.mastered || false,
+    correctStreak: s.correctStreak || 0,
+  };
 }
 
 function setStatus(id, key, value) {
   if (!progress[id]) progress[id] = { starred: false, mastered: false, correctStreak: 0 };
   progress[id][key] = value;
   saveProgress(progress);
+}
+
+function countStarredUnmastered() {
+  return VOCAB.filter(v => {
+    const s = getStatus(v.id);
+    return s.starred && !s.mastered;
+  }).length;
+}
+
+function showStarLimitModal() {
+  const overlay = document.createElement("div");
+  overlay.className = "modal-overlay";
+  overlay.innerHTML = `
+    <div class="modal-box">
+      <div class="modal-msg">你已經標了 ${STAR_LIMIT} 個 ⭐，先把這些複習完（會的按 ✓）再加新的。</div>
+      <div class="modal-actions">
+        <button class="btn-secondary modal-no">知道了</button>
+        <button class="btn-primary modal-yes">前往複習</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+  overlay.querySelector(".modal-yes").addEventListener("click", () => {
+    overlay.remove();
+    window.location.href = "my-words.html";
+  });
+  overlay.querySelector(".modal-no").addEventListener("click", () => overlay.remove());
+  overlay.addEventListener("click", e => {
+    if (e.target === overlay) overlay.remove();
+  });
 }
 
 // === TTS (Web Speech API) ===
@@ -177,7 +214,17 @@ $list.addEventListener("click", e => {
   } else if (e.target.classList.contains("star-btn")) {
     const id = parseInt(e.target.dataset.id);
     const s = getStatus(id);
-    setStatus(id, "starred", !s.starred);
+    if (!s.starred) {
+      if (countStarredUnmastered() >= STAR_LIMIT) {
+        showStarLimitModal();
+        return;
+      }
+      setStatus(id, "starred", true);
+      setStatus(id, "starredAt", new Date().toISOString());
+    } else {
+      setStatus(id, "starred", false);
+      setStatus(id, "starredAt", null);
+    }
     renderVocab();
   } else if (e.target.classList.contains("mastered-btn")) {
     const id = parseInt(e.target.dataset.id);

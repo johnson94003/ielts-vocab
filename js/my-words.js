@@ -146,6 +146,7 @@ document.getElementById("myList").addEventListener("click", e => {
     const id = parseInt(e.target.dataset.id);
     const s = getStatus(id);
     setStatus(id, "starred", !s.starred);
+    setStatus(id, "starredAt", !s.starred ? new Date().toISOString() : null);
     renderList();
   } else if (e.target.classList.contains("mastered-btn")) {
     const id = parseInt(e.target.dataset.id);
@@ -165,7 +166,10 @@ document.getElementById("quizStarredBtn").addEventListener("click", () => {
 document.getElementById("clearStarredBtn").addEventListener("click", () => {
   if (!confirm("確定要清空所有 ⭐ 標記嗎？")) return;
   VOCAB.forEach(v => {
-    if (getStatus(v.id).starred) setStatus(v.id, "starred", false);
+    if (getStatus(v.id).starred) {
+      setStatus(v.id, "starred", false);
+      setStatus(v.id, "starredAt", null);
+    }
   });
   renderList();
 });
