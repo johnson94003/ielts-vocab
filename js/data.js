@@ -2401,7 +2401,46 @@ const VOCAB = [
   { id: 3478, word: "luminous", pos: "adj.", zh: "發光的、發亮的", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", examples: [{ en: "Her large dark eyes were almost luminous.", zh: "她那雙黑色的大眼睛幾乎是閃閃發光的。" }] },
   { id: 3479, word: "exclaim", pos: "v.", zh: "呼叫、驚叫", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", examples: [{ en: "'No!' she exclaimed in shock.", zh: "「不！」她震驚地喊道。" }] },
   { id: 3480, word: "pertinent", pos: "adj.", zh: "貼切的、中肯的", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", examples: [{ en: "He asked me a lot of very pertinent questions.", zh: "他問了我許多非常切中要點的問題。" }] },
-  { id: 3481, word: "certify", pos: "v.", zh: "（發給證書）證明", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", examples: [{ en: "The accounts were certified by an auditor.", zh: "這些帳目經審計員核實。" }] }
+  { id: 3481, word: "certify", pos: "v.", zh: "（發給證書）證明", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", examples: [{ en: "The accounts were certified by an auditor.", zh: "這些帳目經審計員核實。" }] },
+
+  // === 聽力 C19T3P3 科學實驗設計 ===
+  { id: 3482, word: "practical teaching", pos: "n.", zh: "實踐教學", level: 5, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", examples: [{ en: "How are you getting on with the practical teaching?", zh: "你的實踐教學進展如何？" }] },
+  { id: 3483, word: "struggle with", pos: "v.phr.", zh: "苦於、難以應付", level: 5, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", examples: [{ en: "I'm really struggling with my Year 12 science class.", zh: "12 年級的科學課讓我很吃力。" }] },
+  { id: 3484, word: "confidentiality", pos: "n.", zh: "保密性", level: 6, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", examples: [{ en: "Confidentiality would be an issue with medical records.", zh: "醫療記錄的保密性會是個問題。" }] },
+  { id: 3485, word: "food supplement", pos: "n.", zh: "食物補充劑", level: 5, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", examples: [{ en: "We could look at food supplements like extra iron and protein.", zh: "我們可以研究像鐵和蛋白質這類食物補充劑。" }] },
+  { id: 3486, word: "specially bred", pos: "adj.", zh: "專門培育的", level: 6, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", examples: [{ en: "Experimental mice are specially bred for experiments.", zh: "實驗鼠是專門為實驗培育的。" }] },
+  { id: 3487, word: "food intake", pos: "n.", zh: "食物攝取量", level: 6, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", examples: [{ en: "The experiment looks at whether mice can control their food intake.", zh: "實驗看老鼠能否控制自己的食物攝取量。" }] },
+  { id: 3488, word: "control group", pos: "n.", zh: "對照組", level: 6, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", examples: [{ en: "Group A would be the control group.", zh: "A 組是對照組。" }] },
+  { id: 3489, word: "food colouring", pos: "n.", zh: "食用色素", level: 5, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", examples: [{ en: "You could use food colouring to tag the mice.", zh: "你可以用食用色素標記老鼠。" }] },
+  { id: 3490, word: "weighing chamber", pos: "n.", zh: "稱重艙", level: 6, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", examples: [{ en: "Place them in a weighing chamber to stop the mice from running away.", zh: "把牠們放進稱重艙以防老鼠跑走。" }] },
+  { id: 3491, word: "weight gain", pos: "n.", zh: "體重增加", level: 5, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", examples: [{ en: "We measured the weight gain of each mouse.", zh: "我們量了每隻老鼠的體重增加量。" }] },
+  { id: 3492, word: "standard deviation", pos: "n.", zh: "標準差", level: 7, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", examples: [{ en: "We work out the average and the standard deviation.", zh: "我們算出平均值和標準差。" }] },
+  { id: 3493, word: "variable", pos: "n.", zh: "變項、變量", level: 6, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", examples: [{ en: "You could do a follow-up experiment adding another variable.", zh: "你可以做後續實驗加入另一個變項。" }] },
+
+  // === 閱讀 C20T2P3 機器人裁判 ===
+  { id: 3494, word: "umpire", pos: "n.", zh: "裁判（棒球／網球）", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "DeJesus became the first umpire to use ABS.", zh: "DeJesus 成為第一個使用 ABS 的裁判。" }] },
+  { id: 3495, word: "strike zone", pos: "n.", zh: "好球帶", level: 5, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "A ball that passes through the strike zone is considered a strike.", zh: "穿越好球帶的球被視為好球。" }] },
+  { id: 3496, word: "judgment call", pos: "n.", zh: "主觀判決", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "Calling a strike was previously a judgment call by the umpire.", zh: "判好球以前是裁判的主觀判決。" }] },
+  { id: 3497, word: "commission", pos: "v.", zh: "委託", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "MLB commissioned the new system.", zh: "MLB 委託了這套新系統。" }] },
+  { id: 3498, word: "contraption", pos: "n.", zh: "奇特裝置", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "The contraption looked like a large black pizza box.", zh: "這個裝置看起來像一個又大又黑的披薩盒。" }] },
+  { id: 3499, word: "heckling", pos: "n.", zh: "起哄、喝倒采", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "There was no heckling when DeJesus announced the calls.", zh: "DeJesus 宣布判決時沒有人起哄。" }] },
+  { id: 3500, word: "tweak", pos: "v.", zh: "微調", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "MLB decided to tweak the dimensions of the zone.", zh: "MLB 決定微調好球帶的尺寸。" }] },
+  { id: 3501, word: "amend", pos: "v.", zh: "修改、修訂", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "They had to amend the size of the strike zone.", zh: "他們得修改好球帶的尺寸。" }] },
+  { id: 3502, word: "dimensions", pos: "n.", zh: "尺寸、規模", level: 5, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "MLB tweaked the dimensions of the zone.", zh: "MLB 微調了好球帶的尺寸。" }] },
+  { id: 3503, word: "consensus", pos: "n.", zh: "共識", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "The consensus was that ABS is profoundly consistent.", zh: "共識是 ABS 非常一致。" }] },
+  { id: 3504, word: "profoundly", pos: "adv.", zh: "極為地、深刻地", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "ABS is profoundly consistent.", zh: "ABS 非常一致。" }] },
+  { id: 3505, word: "algorithm", pos: "n.", zh: "演算法", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "This is part of a movement to use algorithms to take the hard choices out of life.", zh: "這是用演算法把生活中的艱難選擇拿掉的一部分。" }] },
+  { id: 3506, word: "discretion", pos: "n.", zh: "自由裁量、主觀判斷空間", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "Historically, a certain discretion has been appreciated in sports.", zh: "歷史上，運動中的某種主觀裁量是被珍視的。" }] },
+  { id: 3507, word: "controversy", pos: "n.", zh: "爭議", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "ABS will reduce controversy in the game.", zh: "ABS 會減少場上的爭議。" }] },
+  { id: 3508, word: "unforgiving", pos: "adj.", zh: "嚴苛、不寬容的", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "ABS is unforgiving and pedantic.", zh: "ABS 既嚴苛又拘泥細節。" }] },
+  { id: 3509, word: "pedantic", pos: "adj.", zh: "拘泥細節的、學究的", level: 7, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "ABS is unforgiving and pedantic, almost legalistic.", zh: "ABS 既嚴苛又拘泥細節，幾乎像律師。" }] },
+  { id: 3510, word: "dissenting", pos: "adj.", zh: "持異議的", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "Some players share a dissenting stance toward the robots.", zh: "一些球員對機器人持異議的立場。" }] },
+  { id: 3511, word: "stance", pos: "n.", zh: "立場、態度", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "Players have a dissenting stance toward the robots.", zh: "球員對機器人持異議的立場。" }] },
+  { id: 3512, word: "terrified of", pos: "adj.phr.", zh: "害怕……的", level: 5, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "Executives are terrified of losing younger fans.", zh: "高層怕失去年輕球迷。" }] },
+  { id: 3513, word: "ruled out", pos: "phr.v.", zh: "排除（可能性）", level: 5, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "These fixes were ruled out as potential solutions.", zh: "這些方案被排除作為潛在解法。" }] },
+  { id: 3514, word: "flatten", pos: "v.", zh: "（比喻）變得單調", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "The fastball flattened the game into strikeouts and home runs.", zh: "快速球讓比賽變得只剩三振和全壘打。" }] },
+  { id: 3515, word: "retain", pos: "v.", zh: "保留、維持", level: 5, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "ABS was an attempt to retain a young audience.", zh: "ABS 是嘗試留住年輕觀眾的方法。" }] },
+  { id: 3516, word: "feasible", pos: "adj.", zh: "可行的", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "ABS makes changes to the shape of the strike zone feasible.", zh: "ABS 讓改變好球帶形狀變得可行。" }] }
 ];
 
 const CATEGORIES = [...new Set(VOCAB.map(v => v.category))].sort();
