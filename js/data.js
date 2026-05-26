@@ -2440,7 +2440,32 @@ const VOCAB = [
   { id: 3513, word: "ruled out", pos: "phr.v.", zh: "排除（可能性）", level: 5, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "These fixes were ruled out as potential solutions.", zh: "這些方案被排除作為潛在解法。" }] },
   { id: 3514, word: "flatten", pos: "v.", zh: "（比喻）變得單調", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "The fastball flattened the game into strikeouts and home runs.", zh: "快速球讓比賽變得只剩三振和全壘打。" }] },
   { id: 3515, word: "retain", pos: "v.", zh: "保留、維持", level: 5, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "ABS was an attempt to retain a young audience.", zh: "ABS 是嘗試留住年輕觀眾的方法。" }] },
-  { id: 3516, word: "feasible", pos: "adj.", zh: "可行的", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "ABS makes changes to the shape of the strike zone feasible.", zh: "ABS 讓改變好球帶形狀變得可行。" }] }
+  { id: 3516, word: "feasible", pos: "adj.", zh: "可行的", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", examples: [{ en: "ABS makes changes to the shape of the strike zone feasible.", zh: "ABS 讓改變好球帶形狀變得可行。" }] },
+
+  // === 聽力 C19T4P2 跑步 podcast ===
+  { id: 3517, word: "training programme", pos: "n.", zh: "訓練計畫", level: 4, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "Many training programmes aim to help people build up to running 5 kilometres.", zh: "許多訓練計畫的目的是幫助人慢慢練到能跑 5 公里。" }] },
+  { id: 3518, word: "build up to", pos: "phr.v.", zh: "慢慢練到、逐步達到", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "The programmes help people build up to running 5 kilometres.", zh: "這些計畫幫助人慢慢練到能跑 5 公里。" }] },
+  { id: 3519, word: "take up", pos: "phr.v.", zh: "開始（從事某活動）", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "If you're thinking about taking up running, I'm here to help.", zh: "如果你正在考慮開始跑步，我可以提供幫助。" }] },
+  { id: 3520, word: "heart condition", pos: "n.", zh: "心臟病", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "These programmes don't work for people with heart conditions.", zh: "這些計畫不適合有心臟病的人。" }] },
+  { id: 3521, word: "asthma", pos: "n.", zh: "哮喘", level: 6, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "People with asthma should be careful with training programmes.", zh: "氣喘患者應該對訓練計畫多加小心。" }] },
+  { id: 3522, word: "stay motivated", pos: "phr.", zh: "保持動力", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "It can be hard to stay motivated when training alone.", zh: "獨自訓練時很難保持動力。" }] },
+  { id: 3523, word: "individual support", pos: "n.", zh: "個人化的支援", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "Online programmes lack individual support.", zh: "線上計畫缺乏個人化支援。" }] },
+  { id: 3524, word: "get into a rhythm", pos: "phr.", zh: "進入節奏", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "Listening to music helps your body get into a rhythm.", zh: "聽音樂幫助你的身體進入節奏。" }] },
+  { id: 3525, word: "competitive", pos: "adj.", zh: "爭強好勝的、有競爭心的", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "Most people are competitive, which isn't ideal for beginners.", zh: "多數人有競爭心，這對新手不太好。" }] },
+  { id: 3526, word: "put your name down for", pos: "phr.", zh: "報名（賽事）", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "After a few weeks of training, put your name down for a 5K.", zh: "訓練幾週後，可以報名 5 公里賽。" }] },
+  { id: 3527, word: "sense of achievement", pos: "n.", zh: "成就感", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "Signing up for a race gives you a sense of achievement.", zh: "報名比賽能給你成就感。" }] },
+  { id: 3528, word: "lack of confidence", pos: "n.", zh: "缺乏自信", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "Many new members are put off by a lack of confidence.", zh: "很多新成員因為缺乏自信而卻步。" }] },
+  { id: 3529, word: "put off", pos: "phr.v.", zh: "使卻步、勸退", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "They were put off running because they lacked confidence.", zh: "他們因為缺乏自信而對跑步卻步。" }] },
+  { id: 3530, word: "left behind", pos: "phr.", zh: "被落在後面", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "She was worried about being left behind.", zh: "她擔心被落在後面。" }] },
+  { id: 3531, word: "taster session", pos: "n.", zh: "試訓課程、體驗課", level: 6, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "A friend encouraged him to come along for a taster session.", zh: "朋友鼓勵他來參加試訓課程。" }] },
+  { id: 3532, word: "hasn't looked back", pos: "phr.", zh: "一發不可收拾、再也沒回頭", level: 6, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "Since joining the club, he hasn't looked back.", zh: "自從加入俱樂部後他一發不可收拾。" }] },
+  { id: 3533, word: "demanding job", pos: "n.", zh: "要求很高的工作", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "He never misses training despite having a demanding job.", zh: "儘管工作要求很高，他從未錯過訓練。" }] },
+  { id: 3534, word: "fit into one's schedule", pos: "phr.", zh: "安排進日程", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "He wasn't sure he'd be able to fit training into his busy schedule.", zh: "他不確定能不能把訓練排進忙碌的日程。" }] },
+  { id: 3535, word: "give it a go", pos: "phr.", zh: "試一試", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "He came along and gave it a go.", zh: "他來參加並試了一試。" }] },
+  { id: 3536, word: "find the courage", pos: "phr.", zh: "鼓起勇氣", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "It took him months to find the courage to contact us.", zh: "他花了幾個月才鼓起勇氣聯絡我們。" }] },
+  { id: 3537, word: "take up the challenge", pos: "phr.", zh: "接受挑戰", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "After retiring he decided to take up the challenge.", zh: "退休後他決定接受挑戰。" }] },
+  { id: 3538, word: "spectator", pos: "n.", zh: "觀眾", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "It was only the support of the spectators that kept me going.", zh: "是觀眾的支持讓我堅持下來。" }] },
+  { id: 3539, word: "reassured", pos: "adj.", zh: "感到安心、放心的", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "He felt reassured immediately.", zh: "他立刻就放心了。" }] }
 ];
 
 const CATEGORIES = [...new Set(VOCAB.map(v => v.category))].sort();
