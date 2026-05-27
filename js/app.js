@@ -5,10 +5,40 @@ const STREAK_KEY = "ielts_vocab_streak";
 const STAR_LIMIT = 20;
 
 // === 每日打卡顯示 ===
+function loadStreak() {
+  try {
+    return JSON.parse(localStorage.getItem(STREAK_KEY)) || { days: [], todayCount: 0, lastDate: "", todayIds: [] };
+  } catch (e) {
+    return { days: [], todayCount: 0, lastDate: "", todayIds: [] };
+  }
+}
+
+function todayStr() {
+  return new Date().toISOString().slice(0, 10);
+}
+
+// 接觸到新單字才 +1：同一個 id 今天只算一次；複習頁不呼叫
+function logTouch(id) {
+  const s = loadStreak();
+  const today = todayStr();
+  if (s.lastDate !== today) {
+    s.lastDate = today;
+    s.todayCount = 0;
+    s.todayIds = [];
+  }
+  if (!s.todayIds.includes(id)) {
+    s.todayIds.push(id);
+    s.todayCount = s.todayIds.length;
+    if (!s.days.includes(today)) s.days.push(today);
+    localStorage.setItem(STREAK_KEY, JSON.stringify(s));
+  }
+  renderStreak();
+}
+
 function renderStreak() {
   try {
-    const s = JSON.parse(localStorage.getItem(STREAK_KEY)) || { days: [], todayCount: 0, lastDate: "" };
-    const today = new Date().toISOString().slice(0, 10);
+    const s = loadStreak();
+    const today = todayStr();
     let streak = 0;
     let d = new Date();
     while (true) {
@@ -21,7 +51,7 @@ function renderStreak() {
     const todayCount = s.lastDate === today ? s.todayCount : 0;
     const $streak = document.getElementById("streakInfo");
     if ($streak) {
-      $streak.innerHTML = `🔥 連續 <strong>${streak}</strong> 天｜今日已練 <strong>${todayCount}</strong> 題`;
+      $streak.innerHTML = `今日 <strong>+${todayCount}</strong>`;
     }
   } catch (e) {}
 }
@@ -225,11 +255,13 @@ $list.addEventListener("click", e => {
       setStatus(id, "starred", false);
       setStatus(id, "starredAt", null);
     }
+    logTouch(id);
     renderVocab();
   } else if (e.target.classList.contains("mastered-btn")) {
     const id = parseInt(e.target.dataset.id);
     const s = getStatus(id);
     setStatus(id, "mastered", !s.mastered);
+    logTouch(id);
     renderVocab();
   } else if (e.target.classList.contains("play-sentence")) {
     // 念整句

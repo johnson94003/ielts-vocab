@@ -2465,7 +2465,49 @@ const VOCAB = [
   { id: 3536, word: "find the courage", pos: "phr.", zh: "鼓起勇氣", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "It took him months to find the courage to contact us.", zh: "他花了幾個月才鼓起勇氣聯絡我們。" }] },
   { id: 3537, word: "take up the challenge", pos: "phr.", zh: "接受挑戰", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "After retiring he decided to take up the challenge.", zh: "退休後他決定接受挑戰。" }] },
   { id: 3538, word: "spectator", pos: "n.", zh: "觀眾", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "It was only the support of the spectators that kept me going.", zh: "是觀眾的支持讓我堅持下來。" }] },
-  { id: 3539, word: "reassured", pos: "adj.", zh: "感到安心、放心的", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "He felt reassured immediately.", zh: "他立刻就放心了。" }] }
+  { id: 3539, word: "reassured", pos: "adj.", zh: "感到安心、放心的", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", examples: [{ en: "He felt reassured immediately.", zh: "他立刻就放心了。" }] },
+
+  // === 閱讀 C20T2P1 冷凍食品 ===
+  { id: 3540, word: "preserve", pos: "v.", zh: "保存、保鮮", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "Ice was used to preserve food in summer 10,000 years ago.", zh: "一萬年前人們就用冰保存夏天的食物。" }] },
+  { id: 3541, word: "conserve", pos: "v.", zh: "保存、節省", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "They had a unique means of conserving potatoes.", zh: "他們有一種獨特的保存馬鈴薯的方法。" }] },
+  { id: 3542, word: "refrigeration", pos: "n.", zh: "冷藏（技術）", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "Natural ice remained the main form of refrigeration until the 19th century.", zh: "直到 19 世紀，天然冰一直是主要的冷藏方式。" }] },
+  { id: 3543, word: "insulated", pos: "adj.", zh: "隔熱的、隔絕的", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "Railroads put ice in insulated rail cars.", zh: "鐵路把冰塊放進隔熱車廂。" }] },
+  { id: 3544, word: "compressor", pos: "n.", zh: "壓縮機", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "They used a compressor to force a gas through a condenser.", zh: "他們用壓縮機把氣體壓進冷凝器。" }] },
+  { id: 3545, word: "ammonia", pos: "n.", zh: "氨", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "The gas used was ammonia at first and later Freon.", zh: "最初使用的氣體是氨，後來改用氟利昂。" }] },
+  { id: 3546, word: "palatable", pos: "adj.", zh: "可口的、味道好的", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "The frozen food was still palatable.", zh: "冷凍的食物仍然可口。" }] },
+  { id: 3547, word: "deterioration", pos: "n.", zh: "變質、惡化", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "There was some deterioration in the frozen food.", zh: "冷凍食品仍會出現一些變質。" }] },
+  { id: 3548, word: "indigenous", pos: "adj.", zh: "原住民的、土生土長的", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "The modern frozen food industry began with the indigenous Inuit people.", zh: "現代冷凍食品產業始於原住民因紐特人。" }] },
+  { id: 3549, word: "quick-freezing", pos: "adj.", zh: "速凍的", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "Birdseye developed quick-freezing techniques.", zh: "Birdseye 發明了速凍技術。" }] },
+  { id: 3550, word: "cellophane", pos: "n.", zh: "賽璐玢、透明玻璃紙", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "He introduced the use of cellophane for food packaging.", zh: "他引進賽璐玢作為食品包裝材料。" }] },
+  { id: 3551, word: "lease", pos: "v.", zh: "出租（給別人）", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "Birdseye leased inexpensive freezer cases to grocery stores.", zh: "Birdseye 以低租金把冷凍櫃租給雜貨店。" }] },
+  { id: 3552, word: "tin", pos: "n.", zh: "錫；罐頭", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "Tin was being used for munitions during WWII.", zh: "二戰時錫被用於軍火生產。" }] },
+  { id: 3553, word: "munitions", pos: "n.", zh: "軍火、彈藥", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "Tin was being used for munitions.", zh: "錫被用於軍火。" }] },
+  { id: 3554, word: "rationed", pos: "adj.", zh: "被配給的", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "Canned foods were rationed to save tin.", zh: "罐頭食品被配給以節省錫的使用。" }] },
+  { id: 3555, word: "appliance", pos: "n.", zh: "家電", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "Refrigerators became affordable appliances for average families.", zh: "冰箱成為一般家庭負擔得起的家電。" }] },
+  { id: 3556, word: "poultry", pos: "n.", zh: "家禽", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "Swanson Foods was a producer of canned and frozen poultry.", zh: "Swanson Foods 是罐頭與冷凍家禽的生產商。" }] },
+  { id: 3557, word: "single-serving", pos: "adj.", zh: "單人份的", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "Consumers loved the single-serving package.", zh: "消費者喜歡單人份的包裝。" }] },
+  { id: 3558, word: "turnover", pos: "n.", zh: "營業額、營業總額", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", examples: [{ en: "The frozen food industry has a turnover of over $67 billion annually.", zh: "冷凍食品產業年營業額超過 670 億美元。" }] },
+
+  // === 聽力 C19T4P3 打包書與祖父書店 ===
+  { id: 3559, word: "work placement", pos: "n.", zh: "工作實習", level: 5, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "Jane is going to Denmark for her work placement.", zh: "Jane 即將去丹麥做工作實習。" }] },
+  { id: 3560, word: "spine", pos: "n.", zh: "書脊", level: 5, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "You have to support the spine when packing books.", zh: "打包書時必須撐住書脊。" }] },
+  { id: 3561, word: "can't be bothered to", pos: "phr.", zh: "懶得", level: 5, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "A lot of people can't be bothered to protect their books.", zh: "很多人懶得保護自己的書。" }] },
+  { id: 3562, word: "deteriorate", pos: "v.", zh: "變質、惡化", level: 6, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "Old books will deteriorate further.", zh: "舊書會繼續惡化。" }] },
+  { id: 3563, word: "sentimental value", pos: "n.", zh: "情感價值", level: 6, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "The books have sentimental value for her.", zh: "這些書對她有情感價值。" }] },
+  { id: 3564, word: "hardback", pos: "n.", zh: "精裝書", level: 5, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "Hardbacks aren't quite as weak as paperbacks.", zh: "精裝書沒有平裝書那麼脆弱。" }] },
+  { id: 3565, word: "paperback", pos: "n.", zh: "平裝書", level: 5, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "Paperbacks aren't designed to last a long time.", zh: "平裝書不是為了長期使用而設計的。" }] },
+  { id: 3566, word: "treasure", pos: "v.", zh: "珍惜", level: 5, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "I was taught to treasure books.", zh: "我從小被教導要珍惜書籍。" }] },
+  { id: 3567, word: "decorative", pos: "adj.", zh: "裝飾性的", level: 5, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "Hardbacks aren't decorative like other objects.", zh: "精裝書不像其他物品那麼有裝飾性。" }] },
+  { id: 3568, word: "put out on display", pos: "phr.", zh: "擺出來展示", level: 5, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "Hardback books should be put out on display.", zh: "精裝書應該擺出來展示。" }] },
+  { id: 3569, word: "drawn to", pos: "phr.", zh: "被吸引", level: 5, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "I'm drawn to a colourful book on a table.", zh: "我會被桌上一本色彩鮮豔的書吸引。" }] },
+  { id: 3570, word: "eye-catching", pos: "adj.", zh: "引人注目的", level: 5, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "Some book covers are really eye-catching.", zh: "有些書的封面非常引人注目。" }] },
+  { id: 3571, word: "break apart", pos: "phr.v.", zh: "摔散、碎開", level: 5, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "The book fell on the floor and broke apart.", zh: "書掉在地上摔得四分五裂。" }] },
+  { id: 3572, word: "attic", pos: "n.", zh: "閣樓", level: 5, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "The bookshop has two floors and an attic.", zh: "書店有兩層樓和一個閣樓。" }] },
+  { id: 3573, word: "first edition", pos: "n.", zh: "初版書", level: 5, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "He treasures first editions and other rare books.", zh: "他珍藏初版書和其他罕見書籍。" }] },
+  { id: 3574, word: "dedicated area", pos: "n.", zh: "專門區域", level: 5, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "He has a dedicated area for children's books.", zh: "他有一個專門放童書的區域。" }] },
+  { id: 3575, word: "toddler", pos: "n.", zh: "學步幼兒", level: 5, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "Parents enter with their toddlers to read books.", zh: "家長帶著學步孩子進去讀書。" }] },
+  { id: 3576, word: "coursebook", pos: "n.", zh: "教科書", level: 5, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "He stocks coursebooks for many of the colleges.", zh: "他為許多大學進貨教科書。" }] },
+  { id: 3577, word: "second-hand", pos: "adj.", zh: "二手的", level: 5, category: "聽力書籍", source: "聽力 C19T4P3 打包書", examples: [{ en: "He stocks second-hand books as well as new ones.", zh: "他除了新書還賣二手書。" }] }
 ];
 
 const CATEGORIES = [...new Set(VOCAB.map(v => v.category))].sort();
