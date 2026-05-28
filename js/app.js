@@ -183,35 +183,45 @@ function renderVocab() {
   } else {
     list.forEach(v => {
       const s = getStatus(v.id);
-      const card = document.createElement("div");
-      card.className = "vocab-card";
-      if (s.starred) card.classList.add("starred");
-      if (s.mastered) card.classList.add("mastered");
-      if (document.getElementById("flipMode")?.checked) card.classList.add("flip-mode");
+      const flipMode = document.getElementById("flipMode")?.checked;
 
       const examplesHtml = v.examples.map(ex => `
-        <div class="vocab-example">
+        <div class="vocab-example${flipMode ? " blurred" : ""}">
           <div class="en" data-sentence="${escapeHtml(ex.en)}">${escapeHtml(ex.en)} <span class="play-sentence" title="念整句">🔊</span></div>
           <div class="zh-trans">${escapeHtml(ex.zh)}</div>
         </div>
       `).join("");
 
+      const rootsHtml = v.roots ? `
+        <div class="vocab-roots">
+          <span class="roots-label">字根字首</span>
+          <span class="roots-text">${escapeHtml(v.roots)}</span>
+        </div>
+      ` : "";
+
+      const card = document.createElement("details");
+      card.className = "vocab-card";
+      if (s.starred) card.classList.add("starred");
+      if (s.mastered) card.classList.add("mastered");
+
       card.innerHTML = `
-        <div class="vocab-head">
+        <summary class="vocab-head">
           <div class="vocab-word" data-word="${escapeHtml(v.word)}">${escapeHtml(v.word)}</div>
           <div class="vocab-actions">
             <button class="btn-icon star-btn ${s.starred ? "active" : ""}" data-id="${v.id}" title="標記">⭐</button>
             <button class="btn-icon mastered-btn ${s.mastered ? "active" : ""}" data-id="${v.id}" title="已掌握">✓</button>
           </div>
+        </summary>
+        <div class="vocab-body${flipMode ? " flip-mode" : ""}">
+          <div class="vocab-meta">
+            <span class="pos">${escapeHtml(v.pos)}</span>
+            <span class="level">雅思 ${v.level}+</span>
+            <span>${escapeHtml(v.category)}</span>
+          </div>
+          <div class="vocab-zh">${escapeHtml(v.zh)}</div>
+          ${rootsHtml}
+          ${examplesHtml}
         </div>
-        <div class="vocab-meta">
-          <span class="pos">${escapeHtml(v.pos)}</span>
-          <span class="level">雅思 ${v.level}+</span>
-          <span>${escapeHtml(v.category)}</span>
-          <span>${escapeHtml(v.source)}</span>
-        </div>
-        <div class="vocab-zh">${escapeHtml(v.zh)}</div>
-        ${examplesHtml}
       `;
       $list.appendChild(card);
     });
@@ -239,6 +249,16 @@ function escapeHtml(s) {
 
 // 事件
 $list.addEventListener("click", e => {
+  // 按鈕、發音、例句點擊都不展開/收合 toggle
+  if (
+    e.target.classList.contains("star-btn") ||
+    e.target.classList.contains("mastered-btn") ||
+    e.target.classList.contains("play-sentence") ||
+    e.target.classList.contains("vocab-word")
+  ) {
+    e.preventDefault();
+  }
+
   if (e.target.classList.contains("vocab-word")) {
     speak(e.target.dataset.word);
   } else if (e.target.classList.contains("star-btn")) {
@@ -289,6 +309,98 @@ $search.addEventListener("input", renderVocab);
 $catFilter.addEventListener("change", renderVocab);
 $levelFilter.addEventListener("change", renderVocab);
 $statusFilter.addEventListener("change", renderVocab);
+
+// === 新增單字 ===
+const PENDING_KEY = "ielts_vocab_pending";
+
+function loadPending() {
+  try { return JSON.parse(localStorage.getItem(PENDING_KEY)) || []; }
+  catch (e) { return []; }
+}
+
+function savePending(list) {
+  localStorage.setItem(PENDING_KEY, JSON.stringify(list));
+}
+
+function renderPendingList() {
+  const list = loadPending();
+  const $p = document.getElementById("pendingList");
+  if (!$p) return;
+  if (list.length === 0) {
+    $p.innerHTML = "";
+    return;
+  }
+  $p.innerHTML = `
+    <div class="pending-header">
+      <span>待新增（${list.length} 個）</span>
+      <button class="btn-copy-pending" id="copyPendingBtn">複製給 Claude</button>
+    </div>
+    ${list.map((item, i) => `
+      <div class="pending-item">
+        <span><span class="pi-word">${escapeHtml(item.word)}</span><span class="pi-zh">${escapeHtml(item.zh)}</span></span>
+        <button class="pi-del" data-idx="${i}" title="刪除">×</button>
+      </div>
+    `).join("")}
+  `;
+  document.getElementById("copyPendingBtn")?.addEventListener("click", () => {
+    const text = JSON.stringify(list, null, 2);
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.getElementById("copyPendingBtn");
+      if (btn) { btn.textContent = "已複製！"; setTimeout(() => { btn.textContent = "複製給 Claude"; }, 2000); }
+    });
+  });
+  $p.querySelectorAll(".pi-del").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const idx = parseInt(btn.dataset.idx);
+      const list2 = loadPending();
+      list2.splice(idx, 1);
+      savePending(list2);
+      renderPendingList();
+    });
+  });
+}
+
+const $addWordBtn = document.getElementById("addWordBtn");
+const $addWordOverlay = document.getElementById("addWordOverlay");
+const $awCancel = document.getElementById("awCancel");
+const $awSave = document.getElementById("awSave");
+const $awWord = document.getElementById("awWord");
+const $addWordError = document.getElementById("addWordError");
+
+$addWordBtn?.addEventListener("click", () => {
+  $addWordOverlay.style.display = "flex";
+  $awWord.value = "";
+  $addWordError.textContent = "";
+  renderPendingList();
+  setTimeout(() => $awWord.focus(), 100);
+});
+
+$awCancel?.addEventListener("click", () => {
+  $addWordOverlay.style.display = "none";
+});
+
+$addWordOverlay?.addEventListener("click", e => {
+  if (e.target === $addWordOverlay) $addWordOverlay.style.display = "none";
+});
+
+$awSave?.addEventListener("click", () => {
+  const word = $awWord.value.trim();
+  if (!word) {
+    $addWordError.textContent = "請輸入英文單字";
+    return;
+  }
+  const list = loadPending();
+  list.push({ word, addedAt: new Date().toISOString() });
+  savePending(list);
+  $awWord.value = "";
+  $addWordError.textContent = "";
+  renderPendingList();
+});
+
+// Enter 鍵快速儲存
+$awWord?.addEventListener("keydown", e => {
+  if (e.key === "Enter") $awSave?.click();
+});
 
 renderVocab();
 renderStreak();

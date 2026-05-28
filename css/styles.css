@@ -27,21 +27,40 @@ html, body {
 /* === Header === */
 header {
   background: var(--card);
-  padding: 16px 20px;
+  padding: 12px 20px;
   box-shadow: var(--shadow);
   position: sticky;
   top: 0;
   z-index: 100;
 }
 
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
 header h1 {
-  margin: 0 0 8px 0;
-  font-size: 22px;
+  margin: 0;
+  font-size: 20px;
+}
+
+.streak-chip {
+  font-size: 13px;
+  color: #f57c00;
+  font-weight: 600;
+  background: #fff3e0;
+  border: 1px solid #ffe0b2;
+  border-radius: 12px;
+  padding: 3px 10px;
+  white-space: nowrap;
 }
 
 nav {
   display: flex;
-  gap: 12px;
+  gap: 8px;
+  align-items: center;
 }
 
 nav a {
@@ -108,20 +127,14 @@ main {
 /* === Vocab Cards === */
 .vocab-list {
   display: grid;
-  gap: 12px;
+  gap: 8px;
 }
 
 .vocab-card {
   background: var(--card);
   border-radius: 12px;
-  padding: 16px;
   box-shadow: var(--shadow);
   border-left: 4px solid var(--primary);
-  transition: transform 0.15s;
-}
-
-.vocab-card:active {
-  transform: scale(0.98);
 }
 
 .vocab-card.starred {
@@ -133,11 +146,25 @@ main {
   opacity: 0.7;
 }
 
+/* summary = 折疊標題列 */
+.vocab-card > summary {
+  list-style: none;
+  padding: 14px 16px;
+  cursor: pointer;
+  user-select: none;
+}
+.vocab-card > summary::-webkit-details-marker { display: none; }
+
 .vocab-head {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 8px;
+}
+
+/* 展開後的內容區 */
+.vocab-body {
+  padding: 0 16px 14px 16px;
+  border-top: 1px solid var(--border);
 }
 
 .vocab-word {
@@ -723,20 +750,108 @@ footer {
   color: var(--text-light);
 }
 
-/* === 新增：每日打卡資訊 === */
-.streak-info {
-  text-align: center;
-  padding: 12px 16px;
-  background: linear-gradient(135deg, #fff8e1, #fff3e0);
-  border-radius: 12px;
-  margin-bottom: 16px;
-  font-size: 14px;
-  color: var(--text);
-  border: 1px solid #ffe0b2;
+/* === nav 新增單字按鈕 === */
+.nav-add-btn {
+  margin-left: auto;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 16px;
+  padding: 6px 14px;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+  transition: background 0.15s;
 }
-.streak-info strong {
-  color: #f57c00;
+.nav-add-btn:hover {
+  background: var(--primary-dark);
+}
+
+/* === 字根字首 === */
+.vocab-roots {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  margin: 8px 0;
+  padding: 8px 12px;
+  background: #f0f4ff;
+  border-radius: 8px;
+  font-size: 13px;
+}
+.roots-label {
+  flex-shrink: 0;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--primary);
+  background: #dce8ff;
+  border-radius: 6px;
+  padding: 2px 6px;
+  letter-spacing: 0.5px;
+}
+.roots-text {
+  color: #34495e;
+  line-height: 1.5;
+}
+
+/* === 新增單字表單 === */
+.add-word-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.add-word-form input {
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-family: inherit;
+}
+.add-word-form input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+/* === 待新增清單 === */
+.pending-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: var(--text-light);
+  margin-bottom: 8px;
+}
+.btn-copy-pending {
+  background: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #a5d6a7;
+  border-radius: 12px;
+  padding: 4px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.pending-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  background: var(--bg);
+  border-radius: 6px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+.pending-item .pi-word { font-weight: 600; margin-right: 8px; }
+.pending-item .pi-zh { color: var(--text-light); }
+.pending-item .pi-del {
+  background: none;
+  border: none;
+  color: var(--text-light);
+  cursor: pointer;
   font-size: 16px;
+  padding: 0 4px;
+  line-height: 1;
 }
 
 /* === 新增：我的單字頁 Tabs === */
