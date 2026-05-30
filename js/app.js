@@ -192,12 +192,7 @@ function renderVocab() {
         </div>
       `).join("");
 
-      const rootsHtml = v.roots ? `
-        <div class="vocab-roots">
-          <span class="roots-label">字根字首</span>
-          <span class="roots-text">${escapeHtml(v.roots)}</span>
-        </div>
-      ` : "";
+      const rootsHtml = v.roots ? buildRootsHtml(v.roots) : "";
 
       const card = document.createElement("details");
       card.className = "vocab-card";
@@ -237,6 +232,42 @@ function updateStats() {
   $totalCount.textContent = `共 ${total} 字`;
   $masteredCount.textContent = `✓ 已掌握 ${mastered}`;
   $starredCount.textContent = `⭐ 標記 ${starred}`;
+}
+
+// 字根字首渲染：支援舊版字串 + 新版物件
+function buildRootsHtml(roots) {
+  // 舊版：純字串
+  if (typeof roots === "string") {
+    return `
+      <div class="vocab-roots vocab-roots--simple">
+        <div class="roots-label">字根字首</div>
+        <div class="roots-text">${escapeHtml(roots)}</div>
+      </div>`;
+  }
+  // 新版：結構化物件 { parts, summary, family }
+  const partsHtml = (roots.parts || []).map(p => `
+    <div class="roots-part">
+      <span class="roots-form">${escapeHtml(p.form)}</span>
+      ${p.origin ? `<span class="roots-origin">${escapeHtml(p.origin)}</span>` : ""}
+      <span class="roots-meaning">${escapeHtml(p.meaning)}</span>
+    </div>`).join("");
+
+  const summaryHtml = roots.summary
+    ? `<div class="roots-summary">${escapeHtml(roots.summary)}</div>` : "";
+
+  const familyHtml = (roots.family || []).length > 0
+    ? `<div class="roots-family">
+        <span class="roots-family-label">同家族</span>
+        ${roots.family.map(w => `<span class="roots-family-word">${escapeHtml(w)}</span>`).join("")}
+      </div>` : "";
+
+  return `
+    <div class="vocab-roots">
+      <div class="roots-label">字根字首</div>
+      <div class="roots-parts">${partsHtml}</div>
+      ${summaryHtml}
+      ${familyHtml}
+    </div>`;
 }
 
 function escapeHtml(s) {
