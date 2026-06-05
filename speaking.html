@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>雅思口說 Task 1</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .sp-card {
+      background: var(--card);
+      border-radius: 10px;
+      box-shadow: var(--shadow);
+      border-left: 4px solid var(--primary);
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    .sp-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+    .sp-topic {
+      font-size: 13px; font-weight: 600; color: var(--primary);
+      background: #eaf3fc; border-radius: 12px; padding: 2px 12px;
+    }
+    .sp-qid { font-size: 12px; color: var(--text-light); }
+    .sp-question {
+      font-size: 16px; font-weight: 600; color: var(--text);
+      margin-bottom: 12px; line-height: 1.5;
+    }
+    .sp-zh {
+      font-size: 14px; color: var(--text-light);
+      background: var(--bg); border-radius: 8px; padding: 8px 12px; margin-bottom: 12px;
+    }
+    .sp-answer-block { margin-bottom: 12px; }
+    .sp-label { font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 4px; }
+    .sp-hint { font-weight: 400; color: var(--text-light); font-size: 12px; }
+    .sp-answer {
+      font-size: 15px; line-height: 1.65; color: var(--text);
+      background: #f0f7ff; border-radius: 8px; padding: 10px 12px;
+      cursor: pointer; transition: filter 0.2s;
+    }
+    .sp-answer.sp-ext { background: #f6f3ff; }
+    .sp-answer.blurred { filter: blur(6px); user-select: none; }
+    .sp-answer.blurred:hover { filter: blur(4px); }
+    .play-sentence, .play-mini { cursor: pointer; font-size: 14px; opacity: 0.6; }
+    .play-sentence:hover, .play-mini:hover { opacity: 1; }
+    .sp-more { margin-top: 8px; border-top: 1px solid var(--border); padding-top: 8px; }
+    .sp-more summary {
+      cursor: pointer; font-size: 13px; color: var(--primary); font-weight: 600; outline: none;
+    }
+    .sp-section-title {
+      font-size: 12px; font-weight: 700; color: var(--text-light);
+      margin: 12px 0 4px; text-transform: none; letter-spacing: 0.5px;
+    }
+    .sp-more ul { margin: 0; padding-left: 0; list-style: none; }
+    .sp-more li { font-size: 14px; line-height: 1.6; padding: 3px 0; border-bottom: 1px dashed var(--border); }
+    .frame-en, .u-en, .p-word { font-weight: 600; color: var(--primary-dark); }
+    .frame-zh, .u-note, .p-tip { color: var(--text-light); font-size: 13px; }
+    .u-note, .p-tip { display: block; padding-left: 8px; }
+    .p-ipa { color: var(--warning); font-size: 13px; margin: 0 6px; }
+    .sp-intro {
+      font-size: 13px; color: var(--text-light); background: #fff8e1;
+      border: 1px solid #ffe0b2; border-radius: 8px; padding: 10px 14px; margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-top">
+      <h1>🗣️ 口說 Task 1</h1>
+    </div>
+    <nav>
+      <a href="index.html">瀏覽</a>
+      <a href="speaking.html" class="active">口說</a>
+      <a href="my-words.html">我的</a>
+      <a href="quiz.html">測驗</a>
+      <a href="help.html" class="nav-help">說明</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="sp-intro">
+      練法：先看題目 → 自己出聲講一遍 → 點模糊的答案對照 → 跟著 🔊 唸 → 錄音回放。
+      展開「句框零件 / 用字說明 / 發音」可看細節。
+    </div>
+
+    <section class="filters">
+      <div class="filter-row">
+        <select id="topicFilter">
+          <option value="">全部主題</option>
+        </select>
+      </div>
+    </section>
+
+    <section id="speakingList"></section>
+  </main>
+
+  <footer>
+    <p>口說 Part 1 個人化答案，持續累積中</p>
+  </footer>
+
+  <script src="js/speaking-data.js"></script>
+  <script src="js/speaking.js"></script>
+</body>
+</html>

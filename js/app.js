@@ -185,7 +185,8 @@ function renderVocab() {
       const s = getStatus(v.id);
       const flipMode = document.getElementById("flipMode")?.checked;
 
-      const examplesHtml = v.examples.map(ex => `
+      const examples = v.examples || (v.example ? [{ en: v.example, zh: v.definition || "" }] : []);
+      const examplesHtml = examples.map(ex => `
         <div class="vocab-example${flipMode ? " blurred" : ""}">
           <div class="en" data-sentence="${escapeHtml(ex.en)}">${escapeHtml(ex.en)} <span class="play-sentence" title="念整句">🔊</span></div>
           <div class="zh-trans">${escapeHtml(ex.zh)}</div>
@@ -209,11 +210,11 @@ function renderVocab() {
         </summary>
         <div class="vocab-body${flipMode ? " flip-mode" : ""}">
           <div class="vocab-meta">
-            <span class="pos">${escapeHtml(v.pos)}</span>
-            <span class="level">雅思 ${v.level}+</span>
-            <span>${escapeHtml(v.category)}</span>
+            <span class="pos">${escapeHtml(v.pos || "")}</span>
+            ${v.level ? `<span class="level">雅思 ${v.level}+</span>` : ""}
+            ${v.category ? `<span>${escapeHtml(v.category)}</span>` : ""}
           </div>
-          <div class="vocab-zh">${escapeHtml(v.zh)}</div>
+          <div class="vocab-zh">${escapeHtml(v.zh || "")}</div>
           ${rootsHtml}
           ${examplesHtml}
         </div>

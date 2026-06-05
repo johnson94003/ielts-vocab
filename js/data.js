@@ -10057,694 +10057,601 @@ const VOCAB = [
     }, examples: [{ en: "Her performance was outstanding.", zh: "她的表現傑出。" }] },
   { id: 3101, word: "remarkable", pos: "adj.", zh: "卓越的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "medio-", origin: "Latin medius", meaning: "中間的" },
-        { form: "-ocre", origin: "Latin ocris", meaning: "尖石、崎嶇" }
+        { form: "re-", origin: "Latin re-", meaning: "再次" },
+        { form: "mark", origin: "Old English mearc", meaning: "標記" }
       ],
-      summary: "medius（中間）→ 處於中等水準，不突出也不低劣，即平庸的",
-      family: ["mediocre", "mediocrity", "medium", "median", "intermediate"]
+      summary: "值得再次標記注意的，即非凡的",
+      family: ["remark", "marked", "remarkable"]
     }, examples: [{ en: "He made remarkable progress.", zh: "他有卓越的進步。" }] },
   { id: 3102, word: "extraordinary", pos: "adj.", zh: "非凡的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "presti-", origin: "Latin praestigiae", meaning: "魔術、幻術" },
-        { form: "-gious", meaning: "形容詞後綴" }
+        { form: "extra-", origin: "Latin extra", meaning: "超出" },
+        { form: "ordinary", origin: "Latin ordinarius", meaning: "普通的" }
       ],
-      summary: "拉丁 praestigiae（魔術般的吸引力）→ 令人目眩神迷的聲望，即有聲望的",
-      family: ["prestigious", "prestige", "prestigiously"]
+      summary: "超出普通範圍的，即非凡的",
+      family: ["ordinary", "extraordinarily", "extraordinary"]
     }, examples: [{ en: "She has an extraordinary talent.", zh: "她有非凡的天分。" }] },
   { id: 3103, word: "exceptional", pos: "adj.", zh: "傑出的、例外的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "tedi-", origin: "Latin taedium", meaning: "厭倦、無聊" },
-        { form: "-ous", meaning: "形容詞後綴" }
+        { form: "ex-", origin: "Latin ex-", meaning: "出" },
+        { form: "capere", origin: "Latin capere", meaning: "拿取" }
       ],
-      summary: "拉丁 taedium（令人生厭）→ 冗長令人厭煩，即無聊乏味的",
-      family: ["tedious", "tedium", "tediously", "tediousness"]
+      summary: "被取出來單獨看待的，即例外的、傑出的",
+      family: ["exception", "except", "exceptional"]
     }, examples: [{ en: "Exceptional cases require special treatment.", zh: "例外情況需要特別處理。" }] },
   { id: 3104, word: "impressive", pos: "adj.", zh: "令人印象深刻的", level: 4, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "meticul-", origin: "Latin meticulosus", meaning: "過度擔憂、膽小" },
-        { form: "metu-", origin: "Latin metus", meaning: "恐懼" },
-        { form: "-ous", meaning: "形容詞後綴" }
+        { form: "im-", origin: "Latin in-", meaning: "進入" },
+        { form: "premere", origin: "Latin premere", meaning: "壓" }
       ],
-      summary: "拉丁 metus（恐懼）→ 對每個細節都感到擔憂，演變為對細節極度謹慎，即一絲不苟的",
-      family: ["meticulous", "meticulously", "meticulousness"]
+      summary: "壓印進心裡的，即令人印象深刻的",
+      family: ["impress", "impression", "impressive"]
     }, examples: [{ en: "Her resume is impressive.", zh: "她的履歷令人印象深刻。" }] },
   { id: 3105, word: "fascinating", pos: "adj.", zh: "迷人的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "ambi-", origin: "Latin ambi-", meaning: "兩邊、雙重" },
-        { form: "-gu-", origin: "Latin agere", meaning: "驅動、引導" },
-        { form: "-ous", meaning: "形容詞後綴" }
+        { form: "fascinare", origin: "Latin fascinare", meaning: "施魔法" }
       ],
-      summary: "ambi-（兩邊）+ agere（引導）→ 可以朝兩個方向解讀，即模糊不清的",
-      family: ["ambiguous", "ambiguity", "unambiguous", "ambivalent", "ambidextrous"]
+      summary: "被魔力吸引住，即迷人的",
+      family: ["fascinate", "fascination", "fascinating"]
     }, examples: [{ en: "The documentary was fascinating.", zh: "這部紀錄片很吸引人。" }] },
   { id: 3106, word: "compelling", pos: "adj.", zh: "引人入勝的", level: 6, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "co-", origin: "Latin co-", meaning: "共同" },
-        { form: "haer-", origin: "Latin haerere", meaning: "黏附、連結" },
-        { form: "-ent", meaning: "形容詞後綴" }
+        { form: "com-", origin: "Latin com-", meaning: "完全" },
+        { form: "pellere", origin: "Latin pellere", meaning: "推動" }
       ],
-      summary: "co-（共同）+ haerere（黏附）→ 各部分緊密黏合在一起，即條理分明、前後一致的",
-      family: ["coherent", "coherence", "incoherent", "cohere", "cohesion"]
+      summary: "完全推動著你去行動，即引人注目的",
+      family: ["compel", "compelled", "compelling"]
     }, examples: [{ en: "She made a compelling argument.", zh: "她提出引人入勝的論點。" }] },
   { id: 3107, word: "thought-provoking", pos: "adj.", zh: "發人深省的", level: 6, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "con-", origin: "Latin con-", meaning: "完全" },
-        { form: "cis-", origin: "Latin caedere", meaning: "切割" },
-        { form: "-e", meaning: "形容詞結尾" }
+        { form: "thought", origin: "Old English þoht", meaning: "思想" },
+        { form: "pro-", origin: "Latin pro-", meaning: "向前" },
+        { form: "vocare", origin: "Latin vocare", meaning: "呼喚" }
       ],
-      summary: "con-（完全）+ caedere（切割）→ 把多餘部分完全切掉，即簡潔的",
-      family: ["concise", "concisely", "conciseness", "incise", "decisive", "scissors"]
+      summary: "呼喚思想向前的，即發人深省的",
+      family: ["provoke", "provocative", "thought-provoking"]
     }, examples: [{ en: "The book is thought-provoking.", zh: "這本書發人深省。" }] },
   { id: 3108, word: "comprehensive", pos: "adj.", zh: "全面的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "e-", origin: "Latin ex-", meaning: "向外" },
-        { form: "labor-", origin: "Latin laborare", meaning: "工作、費力" },
-        { form: "-ate", meaning: "動詞／形容詞後綴" }
+        { form: "com-", origin: "Latin com-", meaning: "全部" },
+        { form: "prehendere", origin: "Latin prehendere", meaning: "抓取" }
       ],
-      summary: "ex-（向外）+ laborare（費力工作）→ 費力把細節向外展開，即詳細說明",
-      family: ["elaborate", "elaboration", "elaborately", "labor", "labour", "collaborate"]
+      summary: "把所有東西都抓住，即全面的",
+      family: ["comprehend", "comprehension", "comprehensive"]
     }, examples: [{ en: "We offer comprehensive coverage.", zh: "我們提供全面保障。" }] },
   { id: 3109, word: "thorough", pos: "adj.", zh: "徹底的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "ar-", origin: "Latin ad-", meaning: "朝向" },
-        { form: "ticul-", origin: "Latin articulus", meaning: "小關節、分節" },
-        { form: "-ate", meaning: "動詞後綴" }
+        { form: "thurh", origin: "Old English thurh", meaning: "穿透" }
       ],
-      summary: "articulus（關節分節）→ 把話語清晰分節說出，即清楚表達",
-      family: ["articulate", "articulation", "inarticulate", "article", "articular"]
+      summary: "穿透到每個角落的，即徹底的",
+      family: ["thoroughly", "thoroughness", "thorough"]
     }, examples: [{ en: "She conducted a thorough investigation.", zh: "她進行了徹底調查。" }] },
   { id: 3110, word: "sophisticated", pos: "adj.", zh: "精密的、高雅的", level: 6, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "innovat-", origin: "Latin innovare", meaning: "更新、革新" },
-        { form: "in-", meaning: "進入" },
-        { form: "nov-", origin: "Latin novus", meaning: "新的" },
-        { form: "-ive", meaning: "形容詞後綴" }
+        { form: "sophia", origin: "Greek sophia", meaning: "智慧" }
       ],
-      summary: "in-（進入）+ novus（新）→ 引入新事物，即創新的",
-      family: ["innovative", "innovate", "innovation", "innovator", "novel", "novelty", "renovate"]
+      summary: "充滿智慧與精煉的，即老練的",
+      family: ["sophist", "philosophy", "sophisticated"]
     }, examples: [{ en: "The system is highly sophisticated.", zh: "這個系統非常精密。" }] },
   { id: 3111, word: "complex", pos: "adj.", zh: "複雜的", level: 4, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "contro-", origin: "Latin contra", meaning: "反對" },
-        { form: "vers-", origin: "Latin vertere", meaning: "轉、爭論" },
-        { form: "-ial", meaning: "形容詞後綴" }
+        { form: "com-", origin: "Latin com-", meaning: "一起" },
+        { form: "plectere", origin: "Latin plectere", meaning: "編織" }
       ],
-      summary: "contra-（反對）+ vertere（轉）→ 人們各自轉向反對，即有爭議的",
-      family: ["controversial", "controversy", "controvert", "incontrovertible", "diverse"]
+      summary: "編織在一起難以分開，即複雜的",
+      family: ["complexity", "complicate", "complex"]
     }, examples: [{ en: "The issue is more complex than it seems.", zh: "這個問題比看起來複雜。" }] },
   { id: 3112, word: "intricate", pos: "adj.", zh: "錯綜複雜的", level: 6, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "feasib-", origin: "Old French faisible", meaning: "可以做到的" },
-        { form: "fais-", origin: "Latin facere", meaning: "做" },
-        { form: "-ible", meaning: "可以...的" }
+        { form: "in-", origin: "Latin in-", meaning: "進入" },
+        { form: "tricae", origin: "Latin tricae", meaning: "纏結" }
       ],
-      summary: "facere（做）→ 可以被做到的，即可行的",
-      family: ["feasible", "feasibility", "infeasible", "feat", "feature"]
+      summary: "陷入纏結中，即錯綜複雜的",
+      family: ["intricacy", "intricate", "extricate"]
     }, examples: [{ en: "The design has intricate patterns.", zh: "這個設計有錯綜複雜的圖案。" }] },
   { id: 3113, word: "subtle", pos: "adj.", zh: "細微的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "in-", meaning: "否定" },
-        { form: "evit-", origin: "Latin evitare", meaning: "避免" },
-        { form: "-able", meaning: "可以...的" }
+        { form: "subtilis", origin: "Latin subtilis", meaning: "細緻的" }
       ],
-      summary: "in-（不）+ evitare（避免）→ 無法避免的，即不可避免的",
-      family: ["inevitable", "inevitably", "inevitability", "evitable", "avoid"]
+      summary: "織得極細，即微妙的、難以察覺的",
+      family: ["subtlety", "subtly", "subtle"]
     }, examples: [{ en: "There is a subtle difference between them.", zh: "兩者間有細微的差異。" }] },
   { id: 3114, word: "obvious", pos: "adj.", zh: "明顯的", level: 4, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "legitim-", origin: "Latin legitimus", meaning: "依法的" },
-        { form: "leg-", origin: "Latin lex/legis", meaning: "法律" },
-        { form: "-ate", meaning: "形容詞後綴" }
+        { form: "ob-", origin: "Latin ob-", meaning: "朝向" },
+        { form: "via", origin: "Latin via", meaning: "道路" }
       ],
-      summary: "lex（法律）→ 符合法律規定的，即合法的、正當的",
-      family: ["legitimate", "legitimacy", "illegitimate", "legal", "legislation", "legislate"]
+      summary: "正在道路上，即顯而易見的",
+      family: ["obviously", "obviousness", "obvious"]
     }, examples: [{ en: "The mistake was obvious.", zh: "錯誤很明顯。" }] },
   { id: 3115, word: "subtle", pos: "adj.", zh: "細微的、隱晦的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "promin-", origin: "Latin prominere", meaning: "突出、顯露" },
-        { form: "pro-", meaning: "向前" },
-        { form: "min-", origin: "Latin minare", meaning: "伸出" },
-        { form: "-ent", meaning: "形容詞後綴" }
+        { form: "subtilis", origin: "Latin subtilis", meaning: "細緻的" }
       ],
-      summary: "pro-（向前）+ minare（伸出）→ 向前突出顯現，即著名的、顯眼的",
-      family: ["prominent", "prominence", "prominently", "eminent", "imminent", "protrude"]
+      summary: "織得極細，即微妙的、難以察覺的",
+      family: ["subtlety", "subtly", "subtle"]
     }, examples: [{ en: "The subtle changes went unnoticed.", zh: "細微的變化沒被注意到。" }] },
   { id: 3116, word: "vague", pos: "adj.", zh: "模糊的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "sub-", origin: "Latin sub-", meaning: "在...之後" },
-        { form: "sequ-", origin: "Latin sequi", meaning: "跟隨" },
-        { form: "-ent", meaning: "形容詞後綴" }
+        { form: "vagus", origin: "Latin vagus", meaning: "漂移的" }
       ],
-      summary: "sub-（在後）+ sequi（跟隨）→ 跟在後面的，即隨後的",
-      family: ["subsequent", "subsequently", "sequence", "consequence", "sequel", "obsequious"]
+      summary: "漂移不定，即模糊的",
+      family: ["vaguely", "vagueness", "vague"]
     }, examples: [{ en: "Her instructions were vague.", zh: "她的指示很模糊。" }] },
   { id: 3117, word: "ambiguous", pos: "adj.", zh: "模糊不清的", level: 6, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "ad-", origin: "Latin ad-", meaning: "朝向" },
-        { form: "jac-", origin: "Latin jacere", meaning: "躺、鄰靠" },
-        { form: "-ent", meaning: "形容詞後綴" }
+        { form: "ambi-", origin: "Latin ambi-", meaning: "兩邊" },
+        { form: "agere", origin: "Latin agere", meaning: "驅動" }
       ],
-      summary: "ad-（朝向）+ jacere（躺靠）→ 靠著旁邊躺，即鄰近的",
-      family: ["adjacent", "adjacency", "adjacently", "adjoin", "adjunct"]
+      summary: "同時往兩個方向驅動，即模稜兩可的",
+      family: ["ambiguity", "ambiguously", "ambiguous"]
     }, examples: [{ en: "The wording is ambiguous.", zh: "這個措辭模糊不清。" }] },
   { id: 3118, word: "explicit", pos: "adj.", zh: "明確的", level: 6, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "in-", meaning: "在內部" },
-        { form: "haer-", origin: "Latin haerere", meaning: "黏附、存在於" },
-        { form: "-ent", meaning: "形容詞後綴" }
+        { form: "ex-", origin: "Latin ex-", meaning: "出" },
+        { form: "plicare", origin: "Latin plicare", meaning: "折疊" }
       ],
-      summary: "in-（在內）+ haerere（黏附）→ 天生黏附在內部的，即固有的",
-      family: ["inherent", "inherently", "inhere", "coherent", "adhere", "adherent"]
+      summary: "完全展開，即明確的",
+      family: ["explicitly", "explicitness", "explicit"]
     }, examples: [{ en: "She gave explicit instructions.", zh: "她給了明確的指示。" }] },
   { id: 3119, word: "implicit", pos: "adj.", zh: "隱含的", level: 6, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "plaus-", origin: "Latin plaudere", meaning: "鼓掌、讚同" },
-        { form: "-ible", meaning: "可以...的" }
+        { form: "im-", origin: "Latin im-", meaning: "進入" },
+        { form: "plicare", origin: "Latin plicare", meaning: "折疊" }
       ],
-      summary: "plaudere（鼓掌）→ 值得被認可鼓掌的，即似乎合理的",
-      family: ["plausible", "plausibility", "implausible", "applaud", "applause"]
+      summary: "折疊在內部，即隱含的",
+      family: ["implicitly", "imply", "implicit"]
     }, examples: [{ en: "There was implicit agreement.", zh: "有隱含的同意。" }] },
   { id: 3120, word: "lucrative", pos: "adj.", zh: "獲利豐厚的", level: 7, category: "形容詞高頻", source: "主題詞庫", purpose: "passive", roots: {
       parts: [
-        { form: "rigor-", origin: "Latin rigor", meaning: "僵硬、嚴格" },
-        { form: "rig-", origin: "Latin rigere", meaning: "僵硬、冷硬" },
-        { form: "-ous", meaning: "形容詞後綴" }
+        { form: "lucrum", origin: "Latin lucrum", meaning: "利益" }
       ],
-      summary: "拉丁 rigor（僵硬不鬆動）→ 嚴格不妥協，即嚴格的",
-      family: ["rigorous", "rigor", "rigorously", "rigidity", "rigid"]
+      summary: "帶來豐厚利益的，即有利可圖的",
+      family: ["lucre", "lucratively", "lucrative"]
     }, examples: [{ en: "It's a lucrative business.", zh: "這是個賺錢的生意。" }] },
   { id: 3121, word: "feasible", pos: "adj.", zh: "可行的", level: 6, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "sub-", origin: "Latin sub-", meaning: "在下方、相當" },
-        { form: "stant-", origin: "Latin stare", meaning: "站立、存在" },
-        { form: "-ial", meaning: "形容詞後綴" }
+        { form: "facere", origin: "Latin facere", meaning: "做" }
       ],
-      summary: "sub-（相當）+ stare（站立存在）→ 有相當重量站得住的，即相當大的、實質的",
-      family: ["substantial", "substance", "substantially", "substantiate", "insubstantial"]
+      summary: "能夠被做到的，即可行的",
+      family: ["feasibility", "feasibly", "feasible"]
     }, examples: [{ en: "Is this plan feasible?", zh: "這個計畫可行嗎？" }] },
   { id: 3122, word: "viable", pos: "adj.", zh: "可行的", level: 6, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "super-", origin: "Latin super-", meaning: "在上面" },
-        { form: "fici-", origin: "Latin facies", meaning: "表面、臉" },
-        { form: "-al", meaning: "形容詞後綴" }
+        { form: "vita", origin: "Latin vita", meaning: "生命" }
       ],
-      summary: "super-（在上面）+ facies（表面）→ 只停留在表面，即表面的、膚淺的",
-      family: ["superficial", "superficially", "superficiality", "surface", "face"]
+      summary: "有能力存活的，即可行的",
+      family: ["viability", "viably", "viable"]
     }, examples: [{ en: "We need viable alternatives.", zh: "我們需要可行的替代方案。" }] },
   { id: 3123, word: "practical", pos: "adj.", zh: "實用的", level: 4, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "tent-", origin: "Latin tentare", meaning: "試探、嘗試" },
-        { form: "-ative", meaning: "形容詞後綴，表示傾向" }
+        { form: "praktikos", origin: "Greek praktikos", meaning: "行動的" }
       ],
-      summary: "tentare（試探）→ 帶有試探性質，尚未確定，即試探性的",
-      family: ["tentative", "tentatively", "tentativeness", "attempt", "tempt"]
+      summary: "關注實際行動的，即實用的",
+      family: ["practice", "practically", "practical"]
     }, examples: [{ en: "Give me a practical solution.", zh: "給我實用的解決方法。" }] },
   { id: 3124, word: "pragmatic", pos: "adj.", zh: "務實的", level: 6, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "trans-", origin: "Latin trans-", meaning: "穿越、通過" },
-        { form: "par-", origin: "Latin parere", meaning: "出現、顯現" },
-        { form: "-ent", meaning: "形容詞後綴" }
+        { form: "pragma", origin: "Greek pragma", meaning: "事務" }
       ],
-      summary: "trans-（穿越）+ parere（顯現）→ 光線可以穿越而顯現，即透明的；引申為公開透明的",
-      family: ["transparent", "transparency", "transparently", "appear", "apparent"]
+      summary: "關注實際事務的，即務實的",
+      family: ["pragmatism", "pragmatist", "pragmatic"]
     }, examples: [{ en: "Take a pragmatic approach.", zh: "採取務實的方式。" }] },
   { id: 3125, word: "ambitious", pos: "adj.", zh: "有抱負的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "vulner-", origin: "Latin vulnus", meaning: "傷口" },
-        { form: "-able", meaning: "容易...的" }
+        { form: "ambi-", origin: "Latin ambi-", meaning: "周圍" },
+        { form: "ire", origin: "Latin ire", meaning: "走" }
       ],
-      summary: "vulnus（傷口）→ 容易受傷的，即脆弱的",
-      family: ["vulnerable", "vulnerability", "invulnerable", "wound"]
+      summary: "四處走動拉票，即有抱負的",
+      family: ["ambition", "ambitiously", "ambitious"]
     }, examples: [{ en: "She has ambitious plans.", zh: "她有遠大的計畫。" }] },
   { id: 3126, word: "modest", pos: "adj.", zh: "謙虛的、適度的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "detri-", origin: "Latin detrimentum", meaning: "損失、損害" },
-        { form: "de-", meaning: "向下" },
-        { form: "ter-", origin: "Latin terere", meaning: "磨損" },
-        { form: "-mental", meaning: "形容詞後綴" }
+        { form: "modus", origin: "Latin modus", meaning: "尺度" }
       ],
-      summary: "de-（向下）+ terere（磨損）→ 不斷磨損消耗，即有害的",
-      family: ["detrimental", "detriment", "detrimentally", "attrition", "trite"]
+      summary: "守在適當尺度內的，即謙遜的",
+      family: ["modesty", "modestly", "modest"]
     }, examples: [{ en: "He's modest about his success.", zh: "他對成功很謙虛。" }] },
   { id: 3127, word: "humble", pos: "adj.", zh: "謙遜的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "content-", origin: "Latin contendere", meaning: "爭奪、競爭" },
-        { form: "con-", meaning: "共同" },
-        { form: "tend-", origin: "Latin tendere", meaning: "伸展、爭執" },
-        { form: "-ious", meaning: "形容詞後綴" }
+        { form: "humus", origin: "Latin humus", meaning: "土地" }
       ],
-      summary: "con-（共同）+ tendere（爭執）→ 各方共同爭執，即有爭議的",
-      family: ["contentious", "contention", "contend", "contender", "content"]
+      summary: "貼近地面的，即謙遜的",
+      family: ["humility", "humbly", "humble"]
     }, examples: [{ en: "She remained humble despite fame.", zh: "成名後她仍保持謙遜。" }] },
   { id: 3128, word: "arrogant", pos: "adj.", zh: "傲慢的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "per-", origin: "Latin per-", meaning: "貫穿、持續" },
-        { form: "sist-", origin: "Latin sistere", meaning: "站立、持續" },
-        { form: "-ent", meaning: "形容詞後綴" }
+        { form: "ad-", origin: "Latin ad-", meaning: "向" },
+        { form: "rogare", origin: "Latin rogare", meaning: "要求" }
       ],
-      summary: "per-（持續）+ sistere（站立）→ 持續站立不倒，即堅持不懈的",
-      family: ["persistent", "persist", "persistence", "insist", "resist", "consistent"]
+      summary: "要求過多，即傲慢的",
+      family: ["arrogance", "arrogantly", "arrogant"]
     }, examples: [{ en: "Nobody likes arrogant people.", zh: "沒人喜歡傲慢的人。" }] },
   { id: 3129, word: "diligent", pos: "adj.", zh: "勤奮的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "ratio-", origin: "Latin ratio", meaning: "理性、計算" },
-        { form: "-nal", meaning: "形容詞後綴" }
+        { form: "diligere", origin: "Latin diligere", meaning: "珍視" }
       ],
-      summary: "拉丁 ratio（理性計算）→ 基於理性推算，即合理的",
-      family: ["rational", "rationality", "irrational", "rationale", "ratio", "reason"]
+      summary: "珍視所做之事，即勤勉的",
+      family: ["diligence", "diligently", "diligent"]
     }, examples: [{ en: "She is a diligent student.", zh: "她是勤奮的學生。" }] },
   { id: 3130, word: "lazy", pos: "adj.", zh: "懶惰的", level: 4, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "reciproc-", origin: "Latin reciprocus", meaning: "來回的、互換的" },
-        { form: "re-", meaning: "回" },
-        { form: "pro-", meaning: "前" },
-        { form: "-al", meaning: "形容詞後綴" }
+        { form: "lasich", origin: "Low German lasich", meaning: "懶散" }
       ],
-      summary: "re-（回）+ pro-（前）→ 來來回回互換，即相互的",
-      family: ["reciprocal", "reciprocate", "reciprocity", "reciprocally"]
+      summary: "不願移動，即懶惰的",
+      family: ["laziness", "lazily", "lazy"]
     }, examples: [{ en: "He's too lazy to exercise.", zh: "他懶得運動。" }] },
   { id: 3131, word: "responsible", pos: "adj.", zh: "負責的", level: 4, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "re-", origin: "Latin re-", meaning: "再次、過剩" },
-        { form: "und-", origin: "Latin unda", meaning: "波浪、溢出" },
-        { form: "-ant", meaning: "形容詞後綴" }
+        { form: "re-", origin: "Latin re-", meaning: "回" },
+        { form: "spondere", origin: "Latin spondere", meaning: "承諾" }
       ],
-      summary: "re-（再次）+ undare（如波浪溢出）→ 溢出多餘，即多餘的、冗餘的",
-      family: ["redundant", "redundancy", "redundantly", "abound", "inundate"]
+      summary: "做出回應承諾，即負責任的",
+      family: ["responsibility", "responsibly", "responsible"]
     }, examples: [{ en: "Be responsible for your actions.", zh: "為自己的行為負責。" }] },
   { id: 3132, word: "reliable", pos: "adj.", zh: "可靠的", level: 4, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "skept-", origin: "Greek skeptesthai", meaning: "觀察、考量" },
-        { form: "-ical", meaning: "形容詞後綴" }
+        { form: "re-", origin: "Latin re-", meaning: "再" },
+        { form: "ligare", origin: "Latin ligare", meaning: "綁" }
       ],
-      summary: "希臘 skeptesthai（仔細觀察考量）→ 對事物保持質疑觀察，即懷疑的",
-      family: ["skeptical", "skeptic", "skepticism", "skeptically", "sceptical"]
+      summary: "可以再次依靠綁住的，即可靠的",
+      family: ["reliability", "reliably", "reliable"]
     }, examples: [{ en: "She's a reliable friend.", zh: "她是個可靠的朋友。" }] },
   { id: 3133, word: "trustworthy", pos: "adj.", zh: "值得信賴的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "spont-", origin: "Latin sponte", meaning: "自願地、自己" },
-        { form: "-aneous", meaning: "形容詞後綴" }
+        { form: "trust", origin: "Old Norse traust", meaning: "信任" },
+        { form: "worth", origin: "Old English weorth", meaning: "價值" }
       ],
-      summary: "拉丁 sponte（出於自願）→ 出於自發意願，即自發的",
-      family: ["spontaneous", "spontaneously", "spontaneity"]
+      summary: "值得被信任的",
+      family: ["trust", "worthiness", "trustworthy"]
     }, examples: [{ en: "Choose trustworthy sources.", zh: "選擇值得信賴的來源。" }] },
   { id: 3134, word: "credible", pos: "adj.", zh: "可信的", level: 6, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "straight", origin: "Old English streht", meaning: "直接的" },
-        { form: "forward", origin: "Old English foreweard", meaning: "向前" }
+        { form: "credere", origin: "Latin credere", meaning: "相信" }
       ],
-      summary: "straight（筆直）+ forward（向前）→ 筆直向前不拐彎，即直接了當的",
-      family: ["straightforward", "straight", "forward", "straightforwardly"]
+      summary: "值得相信的，即可信的",
+      family: ["credibility", "credibly", "credible"]
     }, examples: [{ en: "Is this a credible source?", zh: "這是可信的來源嗎？" }] },
   { id: 3135, word: "optimistic", pos: "adj.", zh: "樂觀的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "toler-", origin: "Latin tolerare", meaning: "忍受、承受" },
-        { form: "-ant", meaning: "形容詞後綴" }
+        { form: "optimus", origin: "Latin optimus", meaning: "最好的" }
       ],
-      summary: "拉丁 tolerare（承受重量）→ 能夠承受差異，即容忍的",
-      family: ["tolerant", "tolerance", "tolerate", "intolerant", "intolerance"]
+      summary: "相信最好結果會來的，即樂觀的",
+      family: ["optimism", "optimist", "optimistic"]
     }, examples: [{ en: "She remains optimistic.", zh: "她保持樂觀。" }] },
   { id: 3136, word: "pessimistic", pos: "adj.", zh: "悲觀的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "trivi-", origin: "Latin trivium", meaning: "三叉路口、公共場所" },
-        { form: "tri-", meaning: "三" },
-        { form: "vi-", origin: "Latin via", meaning: "路" },
-        { form: "-al", meaning: "形容詞後綴" }
+        { form: "pessimus", origin: "Latin pessimus", meaning: "最壞的" }
       ],
-      summary: "三叉路口（人人都能遇到的尋常之事）→ 尋常瑣碎不重要的，即瑣碎的",
-      family: ["trivial", "triviality", "trivially", "trivialize", "trivium"]
+      summary: "相信最壞結果會來的，即悲觀的",
+      family: ["pessimism", "pessimist", "pessimistic"]
     }, examples: [{ en: "He's pessimistic about the future.", zh: "他對未來悲觀。" }] },
   { id: 3137, word: "enthusiastic", pos: "adj.", zh: "熱情的", level: 4, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "un-", origin: "Latin unus", meaning: "一" },
-        { form: "anim-", origin: "Latin animus", meaning: "心智、意志" },
-        { form: "-ous", meaning: "形容詞後綴" }
+        { form: "en-", origin: "Greek en-", meaning: "進入" },
+        { form: "theos", origin: "Greek theos", meaning: "神" }
       ],
-      summary: "unus（一）+ animus（意志）→ 所有人的意志合而為一，即全體一致的",
-      family: ["unanimous", "unanimously", "unanimity", "animate", "unanimous"]
+      summary: "有神靈附身般的熱情，即熱情的",
+      family: ["enthusiasm", "enthusiast", "enthusiastic"]
     }, examples: [{ en: "She's enthusiastic about her work.", zh: "她對工作充滿熱情。" }] },
   { id: 3138, word: "indifferent", pos: "adj.", zh: "漠不關心的", level: 6, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "vibr-", origin: "Latin vibrare", meaning: "振動、搖動" },
-        { form: "-ant", meaning: "形容詞後綴" }
+        { form: "in-", origin: "Latin in-", meaning: "不" },
+        { form: "different", origin: "Latin differens", meaning: "不同" }
       ],
-      summary: "拉丁 vibrare（振動）→ 充滿活力如振動般，即充滿活力的",
-      family: ["vibrant", "vibrate", "vibration", "vibrancy", "vibrato"]
+      summary: "對差異無感，即冷漠的",
+      family: ["indifference", "indifferently", "indifferent"]
     }, examples: [{ en: "He seems indifferent to politics.", zh: "他似乎對政治漠不關心。" }] },
   { id: 3139, word: "passionate", pos: "adj.", zh: "熱情的、有熱忱的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "wide", origin: "Old English wid", meaning: "寬廣" },
-        { form: "spread", origin: "Old English spraedan", meaning: "擴散" }
+        { form: "pati", origin: "Latin pati", meaning: "忍受感受" }
       ],
-      summary: "wide（寬廣）+ spread（擴散）→ 擴散到寬廣範圍，即廣泛的",
-      family: ["widespread", "wide", "spread", "broadspread", "far-reaching"]
+      summary: "強烈感受著情感，即充滿熱情的",
+      family: ["passion", "passionately", "passionate"]
     }, examples: [{ en: "She's passionate about photography.", zh: "她對攝影充滿熱情。" }] },
   { id: 3140, word: "indispensable", pos: "adj.", zh: "不可或缺的", level: 6, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "ac-", origin: "Latin ad-", meaning: "朝向" },
-        { form: "celer-", origin: "Latin celer", meaning: "快速" },
-        { form: "-ate", meaning: "動詞後綴" }
+        { form: "in-", origin: "Latin in-", meaning: "不" },
+        { form: "dispensare", origin: "Latin dispensare", meaning: "分配" }
       ],
-      summary: "ad-（朝向）+ celer（快速）→ 使速度加快，即加速",
-      family: ["accelerate", "acceleration", "accelerator", "decelerate", "celerity"]
+      summary: "無法被分配掉省略的，即不可缺少的",
+      family: ["dispense", "indispensably", "indispensable"]
     }, examples: [{ en: "Smartphones have become indispensable.", zh: "智慧型手機變得不可或缺。" }] },
   { id: 3141, word: "negligible", pos: "adj.", zh: "微不足道的", level: 7, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "al-", origin: "Latin ad-", meaning: "朝向" },
-        { form: "levi-", origin: "Latin levis", meaning: "輕的" },
-        { form: "-ate", meaning: "動詞後綴" }
+        { form: "neg-", origin: "Latin neg-", meaning: "不" },
+        { form: "legere", origin: "Latin legere", meaning: "選取" }
       ],
-      summary: "ad-（朝向）+ levis（輕）→ 使重擔變輕，即減輕",
-      family: ["alleviate", "alleviation", "levity", "elevator", "relieve", "relief"]
+      summary: "不值得被選取注意的，即微不足道的",
+      family: ["neglect", "negligibly", "negligible"]
     }, examples: [{ en: "The risk is negligible.", zh: "風險微不足道。" }] },
   { id: 3142, word: "abundant", pos: "adj.", zh: "豐富的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "con-", origin: "Latin con-", meaning: "完全、一起" },
-        { form: "templ-", origin: "Latin templum", meaning: "神廟、觀察之地" },
-        { form: "-ate", meaning: "動詞後綴" }
+        { form: "ab-", origin: "Latin ab-", meaning: "完全" },
+        { form: "undare", origin: "Latin undare", meaning: "湧出" }
       ],
-      summary: "templum（古羅馬觀察天象的神聖空間）→ 安靜觀察沉思，即沉思",
-      family: ["contemplate", "contemplation", "contemplative", "temple", "template"]
+      summary: "完全湧出，即豐富的",
+      family: ["abundance", "abundantly", "abundant"]
     }, examples: [{ en: "The country has abundant resources.", zh: "這個國家資源豐富。" }] },
   { id: 3143, word: "scarce", pos: "adj.", zh: "稀少的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "contra-", origin: "Latin contra", meaning: "反對" },
-        { form: "dict-", origin: "Latin dicere", meaning: "說" }
+        { form: "escars", origin: "Old French escars", meaning: "吝嗇" }
       ],
-      summary: "contra-（反對）+ dicere（說）→ 說出反對的話，即矛盾、反駁",
-      family: ["contradict", "contradiction", "contradictory", "dictate", "predict", "verdict"]
+      summary: "被吝嗇地給予，即稀少的",
+      family: ["scarcity", "scarcely", "scarce"]
     }, examples: [{ en: "Water is becoming scarce.", zh: "水變得稀少。" }] },
   { id: 3144, word: "diverse", pos: "adj.", zh: "多元的", level: 5, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "di-", origin: "Latin de-", meaning: "向下" },
-        { form: "min-", origin: "Latin minuere", meaning: "縮小、減少" },
-        { form: "-ish", meaning: "動詞後綴" }
+        { form: "di-", origin: "Latin di-", meaning: "分開" },
+        { form: "vertere", origin: "Latin vertere", meaning: "轉" }
       ],
-      summary: "de-（向下）+ minuere（縮小）→ 使事物縮小減少，即減少",
-      family: ["diminish", "diminution", "diminishing", "minute", "minor", "minimal"]
+      summary: "向不同方向轉，即多樣的",
+      family: ["diversity", "diversely", "diverse"]
     }, examples: [{ en: "We have a diverse team.", zh: "我們有多元的團隊。" }] },
   { id: 3145, word: "uniform", pos: "adj.", zh: "一致的", level: 4, category: "形容詞高頻", source: "主題詞庫", purpose: "active", roots: {
       parts: [
-        { form: "em-", origin: "Latin ex-", meaning: "向外" },
-        { form: "phas-", origin: "Greek phainein", meaning: "顯現、展示" },
-        { form: "-ise", meaning: "動詞後綴" }
+        { form: "uni-", origin: "Latin uni-", meaning: "一" },
+        { form: "forma", origin: "Latin forma", meaning: "形狀" }
       ],
-      summary: "ex-（向外）+ phainein（顯現）→ 讓某事向外顯現突出，即強調",
-      family: ["emphasise", "emphasis", "emphatic", "emphasize", "phase"]
+      summary: "只有一種形狀，即統一的",
+      family: ["uniformity", "uniformly", "uniform"]
     }, examples: [{ en: "The results show a uniform pattern.", zh: "結果顯示一致的模式。" }] },
   { id: 3146, word: "tune", pos: "v./n.", zh: "調音 / 曲調", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", roots: {
       parts: [
-        { form: "en-", origin: "Latin in-", meaning: "進入" },
-        { form: "counter", origin: "Latin contra", meaning: "對面、相遇" }
+        { form: "tun", origin: "Old English tun", meaning: "音調" }
       ],
-      summary: "in-（進入）+ contra（對面）→ 走入面對面的相遇，即遇到",
-      family: ["encounter", "counter", "counterpart", "confront", "contra"]
+      summary: "調整到正確音調",
+      family: ["tuner", "tuning", "tune"]
     }, examples: [{ en: "He always starts by getting us to tune our guitars.", zh: "他總是先讓我們調音。" }] },
   { id: 3147, word: "by ear", pos: "phr.", zh: "憑聽覺、靠耳朵", level: 5, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", roots: {
       parts: [
-        { form: "fluctu-", origin: "Latin fluctuare", meaning: "波動、像波浪一樣" },
-        { form: "flu-", origin: "Latin fluere", meaning: "流動" },
-        { form: "-ate", meaning: "動詞後綴" }
+        { form: "by", origin: "Old English bi", meaning: "依靠" },
+        { form: "ear", origin: "Old English eare", meaning: "耳朵" }
       ],
-      summary: "fluere（流動）→ 像波浪般起伏流動，即波動",
-      family: ["fluctuate", "fluctuation", "fluid", "fluent", "flux", "influence"]
+      summary: "靠耳朵聽來演奏",
+      family: ["ear", "by sight", "by ear"]
     }, examples: [{ en: "Some people have an app they use, but others do it by ear.", zh: "有些人用 app，但有人靠耳朵調音。" }] },
   { id: 3148, word: "strumming", pos: "n.", zh: "刷弦", level: 5, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", roots: {
       parts: [
-        { form: "integ-", origin: "Latin integer", meaning: "完整的、未觸碰的" },
-        { form: "-rate", meaning: "動詞後綴" }
+        { form: "strum", origin: "imitative", meaning: "撥弦聲" }
       ],
-      summary: "integer（完整）→ 使各部分合成一個完整整體，即整合",
-      family: ["integrate", "integration", "integer", "integrity", "integral", "disintegrate"]
+      summary: "手指撥弦發出的聲音，即刷弦",
+      family: ["strum", "strummer", "strumming"]
     }, examples: [{ en: "We usually spend about ten minutes doing some strumming.", zh: "我們通常花十分鐘做刷弦練習。" }] },
   { id: 3149, word: "chord", pos: "n.", zh: "和弦", level: 5, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", roots: {
       parts: [
-        { form: "over-", origin: "Old English ofer", meaning: "越過" },
-        { form: "come", origin: "Old English cuman", meaning: "來、達到" }
+        { form: "khorde", origin: "Greek khorde", meaning: "弦" }
       ],
-      summary: "over-（越過）+ come（來）→ 越過障礙物到達另一端，即克服",
-      family: ["overcome", "come over", "overcoming", "come", "overpower"]
+      summary: "多條弦同時發聲，即和弦",
+      family: ["chord", "chordal", "chords"]
     }, examples: [{ en: "Gary reminds us where to put our fingers for each chord.", zh: "Gary 提醒我們每個和弦的指法。" }] },
   { id: 3150, word: "plectrum", pos: "n.", zh: "撥片", level: 6, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "passive", roots: {
       parts: [
-        { form: "prior-", origin: "Latin prior", meaning: "較早的、更重要的" },
-        { form: "-it-", meaning: "名詞化" },
-        { form: "-ise", meaning: "動詞後綴" }
+        { form: "plēktron", origin: "Greek plēktron", meaning: "撥片" }
       ],
-      summary: "prior（較重要的）→ 把重要的事排在前面處理，即優先考慮",
-      family: ["prioritise", "priority", "prioritize", "prior", "prioritization"]
+      summary: "用來撥弦的小片",
+      family: ["plectrum", "pick", "plectra"]
     }, examples: [{ en: "So is that using ... what are they called ... plectrums?", zh: "是用那個 ... 叫什麼來著 ... 撥片嗎？" }] },
   { id: 3151, word: "fingerpicking", pos: "n.", zh: "指彈", level: 6, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", roots: {
       parts: [
-        { form: "re-", origin: "Latin re-", meaning: "再次" },
-        { form: "in-", meaning: "進入" },
-        { form: "forc-", origin: "Latin fortis", meaning: "強壯" },
-        { form: "-e", meaning: "動詞結尾" }
+        { form: "finger", origin: "Old English finger", meaning: "手指" },
+        { form: "pick", origin: "Middle English pikken", meaning: "撥" }
       ],
-      summary: "re-（再次）+ in-（進入）+ fortis（強）→ 再次注入力量使其更強，即強化",
-      family: ["reinforce", "reinforcement", "force", "enforce", "fortify"]
+      summary: "用手指逐條撥弦",
+      family: ["fingerpick", "fingerstyle", "fingerpicking"]
     }, examples: [{ en: "Do you do any fingerpicking?", zh: "你們會學指彈嗎？" }] },
   { id: 3152, word: "recording", pos: "n.", zh: "錄音", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", roots: {
       parts: [
-        { form: "sub-", origin: "Latin sub-", meaning: "在下方、補充" },
-        { form: "plet-", origin: "Latin plere", meaning: "填滿" },
-        { form: "-ment", meaning: "名詞後綴" }
+        { form: "re-", origin: "Latin re-", meaning: "再" },
+        { form: "cord", origin: "Latin cor", meaning: "心" }
       ],
-      summary: "sub-（在下補充）+ plere（填滿）→ 從下方填補不足，即補充",
-      family: ["supplement", "supplementary", "supplementation", "supply", "complete", "replete"]
+      summary: "重新留存在心中，後指錄音",
+      family: ["record", "recorder", "recording"]
     }, examples: [{ en: "He often brings a recording of a song and plays it to us first.", zh: "他常常會帶一首歌的錄音先放給我們聽。" }] },
   { id: 3153, word: "individual notes", pos: "n.", zh: "單音", level: 5, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", roots: {
       parts: [
-        { form: "under-", origin: "Old English under", meaning: "在...之下" },
-        { form: "go", origin: "Old English gan", meaning: "經過" }
+        { form: "individual", origin: "Latin individuus", meaning: "單一" },
+        { form: "note", origin: "Latin nota", meaning: "音符" }
       ],
-      summary: "under-（在下）+ go（走過）→ 在某過程之下走過，即經歷",
-      family: ["undergo", "undergoing", "undergone", "go through", "experience"]
+      summary: "一個個單獨的音符",
+      family: ["note", "notes", "individual notes"]
     }, examples: [{ en: "We pick out the individual notes from a tune he's made up.", zh: "我們從他編的曲子裡挑出單音。" }] },
   { id: 3154, word: "keep time", pos: "phr.", zh: "保持節奏", level: 5, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", roots: {
       parts: [
-        { form: "ad-", origin: "Latin ad-", meaning: "朝向" },
-        { form: "voc-", origin: "Latin vocare", meaning: "呼喊、聲音" },
-        { form: "-ate", meaning: "動詞後綴" }
+        { form: "keep", origin: "Old English cepan", meaning: "保持" },
+        { form: "time", origin: "Old English tima", meaning: "拍子" }
       ],
-      summary: "ad-（朝向）+ vocare（呼喊）→ 大聲呼喊支持，即倡導",
-      family: ["advocate", "advocacy", "vocalize", "voice", "vocation", "vocal"]
+      summary: "保持穩定節拍",
+      family: ["timekeeping", "timekeeper", "keep time"]
     }, examples: [{ en: "We're so bad at keeping time, so Gary starts clapping.", zh: "我們完全抓不到節奏，所以 Gary 開始拍手。" }] },
   { id: 3155, word: "clap", pos: "v.", zh: "拍手", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", roots: {
       parts: [
-        { form: "al-", origin: "Latin ad-", meaning: "朝向" },
-        { form: "loc-", origin: "Latin locus", meaning: "地方、位置" },
-        { form: "-ate", meaning: "動詞後綴" }
+        { form: "clap", origin: "imitative", meaning: "拍手聲" }
       ],
-      summary: "ad-（朝向）+ locus（位置）→ 將資源指定到某位置，即分配",
-      family: ["allocate", "allocation", "locate", "location", "local", "dislocate"]
+      summary: "拍手發出的聲音，即拍手",
+      family: ["clapping", "clapper", "clap"]
     }, examples: [{ en: "Gary starts clapping to help us.", zh: "Gary 開始拍手幫我們抓拍。" }] },
   { id: 3156, word: "pick out", pos: "phr. v.", zh: "挑出、分辨出", level: 5, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", roots: {
       parts: [
-        { form: "col-", origin: "Latin com-", meaning: "共同" },
-        { form: "labor-", origin: "Latin laborare", meaning: "工作" },
-        { form: "-ate", meaning: "動詞後綴" }
+        { form: "pick", origin: "Middle English pikken", meaning: "挑選" },
+        { form: "out", origin: "Old English ut", meaning: "出來" }
       ],
-      summary: "com-（共同）+ laborare（工作）→ 共同工作，即合作",
-      family: ["collaborate", "collaboration", "collaborator", "labor", "elaborate"]
+      summary: "逐一挑出音符來演奏",
+      family: ["pick", "pick up", "pick out"]
     }, examples: [{ en: "We pick out the individual notes from a tune.", zh: "我們從曲子中挑出單音。" }] },
   { id: 3157, word: "make up", pos: "phr. v.", zh: "編造、自創", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", roots: {
       parts: [
-        { form: "com-", origin: "Latin com-", meaning: "共同、一起" },
-        { form: "pens-", origin: "Latin pensare", meaning: "稱重、平衡" },
-        { form: "-ate", meaning: "動詞後綴" }
+        { form: "make", origin: "Old English macian", meaning: "製作" },
+        { form: "up", origin: "Old English up", meaning: "完成" }
       ],
-      summary: "com-（共同）+ pensare（稱重平衡）→ 在天平另一端放上等重物以平衡，即補償",
-      family: ["compensate", "compensation", "compensatory", "pension", "dispense", "expense"]
+      summary: "即興創作出來",
+      family: ["makeup", "make up", "made up"]
     }, examples: [{ en: "It's a tune he's made up.", zh: "這是他自己編的曲子。" }] },
   { id: 3158, word: "hand out", pos: "phr. v.", zh: "發放", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", roots: {
       parts: [
-        { form: "cor-", origin: "Latin com-", meaning: "共同" },
-        { form: "relat-", origin: "Latin relatus", meaning: "帶回、關聯" },
-        { form: "-e", meaning: "動詞結尾" }
+        { form: "hand", origin: "Old English hand", meaning: "手" },
+        { form: "out", origin: "Old English ut", meaning: "出去" }
       ],
-      summary: "com-（共同）+ relatus（關聯）→ 共同關聯在一起，即相關",
-      family: ["correlate", "correlation", "correlative", "relate", "relation", "relative"]
+      summary: "用手分發出去",
+      family: ["handout", "hand out", "distribute"]
     }, examples: [{ en: "He hands out the song.", zh: "他把歌譜發給我們。" }] },
   { id: 3159, word: "go round", pos: "phr. v.", zh: "走動巡視", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", roots: {
       parts: [
-        { form: "de-", origin: "Latin de-", meaning: "向下" },
-        { form: "terior-", origin: "Latin deterior", meaning: "較差的" },
-        { form: "-ate", meaning: "動詞後綴" }
+        { form: "go", origin: "Old English gan", meaning: "走" },
+        { form: "round", origin: "Old French rond", meaning: "一圈" }
       ],
-      summary: "de-（向下）+ deterior（更差）→ 向更差的方向發展，即惡化",
-      family: ["deteriorate", "deterioration", "deteriorating", "degrade"]
+      summary: "輪流傳遞一圈",
+      family: ["go around", "go round", "circulate"]
     }, examples: [{ en: "Gary goes round and helps them.", zh: "Gary 走動巡視並幫忙他們。" }] },
   { id: 3160, word: "get used to", pos: "phr.", zh: "習慣於", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", roots: {
       parts: [
-        { form: "dis-", origin: "Latin dis-", meaning: "分開" },
-        { form: "tingu-", origin: "Latin stinguere", meaning: "刺穿、標記" },
-        { form: "-ish", meaning: "動詞後綴" }
+        { form: "get", origin: "Old Norse geta", meaning: "獲得" },
+        { form: "used", origin: "Latin usus", meaning: "習慣" }
       ],
-      summary: "dis-（分開）+ stinguere（刺穿標記）→ 用標記將事物分開區別，即區分",
-      family: ["distinguish", "distinction", "distinctive", "distinguished", "extinct", "extinguish"]
+      summary: "獲得習慣狀態",
+      family: ["used to", "accustomed", "get used to"]
     }, examples: [{ en: "I've got used to it now.", zh: "我現在已經習慣了。" }] },
   { id: 3161, word: "concentrate", pos: "v.", zh: "專心", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", roots: {
       parts: [
-        { form: "e-", origin: "Latin ex-", meaning: "向外" },
-        { form: "limin-", origin: "Latin limen", meaning: "門檻" },
-        { form: "-ate", meaning: "動詞後綴" }
+        { form: "con-", origin: "Latin con-", meaning: "一起" },
+        { form: "centrum", origin: "Latin centrum", meaning: "中心" }
       ],
-      summary: "ex-（向外）+ limen（門檻）→ 把某物推出門檻外，即消除",
-      family: ["eliminate", "elimination", "limen", "limit", "preliminary", "subliminal"]
+      summary: "把注意力集中到一個中心",
+      family: ["concentration", "concentrated", "concentrate"]
     }, examples: [{ en: "People like it because they can really concentrate.", zh: "大家喜歡這部分因為可以全神貫注。" }] },
   { id: 3162, word: "impressive", pos: "adj.", zh: "令人印象深刻的", level: 4, category: "吉他/音樂", source: "聽力 Guitar Lesson C19T2P1", purpose: "active", roots: {
       parts: [
-        { form: "gen-", origin: "Latin generare", meaning: "產生、生成" },
-        { form: "-erate", meaning: "動詞後綴" }
+        { form: "im-", origin: "Latin in-", meaning: "進入" },
+        { form: "premere", origin: "Latin premere", meaning: "壓" }
       ],
-      summary: "generare（產生）→ 使某事物產生出來，即產生",
-      family: ["generate", "generation", "generator", "regenerate", "degenerate", "generic"]
+      summary: "壓印進心裡的，即令人印象深刻的",
+      family: ["impress", "impression", "impressive"]
     }, examples: [{ en: "If we're all playing well, it sounds quite impressive.", zh: "如果大家都彈得好，聽起來相當不錯。" }] },
   { id: 3163, word: "invertebrate", pos: "n.", zh: "無脊椎動物", level: 6, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "passive", roots: {
       parts: [
-        { form: "im-", origin: "Latin in-", meaning: "進入" },
-        { form: "plement-", origin: "Latin plere", meaning: "填滿、充實" }
+        { form: "in-", origin: "Latin in-", meaning: "無" },
+        { form: "vertebra", origin: "Latin vertebra", meaning: "脊椎" }
       ],
-      summary: "in-（進入）+ plere（填滿）→ 把計畫填入實際行動，即實施",
-      family: ["implement", "implementation", "supplement", "complete", "replenish"]
+      summary: "沒有脊椎的動物",
+      family: ["vertebrate", "vertebra", "invertebrate"]
     }, examples: [{ en: "For my project on invertebrates, I chose to study tardigrades.", zh: "為了無脊椎動物項目，我選擇研究水熊蟲。" }] },
   { id: 3164, word: "tardigrade", pos: "n.", zh: "緩步動物（水熊蟲）", level: 7, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "passive", roots: {
       parts: [
-        { form: "in-", origin: "Latin in-", meaning: "進入" },
-        { form: "vestig-", origin: "Latin vestigium", meaning: "足跡、痕跡" },
-        { form: "-ate", meaning: "動詞後綴" }
+        { form: "tardus", origin: "Latin tardus", meaning: "緩慢" },
+        { form: "gradus", origin: "Latin gradus", meaning: "步伐" }
       ],
-      summary: "in-（進入）+ vestigium（足跡）→ 追蹤足跡深入查察，即調查",
-      family: ["investigate", "investigation", "investigator", "vestige", "vestigial"]
+      summary: "行走緩慢的生物（水熊蟲）",
+      family: ["tardy", "grade", "tardigrade"]
     }, examples: [{ en: "Tardigrades are microscopic animals.", zh: "水熊蟲是微型動物。" }] },
   { id: 3165, word: "microscopic", pos: "adj.", zh: "微小的、需顯微鏡才能看的", level: 5, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "active", roots: {
       parts: [
-        { form: "just-", origin: "Latin justus", meaning: "公正" },
-        { form: "-ify", origin: "Latin facere", meaning: "使成為" }
+        { form: "mikros", origin: "Greek mikros", meaning: "小" },
+        { form: "skopein", origin: "Greek skopein", meaning: "觀察" }
       ],
-      summary: "justus（公正）+ facere（使成為）→ 使某事符合公正原則，即證明合理",
-      family: ["justify", "justification", "unjustified", "just", "justice", "adjust"]
+      summary: "需要用顯微鏡才能觀察的",
+      family: ["microscope", "microscopically", "microscopic"]
     }, examples: [{ en: "These are microscopic animals.", zh: "這些是需顯微鏡才能看的動物。" }] },
   { id: 3166, word: "phylum", pos: "n.", zh: "門（生物分類）", level: 7, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "passive", roots: {
       parts: [
-        { form: "man-", origin: "Latin manus", meaning: "手" },
-        { form: "-ipul-", origin: "Latin manipulus", meaning: "一把、掌握" },
-        { form: "-ate", meaning: "動詞後綴" }
+        { form: "phylon", origin: "Greek phylon", meaning: "種族" }
       ],
-      summary: "manus（手）→ 用手擺弄控制，引申為以不正當方式操控，即操縱",
-      family: ["manipulate", "manipulation", "manipulative", "manual", "manuscript", "manage"]
+      summary: "生物分類的門",
+      family: ["phyla", "phylogeny", "phylum"]
     }, examples: [{ en: "They belong to the phylum Tardigrada.", zh: "牠們屬於緩步動物門。" }] },
   { id: 3167, word: "segment", pos: "n.", zh: "體節、區段", level: 5, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "active", roots: {
       parts: [
-        { form: "neg-", origin: "Latin negotium", meaning: "業務、商業" },
-        { form: "nec-", origin: "Latin nec", meaning: "否" },
-        { form: "oti-", origin: "Latin otium", meaning: "休閒" },
-        { form: "-ate", meaning: "動詞後綴" }
+        { form: "secare", origin: "Latin secare", meaning: "切割" }
       ],
-      summary: "nec（否）+ otium（休閒）→ 沒有閒著的商業往來，即協商",
-      family: ["negotiate", "negotiation", "negotiator", "renegotiate"]
+      summary: "被切割出的一段",
+      family: ["section", "segmentation", "segment"]
     }, examples: [{ en: "The body comprises four segments.", zh: "身體由四節組成。" }] },
   { id: 3168, word: "barrel", pos: "n.", zh: "桶（形容圓筒形狀）", level: 5, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "active", roots: {
       parts: [
-        { form: "per-", origin: "Latin per-", meaning: "透過" },
-        { form: "ceiv-", origin: "Latin capere", meaning: "抓取、理解" },
-        { form: "-e", meaning: "動詞結尾" }
+        { form: "baril", origin: "Old French baril", meaning: "桶" }
       ],
-      summary: "per-（透過）+ capere（抓取）→ 透過感官抓取訊息，即察覺、感知",
-      family: ["perceive", "perception", "perceptive", "conceive", "receive", "deceive"]
+      summary: "圓桶形的身體",
+      family: ["barrel-shaped", "barrels", "barrel"]
     }, examples: [{ en: "They have a body which is short, and also rounded — a bit like a barrel.", zh: "牠們的身體短而圓，有點像桶。" }] },
   { id: 3169, word: "claw", pos: "n.", zh: "爪", level: 4, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "active", roots: {
       parts: [
-        { form: "pro-", origin: "Latin pro-", meaning: "在前方" },
-        { form: "hibit-", origin: "Latin habere", meaning: "持有、阻擋" }
+        { form: "clawu", origin: "Old English clawu", meaning: "爪" }
       ],
-      summary: "pro-（在前方）+ habere（持有阻擋）→ 在前方攔住阻止，即禁止",
-      family: ["prohibit", "prohibition", "prohibitive", "exhibit", "inhibit", "inhabit"]
+      summary: "動物的鉤狀爪",
+      family: ["claws", "clawed", "claw"]
     }, examples: [{ en: "Each segment has between four and eight sharp claws.", zh: "每個體節有四到八個尖銳的爪。" }] },
   { id: 3170, word: "disc", pos: "n.", zh: "圓盤、吸盤", level: 4, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "active", roots: {
       parts: [
-        { form: "stimul-", origin: "Latin stimulus", meaning: "刺棒、驅趕" },
-        { form: "-ate", meaning: "動詞後綴" }
+        { form: "diskos", origin: "Greek diskos", meaning: "圓盤" }
       ],
-      summary: "拉丁 stimulus（刺棒驅趕牲口）→ 施加刺激促使反應，即刺激",
-      family: ["stimulate", "stimulus", "stimulation", "stimulant", "stimuli"]
+      summary: "圓盤形的結構",
+      family: ["disk", "discoid", "disc"]
     }, examples: [{ en: "Some species have discs which enable them to cling on to surfaces.", zh: "有些品種有吸盤，可以附著在表面上。" }] },
   { id: 3171, word: "respiratory organ", pos: "n.", zh: "呼吸器官", level: 6, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "passive", roots: {
       parts: [
-        { form: "trans-", origin: "Latin trans-", meaning: "穿越、改變" },
-        { form: "form-", origin: "Latin forma", meaning: "形狀" }
+        { form: "respirare", origin: "Latin respirare", meaning: "呼吸" },
+        { form: "organ", origin: "Greek organon", meaning: "器官" }
       ],
-      summary: "trans-（改變）+ forma（形狀）→ 改變形狀樣貌，即轉變",
-      family: ["transform", "transformation", "transformer", "reform", "conform", "inform"]
+      summary: "負責呼吸的器官",
+      family: ["respiration", "respiratory", "respiratory organ"]
     }, examples: [{ en: "They don't have any respiratory organs.", zh: "牠們沒有任何呼吸器官。" }] },
   { id: 3172, word: "cavity", pos: "n.", zh: "腔、空洞", level: 6, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "active", roots: {
       parts: [
-        { form: "under-", origin: "Old English under", meaning: "在下方" },
-        { form: "mine", origin: "Old French miner", meaning: "挖掘" }
+        { form: "cavus", origin: "Latin cavus", meaning: "空洞" }
       ],
-      summary: "under-（在下方）+ mine（挖掘）→ 從地基下方挖掘使其崩塌，即削弱",
-      family: ["undermine", "mine", "mining", "undermining", "subvert"]
+      summary: "空腔結構",
+      family: ["cave", "cavities", "cavity"]
     }, examples: [{ en: "A fluid fills the cavity of the body.", zh: "一種液體充滿身體的腔內。" }] },
   { id: 3173, word: "stylet", pos: "n.", zh: "針狀口器", level: 7, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "passive", roots: {
       parts: [
-        { form: "util-", origin: "Latin utilis", meaning: "有用的" },
-        { form: "ut-", origin: "Latin uti", meaning: "使用" },
-        { form: "-ise", meaning: "動詞後綴" }
+        { form: "stilus", origin: "Latin stilus", meaning: "尖筆" }
       ],
-      summary: "uti（使用）→ 使事物發揮其用途，即利用",
-      family: ["utilise", "utility", "utilize", "utilization", "utensil", "useful"]
+      summary: "細尖的刺穿工具",
+      family: ["style", "stylus", "stylet"]
     }, examples: [{ en: "The mouth has teeth called stylets.", zh: "嘴巴有稱為 stylets 的牙齒結構。" }] },
   { id: 3174, word: "pierce", pos: "v.", zh: "刺穿", level: 5, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "active", roots: {
       parts: [
-        { form: "valid-", origin: "Latin validus", meaning: "強壯的、有效的" },
-        { form: "val-", origin: "Latin valere", meaning: "有力量" },
-        { form: "-ate", meaning: "動詞後綴" }
+        { form: "percier", origin: "Old French percier", meaning: "刺穿" }
       ],
-      summary: "valere（有力量）→ 確認某事有效力，即驗證",
-      family: ["validate", "validation", "valid", "invalid", "value", "prevalent"]
+      summary: "刺穿進入",
+      family: ["piercing", "pierced", "pierce"]
     }, examples: [{ en: "These are sharp enough to pierce plant or animal cells.", zh: "這些足以刺穿植物或動物細胞。" }] },
   { id: 3175, word: "habitat", pos: "n.", zh: "棲息地", level: 5, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "active", roots: {
       parts: [
-        { form: "with-", origin: "Old English wiþ", meaning: "對抗" },
-        { form: "stand", origin: "Old English standan", meaning: "站立" }
+        { form: "habitare", origin: "Latin habitare", meaning: "居住" }
       ],
-      summary: "with-（對抗）+ stand（站立）→ 面對壓力仍站立不倒，即承受、抵抗",
-      family: ["withstand", "stand", "understand", "outstanding", "withhold"]
+      summary: "生物居住的地方",
+      family: ["habitation", "inhabit", "habitat"]
     }, examples: [{ en: "They live in a variety of habitats.", zh: "牠們生活在各種棲息地。" }] },
   { id: 3176, word: "resilient", pos: "adj.", zh: "韌性強的、適應力強的", level: 5, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "active", roots: {
       parts: [
-        { form: "yield", origin: "Old English gieldan", meaning: "支付、生產、讓步" }
+        { form: "re-", origin: "Latin re-", meaning: "回" },
+        { form: "salire", origin: "Latin salire", meaning: "跳躍" }
       ],
-      summary: "古英文 gieldan（支付、回報）→ 土地給出收成（產生），或人退步讓出（讓步）",
-      family: ["yield", "yielding", "unyielding", "high-yield"]
+      summary: "彈跳回原狀，即有復原力的",
+      family: ["resilience", "resiliently", "resilient"]
     }, examples: [{ en: "Tardigrades are very resilient.", zh: "水熊蟲非常具有適應力。" }] },
   { id: 3177, word: "radiation", pos: "n.", zh: "輻射", level: 5, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "active", roots: {
       parts: [
-        { form: "as-", origin: "Latin ad-", meaning: "朝向" },
-        { form: "sum-", origin: "Latin sumere", meaning: "拿取" },
-        { form: "-e", meaning: "動詞結尾" }
+        { form: "radius", origin: "Latin radius", meaning: "射線" }
       ],
-      summary: "ad-（朝向）+ sumere（拿取）→ 拿取某事物當作既定前提，即假設",
-      family: ["assume", "assumption", "presume", "consume", "resume", "subsume"]
+      summary: "向四面八方射出的能量",
+      family: ["radiate", "radioactive", "radiation"]
     }, examples: [{ en: "Tardigrades are capable of surviving radiation.", zh: "水熊蟲能在輻射下存活。" }] },
   { id: 3178, word: "withstand", pos: "v.", zh: "抵擋、承受", level: 6, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "active", roots: {
       parts: [
-        { form: "con-", origin: "Latin con-", meaning: "共同、完全" },
-        { form: "clud-", origin: "Latin claudere", meaning: "關閉" },
-        { form: "-e", meaning: "動詞結尾" }
+        { form: "with-", origin: "Old English wiþ-", meaning: "對抗" },
+        { form: "stand", origin: "Old English standan", meaning: "站立" }
       ],
-      summary: "con-（完全）+ claudere（關閉）→ 把討論完全關上結束，即得出結論",
-      family: ["conclude", "conclusion", "conclusive", "exclude", "include", "preclude"]
+      summary: "對抗並站住，即承受",
+      family: ["withstood", "withstanding", "withstand"]
     }, examples: [{ en: "They can withstand temperatures as cold as -200 degrees.", zh: "牠們能承受低至零下 200 度的溫度。" }] },
   { id: 3179, word: "centigrade", pos: "n./adj.", zh: "攝氏", level: 5, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "active", roots: {
       parts: [
-        { form: "de-", origin: "Latin de-", meaning: "向下、完全" },
-        { form: "monstr-", origin: "Latin monstrare", meaning: "展示" },
-        { form: "-ate", meaning: "動詞後綴" }
+        { form: "centi-", origin: "Latin centi-", meaning: "百" },
+        { form: "gradus", origin: "Latin gradus", meaning: "度" }
       ],
-      summary: "de-（完全）+ monstrare（展示）→ 完整展示出來，即展示、示範",
-      family: ["demonstrate", "demonstration", "demonstrative", "monster", "monstrous"]
+      summary: "百等分的溫度刻度",
+      family: ["Celsius", "grade", "centigrade"]
     }, examples: [{ en: "-200 degrees centigrade.", zh: "攝氏零下 200 度。" }] },
   { id: 3180, word: "asteroid", pos: "n.", zh: "小行星", level: 5, category: "水熊蟲/動物學", source: "聽力 Tardigrades C19T2P4", purpose: "active", roots: {
       parts: [
@@ -11244,1208 +11151,1210 @@ const VOCAB = [
     }, examples: [{ en: "Kite Place — it's the area by the harbour.", zh: "風箏廣場——就是港口邊的那個區域。" }] },
   { id: 3240, word: "organic", pos: "adj.", zh: "有機的", level: 4, category: "食物採購", source: "聽力 C19T3P1", purpose: "active", roots: {
       parts: [
-        { form: "ex-", origin: "Latin ex-", meaning: "向外" },
-        { form: "pedit-", origin: "Latin pes / pedis", meaning: "腳" },
-        { form: "-ion", origin: "Latin -io", meaning: "動作、過程" }
+        { form: "organ-", origin: "Greek organon", meaning: "器官、工具" },
+        { form: "-ic", origin: "Greek -ikos", meaning: "形容詞字尾" }
       ],
-      summary: "expedition 來自拉丁 expedire（解脫腳鐐），原意『解脫束縛出發』，指有組織的遠行或探險",
-      family: ["expedite", "expedient", "pedestrian", "impede"]
+      summary: "源自希臘語「器官」，指與生物體自然生長有關的，即有機的",
+      family: ["organism", "organize", "inorganic", "organ"]
     }, examples: [{ en: "There's a really nice organic shop there.", zh: "那裡有一家非常不錯的有機商店。" }] },
   { id: 3241, word: "warehouse", pos: "n.", zh: "倉庫", level: 4, category: "食物採購", source: "聽力 C19T3P1", purpose: "active", roots: {
       parts: [
-        { form: "navig-", origin: "Latin navis + agere", meaning: "船 + 驅動" },
-        { form: "-ation", origin: "Latin -atio", meaning: "動作、過程" }
+        { form: "ware-", origin: "Old English waru", meaning: "商品、貨物" },
+        { form: "-house", origin: "Old English hus", meaning: "房屋、建築" }
       ],
-      summary: "navigation 來自拉丁 navis（船）+ agere（驅動），指駕船航行或導航的技術",
-      family: ["navigate", "navigator", "navy", "naval"]
+      summary: "字面意思是「存放貨物的房子」，即倉庫",
+      family: ["warehouse", "hardware", "software", "storehouse"]
     }, examples: [{ en: "I think it used to be a warehouse.", zh: "我想它以前是一間倉庫。" }] },
   { id: 3242, word: "pavement", pos: "n.", zh: "人行道", level: 5, category: "食物採購", source: "聽力 C19T3P1", purpose: "active", roots: {
       parts: [
-        { form: "vessel", origin: "Old French vessel / Latin vascellum", meaning: "小容器" }
+        { form: "pave-", origin: "Latin pavire", meaning: "鋪平、夯實" },
+        { form: "-ment", origin: "Latin -mentum", meaning: "名詞字尾，表示行為或結果" }
       ],
-      summary: "vessel 來自拉丁 vascellum（小容器），vase 的小稱，引申為船隻（大容器）或血管",
-      family: ["vase", "vascular", "vas deferens"]
+      summary: "源自拉丁語「鋪平」，指鋪設好的平整地面，即人行道",
+      family: ["pave", "pavement", "unpaved", "cobblestone"]
     }, examples: [{ en: "There's a big sign on the pavement.", zh: "人行道上有一個大招牌。" }] },
   { id: 3243, word: "minibus", pos: "n.", zh: "小巴", level: 4, category: "食物採購", source: "聽力 C19T3P1", purpose: "active", roots: {
       parts: [
-        { form: "crew", origin: "Old French creue / croître", meaning: "增援、增長" }
+        { form: "mini-", origin: "Latin minimus", meaning: "小的、最小的" },
+        { form: "bus", origin: "Latin omnibus", meaning: "公共汽車（為眾人服務的）" }
       ],
-      summary: "crew 來自古法語 creue（增援部隊），源自 croître（增長），指補充的人員，後指船員或機組",
-      family: ["crew member", "aircrew"]
+      summary: "mini- 表示小型，bus 來自拉丁語「為所有人」，合指小型公共汽車",
+      family: ["minivan", "minicar", "bus", "omnibus"]
     }, examples: [{ en: "There's a minibus that goes to the supermarket.", zh: "有一輛迷你巴士會開往超市。" }] },
   { id: 3244, word: "packaging", pos: "n.", zh: "包裝", level: 4, category: "食物採購", source: "聽力 C19T3P1", purpose: "active", roots: {
       parts: [
-        { form: "carg-", origin: "Spanish cargo / Latin carricare", meaning: "裝載" },
-        { form: "-o", origin: "Spanish -o", meaning: "名詞後綴" }
+        { form: "pack-", origin: "Middle Dutch pak", meaning: "捆、包裹" },
+        { form: "-age", origin: "Old French -age", meaning: "名詞字尾，表集合或過程" }
       ],
-      summary: "cargo 來自西班牙語 cargo（裝載物），源自拉丁 carricare（裝車），指船隻或飛機運載的貨物",
-      family: ["charge", "carry", "car", "cart"]
+      summary: "源自「包裹」一詞，-age 表集合，指包裝材料或包裝行為",
+      family: ["pack", "package", "unpack", "repackage"]
     }, examples: [{ en: "I want to avoid all the plastic packaging.", zh: "我想避開所有的塑膠包裝。" }] },
   { id: 3245, word: "a dozen", pos: "phr.", zh: "一打、十二個", level: 4, category: "食物採購", source: "聽力 C19T3P1", purpose: "active", roots: {
       parts: [
-        { form: "flag", origin: "Old Norse flaga", meaning: "旗幟" },
-        { form: "ship", origin: "Old English scip", meaning: "船" }
+        { form: "dozen", origin: "Old French douzaine", meaning: "十二個" },
+        { form: "a", origin: "Old English an", meaning: "一（量詞）" }
       ],
-      summary: "flagship 字面為『懸掛旗幟的船』，指艦隊中指揮官所在的主力艦，引申為最重要的代表",
-      family: ["flagship store", "flag officer"]
+      summary: "dozen 源自古法語「十二」，a dozen 即一組十二個",
+      family: ["dozen", "dozens", "half a dozen", "baker's dozen"]
     }, examples: [{ en: "I need about a dozen prawns for that.", zh: "我大概需要一打蝦來做那道菜。" }] },
   { id: 3246, word: "prawn", pos: "n.", zh: "蝦", level: 4, category: "食物採購", source: "聽力 C19T3P1", purpose: "active", roots: {
       parts: [
-        { form: "stern", origin: "Old Norse stjórn", meaning: "舵、船尾方向" }
+        { form: "prawn", origin: "Middle English prayne / prane", meaning: "一種甲殼類動物（詞源不確定）" }
       ],
-      summary: "stern 源自古北歐語 stjórn（舵），原指舵所在的位置，即船的後部",
-      family: ["stern-faced", "astern"]
+      summary: "中古英語詞，詞源不明確，一直用來指中型蝦類",
+      family: ["shrimp", "prawn", "lobster", "crayfish"]
     }, examples: [{ en: "I need about 12 prawns for that.", zh: "做那道菜我需要大約 12 隻蝦。" }] },
   { id: 3247, word: "shellfish", pos: "n.", zh: "貝類", level: 4, category: "食物採購", source: "聽力 C19T3P1", purpose: "active", roots: {
       parts: [
-        { form: "bow", origin: "Old English boga", meaning: "弓形、彎曲" }
+        { form: "shell", origin: "Old English sciell", meaning: "殼" },
+        { form: "fish", origin: "Old English fisc", meaning: "魚、水生動物" }
       ],
-      summary: "bow 來自古英語 boga（弓），因船頭形狀似弓而得名，指船的前端",
-      family: ["bow and arrow", "elbow", "rainbow"]
+      summary: "字面意思是「有殼的水生動物」，泛指蛤蠣、蝦蟹等貝甲類海鮮",
+      family: ["shell", "seashell", "shellfish", "crustacean"]
     }, examples: [{ en: "The salmon is always very good and the shellfish.", zh: "鮭魚一向很好，貝類也是。" }] },
   { id: 3248, word: "samphire", pos: "n.", zh: "海蓬子（一種海草）", level: 7, category: "食物採購", source: "聽力 C19T3P1", purpose: "passive", roots: {
       parts: [
-        { form: "compass", origin: "Old French compas / Latin com- + passus", meaning: "共同步伐、繞圈" }
+        { form: "samphire", origin: "French herbe de Saint Pierre", meaning: "聖彼得的草藥" }
       ],
-      summary: "compass 來自拉丁 com-（一起）+ passus（步伐），原意為繞圈測量，引申為指南針與圓規",
-      family: ["encompass", "pass", "pace"]
+      summary: "源自法語「聖彼得之草」，因常生長於海岸岩石上（聖彼得是漁夫守護神），指海蓬子",
+      family: ["samphire", "herb", "seaweed", "rocksamphire"]
     }, examples: [{ en: "Have you ever tried samphire? It's a type of seaweed.", zh: "你吃過海蓬子嗎？那是一種海草。" }] },
   { id: 3249, word: "spice", pos: "n.", zh: "香料", level: 4, category: "食物採購", source: "聽力 C19T3P1", purpose: "active", roots: {
       parts: [
-        { form: "marin-", origin: "Latin marinus / mare", meaning: "海洋" },
-        { form: "-er", origin: "Old French -ier", meaning: "從事…的人" }
+        { form: "spice", origin: "Old French espice, Latin species", meaning: "種類、商品" }
       ],
-      summary: "mariner 來自拉丁 mare（海），指在海上航行的水手",
-      family: ["marine", "maritime", "marina", "submarine"]
+      summary: "源自拉丁語 species（種類），中古時期香料被視為貴重商品的「類別」，後專指香料",
+      family: ["spice", "spicy", "species", "specify"]
     }, examples: [{ en: "A lot of spices you can put in a curry.", zh: "很多可以放進咖哩裡的香料。" }] },
   { id: 3250, word: "coconut", pos: "n.", zh: "椰子", level: 4, category: "食物採購", source: "聽力 C19T3P1", purpose: "active", roots: {
       parts: [
-        { form: "marit-", origin: "Latin maritimus / mare", meaning: "海洋、海邊" },
-        { form: "-ime", origin: "Latin -imus", meaning: "最高級、關於…的" }
+        { form: "coco-", origin: "Portuguese coco", meaning: "骷髏頭（因椰子底部三個凹洞）" },
+        { form: "-nut", origin: "Old English hnutu", meaning: "堅果" }
       ],
-      summary: "maritime 來自拉丁 mare（海），指與海洋、航海相關的事物",
-      family: ["mariner", "marine", "marina", "submarine"]
+      summary: "葡萄牙語 coco 指骷髏頭（椰子底部三個洞似臉），加 nut 表示這是一種堅果",
+      family: ["coconut", "cocoa", "nut", "walnut"]
     }, examples: [{ en: "Spices and things like coconut.", zh: "香料還有椰子之類的東西。" }] },
   { id: 3251, word: "loaf", pos: "n.", zh: "一條（麵包）", level: 4, category: "食物採購", source: "聽力 C19T3P1", purpose: "active", roots: {
       parts: [
-        { form: "seize", origin: "Old French seisir / Frankish *sakjan", meaning: "抓住、占有" }
+        { form: "loaf", origin: "Old English hlaf", meaning: "麵包、食物" }
       ],
-      summary: "seize 來自古法語 seisir（取得所有權），原為法律用語，後泛指迅速奪取",
-      family: ["seizure", "seizing"]
+      summary: "古英語 hlaf 原意就是麵包，後來專指成型烘焙的一整條麵包",
+      family: ["loaf", "loaves", "meatloaf", "bread"]
     }, examples: [{ en: "I'd like to buy a brown loaf.", zh: "我想買一條黑麵包。" }] },
   { id: 3252, word: "tart", pos: "n.", zh: "塔、餡餅", level: 5, category: "食物採購", source: "聽力 C19T3P1", purpose: "active", roots: {
       parts: [
-        { form: "fort-", origin: "Latin fors / fortis", meaning: "機會、力量" },
-        { form: "-une", origin: "Latin -una", meaning: "狀態後綴" }
+        { form: "tart", origin: "Old French tarte", meaning: "塔形烤餅" }
       ],
-      summary: "fortune 來自拉丁 Fortuna（命運女神），源自 fors（機會），指財富或命運",
-      family: ["fortunate", "unfortunate", "misfortune", "fortuitous"]
+      summary: "源自古法語 tarte，指有酥皮底托、填入餡料的烤點心",
+      family: ["tart", "tartlet", "pie", "pastry"]
     }, examples: [{ en: "They have a whole range of tarts.", zh: "他們有各種口味的塔。" }] },
   { id: 3253, word: "ripe", pos: "adj.", zh: "成熟的", level: 5, category: "食物採購", source: "聽力 C19T3P1", purpose: "active", roots: {
       parts: [
-        { form: "famin-", origin: "Old French famine / Latin fames", meaning: "飢餓" },
-        { form: "-e", origin: "Old French -e", meaning: "名詞後綴" }
+        { form: "ripe", origin: "Old English ripe", meaning: "準備好收割的" }
       ],
-      summary: "famine 來自古法語 famine，源自拉丁 fames（飢餓），指大規模糧食短缺的飢荒",
-      family: ["famished", "starve"]
+      summary: "古英語原指「準備好可收割」，後引申為果實充分成熟",
+      family: ["ripe", "ripen", "overripe", "unripe"]
     }, examples: [{ en: "Mangoes are not always ripe.", zh: "芒果不一定都是熟的。" }] },
   { id: 3254, word: "supervisor", pos: "n.", zh: "主管", level: 4, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", roots: {
       parts: [
-        { form: "con-", origin: "Latin com-", meaning: "共同、完全" },
-        { form: "quest-", origin: "Latin quaerere / quaestum", meaning: "尋求、征服" },
-        { form: "-ion", origin: "Latin -io", meaning: "動作、結果" }
+        { form: "super-", origin: "Latin super", meaning: "在……之上、超越" },
+        { form: "vis-", origin: "Latin videre/visus", meaning: "看、監視" },
+        { form: "-or", origin: "Latin -or", meaning: "名詞字尾，表示做某動作的人" }
       ],
-      summary: "conquest 來自拉丁 conquirere（全面征服），指以武力取得勝利或領土",
-      family: ["conquer", "conqueror", "inquest", "quest", "question"]
+      summary: "super-「在上方」+ vis「看」，即從上往下監看的人，指主管、監督者",
+      family: ["supervise", "supervision", "supervisor", "overseer"]
     }, examples: [{ en: "I'm Kaeden, one of the supervisors.", zh: "我是凱登，主管之一。" }] },
   { id: 3255, word: "staffroom", pos: "n.", zh: "員工休息室", level: 4, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", roots: {
       parts: [
-        { form: "colon-", origin: "Latin colonia / colonus", meaning: "農民、定居者" },
-        { form: "-y", origin: "Latin -ia", meaning: "地方、狀態" }
+        { form: "staff", origin: "Old English stæf", meaning: "員工（原指棍棒，後引申為支撐組織的人）" },
+        { form: "room", origin: "Old English rum", meaning: "房間、空間" }
       ],
-      summary: "colony 來自拉丁 colonus（農民/定居者），指母國在外建立的定居地或殖民地",
-      family: ["colonial", "colonize", "colonist", "colon"]
+      summary: "staff 指員工，room 指房間，合指供員工休息使用的房間",
+      family: ["staff", "staffing", "room", "staffroom"]
     }, examples: [{ en: "I'll take you to the staffroom.", zh: "我帶你去員工休息室。" }] },
   { id: 3256, word: "letter of appointment", pos: "n.", zh: "任命書", level: 5, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", roots: {
       parts: [
-        { form: "empir-", origin: "Latin imperium / imperare", meaning: "命令、統治" },
-        { form: "-e", origin: "Old French -e", meaning: "名詞後綴" }
+        { form: "appoint-", origin: "Old French apointer, Latin ad + punctum", meaning: "指定、安排到某個點" },
+        { form: "-ment", origin: "French -ment", meaning: "名詞字尾" }
       ],
-      summary: "empire 來自拉丁 imperium（統治權），指由一個君主或國家控制的廣大領土",
-      family: ["emperor", "imperial", "imperialism", "empire-building"]
+      summary: "appoint 源自拉丁語「指向某點」，appointment 指被正式指定，letter of appointment 即正式任命文件",
+      family: ["appoint", "appointment", "disappoint", "reappoint"]
     }, examples: [{ en: "Show my letter of appointment and pick up my badge.", zh: "出示任命書並領取識別證。" }] },
   { id: 3257, word: "badge", pos: "n.", zh: "識別證", level: 4, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", roots: {
       parts: [
-        { form: "tribut-", origin: "Latin tribuere", meaning: "給予、分配" },
-        { form: "-e", origin: "Latin -um", meaning: "名詞後綴" }
+        { form: "badge", origin: "Middle English bage / bagge", meaning: "標記、徽章（詞源不確定）" }
       ],
-      summary: "tribute 來自拉丁 tribuere（分配給），原指向強權繳納的稅貢，後引申為致敬",
-      family: ["contribute", "distribute", "attribute", "tributary"]
+      summary: "中古英語詞，指佩戴在身上用以辨識身份或所屬的標誌物",
+      family: ["badge", "emblem", "name tag", "insignia"]
     }, examples: [{ en: "Pick up my badge at the front desk.", zh: "在前台領取我的識別證。" }] },
   { id: 3258, word: "locker", pos: "n.", zh: "置物櫃", level: 4, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", roots: {
       parts: [
-        { form: "allia-", origin: "Old French alier / Latin alligare", meaning: "綑綁在一起" },
-        { form: "-nce", origin: "Latin -antia", meaning: "狀態、關係" }
+        { form: "lock-", origin: "Old English loc", meaning: "鎖、關閉" },
+        { form: "-er", origin: "Old English -ere", meaning: "名詞字尾，表示做某動作的物或人" }
       ],
-      summary: "alliance 來自拉丁 alligare（綁在一起），指國家或團體為共同目的結成的聯盟",
-      family: ["ally", "allied", "align", "league"]
+      summary: "lock 指鎖，locker 即可上鎖的儲物格，指置物櫃",
+      family: ["lock", "locker", "unlock", "padlock"]
     }, examples: [{ en: "Put your coat and rucksack in one of the lockers.", zh: "把大衣和背包放進其中一個置物櫃。" }] },
   { id: 3259, word: "uniform", pos: "n.", zh: "制服", level: 4, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", roots: {
       parts: [
-        { form: "treat-", origin: "Latin tractare", meaning: "處理、談判" },
-        { form: "-y", origin: "Old French -é", meaning: "名詞後綴" }
+        { form: "uni-", origin: "Latin unus", meaning: "一、統一" },
+        { form: "-form", origin: "Latin forma", meaning: "形式、樣式" }
       ],
-      summary: "treaty 來自拉丁 tractare（處理/談判），指國家間正式協商簽訂的書面協議",
-      family: ["treat", "treatment", "treatise", "contract"]
+      summary: "uni-「統一」+ form「形式」，指外觀統一一致的服裝，即制服",
+      family: ["uniform", "uniformity", "unicycle", "unify"]
     }, examples: [{ en: "Tiffany will give you a uniform.", zh: "蒂芙尼會給你一套制服。" }] },
   { id: 3260, word: "sell-by date", pos: "n.", zh: "保存期限", level: 5, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", roots: {
       parts: [
-        { form: "aristos-", origin: "Greek aristos", meaning: "最好的" },
-        { form: "-crat", origin: "Greek kratos", meaning: "統治、力量" }
+        { form: "sell", origin: "Old English sellan", meaning: "出售" },
+        { form: "by", origin: "Old English bi", meaning: "在……之前" },
+        { form: "date", origin: "Latin data", meaning: "日期" }
       ],
-      summary: "aristocrat 來自希臘 aristos（最好）+ kratos（統治），指由最優秀者統治的階層，即貴族",
-      family: ["aristocracy", "democratic", "autocrat", "plutocrat"]
+      summary: "字面意思是「應在此日期前賣出」，即商品的銷售截止日期",
+      family: ["sell-by date", "best before", "expiry date", "use-by date"]
     }, examples: [{ en: "Check sell-by dates on the bread and cakes.", zh: "檢查麵包和蛋糕的保存期限。" }] },
   { id: 3261, word: "price label", pos: "n.", zh: "價格標籤", level: 4, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", roots: {
       parts: [
-        { form: "peasan-", origin: "Old French paisant / Latin pagus", meaning: "鄉村地區" },
-        { form: "-t", origin: "Old French -ant", meaning: "人的後綴" }
+        { form: "price", origin: "Old French pris, Latin pretium", meaning: "價格、代價" },
+        { form: "label", origin: "Old French label", meaning: "標籤、條帶" }
       ],
-      summary: "peasant 來自古法語 paisant，源自拉丁 pagus（鄉村），指在土地上耕作的農民",
-      family: ["pagan", "peasantry", "page"]
+      summary: "price 指價格，label 指標籤，合指標示商品售價的貼紙或標牌",
+      family: ["price", "label", "tag", "sticker"]
     }, examples: [{ en: "Put a new price label on the packaging.", zh: "在包裝上貼一張新的價格標籤。" }] },
   { id: 3262, word: "re-stock", pos: "v.", zh: "補貨", level: 5, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", roots: {
       parts: [
-        { form: "mon-", origin: "Greek monos", meaning: "單一" },
-        { form: "-arch", origin: "Greek archein", meaning: "統治" }
+        { form: "re-", origin: "Latin re-", meaning: "再次、重新" },
+        { form: "stock", origin: "Old English stocc", meaning: "存量、貨存" }
       ],
-      summary: "monarch 來自希臘 monos（單一）+ archein（統治），指獨自統治的君主",
-      family: ["monarchy", "anarchy", "patriarch", "matriarch", "oligarchy"]
+      summary: "re-「重新」+ stock「存貨」，指重新補充售出的貨品",
+      family: ["stock", "restock", "overstock", "stockroom"]
     }, examples: [{ en: "Re-stock with plastic boxes if needed.", zh: "如有需要就補充塑膠盒。" }] },
   { id: 3263, word: "cardboard", pos: "n.", zh: "紙板、瓦楞紙", level: 4, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", roots: {
       parts: [
-        { form: "super-", origin: "Latin super", meaning: "在…之上" },
-        { form: "-reign", origin: "Old French soverain / Latin superanus", meaning: "最高統治者" }
+        { form: "card", origin: "Latin charta / Greek khartēs", meaning: "紙張" },
+        { form: "board", origin: "Old English bord", meaning: "板" }
       ],
-      summary: "sovereign 來自拉丁 superanus（最高的），指擁有最高權威的統治者或主權國家",
-      family: ["sovereignty", "reign", "sovereign state"]
+      summary: "card 指硬紙，board 指板，合指厚硬的紙板材料，用於製作包裝箱",
+      family: ["cardboard", "board", "paperboard", "carton"]
     }, examples: [{ en: "Lots of flat cardboard boxes at one end of the counter.", zh: "櫃台一端有很多扁平的紙箱。" }] },
   { id: 3264, word: "storeroom", pos: "n.", zh: "儲藏室", level: 4, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", roots: {
       parts: [
-        { form: "feud-", origin: "Medieval Latin feudum / Germanic *fehu", meaning: "封地、財產" },
-        { form: "-al", origin: "Latin -alis", meaning: "…的" }
+        { form: "store", origin: "Old French estorer, Latin instaurare", meaning: "儲藏、補給" },
+        { form: "room", origin: "Old English rum", meaning: "房間" }
       ],
-      summary: "feudal 來自中世紀拉丁語 feudum（封地），指以土地封賜換取效忠的封建制度",
-      family: ["feudalism", "feud", "fief"]
+      summary: "store 指儲藏，room 指房間，合指用於存放物品的儲藏室",
+      family: ["store", "storeroom", "storage", "restore"]
     }, examples: [{ en: "You should bring more from the storeroom.", zh: "你要從儲藏室拿更多來。" }] },
   { id: 3265, word: "weighing scales", pos: "n.", zh: "磅秤", level: 5, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", roots: {
       parts: [
-        { form: "parle-", origin: "Old French parler / Latin parabolare", meaning: "說話、討論" },
-        { form: "-ment", origin: "Old French -ment", meaning: "動作的結果" }
+        { form: "weigh", origin: "Old English wegan", meaning: "稱重、承載" },
+        { form: "scale", origin: "Old Norse skál", meaning: "碗、盤（天平的秤盤）" }
       ],
-      summary: "parliament 來自古法語 parler（說話），原意為『談話的地方』，指立法議會",
-      family: ["parliamentary", "parlance", "parley", "parlor"]
+      summary: "weigh 指測重，scales 原指天平的托盤，合指用於稱量重量的秤",
+      family: ["weigh", "weight", "scales", "balance"]
     }, examples: [{ en: "Clean the area, including wiping the weighing scales.", zh: "清潔該區域，包括擦拭磅秤。" }] },
   { id: 3266, word: "cold-room", pos: "n.", zh: "冷藏室", level: 5, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", roots: {
       parts: [
-        { form: "con-", origin: "Latin com-", meaning: "共同、一起" },
-        { form: "stitut-", origin: "Latin statuere / stituere", meaning: "建立、設置" },
-        { form: "-ion", origin: "Latin -io", meaning: "動作、結果" }
+        { form: "cold", origin: "Old English cald", meaning: "冷、寒冷" },
+        { form: "room", origin: "Old English rum", meaning: "房間" }
       ],
-      summary: "constitution 來自拉丁 constituere（一起建立），指國家的根本法律體制或人的體質",
-      family: ["constitute", "institute", "statute", "substitute", "prostitute"]
+      summary: "字面意思是「冷的房間」，指保持低溫用於冷藏食品的房間",
+      family: ["cold", "cold storage", "freezer room", "refrigerate"]
     }, examples: [{ en: "You'll need to get more ice from the cold-room.", zh: "你需要從冷藏室拿更多的冰。" }] },
   { id: 3267, word: "frostbite", pos: "n.", zh: "凍傷", level: 6, category: "超市職場", source: "聽力 C19T4P1", purpose: "passive", roots: {
       parts: [
-        { form: "revolut-", origin: "Latin revolvere", meaning: "旋轉、翻轉" },
-        { form: "-ion", origin: "Latin -io", meaning: "動作、過程" }
+        { form: "frost", origin: "Old English forst", meaning: "霜、結冰" },
+        { form: "bite", origin: "Old English bitan", meaning: "咬、刺傷" }
       ],
-      summary: "revolution 來自拉丁 revolvere（旋轉翻轉），指社會政治的根本性翻轉，或天體公轉",
-      family: ["revolve", "revolt", "revolutionary", "evolution"]
+      summary: "frost「霜凍」+ bite「咬傷」，比喻嚴寒如同咬傷皮膚，指凍傷",
+      family: ["frost", "frostbite", "frostbitten", "freeze"]
     }, examples: [{ en: "It's cold enough in there to get frostbite.", zh: "那裡冷到足以造成凍傷。" }] },
   { id: 3268, word: "thermal", pos: "adj.", zh: "保暖的、隔熱的", level: 5, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", roots: {
       parts: [
-        { form: "re-", origin: "Latin re-", meaning: "回、再" },
-        { form: "public-", origin: "Latin publicus / res publica", meaning: "公共事務" }
+        { form: "therm-", origin: "Greek thermos", meaning: "熱、溫度" },
+        { form: "-al", origin: "Latin -alis", meaning: "形容詞字尾，與……有關的" }
       ],
-      summary: "republic 來自拉丁 res publica（公共事務），指主權屬於全體公民的國家形式",
-      family: ["public", "republican", "publish", "publicity"]
+      summary: "源自希臘語「熱」，thermal 指與溫度或保熱有關的，常指隔熱保暖",
+      family: ["thermal", "thermometer", "thermostat", "geothermal"]
     }, examples: [{ en: "Make sure you put on thermal gloves.", zh: "務必戴上保暖手套。" }] },
   { id: 3269, word: "rucksack", pos: "n.", zh: "背包", level: 4, category: "超市職場", source: "聽力 C19T4P1", purpose: "active", roots: {
       parts: [
-        { form: "anthem", origin: "Old English antefn / Greek antiphōna", meaning: "對唱、交替歌唱" }
+        { form: "Rücken-", origin: "German Rücken", meaning: "背部" },
+        { form: "-sack", origin: "German Sack", meaning: "袋子" }
       ],
-      summary: "anthem 來自希臘 antiphōna（對唱），原指宗教對唱詩篇，後引申為國歌或頌歌",
-      family: ["antiphon", "national anthem"]
+      summary: "借自德語 Rucksack，字面意思是「背部的袋子」，即背包",
+      family: ["rucksack", "backpack", "knapsack", "sack"]
     }, examples: [{ en: "Put your coat and rucksack in one of the lockers.", zh: "把大衣和背包放進其中一個置物櫃。" }] },
   { id: 3270, word: "upward", pos: "adj.", zh: "向上的（方向，注意不是 upper）", level: 4, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", roots: {
       parts: [
-        { form: "motiv-", origin: "Latin motivus / movere", meaning: "移動、驅動" },
-        { form: "-ation", origin: "Latin -atio", meaning: "過程、狀態" }
+        { form: "up", origin: "Old English up", meaning: "向上" },
+        { form: "-ward", origin: "Old English -weard", meaning: "方向字尾" }
       ],
-      summary: "motivation 來自拉丁 movere（移動），指推動人行動的內在驅力",
-      family: ["motive", "motivate", "motor", "move", "emotion"]
+      summary: "up「上」+ -ward「方向」，指朝向上方的趨勢或方向",
+      family: ["upward", "downward", "forward", "inward"]
     }, examples: [{ en: "Firstly, there was an overall upward trend.", zh: "首先，整體呈現一個上升趨勢。" }] },
   { id: 3271, word: "opposite", pos: "adj.", zh: "相反的", level: 4, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", roots: {
       parts: [
-        { form: "per-", origin: "Latin per-", meaning: "穿越、持續" },
-        { form: "sever-", origin: "Latin severus", meaning: "嚴格" },
-        { form: "-ance", origin: "Latin -antia", meaning: "狀態、性質" }
+        { form: "op(po)-", origin: "Latin ob-", meaning: "對面、相對" },
+        { form: "pos-", origin: "Latin ponere", meaning: "放置" },
+        { form: "-ite", origin: "Latin -itus", meaning: "形容詞/名詞字尾" }
       ],
-      summary: "perseverance 來自拉丁 perseverare（持續嚴格堅持），指面對困難仍持續努力的品質",
-      family: ["persevere", "severe", "severity", "perseverant"]
+      summary: "ob-「對面」+ ponere「放置」，指放在對面的，即相反的、對面的",
+      family: ["opposite", "oppose", "opponent", "opposition"]
     }, examples: [{ en: "In contrast, the figure for Asia showed the opposite trend.", zh: "相比之下，亞洲的數字顯示出相反的趨勢。" }] },
   { id: 3272, word: "proportion", pos: "n.", zh: "比例（拼字弱點⭐，不是 portion）", level: 5, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", roots: {
       parts: [
-        { form: "resili-", origin: "Latin resilire", meaning: "彈回、反跳" },
-        { form: "-ence", origin: "Latin -entia", meaning: "性質、能力" }
+        { form: "pro-", origin: "Latin pro", meaning: "向前、代替" },
+        { form: "port-", origin: "Latin portio", meaning: "部分、份額" },
+        { form: "-ion", origin: "Latin -io", meaning: "名詞字尾" }
       ],
-      summary: "resilience 來自拉丁 resilire（re-回 + salire 跳），指受壓後恢復的彈性或心理韌性",
-      family: ["resilient", "rebound", "elastic"]
+      summary: "源自拉丁語「各自的份額」，指整體中某部分佔據的相對大小，即比例",
+      family: ["proportion", "proportional", "disproportionate", "portion"]
     }, examples: [{ en: "Then, the proportion fell sharply in the last five years.", zh: "接著，這個比例在最後五年急遽下降。" }] },
   { id: 3273, word: "peak", pos: "v.", zh: "達到高峰", level: 5, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", roots: {
       parts: [
-        { form: "con-", origin: "Latin com-", meaning: "共同、強調" },
-        { form: "fid-", origin: "Latin fidere / fides", meaning: "信任、信念" },
-        { form: "-ence", origin: "Latin -entia", meaning: "狀態、性質" }
+        { form: "peak", origin: "Middle English peke / pike", meaning: "頂點、尖端" }
       ],
-      summary: "confidence 來自拉丁 fidere（信任），con- 強調，指對自己能力的充分信任",
-      family: ["confide", "confident", "faith", "fidelity", "infidel"]
+      summary: "peak 原指山頂尖端，用作動詞時表示達到最高點",
+      family: ["peak", "peak at", "peaked", "summit"]
     }, examples: [{ en: "The figure peaked in 2010.", zh: "這個數字在 2010 年達到高峰。" }] },
   { id: 3274, word: "level off", pos: "phr.", zh: "走平、持平（不是 level up）", level: 5, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", roots: {
       parts: [
-        { form: "determin-", origin: "Latin determinare / terminus", meaning: "設定界限、決定" },
-        { form: "-ation", origin: "Latin -atio", meaning: "動作、結果" }
+        { form: "level", origin: "Old French livel, Latin libella", meaning: "水平、平面" },
+        { form: "off", origin: "Old English of", meaning: "離開、結束（此處表趨於穩定）" }
       ],
-      summary: "determination 來自拉丁 terminus（界限），determinare 意為劃定界限做決定，指堅定的決心",
-      family: ["determine", "determined", "terminal", "terminate", "predetermine"]
+      summary: "level 指水平線，off 表動作停止，level off 指數據停止波動、趨於平穩",
+      family: ["level", "level off", "plateau", "stabilize"]
     }, examples: [{ en: "The unemployment rate leveled off.", zh: "失業率維持持平。" }] },
   { id: 3275, word: "whereas", pos: "conj.", zh: "而（句中連兩個子句作對比）", level: 5, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", roots: {
       parts: [
-        { form: "ambit-", origin: "Latin ambitio / ambire", meaning: "繞行、謀求" },
-        { form: "-ion", origin: "Latin -io", meaning: "動作、狀態" }
+        { form: "where-", origin: "Old English hwær", meaning: "在哪裡、在……情況下" },
+        { form: "-as", origin: "Old English ealswā", meaning: "如同、而（對比連接）" }
       ],
-      summary: "ambition 來自拉丁 ambire（四處奔走拉票），原指謀求官職的欲望，後泛指強烈進取心",
-      family: ["ambitious", "ambient", "ambiguous"]
+      summary: "古英語構成，用於在同一句中連接兩個形成對比的子句，意思是「而……則……」",
+      family: ["whereas", "while", "although", "however"]
     }, examples: [{ en: "Exports rose sharply, whereas imports remained stable.", zh: "出口量大幅上升，而進口量維持穩定。" }] },
   { id: 3276, word: "in contrast", pos: "phr.", zh: "相比之下（句首）", level: 5, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", roots: {
       parts: [
-        { form: "disciplin-", origin: "Latin disciplina / discipulus", meaning: "教導、學習" },
-        { form: "-e", origin: "Latin -a", meaning: "名詞後綴" }
+        { form: "contra-", origin: "Latin contra", meaning: "相反、對立" },
+        { form: "-st", origin: "Latin stare", meaning: "站立" }
       ],
-      summary: "discipline 來自拉丁 discipulus（學生），源自 discere（學習），指透過訓練養成的規律與自制",
-      family: ["disciple", "disciplinary", "self-discipline"]
+      summary: "contra「相反」+ stare「站立」，指兩者相對而立的差異，in contrast 作句首副詞片語表對比",
+      family: ["contrast", "contrary", "contradict", "compare"]
     }, examples: [{ en: "In contrast, the figure for Asia was much lower.", zh: "相比之下，亞洲的數字低得多。" }] },
   { id: 3277, word: "likewise", pos: "adv.", zh: "同樣地（句首，同向連接）", level: 6, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", roots: {
       parts: [
-        { form: "account-", origin: "Old French aconter / Latin computare", meaning: "計算、報告" },
-        { form: "-abil-", origin: "Latin -abilis", meaning: "能夠" },
-        { form: "-ity", origin: "Latin -itas", meaning: "性質、狀態" }
+        { form: "like-", origin: "Old English gelic", meaning: "相似、同樣" },
+        { form: "-wise", origin: "Old English -wise", meaning: "方式、方向" }
       ],
-      summary: "accountability 來自 account（帳目/報告）+ -ability，指須對行為後果負責並作出交代的責任感",
-      family: ["account", "accountable", "accountant", "recount"]
+      summary: "like「相似」+ wise「方式」，指以同樣的方式，即同樣地",
+      family: ["likewise", "likewise", "similarly", "equally"]
     }, examples: [{ en: "Likewise, the number of women increased.", zh: "同樣地，女性人數也增加了。" }] },
   { id: 3278, word: "conversely", pos: "adv.", zh: "相反地（句首，異向連接）", level: 6, category: "寫作連接詞", source: "寫作 U2 連接詞", purpose: "active", roots: {
       parts: [
-        { form: "mind", origin: "Old English gemynd", meaning: "心智、思維" },
-        { form: "set", origin: "Old English settan", meaning: "設置、固定" }
+        { form: "converse-", origin: "Latin conversus, convertere", meaning: "翻轉、相反" },
+        { form: "-ly", origin: "Old English -lice", meaning: "副詞字尾" }
       ],
-      summary: "mindset 字面為『心智的設定狀態』，指一個人根深蒂固的思考方式與信念框架",
-      family: ["mindful", "set", "reset", "mindfulness"]
+      summary: "converse 源自拉丁語「翻轉過來」，conversely 即反過來說，表達相反的情況",
+      family: ["conversely", "converse", "reverse", "inversely"]
     }, examples: [{ en: "Conversely, sales of tea declined.", zh: "相反地，茶的銷量下降了。" }] },
   { id: 3279, word: "approximately", pos: "adv.", zh: "大約（拼字弱點⭐ ap-prox-i-mate-ly）", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", roots: {
       parts: [
-        { form: "growth", origin: "Old English growan", meaning: "生長" },
-        { form: "mind", origin: "Old English gemynd", meaning: "心智" },
-        { form: "set", origin: "Old English settan", meaning: "設定" }
+        { form: "ap-", origin: "Latin ad-", meaning: "向、靠近" },
+        { form: "proxim-", origin: "Latin proximus", meaning: "最近的、鄰近的" },
+        { form: "-ate-ly", origin: "Latin -atus + -ly", meaning: "動詞/形容詞字尾 + 副詞字尾" }
       ],
-      summary: "growth mindset 由 Dweck 提出，指相信能力可透過努力成長的思維方式",
-      family: ["grow", "growth", "mindset"]
+      summary: "源自拉丁語「靠近最近值」，指數值接近但非精確，即大約",
+      family: ["approximately", "approximate", "proximity", "proximate"]
     }, examples: [{ en: "Coffee sales rose to approximately 110,000 in 2020.", zh: "咖啡銷量在 2020 年上升到大約 11 萬。" }] },
   { id: 3280, word: "roughly", pos: "adv.", zh: "大約（口語）", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", roots: {
       parts: [
-        { form: "fix", origin: "Latin figere", meaning: "固定" },
-        { form: "mind", origin: "Old English gemynd", meaning: "心智" },
-        { form: "set", origin: "Old English settan", meaning: "設定" }
+        { form: "rough", origin: "Old English ruh", meaning: "粗糙的、不精確的" },
+        { form: "-ly", origin: "Old English -lice", meaning: "副詞字尾" }
       ],
-      summary: "fixed mindset 指相信才能是固定不變的思維框架，與 growth mindset 相對",
-      family: ["fix", "fixture", "affix", "prefix"]
+      summary: "rough 原指粗糙、不精細，roughly 即不精確地、約略地，口語常用表示大約",
+      family: ["roughly", "rough", "approximate", "around"]
     }, examples: [{ en: "The figure stood at roughly 50%.", zh: "這個數字大約是 50%。" }] },
   { id: 3281, word: "just over", pos: "phr.", zh: "剛超過（值在數字上方）", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", roots: {
       parts: [
-        { form: "self", origin: "Old English self", meaning: "自我" },
-        { form: "disciplin-", origin: "Latin disciplina", meaning: "訓練、規律" }
+        { form: "just", origin: "Latin justus", meaning: "正好、恰好" },
+        { form: "over", origin: "Old English ofer", meaning: "超過、在……之上" }
       ],
-      summary: "self-discipline 字面為『自我訓練』，指不依靠外力而自我約束、持續執行的能力",
-      family: ["discipline", "disciple", "self-control"]
+      summary: "just「恰好」+ over「超過」，表示數值恰好略微超出某個數字",
+      family: ["just over", "just under", "slightly above", "exceed"]
     }, examples: [{ en: "Smart TVs were owned by just over half of households.", zh: "智慧電視的擁有率剛超過一半家戶。" }] },
   { id: 3282, word: "just under", pos: "phr.", zh: "剛不到（值在數字下方）", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", roots: {
       parts: [
-        { form: "pro-", origin: "Latin pro-", meaning: "向前" },
-        { form: "crastin-", origin: "Latin crastinus", meaning: "明天的" },
-        { form: "-ation", origin: "Latin -atio", meaning: "動作、過程" }
+        { form: "just", origin: "Latin justus", meaning: "正好、恰好" },
+        { form: "under", origin: "Old English under", meaning: "在……之下、低於" }
       ],
-      summary: "procrastination 來自拉丁 pro-（向前）+ crastinus（明天），字面為『推到明天』，指習慣性拖延",
-      family: ["procrastinate", "crastinate"]
+      summary: "just「恰好」+ under「低於」，表示數值恰好略微低於某個數字",
+      family: ["just under", "just over", "slightly below", "fall short of"]
     }, examples: [{ en: "Tablets were owned by just under half of households.", zh: "平板的擁有率剛不到一半家戶。" }] },
   { id: 3283, word: "slightly more than", pos: "phr.", zh: "略多於", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", roots: {
       parts: [
-        { form: "product-", origin: "Latin producere", meaning: "向前帶出、生產" },
-        { form: "-iv-", origin: "Latin -ivus", meaning: "具有…性質的" },
-        { form: "-ity", origin: "Latin -itas", meaning: "性質、程度" }
+        { form: "slight-", origin: "Old Norse sléttr", meaning: "輕微的、不顯著的" },
+        { form: "more than", origin: "Old English mara", meaning: "多於" }
       ],
-      summary: "productivity 來自拉丁 producere（生產），指在單位時間內產出成果的效率",
-      family: ["produce", "product", "productive", "reproduce"]
+      summary: "slight「輕微」+ more than「多於」，表示數值比某個基準略多",
+      family: ["slightly more than", "slightly less than", "marginally above", "a little over"]
     }, examples: [{ en: "Cars accounted for slightly more than half of all sales.", zh: "汽車佔了略多於一半的總銷量。" }] },
   { id: 3284, word: "slightly less than", pos: "phr.", zh: "略少於", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", roots: {
       parts: [
-        { form: "time", origin: "Old English tima", meaning: "時間" },
-        { form: "manage-", origin: "Italian maneggiare / Latin manus", meaning: "用手控制" },
-        { form: "-ment", origin: "Old French -ment", meaning: "動作的結果" }
+        { form: "slight-", origin: "Old Norse sléttr", meaning: "輕微的、不顯著的" },
+        { form: "less than", origin: "Old English læs", meaning: "少於" }
       ],
-      summary: "time management 結合 time（時間）與 manage（管理），指有效規劃使用時間的技能",
-      family: ["manage", "manager", "management", "manual"]
+      summary: "slight「輕微」+ less than「少於」，表示數值比某個基準略少",
+      family: ["slightly less than", "slightly more than", "marginally below", "a little under"]
     }, examples: [{ en: "The unemployment rate fell to slightly less than 5%.", zh: "失業率跌到略少於 5%。" }] },
   { id: 3285, word: "exactly", pos: "adv.", zh: "恰好（修飾數字用副詞，不是 exact）", level: 4, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", roots: {
       parts: [
-        { form: "goal", origin: "Old English gal", meaning: "界限、目標" },
-        { form: "set", origin: "Old English settan", meaning: "設定" },
-        { form: "-ing", origin: "Old English -ing", meaning: "動作名詞" }
+        { form: "ex-", origin: "Latin ex-", meaning: "出、完全" },
+        { form: "act-", origin: "Latin actus / agere", meaning: "驅動、做" },
+        { form: "-ly", origin: "Old English -lice", meaning: "副詞字尾" }
       ],
-      summary: "goal-setting 字面為『設定目標』，指確立具體可達成目標的過程與方法",
-      family: ["goal", "set", "goalpost"]
+      summary: "exact 源自拉丁語「完全做到、逼出來」，exactly 指完全符合，修飾數字時表示恰好",
+      family: ["exactly", "exact", "precise", "accurately"]
     }, examples: [{ en: "The proportion remained stable at exactly 25%.", zh: "這個比例維持在恰好 25%。" }] },
   { id: 3286, word: "precisely", pos: "adv.", zh: "精確地", level: 6, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", roots: {
       parts: [
-        { form: "burn", origin: "Old English byrnan", meaning: "燃燒" },
-        { form: "out", origin: "Old English ut", meaning: "向外、耗盡" }
+        { form: "pre-", origin: "Latin prae-", meaning: "在……之前、預先" },
+        { form: "cis-", origin: "Latin caedere/cisus", meaning: "切割" },
+        { form: "-ely", origin: "Latin -e + -ly", meaning: "副詞字尾" }
       ],
-      summary: "burnout 字面為『燃燒殆盡』，指長期過度工作導致的身心精力耗竭狀態",
-      family: ["burn", "burn up", "exhaustion"]
+      summary: "prae「預先」+ caedere「切割」，原指精確切分，precisely 表示精確無誤地",
+      family: ["precisely", "precise", "precision", "accuracy"]
     }, examples: [{ en: "Sales stood at precisely 100,000 units.", zh: "銷量精確落在 10 萬單位。" }] },
   { id: 3287, word: "accounted for", pos: "phr.", zh: "佔了（適用比例分配，如圓餅圖）", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", roots: {
       parts: [
-        { form: "over-", origin: "Old English ofer", meaning: "超過" },
-        { form: "achiev-", origin: "Old French achever / Latin ad + caput", meaning: "完成、達到頂端" },
-        { form: "-er", origin: "Old English -ere", meaning: "做…的人" }
+        { form: "ac-", origin: "Latin ad-", meaning: "向" },
+        { form: "count", origin: "Latin computare", meaning: "計算、計數" },
+        { form: "for", origin: "Old English for", meaning: "為了、佔據" }
       ],
-      summary: "overachiever 指表現超出預期的人，achieve 來自拉丁 ad caput（達到頂點）",
-      family: ["achieve", "achievement", "overachieve", "underachiever"]
+      summary: "account for 字面是「為……算入」，在統計語境中表示某項目佔整體的某個比例",
+      family: ["account for", "account", "accountable", "comprise"]
     }, examples: [{ en: "Cars accounted for just over half of all sales.", zh: "汽車佔了略超過一半的總銷量。" }] },
   { id: 3288, word: "by far", pos: "phr.", zh: "遠遠（強調最高級）", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", roots: {
       parts: [
-        { form: "perfect-", origin: "Latin perfectus / perficere", meaning: "完成、完美" },
-        { form: "-ion-", origin: "Latin -io", meaning: "狀態" },
-        { form: "-ism", origin: "Greek -ismos", meaning: "主義、傾向" }
+        { form: "by", origin: "Old English bi", meaning: "以、依據" },
+        { form: "far", origin: "Old English feor", meaning: "遠遠地、大幅地" }
       ],
-      summary: "perfectionism 來自拉丁 perficere（完全完成），指追求完美無缺的強迫傾向",
-      family: ["perfect", "perfectionist", "imperfect", "perfection"]
+      summary: "by far 字面是「遠遠地」，用於強調最高級，表示差距懸殊，遠超其他",
+      family: ["by far", "far and away", "overwhelmingly", "significantly"]
     }, examples: [{ en: "Smartphones were by far the most owned device.", zh: "智慧型手機是遠遠最多人擁有的裝置。" }] },
   { id: 3289, word: "peak at", pos: "phr.", zh: "在某值達到高峰（不是 peak to）", level: 5, category: "寫作精確度詞", source: "寫作 U3 精確度詞", purpose: "active", roots: {
       parts: [
-        { form: "im-", origin: "Latin in-", meaning: "非、假" },
-        { form: "post-", origin: "Latin postor / ponere", meaning: "放置、冒充" },
-        { form: "-er", origin: "Latin -or", meaning: "做…的人" },
-        { form: "syndrome", origin: "Greek syndromē / syn- + dromos", meaning: "同時跑（症狀群）" }
+        { form: "peak", origin: "Middle English peke", meaning: "頂點、最高點" },
+        { form: "at", origin: "Old English æt", meaning: "在（某值）" }
       ],
-      summary: "imposter syndrome：imposter 來自拉丁 imponere（冒充），syndrome 來自希臘 syn-（一起）+ dromos（跑），指一群症狀同時出現，合指自認是冒牌者的心理現象",
-      family: ["impose", "imposter", "syndrome", "drome"]
+      summary: "peak 指達到頂點，at 接具體數值，peak at 表示在某個具體數字達到最高點",
+      family: ["peak at", "peak", "reach a high of", "top out at"]
     }, examples: [{ en: "Unemployment peaked at about 8% in 2018.", zh: "失業率在 2018 年達到大約 8% 的高峰。" }] },
 
   // === 聽力 C19T3P4 微塑料 ===
   { id: 3290, word: "microplastic", pos: "n.", zh: "微塑料", level: 6, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "comfort", origin: "Latin confortare / fortis", meaning: "加強力量、安慰" },
-        { form: "zone", origin: "Latin zona / Greek zōnē", meaning: "帶狀地區" }
+        { form: "micro-", origin: "Greek mikros", meaning: "微小的" },
+        { form: "plastic", origin: "Greek plastikos", meaning: "可塑形的" }
       ],
-      summary: "comfort zone 字面為『舒適的地帶』，指讓人感到安全熟悉但限制成長的習慣領域",
-      family: ["comfortable", "fort", "fortify", "zone"]
+      summary: "micro-「微小」+ plastic「塑料」，指肉眼難以辨識的極微小塑料顆粒",
+      family: ["microplastic", "plastic", "nanoplastic", "microfibre"]
     }, examples: [{ en: "Microplastics are tiny pieces of plastic smaller than five millimetres.", zh: "微塑料是尺寸小於五毫米的塑料碎片。" }] },
   { id: 3291, word: "microfibre", pos: "n.", zh: "微纖維", level: 6, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "feed", origin: "Old English fedan", meaning: "餵養、供給" },
-        { form: "back", origin: "Old English baec", meaning: "向後、返回" }
+        { form: "micro-", origin: "Greek mikros", meaning: "微小的" },
+        { form: "fibre", origin: "Latin fibra", meaning: "纖維、絲" }
       ],
-      summary: "feedback 字面為『回饋輸入』，指對行為或產出的回應訊息，用於改進",
-      family: ["feed", "feedforward", "feedback loop"]
+      summary: "micro-「微小」+ fibre「纖維」，指從合成織物上脫落的極細微纖維",
+      family: ["microfibre", "fibre", "microplastic", "synthetic"]
     }, examples: [{ en: "Threads and microfibres detach from synthetic clothing every time they're put in a washing machine.", zh: "合成衣物每次放進洗衣機，線和微纖維就會脫落。" }] },
   { id: 3292, word: "synthetic", pos: "adj.", zh: "合成的、人造的", level: 5, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "mentor", origin: "Greek Mentor", meaning: "人名（荷馬史詩中的智者）" }
+        { form: "syn-", origin: "Greek syn-", meaning: "一起、合成" },
+        { form: "thet-", origin: "Greek tithenai/thetos", meaning: "放置、組合" },
+        { form: "-ic", origin: "Greek -ikos", meaning: "形容詞字尾" }
       ],
-      summary: "mentor 來自荷馬史詩中的智者 Mentor，他是奧德修斯之子的老師，後成為導師的代稱",
-      family: ["mentorship", "mentee", "mentor"]
+      summary: "syn-「一起」+ tithenai「放置」，指人工將成分組合而非自然生成的，即合成的",
+      family: ["synthetic", "synthesis", "synthesize", "artificial"]
     }, examples: [{ en: "Fibres from synthetic clothing enter the water system during washing.", zh: "合成衣物的纖維在洗滌時進入水系統。" }] },
   { id: 3293, word: "fibre", pos: "n.", zh: "纖維", level: 5, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "intern-", origin: "Latin internus", meaning: "內部的" },
-        { form: "-ship", origin: "Old English -scipe", meaning: "狀態、身分" }
+        { form: "fibr-", origin: "Latin fibra", meaning: "纖維、絲狀物" },
+        { form: "-e", origin: "French/English spelling", meaning: "（英式拼字字尾）" }
       ],
-      summary: "internship 來自 intern（內部工作者）+ -ship，指在機構內部學習的實習身分",
-      family: ["intern", "internal", "interior", "international"]
+      summary: "源自拉丁語 fibra，指細長的絲狀材料，包括天然纖維和合成纖維",
+      family: ["fibre", "fiber", "fibrous", "microfibre"]
     }, examples: [{ en: "Fibres from some clothing detach during washing.", zh: "某些衣物的纖維會在洗滌時脫落。" }] },
   { id: 3294, word: "break down", pos: "phr.v.", zh: "分解", level: 4, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "network", origin: "net + work", meaning: "網路、人際網絡" },
-        { form: "-ing", origin: "Old English -ing", meaning: "動作進行" }
+        { form: "break", origin: "Old English brecan", meaning: "破裂、分開" },
+        { form: "down", origin: "Old English dun", meaning: "向下、減少" }
       ],
-      summary: "networking 來自 network（網絡）+ -ing，指主動建立職業或社交關係網的行為",
-      family: ["network", "net", "web"]
+      summary: "break「分裂」+ down「向下」，指複雜物質逐步分解成更小的成分",
+      family: ["break down", "decompose", "degrade", "breakdown"]
     }, examples: [{ en: "Big pieces of plastic waste break down into microscopic particles over time.", zh: "大塊塑料垃圾會隨時間分解成微小顆粒。" }] },
   { id: 3295, word: "tyre", pos: "n.", zh: "輪胎", level: 4, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "port-", origin: "Latin portare", meaning: "攜帶" },
-        { form: "-folio", origin: "Latin folium", meaning: "葉子、紙頁" }
+        { form: "tyre", origin: "Middle English tire / attire", meaning: "包覆、裝配（最初指套在車輪外的金屬環）" }
       ],
-      summary: "portfolio 來自拉丁 portare（攜帶）+ folium（紙頁），原指裝文件的夾子，現指作品集",
-      family: ["portable", "transport", "folio", "folder"]
+      summary: "源自「裝備、包覆」之意，原指包覆在木輪外的金屬環，後改為橡膠，即輪胎",
+      family: ["tyre", "tire", "wheel", "rubber"]
     }, examples: [{ en: "Tyres wear down as cars and lorries travel along road surfaces.", zh: "汽車和卡車行駛時輪胎會磨損。" }] },
   { id: 3296, word: "food chain", pos: "n.", zh: "食物鏈", level: 5, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "cred-", origin: "Latin credere", meaning: "相信" },
-        { form: "-ential-", origin: "Latin credentialis", meaning: "表示信任的" },
-        { form: "-s", origin: "English plural", meaning: "複數" }
+        { form: "food", origin: "Old English foda", meaning: "食物" },
+        { form: "chain", origin: "Old French chaeine, Latin catena", meaning: "鏈條、連結" }
       ],
-      summary: "credentials 來自拉丁 credere（相信），指讓他人信任自己能力的資格證明文件",
-      family: ["credit", "credible", "credence", "creed", "incredible"]
+      summary: "food「食物」+ chain「鏈條」，指生物間以吃與被吃形成的連鎖關係，即食物鏈",
+      family: ["food chain", "food web", "ecosystem", "trophic level"]
     }, examples: [{ en: "Microplastics enter the food chain through bottled and tap water.", zh: "微塑料透過瓶裝水和自來水進入食物鏈。" }] },
   { id: 3297, word: "tap water", pos: "n.", zh: "自來水", level: 4, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "en-", origin: "Latin in-", meaning: "使…" },
-        { form: "dors-", origin: "Latin dorsum", meaning: "背面" },
-        { form: "-ment", origin: "Old French -ment", meaning: "動作結果" }
+        { form: "tap", origin: "Old English tæppa", meaning: "栓塞、水龍頭" },
+        { form: "water", origin: "Old English wæter", meaning: "水" }
       ],
-      summary: "endorsement 來自拉丁 dorsum（背面），原指在文件背面簽名，引申為公開支持或推薦",
-      family: ["endorse", "dorsal", "indorse"]
+      summary: "tap「水龍頭」+ water「水」，指從水龍頭流出的管道供水，即自來水",
+      family: ["tap water", "tap", "running water", "drinking water"]
     }, examples: [{ en: "Microplastics have been detected in tap water.", zh: "自來水中已檢測到微塑料。" }] },
   { id: 3298, word: "conclusive", pos: "adj.", zh: "確鑿的、結論性的", level: 6, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "col-", origin: "Latin com-", meaning: "共同、一起" },
-        { form: "laborat-", origin: "Latin laborare", meaning: "工作" },
-        { form: "-ion", origin: "Latin -io", meaning: "動作、結果" }
+        { form: "con-", origin: "Latin com-", meaning: "完全、共同" },
+        { form: "clud-", origin: "Latin claudere", meaning: "關閉、結束" },
+        { form: "-ive", origin: "Latin -ivus", meaning: "形容詞字尾" }
       ],
-      summary: "collaboration 來自拉丁 collaborare（一起工作），指兩人以上共同完成目標",
-      family: ["collaborate", "labor", "elaborate", "laboratory"]
+      summary: "con-「完全」+ claudere「關閉」，指足以關閉討論的證據，即確鑿的、結論性的",
+      family: ["conclusive", "conclude", "conclusion", "inconclusive"]
     }, examples: [{ en: "There is not yet conclusive proof that microplastics cause significant harm to people.", zh: "目前還沒有確鑿證據證明微塑料對人體造成嚴重傷害。" }] },
   { id: 3299, word: "legislation", pos: "n.", zh: "法規、立法", level: 6, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "initi-", origin: "Latin initium / inire", meaning: "開始進入" },
-        { form: "-ative", origin: "Latin -ativus", meaning: "傾向…的、能…的" }
+        { form: "legis-", origin: "Latin lex/legis", meaning: "法律" },
+        { form: "lat-", origin: "Latin latus, ferre", meaning: "帶來、制定" },
+        { form: "-ion", origin: "Latin -io", meaning: "名詞字尾" }
       ],
-      summary: "initiative 來自拉丁 initium（開始），指主動採取行動的意願，或開創性的措施",
-      family: ["initiate", "initial", "initiation", "initiative"]
+      summary: "legis「法律」+ latus「帶來」，指制定法律的過程或所制定的法律本身",
+      family: ["legislation", "legislature", "legislate", "legal"]
     }, examples: [{ en: "There is legislation which prevents manufacturers from adding plastic microbeads to shower gels.", zh: "有法規禁止製造商在沐浴露中添加塑料微珠。" }] },
   { id: 3300, word: "microbead", pos: "n.", zh: "塑料微珠", level: 6, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "strat-", origin: "Greek stratos", meaning: "軍隊" },
-        { form: "-egy", origin: "Greek agein", meaning: "領導" }
+        { form: "micro-", origin: "Greek mikros", meaning: "微小的" },
+        { form: "bead", origin: "Old English gebed", meaning: "小珠（原指念珠）" }
       ],
-      summary: "strategy 來自希臘 stratēgos（將軍），stratos（軍隊）+ agein（領導），指達成目標的全面計劃",
-      family: ["strategic", "strategist", "stratagem"]
+      summary: "micro-「微小」+ bead「珠子」，指添加於洗護產品中的微小塑料珠粒",
+      family: ["microbead", "bead", "microplastic", "pellet"]
     }, examples: [{ en: "Plastic microbeads are banned in shower gels, facial cleansers and toothpaste.", zh: "沐浴露、洗面乳和牙膏中禁止使用塑料微珠。" }] },
   { id: 3301, word: "toothpaste", pos: "n.", zh: "牙膏", level: 4, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "innov-", origin: "Latin innovare / novus", meaning: "更新、新" },
-        { form: "-ation", origin: "Latin -atio", meaning: "過程、結果" }
+        { form: "tooth", origin: "Old English toth", meaning: "牙齒" },
+        { form: "paste", origin: "Late Latin pasta", meaning: "糊狀物" }
       ],
-      summary: "innovation 來自拉丁 innovare（更新），in-（進入）+ novus（新），指引入新方法或新事物",
-      family: ["innovate", "innovative", "novel", "novice", "renovate"]
+      summary: "tooth「牙齒」+ paste「糊狀物」，指刷牙用的膏狀清潔劑，即牙膏",
+      family: ["toothpaste", "toothbrush", "paste", "dental"]
     }, examples: [{ en: "Toothpaste with plastic microbeads is banned in many countries.", zh: "含塑料微珠的牙膏在許多國家被禁止。" }] },
   { id: 3302, word: "deposit", pos: "v.", zh: "沉積、放置", level: 5, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "dis-", origin: "Latin dis-", meaning: "分開、打亂" },
-        { form: "rupt-", origin: "Latin rumpere", meaning: "打破" },
-        { form: "-ion", origin: "Latin -io", meaning: "動作、結果" }
+        { form: "de-", origin: "Latin de-", meaning: "向下、離開" },
+        { form: "pos-", origin: "Latin ponere/positus", meaning: "放置" }
       ],
-      summary: "disruption 來自拉丁 dis-（分開）+ rumpere（打破），指打破現有秩序的顛覆性改變",
-      family: ["disrupt", "rupture", "erupt", "corrupt", "interrupt", "bankrupt"]
+      summary: "de-「向下」+ ponere「放置」，指物質向下落定或被放置在某處，即沉積、存放",
+      family: ["deposit", "deposition", "sediment", "pose"]
     }, examples: [{ en: "Microplastics are deposited in the soil by rain.", zh: "微塑料透過降雨沉積在土壤中。" }] },
   { id: 3303, word: "fertiliser", pos: "n.", zh: "肥料（注意不是 fertilize）", level: 5, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "scale", origin: "Latin scala", meaning: "梯子、規模" },
-        { form: "-able", origin: "Latin -abilis", meaning: "能…的" }
+        { form: "fertil-", origin: "Latin fertilis", meaning: "肥沃的、多產的" },
+        { form: "-ise/-ize", origin: "Greek -izein", meaning: "動詞字尾" },
+        { form: "-r", origin: "英式拼字", meaning: "名詞字尾（英式 -iser）" }
       ],
-      summary: "scalable 來自 scale（規模）+ -able，指系統或業務能夠隨需求擴大而不失效",
-      family: ["scale", "scalability", "upscale", "downscale"]
+      summary: "源自拉丁語 fertilis「肥沃」，fertiliser 指使土壤肥沃的物質，即肥料",
+      family: ["fertiliser", "fertile", "fertilize", "fertility"]
     }, examples: [{ en: "Many of the fertilisers used by farmers contain microplastics.", zh: "農民使用的許多肥料都含有微塑料。" }] },
   { id: 3304, word: "fertile", pos: "adj.", zh: "肥沃的", level: 5, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "lean", origin: "Old English hleonian", meaning: "精簡、傾斜" },
-        { form: "start", origin: "Old English styrtan", meaning: "開始" },
-        { form: "up", origin: "Old English up", meaning: "向上" }
+        { form: "fertil-", origin: "Latin fertilis", meaning: "多產的、豐饒的" },
+        { form: "-e", origin: "Latin -is", meaning: "形容詞字尾" }
       ],
-      summary: "lean startup 中 lean 指精簡去除浪費，startup 指新創企業，合指以最小資源快速驗證的創業方法",
-      family: ["lean manufacturing", "startup", "start up"]
+      summary: "源自拉丁語「豐產」，形容土地或條件有利於生長與繁殖，即肥沃的",
+      family: ["fertile", "fertility", "fertiliser", "infertile"]
     }, examples: [{ en: "Earthworms mix nutrients into the soil, thereby making it more fertile.", zh: "蚯蚓把養分混入土壤，使其更肥沃。" }] },
   { id: 3305, word: "earthworm", pos: "n.", zh: "蚯蚓", level: 5, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "pivot", origin: "French pivot", meaning: "樞紐、轉軸" }
+        { form: "earth", origin: "Old English eorthe", meaning: "土地、大地" },
+        { form: "worm", origin: "Old English wyrm", meaning: "蟲" }
       ],
-      summary: "pivot 來自法語 pivot（轉軸），指以核心能力為軸心進行方向性調整，創業語境中指商業模式轉型",
-      family: ["pivotal", "pivot point"]
+      summary: "earth「土」+ worm「蟲」，字面意思是「土裡的蟲」，即蚯蚓",
+      family: ["earthworm", "worm", "soil", "annelid"]
     }, examples: [{ en: "Earthworms are an essential component of our agricultural system.", zh: "蚯蚓是農業系統的重要組成部分。" }] },
   { id: 3306, word: "digestive tract", pos: "n.", zh: "消化道", level: 6, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "ventur-", origin: "Latin ventura / venire", meaning: "到來、冒險" },
-        { form: "capit-", origin: "Latin caput", meaning: "頭、首要" },
-        { form: "-al", origin: "Latin -alis", meaning: "…的" }
+        { form: "digest-", origin: "Latin digerere/digestus", meaning: "分解、消化" },
+        { form: "-ive", origin: "Latin -ivus", meaning: "形容詞字尾" },
+        { form: "tract", origin: "Latin tractus, trahere", meaning: "拉、延伸的管道" }
       ],
-      summary: "venture capital：venture 來自拉丁 venire（來臨/冒險），capital 來自 caput（頭/首），指投入高風險新創的資金",
-      family: ["venture", "adventure", "capital", "capitalism", "captain"]
+      summary: "digestive 指負責消化的，tract 源自「延伸的管道」，digestive tract 即消化系統的管狀通道",
+      family: ["digestive tract", "digest", "digestion", "gastrointestinal"]
     }, examples: [{ en: "The team studied the effects of microplastics on the digestive tracts of earthworms.", zh: "團隊研究了微塑料對蚯蚓消化道的影響。" }] },
   { id: 3307, word: "topsoil", pos: "n.", zh: "表土", level: 5, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "angel", origin: "Greek angelos", meaning: "使者" },
-        { form: "invest-", origin: "Latin investire", meaning: "穿上、包圍" },
-        { form: "-or", origin: "Latin -or", meaning: "做…的人" }
+        { form: "top", origin: "Old English top", meaning: "頂部、最上層" },
+        { form: "soil", origin: "Old French soel, Latin solum", meaning: "土壤、地面" }
       ],
-      summary: "angel investor 中 angel（天使）指提供資金的個人，invest 來自 investire（包圍/使穿上職位），比喻資金支持",
-      family: ["angel", "invest", "investor", "investment"]
+      summary: "top「頂部」+ soil「土壤」，指地表最上層的土，是植物生長的主要層，即表土",
+      family: ["topsoil", "subsoil", "soil", "humus"]
     }, examples: [{ en: "These worms live in topsoil and mix nutrients into the soil.", zh: "這些蚯蚓住在表土，把養分混進土壤。" }] },
   { id: 3308, word: "nutrient", pos: "n.", zh: "養分", level: 5, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "pitch", origin: "Old English pic / Middle English picchen", meaning: "投擲、設定" }
+        { form: "nutri-", origin: "Latin nutrire", meaning: "滋養、餵養" },
+        { form: "-ent", origin: "Latin -entem", meaning: "名詞/形容詞字尾，表示做某事的物" }
       ],
-      summary: "pitch 來自古英語，原指投擲或設定（帳篷）；創業語境中指向投資人快速推銷的行為",
-      family: ["pitch deck", "sales pitch", "pitching"]
+      summary: "源自拉丁語「滋養」，nutrient 指提供滋養的物質，即養分、營養素",
+      family: ["nutrient", "nutrition", "nourish", "malnutrition"]
     }, examples: [{ en: "Worms mix nutrients into the soil to make it more fertile.", zh: "蚯蚓把養分混進土壤使其更肥沃。" }] },
   { id: 3309, word: "ingest", pos: "v.", zh: "攝入、吞食", level: 6, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "proto-", origin: "Greek prōtos", meaning: "第一、最初" },
-        { form: "-type", origin: "Greek typos", meaning: "模型、類型" }
+        { form: "in-", origin: "Latin in-", meaning: "向內、進入" },
+        { form: "gest-", origin: "Latin gerere/gestus", meaning: "帶、攜帶" }
       ],
-      summary: "prototype 來自希臘 prōtos（第一）+ typos（模型），指最初的樣品或模型",
-      family: ["prototype", "archetype", "stereotype", "type"]
+      summary: "in-「向內」+ gerere「攜帶」，指將物質帶入體內，即攝入、吞食",
+      family: ["ingest", "ingestion", "digest", "consume"]
     }, examples: [{ en: "The microplastic particles were ingested by the earthworms in the soil.", zh: "微塑料顆粒被土壤中的蚯蚓吞食。" }] },
   { id: 3310, word: "biodegradable", pos: "adj.", zh: "可生物降解的", level: 6, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "iter-", origin: "Latin iterare / iterum", meaning: "重複、再次" },
-        { form: "-ation", origin: "Latin -atio", meaning: "動作、過程" }
+        { form: "bio-", origin: "Greek bios", meaning: "生命" },
+        { form: "degrad-", origin: "Latin degradare", meaning: "降解、降級" },
+        { form: "-able", origin: "Latin -abilis", meaning: "形容詞字尾，可……的" }
       ],
-      summary: "iteration 來自拉丁 iterum（再次），指反覆重複同一過程以逐步改善",
-      family: ["iterate", "iterative", "reiterate"]
+      summary: "bio-「生命」+ degrade「降解」+ -able「可……的」，指可被微生物分解的物質",
+      family: ["biodegradable", "degrade", "compostable", "decompose"]
     }, examples: [{ en: "The particles included biodegradable PLA and conventional polyethylene.", zh: "顆粒包含可生物降解的 PLA 與傳統聚乙烯。" }] },
   { id: 3311, word: "inhibit", pos: "v.", zh: "抑制", level: 6, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "agil-", origin: "Latin agilis / agere", meaning: "做、行動" },
-        { form: "-e", origin: "Latin -is", meaning: "形容詞後綴" }
+        { form: "in-", origin: "Latin in-", meaning: "向內、使……" },
+        { form: "hibit-", origin: "Latin habere/hibitus", meaning: "持有、保持" }
       ],
-      summary: "agile 來自拉丁 agilis（行動靈活的），源自 agere（行動），指能快速回應變化的靈活方法",
-      family: ["agility", "agitate", "act", "agent", "agenda"]
+      summary: "in-「使」+ habere「持有」，原指阻止某事繼續持有或進行，即抑制、壓制",
+      family: ["inhibit", "inhibition", "prohibit", "exhibit"]
     }, examples: [{ en: "The researchers asked whether microplastics would ultimately inhibit plant growth.", zh: "研究人員想知道微塑料是否最終會抑制植物生長。" }] },
   { id: 3312, word: "germinate", pos: "v.", zh: "發芽", level: 6, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "bench", origin: "Old English benc", meaning: "長凳、基準台" },
-        { form: "mark", origin: "Old English mearc", meaning: "標記" }
+        { form: "germin-", origin: "Latin germen", meaning: "種芽、胚芽" },
+        { form: "-ate", origin: "Latin -atus", meaning: "動詞字尾" }
       ],
-      summary: "benchmark 原指測量員在基準點刻的標記，現指用於比較性能的標準參照點",
-      family: ["benchmark test", "mark", "hallmark"]
+      summary: "源自拉丁語「胚芽」，germinate 指種子開始生長萌芽，即發芽",
+      family: ["germinate", "germination", "germ", "sprout"]
     }, examples: [{ en: "A lower percentage than normal of the rye grass seeds germinated.", zh: "黑麥草種子的發芽率低於正常水平。" }] },
   { id: 3313, word: "perennial", pos: "adj.", zh: "多年生的", level: 6, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "K", origin: "Key", meaning: "關鍵" },
-        { form: "P", origin: "Performance", meaning: "績效" },
-        { form: "I", origin: "Indicator", meaning: "指標" }
+        { form: "per-", origin: "Latin per-", meaning: "穿越、持續" },
+        { form: "enni-", origin: "Latin annus", meaning: "年" },
+        { form: "-al", origin: "Latin -alis", meaning: "形容詞字尾" }
       ],
-      summary: "KPI 是 Key Performance Indicator 的縮寫，indicator 來自拉丁 indicare（指出），指衡量目標達成程度的量化指標",
-      family: ["indicator", "indicate", "index", "performance"]
+      summary: "per-「穿越」+ annus「年」，指穿越多年持續生長的，即多年生的",
+      family: ["perennial", "annual", "biennial", "perennially"]
     }, examples: [{ en: "They planted perennial rye grass for the study.", zh: "他們種植多年生黑麥草進行研究。" }] },
   { id: 3314, word: "impoverished", pos: "adj.", zh: "貧瘠的、貧窮的", level: 6, category: "聽力環境", source: "聽力 C19T3P4 微塑料", roots: {
       parts: [
-        { form: "R", origin: "Return", meaning: "回報" },
-        { form: "O", origin: "On", meaning: "在…上" },
-        { form: "I", origin: "Investment", meaning: "投資" }
+        { form: "im-", origin: "Latin in-", meaning: "使……（否定或加強）" },
+        { form: "pover-", origin: "Latin pauper", meaning: "貧窮" },
+        { form: "-ished", origin: "Old French -iss-", meaning: "過去分詞字尾" }
       ],
-      summary: "ROI 是 Return on Investment 的縮寫，invest 來自拉丁 investire（包圍/部署），指投資所獲得的回報比率",
-      family: ["return", "invest", "investment", "investor"]
+      summary: "源自拉丁語「使貧窮化」，impoverished 指被耗盡資源後變得貧乏，形容土地即貧瘠的",
+      family: ["impoverished", "poverty", "poor", "deplete"]
     }, examples: [{ en: "When soil becomes impoverished by microplastics, ecosystems and society are negatively impacted.", zh: "當土壤因微塑料而變得貧瘠，生態系統和社會都會受到負面影響。" }] },
 
   // === 聽力 C19T4P4 植樹造林 ===
   { id: 3315, word: "reforestation", pos: "n.", zh: "植樹造林、重新造林", level: 6, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "cash", origin: "Old French casse / Latin capsa", meaning: "箱子、現金" },
-        { form: "flow", origin: "Old English flowan", meaning: "流動" }
+        { form: "re-", origin: "Latin re-", meaning: "再次、重新" },
+        { form: "forest-", origin: "Medieval Latin forestis", meaning: "森林" },
+        { form: "-ation", origin: "Latin -atio", meaning: "名詞字尾，表示過程" }
       ],
-      summary: "cash flow 字面為『現金的流動』，cash 來自拉丁 capsa（箱子），指企業現金進出的動態狀況",
-      family: ["cash", "flow", "cashier", "inflow", "outflow"]
+      summary: "re-「重新」+ forest「森林」+ -ation「過程」，指在原已砍伐或損毀的土地上重新種植樹木",
+      family: ["reforestation", "deforestation", "forest", "afforestation"]
     }, examples: [{ en: "Reforestation projects should include a range of tree species.", zh: "植樹造林計畫應包含多樣的樹種。" }] },
   { id: 3316, word: "restoration", pos: "n.", zh: "修復、恢復", level: 5, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "valu-", origin: "Latin valere", meaning: "有價值、強壯" },
-        { form: "-ation", origin: "Latin -atio", meaning: "過程、結果" }
+        { form: "re-", origin: "Latin re-", meaning: "再次、回到原狀" },
+        { form: "stor-", origin: "Latin restaurare", meaning: "修復、更新" },
+        { form: "-ation", origin: "Latin -atio", meaning: "名詞字尾" }
       ],
-      summary: "valuation 來自拉丁 valere（有價值），指評估企業或資產貨幣價值的過程",
-      family: ["value", "valuable", "evaluate", "valid", "valor"]
+      summary: "源自拉丁語「更新、修復」，restoration 指將事物恢復至原本狀態的過程",
+      family: ["restoration", "restore", "restorative", "rehabilitate"]
     }, examples: [{ en: "The restoration of mangrove forests created real benefits for the community.", zh: "紅樹林修復為社區創造了實際的利益。" }] },
   { id: 3317, word: "invasive species", pos: "n.", zh: "入侵物種", level: 6, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "equit-", origin: "Latin aequitas / aequus", meaning: "公平、相等" },
-        { form: "-y", origin: "Latin -as", meaning: "性質、狀態" }
+        { form: "invad-", origin: "Latin invadere", meaning: "入侵、闖入" },
+        { form: "-ive", origin: "Latin -ivus", meaning: "形容詞字尾" },
+        { form: "species", origin: "Latin species", meaning: "種類、物種" }
       ],
-      summary: "equity 來自拉丁 aequus（相等），原指公平，法律/金融語境中指所有權份額或股權",
-      family: ["equal", "equitable", "equality", "equator", "inequity"]
+      summary: "invasive 源自拉丁語「入侵」，invasive species 指從外地進入並擴散、威脅本地生態的外來物種",
+      family: ["invasive species", "invade", "invasion", "alien species"]
     }, examples: [{ en: "Invasive species are often in competition with native species.", zh: "入侵物種常與本地物種競爭。" }] },
   { id: 3318, word: "native species", pos: "n.", zh: "本地物種", level: 5, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "dilut-", origin: "Latin diluere / luere", meaning: "洗去、沖淡" },
-        { form: "-ion", origin: "Latin -io", meaning: "動作、結果" }
+        { form: "native", origin: "Latin nativus, nasci", meaning: "出生於、原生的" },
+        { form: "species", origin: "Latin species", meaning: "種類、物種" }
       ],
-      summary: "dilution 來自拉丁 diluere（用水沖淡），di-（分開）+ luere（洗），指股份增發導致原股東持股比例下降",
-      family: ["dilute", "diluted", "alluvial"]
+      summary: "native 源自拉丁語「出生於此地」，native species 指原本就生長於某地區的本土物種",
+      family: ["native species", "native", "indigenous", "endemic"]
     }, examples: [{ en: "Invasive species may threaten the long-term survival of native species.", zh: "入侵物種可能威脅本地物種的長期生存。" }] },
   { id: 3319, word: "competition with", pos: "phr.", zh: "與……競爭（注意搭配 with，不是 to）", level: 5, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "exit", origin: "Latin exitus / exire", meaning: "出去" },
-        { form: "strat-", origin: "Greek stratos", meaning: "軍隊、計劃" },
-        { form: "-egy", origin: "Greek agein", meaning: "領導" }
+        { form: "compet-", origin: "Latin competere", meaning: "共同尋求、爭奪" },
+        { form: "-ition", origin: "Latin -itio", meaning: "名詞字尾" },
+        { form: "with", origin: "Old English with", meaning: "與……（介係詞）" }
       ],
-      summary: "exit strategy：exit 來自拉丁 exire（出去），strategy 來自希臘軍事用語，指投資者或創業者退出的計劃",
-      family: ["exit", "strategy", "strategic"]
+      summary: "compete 源自拉丁語「共同尋求同一目標」，competition with 指與某對象爭奪相同資源的行為",
+      family: ["competition", "compete", "competitor", "competitive"]
     }, examples: [{ en: "Invasive species are often in competition with native species.", zh: "入侵物種常與本地物種競爭。" }] },
   { id: 3320, word: "biodiversity", pos: "n.", zh: "生物多樣性", level: 6, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "I", origin: "Initial", meaning: "初始" },
-        { form: "P", origin: "Public", meaning: "公開" },
-        { form: "O", origin: "Offering", meaning: "發行" }
+        { form: "bio-", origin: "Greek bios", meaning: "生命" },
+        { form: "divers-", origin: "Latin diversus", meaning: "多樣的" },
+        { form: "-ity", origin: "Latin -itas", meaning: "名詞化" }
       ],
-      summary: "IPO 是 Initial Public Offering 的縮寫，offer 來自拉丁 offerre（帶向前），指公司首次向公眾發行股票上市",
-      family: ["initial", "public", "offer", "offering"]
+      summary: "生命形式多樣的程度，即各種生物共存的豐富程度",
+      family: ["diverse", "diversity", "biology", "biodegradable"]
     }, examples: [{ en: "Invasive species contribute to the global biodiversity crisis.", zh: "入侵物種加劇了全球生物多樣性危機。" }] },
   { id: 3321, word: "genetic diversity", pos: "n.", zh: "基因多樣性", level: 6, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "acqui-", origin: "Latin acquirere / ad + quaerere", meaning: "向…尋求" },
-        { form: "-sition", origin: "Latin -sitio", meaning: "獲得的動作" }
+        { form: "gen-", origin: "Greek genesis", meaning: "起源、產生" },
+        { form: "-etic", origin: "Greek genetikos", meaning: "與起源有關的" },
+        { form: "divers-", origin: "Latin diversus", meaning: "多樣的" }
       ],
-      summary: "acquisition 來自拉丁 acquirere（獲得），ad-（向）+ quaerere（尋求），指一家公司購買另一家公司",
-      family: ["acquire", "quest", "inquisition", "exquisite"]
+      summary: "基因層面的多樣程度，指物種或族群之間遺傳組成的差異",
+      family: ["gene", "genetics", "diversity", "diverse"]
     }, examples: [{ en: "Use tree seeds with a high genetic diversity to increase resistance to disease.", zh: "使用基因多樣性高的種子可增強抗病能力。" }] },
   { id: 3322, word: "resilience", pos: "n.", zh: "韌性、恢復力", level: 6, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "merg-", origin: "Latin mergere", meaning: "沉入、融合" },
-        { form: "-er", origin: "Anglo-Norman -er", meaning: "動作名詞" }
+        { form: "re-", origin: "Latin re-", meaning: "再、回" },
+        { form: "-sili-", origin: "Latin salire", meaning: "跳、彈" },
+        { form: "-ence", origin: "Latin -entia", meaning: "名詞化" }
       ],
-      summary: "merger 來自拉丁 mergere（沉入/融合），指兩家公司合併成一個新實體",
-      family: ["merge", "emerge", "submerge", "immerse"]
+      summary: "受到衝擊後能彈回原狀的能力，引申為逆境中的恢復力",
+      family: ["resilient", "rebound", "elastic", "flexible"]
     }, examples: [{ en: "Seeds with low genetic diversity lower the resilience of restored forests.", zh: "基因多樣性低的種子降低恢復林的韌性。" }] },
   { id: 3323, word: "vulnerable to", pos: "phr.", zh: "易受……影響", level: 5, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "due", origin: "Latin debitus / debere", meaning: "應得的、應付的" },
-        { form: "diligen-", origin: "Latin diligentia", meaning: "勤奮、謹慎" },
-        { form: "-ce", origin: "Latin -tia", meaning: "性質後綴" }
+        { form: "vulner-", origin: "Latin vulnus", meaning: "傷口" },
+        { form: "-able", origin: "Latin -abilis", meaning: "能夠……的" }
       ],
-      summary: "due diligence：due 來自拉丁 debere（應有），diligence 來自 diligere（謹慎選擇），指交易前應盡的謹慎調查義務",
-      family: ["diligent", "diligence", "due", "duty"]
+      summary: "像有傷口一樣容易受到攻擊或傷害，對某事物特別脆弱",
+      family: ["vulnerability", "invulnerable", "wound", "fragile"]
     }, examples: [{ en: "Low genetic diversity makes restored forests vulnerable to disease.", zh: "基因多樣性低使恢復林容易受疾病侵害。" }] },
   { id: 3324, word: "carbon capture", pos: "n.", zh: "碳捕獲", level: 6, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "scale", origin: "Latin scala", meaning: "梯子、規模" },
-        { form: "-abil-", origin: "Latin -abilis", meaning: "能…的" },
-        { form: "-ity", origin: "Latin -itas", meaning: "性質、程度" }
+        { form: "carbon", origin: "Latin carbo", meaning: "碳、炭" },
+        { form: "captur-", origin: "Latin captura", meaning: "捕捉、抓取" }
       ],
-      summary: "scalability 來自 scale（規模）+ -ability，指系統在規模擴大時維持效能的能力",
-      family: ["scalable", "scale", "upscale"]
+      summary: "將大氣中的碳（二氧化碳）捕捉並儲存，以減少溫室效應",
+      family: ["capture", "captive", "carbon dioxide", "sequestration"]
     }, examples: [{ en: "Restoring biodiversity that will maximise carbon capture is key.", zh: "恢復可最大化碳捕獲的生物多樣性是關鍵。" }] },
   { id: 3325, word: "keystone species", pos: "n.", zh: "關鍵物種", level: 7, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "minim-", origin: "Latin minimus", meaning: "最小" },
-        { form: "viab-", origin: "Latin viabilis / vita", meaning: "可生存的" },
-        { form: "product", origin: "Latin producere", meaning: "生產" }
+        { form: "keystone", origin: "Old English cæg + stan", meaning: "拱頂石" },
+        { form: "species", origin: "Latin species", meaning: "種類、物種" }
       ],
-      summary: "minimum viable product：minimum 最小，viable 來自拉丁 vita（生命）可生存，指以最少功能驗證市場可行性的產品",
-      family: ["minimum", "viable", "product", "viability"]
+      summary: "像拱門頂石一樣支撐整個結構的物種，移除後生態系統會崩潰",
+      family: ["key", "stone", "species", "ecosystem"]
     }, examples: [{ en: "Figs are a keystone species in maintaining wildlife populations.", zh: "無花果樹是維持野生動物族群的關鍵物種。" }] },
   { id: 3326, word: "seed disperser", pos: "n.", zh: "種子傳播者", level: 6, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "tract-", origin: "Latin trahere / tractus", meaning: "拉、牽引" },
-        { form: "-ion", origin: "Latin -io", meaning: "動作、狀態" }
+        { form: "seed", origin: "Old English sæd", meaning: "種子" },
+        { form: "dispers-", origin: "Latin dispersus", meaning: "分散、散布" },
+        { form: "-er", origin: "Old English -ere", meaning: "執行者" }
       ],
-      summary: "traction 來自拉丁 trahere（拉），指輪子與地面的抓地力，引申為創業中市場對產品的接受動能",
-      family: ["tractor", "attract", "contract", "extract", "abstract"]
+      summary: "將種子散布到各處的生物，幫助植物在更廣的範圍繁殖",
+      family: ["disperse", "dispersal", "spread", "scatter"]
     }, examples: [{ en: "Animals and birds act as natural seed dispersers.", zh: "動物與鳥類是天然的種子傳播者。" }] },
   { id: 3327, word: "accelerate", pos: "v.", zh: "加速", level: 5, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "pivot", origin: "French pivot", meaning: "樞紐、轉軸" }
+        { form: "ac-", origin: "Latin ad-", meaning: "朝向" },
+        { form: "celer-", origin: "Latin celer", meaning: "快速" },
+        { form: "-ate", origin: "Latin -atus", meaning: "動詞化" }
       ],
-      summary: "pivot 來自法語 pivot（轉軸），與 3305 同字，重複收錄",
-      family: ["pivotal", "pivot point"]
+      summary: "使速度加快，朝快速的方向推進",
+      family: ["acceleration", "decelerate", "celerity", "velocity"]
     }, examples: [{ en: "Fig trees accelerate the speed of the recovery process.", zh: "無花果樹加快了生態恢復的速度。" }] },
   { id: 3328, word: "mangrove", pos: "n.", zh: "紅樹林", level: 6, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "incub-", origin: "Latin incubare / cubare", meaning: "孵化、臥伏" },
-        { form: "-ator", origin: "Latin -ator", meaning: "做…的設備或人" }
+        { form: "mangle", origin: "Spanish mangle / Taino", meaning: "紅樹" },
+        { form: "grove", origin: "Old English graf", meaning: "小樹林" }
       ],
-      summary: "incubator 來自拉丁 incubare（臥伏孵化），in-（在上）+ cubare（躺臥），指培育新創企業的育成機構",
-      family: ["incubate", "incubation", "succumb"]
+      summary: "生長在熱帶沿岸潮間帶、能耐鹹水的樹林，源自西班牙語對此類植物的稱呼",
+      family: ["grove", "tidal", "estuary", "wetland"]
     }, examples: [{ en: "The restoration of mangrove forests in Madagascar created real benefits.", zh: "馬達加斯加紅樹林的修復創造了實際利益。" }] },
   { id: 3329, word: "fig tree", pos: "n.", zh: "無花果樹", level: 5, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "acceler-", origin: "Latin accelerare / celer", meaning: "加速" },
-        { form: "-ator", origin: "Latin -ator", meaning: "做…的設備" }
+        { form: "fig", origin: "Old French figue / Latin ficus", meaning: "無花果" },
+        { form: "tree", origin: "Old English trēow", meaning: "樹" }
       ],
-      summary: "accelerator 來自拉丁 celer（快速），指幫助新創企業快速成長的加速計劃",
-      family: ["accelerate", "acceleration", "celerity", "decelerate"]
+      summary: "無花果樹，源自拉丁語 ficus，是熱帶生態系統中重要的食物來源",
+      family: ["ficus", "fruit", "fig", "orchard"]
     }, examples: [{ en: "A variety of native fig trees were planted in Lampang Province.", zh: "南邦府種植了多種本地無花果樹。" }] },
   { id: 3330, word: "savanna", pos: "n.", zh: "熱帶草原", level: 6, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "eco-", origin: "Greek oikos", meaning: "家、環境" },
-        { form: "-system", origin: "Greek systēma", meaning: "系統" }
+        { form: "savanna", origin: "Spanish sabana / Taino zabana", meaning: "無樹平原" }
       ],
-      summary: "ecosystem 來自希臘 oikos（家）+ systēma（系統），原為生態學術語，引申為創業生態環境",
-      family: ["ecology", "economy", "system", "systematic"]
+      summary: "源自加勒比原住民語，指廣闊的熱帶草原地帶，有稀疏樹木",
+      family: ["grassland", "steppe", "plain", "prairie"]
     }, examples: [{ en: "It's better to avoid savannas as these ecosystems already capture carbon.", zh: "最好避開熱帶草原，因為這些生態系已能捕獲碳。" }] },
   { id: 3331, word: "degraded", pos: "adj.", zh: "退化的", level: 6, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "niche", origin: "French niche / Latin nidus", meaning: "巢穴、壁龕" }
+        { form: "de-", origin: "Latin de-", meaning: "向下、離開" },
+        { form: "grad-", origin: "Latin gradus", meaning: "等級、步驟" },
+        { form: "-ed", origin: "Old English -od", meaning: "形容詞化" }
       ],
-      summary: "niche 來自法語 niche（壁龕），源自拉丁 nidus（巢），指適合特定物種或產品的狹小但專屬的空間",
-      family: ["niche market", "nidus"]
+      summary: "等級下降的，指土地或生態系統因人為破壞而功能退化",
+      family: ["degrade", "degradation", "grade", "downgrade"]
     }, examples: [{ en: "Drones help prioritise areas of degraded forest for restoration.", zh: "無人機協助對退化林地排出修復優先順序。" }] },
   { id: 3332, word: "illegal logging", pos: "n.", zh: "非法砍伐", level: 6, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "target", origin: "Old French targette", meaning: "小盾牌、靶" },
-        { form: "market", origin: "Latin mercatus / mercare", meaning: "交易、市場" }
+        { form: "il-", origin: "Latin in-", meaning: "不、非法" },
+        { form: "leg-", origin: "Latin lex/legis", meaning: "法律" },
+        { form: "log", origin: "Old Norse lag", meaning: "木材、砍伐" }
       ],
-      summary: "target market：target 原指射擊用的靶，market 來自拉丁 mercare（交易），指企業瞄準的特定消費族群",
-      family: ["target", "market", "marketplace", "marketing"]
+      summary: "違反法律地砍伐樹木，log 原指倒下的木材，引申為砍伐行為",
+      family: ["legal", "illegal", "logging", "deforestation"]
     }, examples: [{ en: "Parts of the Amazon are devastated by rearing cattle and illegal logging.", zh: "亞馬遜部分地區因養牛和非法砍伐而受到嚴重破壞。" }] },
   { id: 3333, word: "exploit", pos: "v.", zh: "利用、開發、剝削", level: 6, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "brand", origin: "Old Norse brandr", meaning: "燒烙印記" },
-        { form: "ident-", origin: "Latin identitas / idem", meaning: "相同性、身分" },
-        { form: "-ity", origin: "Latin -itas", meaning: "性質" }
+        { form: "ex-", origin: "Latin ex-", meaning: "出、向外" },
+        { form: "ploit", origin: "Old French esploit / Latin explicare", meaning: "展開、利用" }
       ],
-      summary: "brand identity：brand 來自古北歐語燒烙印，identity 來自拉丁 idem（相同），指品牌在消費者心中一致的識別形象",
-      family: ["brand", "identify", "identity", "identical"]
+      summary: "將某人或某物的潛力向外展開使用，可指善加利用也可指剝削",
+      family: ["exploitation", "exploit", "deploy", "utilize"]
     }, examples: [{ en: "Reforesting areas currently exploited for agriculture should be avoided.", zh: "目前用於農業的地區應避免重新造林。" }] },
   { id: 3334, word: "devastated", pos: "adj.", zh: "受嚴重破壞的", level: 6, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "valu-", origin: "Latin valere", meaning: "有價值" },
-        { form: "propos-", origin: "Latin proponere", meaning: "提出、提議" },
-        { form: "-ition", origin: "Latin -itio", meaning: "動作、陳述" }
+        { form: "de-", origin: "Latin de-", meaning: "完全、徹底" },
+        { form: "vast-", origin: "Latin vastare", meaning: "摧毀、破壞" },
+        { form: "-ed", meaning: "形容詞化" }
       ],
-      summary: "value proposition：value 來自拉丁 valere（有力/有值），proposition 來自 proponere（提出），指向客戶說明能提供什麼獨特價值的主張",
-      family: ["value", "propose", "proposition", "proposal"]
+      summary: "被徹底摧毀的，形容受到嚴重破壞後幾乎無法復原的狀態",
+      family: ["devastate", "devastation", "vast", "ravage"]
     }, examples: [{ en: "Parts of the Amazon are being devastated by human activities.", zh: "亞馬遜部分地區因人類活動而受到嚴重破壞。" }] },
   { id: 3335, word: "rearing cattle", pos: "phr.", zh: "養牛", level: 5, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "competit-", origin: "Latin competere / com- + petere", meaning: "共同追求" },
-        { form: "-ive", origin: "Latin -ivus", meaning: "…的" },
-        { form: "advantage", origin: "Old French avantage / avant", meaning: "前進、優先" }
+        { form: "rear", origin: "Old English ræran", meaning: "養育、飼養" },
+        { form: "cattle", origin: "Old French catel / Latin capitale", meaning: "牲畜、財產" }
       ],
-      summary: "competitive advantage：compete 來自拉丁 com-（一起）+ petere（追求），advantage 來自法語 avant（前），指企業相對競爭者的領先優勢",
-      family: ["compete", "competition", "competitor", "advantage"]
+      summary: "飼養牛隻，cattle 源自拉丁語「財產」，因牲畜曾是主要財富形式",
+      family: ["raise", "livestock", "breed", "farm"]
     }, examples: [{ en: "Rearing cattle and illegal logging are the main causes of forest loss.", zh: "養牛和非法砍伐是森林流失的主因。" }] },
   { id: 3336, word: "drone", pos: "n.", zh: "無人機", level: 5, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "market", origin: "Latin mercatus", meaning: "市場" },
-        { form: "share", origin: "Old English scearu", meaning: "份額" }
+        { form: "drone", origin: "Old English drān", meaning: "雄蜂、嗡嗡聲" }
       ],
-      summary: "market share 字面為『市場中的份額』，指企業在總體市場中佔有的銷售比例",
-      family: ["market", "share", "shareholder"]
+      summary: "原指發出嗡嗡聲的雄蜂，因無人機飛行聲音相似而得名",
+      family: ["buzz", "UAV", "unmanned", "hover"]
     }, examples: [{ en: "Drone technology helps monitor areas of degraded forest.", zh: "無人機技術有助於監測退化林地。" }] },
   { id: 3337, word: "prioritise", pos: "v.", zh: "優先處理", level: 5, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "price", origin: "Latin pretium", meaning: "價格" },
-        { form: "-ing", origin: "English -ing", meaning: "動作" },
-        { form: "strat-", origin: "Greek stratos", meaning: "計劃" }
+        { form: "prior-", origin: "Latin prior", meaning: "先、前" },
+        { form: "-ise / -ize", origin: "Greek -izein", meaning: "動詞化" }
       ],
-      summary: "pricing strategy：price 來自拉丁 pretium，strategy 來自希臘軍事術語，指決定商品定價的策略性方法",
-      family: ["price", "precious", "prize", "appraise", "strategy"]
+      summary: "把某事放在前面優先處理，源自拉丁語「較先的、更重要的」",
+      family: ["priority", "prior", "prioritization", "preference"]
     }, examples: [{ en: "Drones help prioritise areas for forest restoration.", zh: "無人機協助對森林修復區域排出優先順序。" }] },
   { id: 3338, word: "intervention", pos: "n.", zh: "干預", level: 6, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "customer", origin: "Latin consuetudo / consuescere", meaning: "習慣、慣例" },
-        { form: "acqui-", origin: "Latin acquirere", meaning: "獲得" },
-        { form: "-sition", origin: "Latin -sitio", meaning: "動作" }
+        { form: "inter-", origin: "Latin inter-", meaning: "在……之間" },
+        { form: "ven-", origin: "Latin venire", meaning: "來" },
+        { form: "-tion", meaning: "名詞化" }
       ],
-      summary: "customer acquisition：customer 來自 consuetudo（習慣往來），acquisition 來自拉丁 acquirere（獲得），指吸引並獲取新客戶的過程",
-      family: ["customer", "custom", "acquire", "acquisition"]
+      summary: "走進兩者之間，指介入某事以改變其走向",
+      family: ["intervene", "convention", "prevent", "advent"]
     }, examples: [{ en: "Detailed maps identify high-priority areas for intervention.", zh: "詳細的地圖能標出優先干預的區域。" }] },
   { id: 3339, word: "quantify", pos: "v.", zh: "量化", level: 6, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "retent-", origin: "Latin retinere / tenere", meaning: "保持、留住" },
-        { form: "-ion", origin: "Latin -io", meaning: "動作" },
-        { form: "rate", origin: "Latin rata / ratus", meaning: "比例、計算" }
+        { form: "quant-", origin: "Latin quantus", meaning: "多少、數量" },
+        { form: "-ify", origin: "Latin -ficare", meaning: "使……化" }
       ],
-      summary: "retention rate：retention 來自拉丁 tenere（保持），rate 來自拉丁 ratus（比例），指留住既有客戶的比率",
-      family: ["retain", "retentive", "tenure", "tenacious", "contain"]
+      summary: "將某事物轉化為可測量的數字，使其量化",
+      family: ["quantity", "quantum", "quantitative", "measure"]
     }, examples: [{ en: "Drones are used to identify and quantify how parts of the Amazon are being devastated.", zh: "無人機被用來識別並量化亞馬遜地區的破壞程度。" }] },
   { id: 3340, word: "make a living from", pos: "phr.", zh: "以……為生", level: 5, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "churn", origin: "Old English cyrin", meaning: "攪拌（奶油）" },
-        { form: "rate", origin: "Latin rata", meaning: "比例" }
+        { form: "living", origin: "Old English libban", meaning: "生活、生計" },
+        { form: "from", origin: "Old English fram", meaning: "來源" }
       ],
-      summary: "churn rate：churn 原指攪奶器的翻滾動作，引申為客戶流失，rate 指比例，合指客戶流失率",
-      family: ["churn", "churn out", "rate"]
+      summary: "以某事物為生計來源，living 指維持生活所需的收入或資源",
+      family: ["livelihood", "income", "subsist", "earn"]
     }, examples: [{ en: "Mangrove destruction made it difficult for people to make a living from fishing.", zh: "紅樹林被破壞讓人們難以靠捕魚為生。" }] },
   { id: 3341, word: "defence against", pos: "phr.", zh: "對……的防禦", level: 5, category: "聽力環境", source: "聽力 C19T4P4 植樹造林", roots: {
       parts: [
-        { form: "convers-", origin: "Latin convertere / vertere", meaning: "轉換、翻轉" },
-        { form: "-ion", origin: "Latin -io", meaning: "動作" },
-        { form: "rate", origin: "Latin rata", meaning: "比例" }
+        { form: "de-", origin: "Latin de-", meaning: "向下、抵禦" },
+        { form: "fend-", origin: "Latin fendere", meaning: "打、抵擋" },
+        { form: "against", origin: "Old English ongegnes", meaning: "對抗" }
       ],
-      summary: "conversion rate：conversion 來自拉丁 vertere（轉向），指訪客轉化為付費客戶的比率",
-      family: ["convert", "conversion", "reverse", "divert", "invert"]
+      summary: "抵禦某種威脅或攻擊的防護機制",
+      family: ["defend", "defensive", "offence", "fence"]
     }, examples: [{ en: "Mangroves act as a defence against the increased threat of flooding.", zh: "紅樹林能抵禦日益增加的洪水威脅。" }] },
 
   // === 聽力 C19T3P3 麵包再利用 + 食物趨勢 ===
   { id: 3342, word: "vegan", pos: "adj./n.", zh: "純素的 / 純素者", level: 5, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "A/B", origin: "English alphabet", meaning: "兩個版本對照" },
-        { form: "test", origin: "Latin testum", meaning: "陶器（煉金術用）、測試" }
+        { form: "veg-", origin: "Latin vegetabilis", meaning: "蔬菜、植物" },
+        { form: "-an", meaning: "……主義者" }
       ],
-      summary: "A/B testing 指同時測試兩個版本（A 和 B）以比較效果，test 來自拉丁 testum（陶製容器，煉金士用來試驗）",
-      family: ["test", "attest", "testimony", "protest"]
+      summary: "縮自 vegetarian，指完全不使用動物性產品的飲食方式或其實踐者",
+      family: ["vegetarian", "vegetable", "plant-based", "herbivore"]
     }, examples: [{ en: "She's making a vegan alternative to eggs.", zh: "她在做雞蛋的純素替代品。" }] },
   { id: 3343, word: "chickpea", pos: "n.", zh: "鷹嘴豆", level: 5, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "user", origin: "Latin usus / uti", meaning: "使用" },
-        { form: "experi-", origin: "Latin experientia / experiri", meaning: "嘗試、體驗" },
-        { form: "-ence", origin: "Latin -entia", meaning: "狀態、性質" }
+        { form: "chick", origin: "Old French chiche / Latin cicer", meaning: "鷹嘴豆" },
+        { form: "pea", origin: "Old English pise / Latin pisum", meaning: "豌豆" }
       ],
-      summary: "user experience：user 來自拉丁 uti（使用），experience 來自 experiri（嘗試），指使用者與產品互動時的整體感受",
-      family: ["use", "experience", "experiment", "expert"]
+      summary: "形似豌豆的豆類，chick 來自法語對此豆的稱呼，拉丁語 cicer 也是其語源",
+      family: ["legume", "lentil", "pea", "bean"]
     }, examples: [{ en: "I'm using chickpeas as an alternative to eggs.", zh: "我用鷹嘴豆作為雞蛋的替代品。" }] },
   { id: 3344, word: "stale", pos: "adj.", zh: "（食物）不新鮮、變硬的", level: 5, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "inter-", origin: "Latin inter-", meaning: "在…之間" },
-        { form: "fac-", origin: "Latin facies / facere", meaning: "面、做" },
-        { form: "-e", origin: "Latin -es", meaning: "名詞後綴" }
+        { form: "stale", origin: "Old French estale", meaning: "靜止的、不流動的" }
       ],
-      summary: "interface 來自拉丁 inter-（之間）+ facies（面），指兩個系統或人機之間的接觸介面",
-      family: ["face", "surface", "facade", "facial"]
+      summary: "原指靜止不流動的，引申為食物或空氣因時間過久而失去新鮮感",
+      family: ["fresh", "stagnant", "old", "musty"]
     }, examples: [{ en: "The basic process was breaking the stale bread down to a paste.", zh: "基本流程是把舊麵包打成糊狀。" }] },
   { id: 3345, word: "appetising", pos: "adj.", zh: "開胃的、誘人的", level: 6, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "featur-", origin: "Old French feture / Latin factura", meaning: "製作、形貌" },
-        { form: "-e", origin: "Latin -a", meaning: "名詞後綴" }
+        { form: "appetit-", origin: "Latin appetitus", meaning: "慾望、食慾" },
+        { form: "-ing", meaning: "形容詞化" }
       ],
-      summary: "feature 來自拉丁 factura（製作），源自 facere（做），原指臉部特徵，引申為軟體的特定功能",
-      family: ["feat", "factory", "manufacture", "facture"]
+      summary: "能激發食慾的，讓人看了或聞了就想吃",
+      family: ["appetite", "appetizer", "tempting", "savory"]
     }, examples: [{ en: "I added fruit and vegetables to make them a more appetising colour.", zh: "我加了水果和蔬菜讓顏色更開胃。" }] },
   { id: 3346, word: "touch-sensitive sensor", pos: "n.", zh: "觸控感應器", level: 6, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "bug", origin: "Middle English bugge", meaning: "蟲子（妖怪）" }
+        { form: "touch", origin: "Old French tochier", meaning: "觸摸" },
+        { form: "sensit-", origin: "Latin sensus", meaning: "感覺" },
+        { form: "sens-or", origin: "Latin sensor", meaning: "感測裝置" }
       ],
-      summary: "bug 原指嚇人的妖怪，19 世紀用於機械故障，Grace Hopper 在電腦繼電器中找到真蟲後廣泛用於程式錯誤",
-      family: ["debug", "debugger", "software bug"]
+      summary: "能感測觸摸動作的感應器，透過感知壓力或電容變化來偵測接觸",
+      family: ["sense", "sensitive", "sensor", "tactile"]
     }, examples: [{ en: "A company developed touch-sensitive sensors for food labels.", zh: "一家公司開發了食品標籤用的觸控感應器。" }] },
   { id: 3347, word: "visually impaired", pos: "adj.", zh: "視障的", level: 6, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "de-", origin: "Latin de-", meaning: "從…展開" },
-        { form: "ploy-", origin: "Latin displicare / plicare", meaning: "展開、摺疊" }
+        { form: "visual-", origin: "Latin visus", meaning: "視覺" },
+        { form: "impair-", origin: "Old French empeirer / Latin pejorare", meaning: "使變差" },
+        { form: "-ed", meaning: "形容詞化" }
       ],
-      summary: "deploy 來自拉丁 displicare（展開），de-（展開）+ plicare（摺），原指軍隊展開部署，現指軟體上線運行",
-      family: ["deployment", "imploy", "display", "exploit"]
+      summary: "視覺能力受損的，impair 源自「使變差」，指功能受到削弱",
+      family: ["vision", "impairment", "blind", "visual"]
     }, examples: [{ en: "It started as a project to help visually impaired people.", zh: "這個專案最初是為了幫助視障人士。" }] },
   { id: 3348, word: "fit to eat", pos: "phr.", zh: "適合食用", level: 5, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "launch", origin: "Old French lanchier / Latin lanceam", meaning: "投擲長矛" }
+        { form: "fit", origin: "Old English fitt", meaning: "適合的" },
+        { form: "eat", origin: "Old English etan", meaning: "吃" }
       ],
-      summary: "launch 來自古法語 lanchier（投擲長矛），源自 lancea（長矛），引申為用力推出，現指產品上線發布",
-      family: ["launch pad", "launcher", "re-launch"]
+      summary: "適合食用的狀態，通常指食物未腐壞、可安全進食",
+      family: ["edible", "suitable", "safe", "consumable"]
     }, examples: [{ en: "The label helps people know whether food is fit to eat.", zh: "這標籤幫助人們判斷食物是否能吃。" }] },
   { id: 3349, word: "food trend", pos: "n.", zh: "食物趨勢", level: 5, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "iter-", origin: "Latin iterare / iterum", meaning: "重複、再次" },
-        { form: "-ate", origin: "Latin -are", meaning: "動詞後綴" }
+        { form: "food", origin: "Old English fōda", meaning: "食物" },
+        { form: "trend", origin: "Old English trendan", meaning: "轉動、朝某方向走" }
       ],
-      summary: "iterate 來自拉丁 iterum（再次），指反覆執行同一過程以逐步完善",
-      family: ["iteration", "iterative", "reiterate"]
+      summary: "朝某方向流行的飲食風潮，trend 原指滾動前進的方向",
+      family: ["tendency", "trend", "fashion", "fad"]
     }, examples: [{ en: "I was reading an article about food trends.", zh: "我讀了一篇關於食物趨勢的文章。" }] },
   { id: 3350, word: "proactive", pos: "adj.", zh: "主動積極的", level: 6, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "sprint", origin: "Old Norse sprinta", meaning: "快速跑" }
+        { form: "pro-", origin: "Latin pro-", meaning: "向前、預先" },
+        { form: "activ-", origin: "Latin activus", meaning: "主動的" },
+        { form: "-e", meaning: "形容詞化" }
       ],
-      summary: "sprint 源自古北歐語，原指短距離全速衝刺，敏捷開發中指固定時長的開發週期",
-      family: ["sprinter", "full sprint"]
+      summary: "預先主動採取行動的，不等問題發生才應對",
+      family: ["proactivity", "reactive", "active", "initiative"]
     }, examples: [{ en: "Retailers need to be more proactive to encourage local products.", zh: "零售商需要更主動地鼓勵本地產品。" }] },
   { id: 3351, word: "unnecessary packaging", pos: "n.", zh: "不必要的包裝", level: 5, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "road", origin: "Old English rad", meaning: "騎行、道路" },
-        { form: "map", origin: "Medieval Latin mappa", meaning: "布、地圖" }
+        { form: "un-", origin: "Old English un-", meaning: "不、非" },
+        { form: "necess-", origin: "Latin necessarius", meaning: "必要的" },
+        { form: "pack-", origin: "Middle Dutch pak", meaning: "捆包" },
+        { form: "-age", meaning: "名詞化" }
       ],
-      summary: "roadmap 字面為『道路地圖』，指顯示達成目標所需步驟與時程的計劃圖",
-      family: ["road", "map", "mapping"]
+      summary: "非必要的包裝材料，指超出保護商品所需的多餘包裝",
+      family: ["necessary", "package", "wrapping", "excess"]
     }, examples: [{ en: "Everyone's aware of the need for a reduction in unnecessary packaging.", zh: "大家都知道要減少不必要的包裝。" }] },
   { id: 3352, word: "stricter regulations", pos: "n.", zh: "更嚴格的法規", level: 5, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "stake", origin: "Old English staca", meaning: "木樁、賭注" },
-        { form: "hold-", origin: "Old English haldan", meaning: "持有" },
-        { form: "-er", origin: "Old English -ere", meaning: "做…的人" }
+        { form: "strict-", origin: "Latin strictus", meaning: "緊、嚴格" },
+        { form: "reg-", origin: "Latin regula", meaning: "規則" },
+        { form: "-ation", meaning: "名詞化" }
       ],
-      summary: "stakeholder 原指賭局中持有賭注的人，stake 來自木樁（財產的界樁），指在事務結果中有利益的相關人",
-      family: ["stake", "shareholder", "stockholder"]
+      summary: "更嚴格的規定，strict 源自「緊繃的」，regulation 源自「規則」",
+      family: ["strict", "regulate", "regulation", "rule"]
     }, examples: [{ en: "Stricter regulations on packaging are needed.", zh: "包裝需要更嚴格的法規。" }] },
   { id: 3353, word: "gluten-free", pos: "adj.", zh: "無麩質的", level: 6, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "scope", origin: "Greek skopos / skopein", meaning: "觀察、目標範圍" },
-        { form: "creep", origin: "Old English creopan", meaning: "爬行、悄悄蔓延" }
+        { form: "gluten", origin: "Latin gluten", meaning: "膠、黏著物" },
+        { form: "free", origin: "Old English frēo", meaning: "不含……的" }
       ],
-      summary: "scope creep：scope 來自希臘 skopos（目標），creep 指悄悄爬行，合指專案範圍不受控地逐漸擴大",
-      family: ["scope", "microscope", "creep", "telescope"]
+      summary: "不含麩質的，gluten 源自拉丁語「膠水」，因其在麵團中起黏合作用",
+      family: ["gluten", "glue", "wheat", "coeliac"]
     }, examples: [{ en: "Gluten-free food has become widespread.", zh: "無麩質食品已經普及。" }] },
   { id: 3354, word: "lactose-free", pos: "adj.", zh: "無乳糖的", level: 6, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "dead", origin: "Old English dead", meaning: "死亡、停止" },
-        { form: "line", origin: "Old English line", meaning: "線" }
+        { form: "lact-", origin: "Latin lac/lactis", meaning: "乳、奶" },
+        { form: "-ose", origin: "French -ose", meaning: "糖類" },
+        { form: "free", origin: "Old English frēo", meaning: "不含……的" }
       ],
-      summary: "deadline 原指監獄中不得越過的界線（越過即射殺），後指截止期限",
-      family: ["dead", "deadline", "lifeline", "finish line"]
+      summary: "不含乳糖的，lactose 即奶中的糖，無法分解此糖的人需要此類食品",
+      family: ["lactose", "lactate", "dairy", "milk"]
     }, examples: [{ en: "Lactose-free products are popular among people with intolerances.", zh: "無乳糖產品在不耐症族群中很受歡迎。" }] },
   { id: 3355, word: "allergy", pos: "n.", zh: "過敏", level: 5, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "mile", origin: "Latin milia passuum", meaning: "千步（羅馬里程）" },
-        { form: "stone", origin: "Old English stan", meaning: "石頭" }
+        { form: "allerg-", origin: "Greek allos", meaning: "其他、異" },
+        { form: "-y", origin: "Greek ergon", meaning: "反應" }
       ],
-      summary: "milestone 來自古羅馬道路旁的里程碑石，每千步（milia passuum）立一塊，引申為重要進展節點",
-      family: ["mile", "milestone", "landmark"]
+      summary: "免疫系統對外來物質產生異常反應，allos（異）+ ergon（反應）",
+      family: ["allergic", "allergen", "immune", "reaction"]
     }, examples: [{ en: "People with allergies often buy gluten-free food.", zh: "過敏人士常買無麩質食物。" }] },
   { id: 3356, word: "intolerance", pos: "n.", zh: "不耐症", level: 6, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "deliver-", origin: "Latin deliberare / liberare", meaning: "解放、交付" },
-        { form: "-able", origin: "Latin -abilis", meaning: "可…的" }
+        { form: "in-", origin: "Latin in-", meaning: "不、無法" },
+        { form: "toler-", origin: "Latin tolerare", meaning: "忍受、承受" },
+        { form: "-ance", meaning: "名詞化" }
       ],
-      summary: "deliverable 來自拉丁 liberare（解放/交出），指專案中約定需交付的具體成果或文件",
-      family: ["deliver", "delivery", "liberate", "liberal"]
+      summary: "無法忍受或消化某種物質的狀態，與過敏不同，是消化系統問題而非免疫反應",
+      family: ["tolerate", "tolerance", "intolerant", "endure"]
     }, examples: [{ en: "Food intolerances are not the same as allergies.", zh: "食物不耐症與過敏不同。" }] },
   { id: 3357, word: "widespread", pos: "adj.", zh: "普遍的、廣泛的", level: 5, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "band", origin: "Latin bandwidth / Old English bindan", meaning: "頻帶" },
-        { form: "width", origin: "Old English wid", meaning: "寬度" }
+        { form: "wide", origin: "Old English wīd", meaning: "廣、寬" },
+        { form: "spread", origin: "Old English sprædan", meaning: "擴散、展開" }
       ],
-      summary: "bandwidth 原指訊號傳輸的頻帶寬度，現引申為個人可投入的時間與心力資源",
-      family: ["band", "broadband", "width"]
+      summary: "廣泛擴散的，指某現象或事物在大範圍內普遍存在",
+      family: ["widespread", "broad", "prevalent", "pervasive"]
     }, examples: [{ en: "Gluten-free food already seems to be widespread.", zh: "無麩質食物似乎已經很普及。" }] },
   { id: 3358, word: "cynical", pos: "adj.", zh: "懷疑的、不信任的", level: 6, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "align-", origin: "Old French alignier / Latin linea", meaning: "排成一線" },
-        { form: "-ment", origin: "Old French -ment", meaning: "動作結果" }
+        { form: "cyn-", origin: "Greek kynikos", meaning: "犬儒的" },
+        { form: "-ical", meaning: "形容詞化" }
       ],
-      summary: "alignment 來自法語 aligner（排成一線），源自拉丁 linea（線），指各方目標或意見趨於一致",
-      family: ["align", "linear", "line", "realign"]
+      summary: "源自古希臘犬儒學派，輕視道德和社會規範，現指對人的動機持懷疑態度",
+      family: ["cynicism", "cynic", "skeptical", "distrust"]
     }, examples: [{ en: "I'm cynical about branded products related to celebrity chefs.", zh: "我對名廚相關的品牌產品持懷疑態度。" }] },
   { id: 3359, word: "celebrity chef", pos: "n.", zh: "名廚", level: 5, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "bottle", origin: "Old French bouteille / Latin buticula", meaning: "瓶子" },
-        { form: "neck", origin: "Old English hnecca", meaning: "頸部" }
+        { form: "celebr-", origin: "Latin celeber", meaning: "著名的、受眾多人訪問的" },
+        { form: "chef", origin: "French chef de cuisine", meaning: "廚師長" }
       ],
-      summary: "bottleneck 字面為瓶子的頸部（最窄處），比喻流程中限制整體速度的最慢環節",
-      family: ["bottle", "neck", "bottleneck effect"]
+      summary: "知名廚師，celebrity 源自「眾多人知曉」，chef 源自法語「頭、首領」",
+      family: ["celebrity", "celebrate", "chef", "cook"]
     }, examples: [{ en: "People buy products with celebrity chefs' names on.", zh: "人們會買標有名廚名字的產品。" }] },
   { id: 3360, word: "ready-made", pos: "adj.", zh: "現成的", level: 5, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "pro-", origin: "Latin pro-", meaning: "向前" },
-        { form: "crastin-", origin: "Latin crastinus", meaning: "明天的" },
-        { form: "-ate", origin: "Latin -are", meaning: "動詞後綴" }
+        { form: "ready", origin: "Old English rǣde", meaning: "準備好的" },
+        { form: "made", origin: "Old English macian", meaning: "製作" }
       ],
-      summary: "procrastinate 與 3282 同根，來自拉丁 pro-（向前）+ crastinus（明天），指把事情推到明天",
-      family: ["procrastination", "crastinate"]
+      summary: "已預先製作好的，不需再加工即可直接使用",
+      family: ["prefabricated", "pre-made", "instant", "convenient"]
     }, examples: [{ en: "I bought a ready-made spice mix and it didn't taste of anything.", zh: "我買了一包現成的混合香料，根本沒味道。" }] },
   { id: 3361, word: "ghost kitchen", pos: "n.", zh: "幽靈廚房（只外送）", level: 6, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "dis-", origin: "Latin dis-", meaning: "分離、散開" },
-        { form: "tract-", origin: "Latin trahere", meaning: "拉" },
-        { form: "-ion", origin: "Latin -io", meaning: "動作、狀態" }
+        { form: "ghost", origin: "Old English gāst", meaning: "鬼魂、看不見的" },
+        { form: "kitchen", origin: "Old English cycene", meaning: "廚房" }
       ],
-      summary: "distraction 來自拉丁 distrahere（向不同方向拉），指使注意力偏離的事物",
-      family: ["distract", "tractor", "attract", "abstract", "contract"]
+      summary: "沒有實體餐廳的廚房，如鬼魂般看不見，只提供外送服務",
+      family: ["dark kitchen", "virtual restaurant", "delivery", "cloud kitchen"]
     }, examples: [{ en: "Ghost kitchens produce takeaway food but the public never visit.", zh: "幽靈廚房做外送餐點，但公眾從不會去。" }] },
   { id: 3362, word: "kept quiet", pos: "phr.", zh: "保持低調、不公開", level: 5, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "focus", origin: "Latin focus", meaning: "爐灶、焦點" }
+        { form: "kept", origin: "Old English cēpan", meaning: "保持" },
+        { form: "quiet", origin: "Latin quietus", meaning: "安靜、不公開" }
       ],
-      summary: "focus 來自拉丁 focus（爐灶），光學中指光線匯聚點，引申為注意力集中",
-      family: ["focal", "focus group", "unfocused"]
+      summary: "保持低調不公開，quiet 源自拉丁語「靜止的」，引申為不張揚",
+      family: ["keep", "quiet", "secret", "discreet"]
     }, examples: [{ en: "People aren't aware of ghost kitchens — it's all kept quiet.", zh: "人們不知道幽靈廚房——這件事一直保持低調。" }] },
   { id: 3363, word: "take a risk", pos: "phr.", zh: "冒險", level: 4, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "deep", origin: "Old English deop", meaning: "深" },
-        { form: "work", origin: "Old English weorc", meaning: "工作" }
+        { form: "risk", origin: "Italian rischio / Arabic rizq", meaning: "冒險、命運" }
       ],
-      summary: "deep work 由 Cal Newport 提出，指在無干擾狀態下高度專注的認知工作，與淺層工作相對",
-      family: ["deep", "depth", "work", "workflow"]
+      summary: "承擔可能帶來損失的行動，risk 源自義大利語，可能更早來自阿拉伯語「命運」",
+      family: ["risky", "risk-taking", "venture", "gamble"]
     }, examples: [{ en: "They might be taking a big risk by self-medicating with mushrooms.", zh: "他們自己用蘑菇治病可能是在冒大險。" }] },
   { id: 3364, word: "health concern", pos: "n.", zh: "健康問題", level: 5, category: "聽力食物", source: "聽力 C19T3P3 食物趨勢", roots: {
       parts: [
-        { form: "flow", origin: "Old English flowan", meaning: "流動" },
-        { form: "state", origin: "Latin status / stare", meaning: "站立、狀態" }
+        { form: "health", origin: "Old English hælth", meaning: "健康狀態" },
+        { form: "concern", origin: "Latin concernere", meaning: "關係到、涉及" }
       ],
-      summary: "flow state 由 Csikszentmihalyi 提出，指完全投入活動時忘我的最佳心理狀態，flow 比喻意識的順暢流動",
-      family: ["flow", "state", "status", "overflow"]
+      summary: "與健康相關的疑慮或問題，concern 源自「混合在一起」引申為「有關係的事」",
+      family: ["healthy", "concern", "issue", "worry"]
     }, examples: [{ en: "People use mushrooms to treat various health concerns.", zh: "人們用蘑菇治療各種健康問題。" }] },
 
   // === 聽力 C19T3P2 兒童書展 + 童書推薦 ===
   { id: 3365, word: "illustrator", pos: "n.", zh: "插畫家", level: 5, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "habit", origin: "Latin habitus / habere", meaning: "持有、狀態" },
-        { form: "-it", origin: "Latin -itus", meaning: "動作結果" }
+        { form: "illustr-", origin: "Latin illustrare", meaning: "照亮、闡明" },
+        { form: "-ator", origin: "Latin -ator", meaning: "執行者" }
       ],
-      summary: "habit 來自拉丁 habere（持有/保持），指透過反覆行為形成的固定模式或傾向",
-      family: ["habitual", "inhabit", "habitat", "prohibit", "exhibit"]
+      summary: "用圖畫來闡明或照亮文字內容的人，illustrate 源自「使發光、使清晰」",
+      family: ["illustrate", "illustration", "illuminate", "draw"]
     }, examples: [{ en: "The workshop is led by the well-known illustrator Mark Keane.", zh: "工作坊由知名插畫家 Mark Keane 主持。" }] },
   { id: 3366, word: "role play", pos: "n.", zh: "角色扮演", level: 5, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "rout-", origin: "Old French route / Latin rupta via", meaning: "破開的路" },
-        { form: "-ine", origin: "French -ine", meaning: "小稱、規律性" }
+        { form: "role", origin: "French rôle / Latin rotulus", meaning: "角色（劇本卷軸）" },
+        { form: "play", origin: "Old English plegan", meaning: "扮演、玩耍" }
       ],
-      summary: "routine 來自法語 route（道路），原指走慣了的路，引申為日常固定的程序或例行公事",
-      family: ["route", "router", "rut", "en route"]
+      summary: "扮演某個角色，role 源自演員念台詞的卷軸，引申為劇中角色",
+      family: ["role", "roleplay", "act", "simulate"]
     }, examples: [{ en: "There's an opportunity for aspiring actors to do some role play.", zh: "有志當演員的孩子有機會做角色扮演。" }] },
   { id: 3367, word: "aspiring", pos: "adj.", zh: "有志於……的", level: 6, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "trig-", origin: "Old Norse triggr / Germanic *trig-", meaning: "拉住、支撐" },
-        { form: "-ger", origin: "Dutch trekker", meaning: "扣板機的人/裝置" }
+        { form: "aspir-", origin: "Latin aspirare", meaning: "呼吸向……、渴望" },
+        { form: "-ing", meaning: "形容詞化" }
       ],
-      summary: "trigger 來自荷蘭語 trekker（扳機），源自 trekken（拉），指引發後續反應的刺激或事件",
-      family: ["trigger point", "triggered"]
+      summary: "懷抱志向的，aspire 源自「朝某目標呼吸前進」，引申為渴望達成",
+      family: ["aspire", "aspiration", "ambition", "ambitious"]
     }, examples: [{ en: "An opportunity for aspiring actors to do role play.", zh: "讓有志當演員的孩子做角色扮演的機會。" }] },
   { id: 3368, word: "deaf", pos: "adj.", zh: "失聰的、聾的", level: 5, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "reward", origin: "Old Norman French reward / Germanic wardōn", meaning: "注意、保護" }
+        { form: "deaf", origin: "Old English dēaf", meaning: "聽不到的" }
       ],
-      summary: "reward 來自古北法語，源自 wardōn（看守/保護），原指對服務的回報，現指獎勵",
-      family: ["rewarding", "reward system"]
+      summary: "無法聽見聲音的，古英語 dēaf 與 Greek typhlos（盲）類似，均描述感官缺失",
+      family: ["deafness", "hearing", "mute", "impaired"]
     }, examples: [{ en: "Superheroes is a chance for deaf children to share their reading experiences.", zh: "「超級英雄」是讓聾啞孩子分享閱讀經驗的機會。" }] },
   { id: 3369, word: "hearing impaired", pos: "adj.", zh: "聽力受損的", level: 6, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "will", origin: "Old English willa", meaning: "意願、意志" },
-        { form: "power", origin: "Old French povoir / Latin potere", meaning: "力量" }
+        { form: "hear-", origin: "Old English hīeran", meaning: "聽" },
+        { form: "impair-", origin: "Old French empeirer", meaning: "使變差" },
+        { form: "-ed", meaning: "形容詞化" }
       ],
-      summary: "willpower 字面為『意志的力量』，指抵抗衝動、堅持目標的心理能力",
-      family: ["will", "willful", "power", "willingness"]
+      summary: "聽力功能受損的，是比 deaf 更廣泛的描述，包含部分失聰",
+      family: ["hearing", "impair", "deaf", "disability"]
     }, examples: [{ en: "The author is herself hearing impaired.", zh: "作家本身也聽力受損。" }] },
   { id: 3370, word: "disability", pos: "n.", zh: "殘疾、障礙", level: 5, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "meditat-", origin: "Latin meditari", meaning: "思考、練習" },
-        { form: "-ion", origin: "Latin -io", meaning: "動作、狀態" }
+        { form: "dis-", origin: "Latin dis-", meaning: "否定、缺乏" },
+        { form: "abil-", origin: "Latin habilis", meaning: "能力" },
+        { form: "-ity", meaning: "名詞化" }
       ],
-      summary: "meditation 來自拉丁 meditari（反覆思考/練習），指有意識地讓心靈平靜的練習",
-      family: ["meditate", "meditative", "remedy"]
+      summary: "缺乏某種能力的狀態，指身體或心理功能受限",
+      family: ["disabled", "ability", "enable", "impairment"]
     }, examples: [{ en: "The workshop is aimed at children with a disability.", zh: "工作坊針對身心障礙兒童。" }] },
   { id: 3371, word: "loneliness", pos: "n.", zh: "孤獨", level: 5, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "mindful", origin: "Old English gemynd + full", meaning: "心智充滿" },
-        { form: "-ness", origin: "Old English -nes", meaning: "狀態" }
+        { form: "lone-", origin: "Middle English lone（alone 縮略）", meaning: "單獨的" },
+        { form: "-ly", meaning: "形容詞" },
+        { form: "-ness", meaning: "名詞化" }
       ],
-      summary: "mindfulness 即 mindful（心智完整）+ -ness，指有意識地覺察當下時刻的心理練習",
-      family: ["mindful", "mind", "awareness", "heedful"]
+      summary: "一個人孤單的感受，lone 來自 alone 的縮略，強調缺少陪伴的孤立感",
+      family: ["lonely", "alone", "solitude", "isolation"]
     }, examples: [{ en: "The workshop encourages children to describe loneliness.", zh: "工作坊鼓勵孩子描寫孤獨的情境。" }] },
   { id: 3372, word: "mental health", pos: "n.", zh: "心理健康", level: 5, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "journal", origin: "Latin diurnalis / dies", meaning: "每日的" },
-        { form: "-ing", origin: "English -ing", meaning: "持續動作" }
+        { form: "ment-", origin: "Latin mens/mentis", meaning: "心智" },
+        { form: "health", origin: "Old English hælth", meaning: "健康" }
       ],
-      summary: "journaling 來自 journal（日誌），源自拉丁 dies（天），指每日記錄思考與感受的習慣",
-      family: ["journal", "journalism", "journey", "diary"]
+      summary: "心智層面的健康狀態，包含情緒、心理和社會適應能力",
+      family: ["mental", "mind", "health", "psychological"]
     }, examples: [{ en: "Speak up is part of a series of workshops on mental health.", zh: "「勇敢發聲」是心理健康主題系列工作坊之一。" }] },
   { id: 3373, word: "heart-warming", pos: "adj.", zh: "暖心的", level: 5, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "self", origin: "Old English self", meaning: "自我" },
-        { form: "re-", origin: "Latin re-", meaning: "再次、回頭" },
-        { form: "flect-", origin: "Latin flectere", meaning: "彎折、反射" },
-        { form: "-ion", origin: "Latin -io", meaning: "動作" }
+        { form: "heart", origin: "Old English heorte", meaning: "心臟、情感中心" },
+        { form: "warm", origin: "Old English wearm", meaning: "溫暖" },
+        { form: "-ing", meaning: "形容詞化" }
       ],
-      summary: "self-reflection：reflect 來自拉丁 flectere（彎折），光線反射回來比喻回頭審視自己，self 強調對象是自我",
-      family: ["reflect", "reflection", "flex", "inflect"]
+      summary: "讓心感到溫暖的，描述令人感動、充滿善意的事物",
+      family: ["warm", "warmth", "touching", "moving"]
     }, examples: [{ en: "Jump for joy is a heart-warming, best-selling story.", zh: "《Jump for joy》是一個暖心的暢銷故事。" }] },
   { id: 3374, word: "prize-winning", pos: "adj.", zh: "得獎的", level: 5, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "grat-", origin: "Latin gratus", meaning: "感激、令人愉快" },
-        { form: "-itude", origin: "Latin -itudo", meaning: "狀態後綴" }
+        { form: "prize", origin: "Old French pris / Latin pretium", meaning: "獎、價值" },
+        { form: "win-", origin: "Old English winnan", meaning: "贏得" },
+        { form: "-ing", meaning: "形容詞化" }
       ],
-      summary: "gratitude 來自拉丁 gratus（感激的），指對他人善意或所受恩惠的感謝之情",
-      family: ["grateful", "gratify", "grace", "ingrate", "congratulate"]
+      summary: "贏得獎項的，prize 源自「價值」，winning 指通過競爭獲取",
+      family: ["prize", "win", "award", "winning"]
     }, examples: [{ en: "The workshop will be led by a prize-winning author.", zh: "工作坊由得獎作家主持。" }] },
   { id: 3375, word: "gold medal", pos: "n.", zh: "金牌、金獎", level: 4, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "affirm-", origin: "Latin affirmare / firmus", meaning: "使穩固、確認" },
-        { form: "-ation", origin: "Latin -atio", meaning: "動作、結果" }
+        { form: "gold", origin: "Old English gold", meaning: "黃金" },
+        { form: "medal", origin: "French médaille / Latin metallum", meaning: "金屬製獎章" }
       ],
-      summary: "affirmation 來自拉丁 firmus（堅固），affirmare 意為使穩固確認，指積極的自我肯定語句",
-      family: ["affirm", "firm", "confirm", "infirm"]
+      summary: "以黃金製成的最高等級獎章，代表在競賽中獲得第一名",
+      family: ["gold", "medal", "award", "trophy"]
     }, examples: [{ en: "The book received the gold medal at the Waterford Awards.", zh: "這本書在 Waterford 獎項中獲得金獎。" }] },
   { id: 3376, word: "raise awareness of", pos: "phr.", zh: "提高對……的認識", level: 5, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "visual-", origin: "Latin visualis / visus", meaning: "視覺" },
-        { form: "-is(e)", origin: "Greek -izein", meaning: "使成為" },
-        { form: "-ation", origin: "Latin -atio", meaning: "過程" }
+        { form: "rais-", origin: "Old Norse reisa", meaning: "舉起、提高" },
+        { form: "aware-", origin: "Old English gewær", meaning: "知曉、察覺" },
+        { form: "-ness", meaning: "名詞化" }
       ],
-      summary: "visualisation 來自拉丁 visus（視覺），指在腦中生成圖像以輔助理解或達成目標的心理技術",
-      family: ["visual", "vision", "visible", "visit", "vista"]
+      summary: "提升大眾對某議題的認識和關注，使更多人意識到其存在",
+      family: ["raise", "awareness", "conscious", "promote"]
     }, examples: [{ en: "The book raises awareness of a particular culture.", zh: "這本書讓人認識某個特定文化。" }] },
   { id: 3377, word: "roots", pos: "n.", zh: "根源、文化背景", level: 5, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "fict-", origin: "Latin fingere / fictum", meaning: "塑造、虛構" },
-        { form: "-ion", origin: "Latin -io", meaning: "動作、結果" }
+        { form: "root", origin: "Old Norse rót", meaning: "根（植物）" }
       ],
-      summary: "fiction 來自拉丁 fingere（塑造/虛構），指以想像力創作的虛構文學作品",
-      family: ["fictitious", "fictional", "feign", "figment"]
+      summary: "植物紮根的地方，引申為一個人的文化來源、家鄉背景和身份起源",
+      family: ["rooted", "origin", "heritage", "ancestry"]
     }, examples: [{ en: "The festival helps children learn about their Jamaican roots.", zh: "這個節日幫助孩子認識他們的牙買加根源。" }] },
   { id: 3378, word: "immigration", pos: "n.", zh: "移民", level: 5, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "non-", origin: "Latin non", meaning: "非" },
-        { form: "fict-", origin: "Latin fictum", meaning: "虛構" },
-        { form: "-ion", origin: "Latin -io", meaning: "動作" }
+        { form: "im-", origin: "Latin in-", meaning: "進入、向內" },
+        { form: "migr-", origin: "Latin migrare", meaning: "遷移" },
+        { form: "-ation", meaning: "名詞化" }
       ],
-      summary: "non-fiction 即 non-（非）+ fiction（虛構），指基於事實的文學作品，如傳記、報導文學",
-      family: ["fiction", "non-fictional"]
+      summary: "移入另一個國家定居的行為，migr 指移動或遷徙",
+      family: ["immigrate", "immigrant", "emigrate", "migrate"]
     }, examples: [{ en: "The book deals with the serious issue of immigration.", zh: "這本書探討移民這個嚴肅議題。" }] },
   { id: 3379, word: "language barrier", pos: "n.", zh: "語言障礙", level: 5, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "plot", origin: "Old English plot", meaning: "一小塊土地" }
+        { form: "language", origin: "Old French langage / Latin lingua", meaning: "語言" },
+        { form: "barrier", origin: "Old French barriere", meaning: "障礙、柵欄" }
       ],
-      summary: "plot 原指一小塊地，引申為地圖上的標記點，再引申為故事中事件的安排與結構",
-      family: ["subplot", "plotline", "plot twist"]
+      summary: "語言不通造成的溝通障礙，barrier 原指實體柵欄，引申為阻礙交流的困難",
+      family: ["language", "barrier", "obstacle", "communication"]
     }, examples: [{ en: "The boy faces the language barrier at school.", zh: "男孩在學校面對語言障礙。" }] },
   { id: 3380, word: "hilarious", pos: "adj.", zh: "非常好笑的", level: 5, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "hilar-", origin: "Latin hilaris / Greek hilaros", meaning: "快樂的、愉悅的" },
-        { form: "-ious", origin: "Latin -iosus", meaning: "充滿…的" }
+        { form: "hilar-", origin: "Latin hilaris / Greek hilaros", meaning: "開心的、歡樂的" },
+        { form: "-ious", meaning: "形容詞化" }
       ],
-      summary: "hilarious 來自希臘 hilaros（快樂的），指令人捧腹大笑的程度，exhilarate 同根",
-      family: ["hilarity", "exhilarate", "exhilarating"]
+      summary: "極度歡樂的，源自希臘語「快樂的」，描述令人捧腹大笑的程度",
+      family: ["hilarity", "exhilarate", "funny", "amusing"]
     }, examples: [{ en: "The book has hilarious stick drawings on every page.", zh: "這本書每頁都有非常好笑的火柴人插畫。" }] },
   { id: 3381, word: "cry with laughter", pos: "phr.", zh: "笑到流淚", level: 5, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "cry", origin: "Old French crier / Latin quiritare", meaning: "呼喊、哭" },
-        { form: "laugh-", origin: "Old English hleahhan", meaning: "笑" },
-        { form: "-ter", origin: "Old English -tor", meaning: "動作名詞" }
+        { form: "cry", origin: "Old French crier", meaning: "哭泣、呼喊" },
+        { form: "laugh-", origin: "Old English hlæhhan", meaning: "笑" },
+        { form: "-ter", meaning: "名詞化" }
       ],
-      summary: "cry with laughter 中 laugh 來自古英語 hleahhan（笑），cry 來自拉丁 quiritare（呼喊），指笑到流淚的極度歡笑",
-      family: ["laugh", "laughter", "laughter therapy", "cry"]
+      summary: "笑到流淚，形容極度好笑讓人哭泣，laugh 是古英語 hlæhhan 的演變",
+      family: ["laughter", "cry", "tears", "hilarious"]
     }, examples: [{ en: "This book actually made me cry with laughter.", zh: "這本書真的讓我笑到流淚。" }] },
   { id: 3382, word: "audio book", pos: "n.", zh: "有聲書", level: 5, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
         { form: "audio", origin: "Latin audire", meaning: "聽" },
-        { form: "book", origin: "Old English boc", meaning: "書" }
+        { form: "book", origin: "Old English bōc", meaning: "書" }
       ],
-      summary: "audio book 中 audio 來自拉丁 audire（聽），指以聲音呈現書籍內容的有聲版本",
-      family: ["audio", "auditory", "audience", "audible", "auditorium"]
+      summary: "用聲音呈現的書，audio 源自拉丁語「聽」，讓人用耳朵讀書",
+      family: ["audible", "auditory", "audio", "listen"]
     }, examples: [{ en: "Let your children listen to audio books if you don't have time to read aloud.", zh: "沒時間朗讀就讓孩子聽有聲書。" }] },
   { id: 3383, word: "librarian", pos: "n.", zh: "圖書館員", level: 5, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "libr-", origin: "Latin liber", meaning: "書、自由" },
-        { form: "-arian", origin: "Latin -arius + -an", meaning: "從事…的人" }
+        { form: "libr-", origin: "Latin liber", meaning: "書" },
+        { form: "-arian", origin: "Latin -arius", meaning: "從事……者" }
       ],
-      summary: "librarian 來自拉丁 liber（書），指管理圖書館的人，liber 同時也有自由之意",
-      family: ["library", "liberal", "liberate", "liber"]
+      summary: "負責管理圖書館書籍的人，源自拉丁語「書」，-arian 表示職業身份",
+      family: ["library", "liberate", "liber", "book"]
     }, examples: [{ en: "Librarians can recommend new authors and genres.", zh: "圖書館員可以推薦新作者和類型。" }] },
   { id: 3384, word: "genre", pos: "n.", zh: "類型、文體", level: 6, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "genre", origin: "French genre / Latin genus", meaning: "種類、類別" }
+        { form: "genre", origin: "French genre / Latin genus", meaning: "種類、類型" }
       ],
-      summary: "genre 來自法語 genre，源自拉丁 genus（種類），指具有共同風格特徵的文學或藝術類型",
-      family: ["genus", "gender", "general", "generic", "generate"]
+      summary: "源自法語，原意為「種類」，用來分類文學、音樂、電影等作品的類型",
+      family: ["general", "genus", "generate", "generic"]
     }, examples: [{ en: "Children often read the same genre all the time.", zh: "孩子常一直讀同一類型的書。" }] },
   { id: 3385, word: "distraction", pos: "n.", zh: "分心的事物", level: 5, category: "聽力兒童閱讀", source: "聽力 C19T3P2 兒童書展", roots: {
       parts: [
-        { form: "dis-", origin: "Latin dis-", meaning: "分離" },
-        { form: "tract-", origin: "Latin trahere", meaning: "拉" },
-        { form: "-ion", origin: "Latin -io", meaning: "動作、狀態" }
+        { form: "dis-", origin: "Latin dis-", meaning: "分散、離開" },
+        { form: "tract-", origin: "Latin trahere", meaning: "拉、抽" },
+        { form: "-ion", meaning: "名詞化" }
       ],
-      summary: "distraction（與 3361 同字）來自拉丁 distrahere（向各方拉扯），指令人分心的事物",
-      family: ["distract", "tractor", "attract", "abstract"]
+      summary: "將注意力拉離本來目標的事物，dis-（分散）+ tract（拉）",
+      family: ["distract", "attract", "subtract", "traction"]
     }, examples: [{ en: "There are so many distractions for kids these days.", zh: "現在孩子面對的誘惑太多了。" }] },
 
   // === 閱讀 C20T2P2 拖延症 ===
@@ -12453,1491 +12362,1404 @@ const VOCAB = [
       parts: [
         { form: "pro-", origin: "Latin pro-", meaning: "向前" },
         { form: "crastin-", origin: "Latin crastinus", meaning: "明天的" },
-        { form: "-ation", origin: "Latin -atio", meaning: "狀態" }
+        { form: "-ation", meaning: "名詞化" }
       ],
-      summary: "procrastination（與 3282 同字）來自拉丁 crastinus（明天的），指習慣性地把事情推延到明天",
-      family: ["procrastinate", "crastinate"]
+      summary: "不斷把事情推到「明天再說」的行為，crastin 源自拉丁語「明天」",
+      family: ["procrastinate", "delay", "postpone", "defer"]
     }, examples: [{ en: "Procrastination is the habit of delaying a necessary task.", zh: "拖延是把必要任務延後的習慣。" }] },
   { id: 3387, word: "procrastinate", pos: "v.", zh: "拖延", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
         { form: "pro-", origin: "Latin pro-", meaning: "向前" },
         { form: "crastin-", origin: "Latin crastinus", meaning: "明天的" },
-        { form: "-ate", origin: "Latin -are", meaning: "動詞後綴" }
+        { form: "-ate", meaning: "動詞化" }
       ],
-      summary: "procrastinate（與 3360 同字）來自拉丁 crastinus（明天），動詞形式，指主動推延行動",
-      family: ["procrastination", "crastinate"]
+      summary: "不斷把任務推延到明天的行為，源自拉丁語「明天」",
+      family: ["procrastination", "postpone", "delay", "defer"]
     }, examples: [{ en: "We all procrastinate from time to time.", zh: "我們都會時不時地拖延。" }] },
   { id: 3388, word: "put off", pos: "phr.v.", zh: "拖延、延後", level: 4, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "put", origin: "Old English *putian / pytan", meaning: "放置" },
-        { form: "off", origin: "Old English of", meaning: "離開、推遲" }
+        { form: "put", origin: "Old English *pūtian", meaning: "放置" },
+        { form: "off", origin: "Old English of", meaning: "離開、延後" }
       ],
-      summary: "put off 字面為『把某事推開』，指推遲行動，off 表示延後或拒絕的含義",
-      family: ["put", "put away", "put back", "postpone"]
+      summary: "把事情推到之後再做，off 表示「延後或排開」",
+      family: ["postpone", "delay", "defer", "procrastinate"]
     }, examples: [{ en: "We're more likely to put off tasks that make us anxious.", zh: "讓我們焦慮的任務我們更容易拖延。" }] },
   { id: 3389, word: "berate", pos: "v.", zh: "責備、訓斥", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "be-", origin: "Old English be-", meaning: "強調動作" },
-        { form: "rate", origin: "Old English hrētan", meaning: "責罵、侵擾" }
+        { form: "be-", origin: "Old English be-", meaning: "使……、強調" },
+        { form: "rate", origin: "Old English hrǣtan", meaning: "咆哮、斥責" }
       ],
-      summary: "berate 來自 be-（強調）+ 古英語 hrētan（侵擾責罵），指嚴厲地長篇責備",
-      family: ["rate", "berate"]
+      summary: "嚴厲責罵某人，be- 加強語氣，rate 源自古英語「咆哮」",
+      family: ["scold", "rebuke", "criticize", "reprimand"]
     }, examples: [{ en: "Berating ourselves won't stop us procrastinating again.", zh: "責備自己無法阻止我們再次拖延。" }] },
   { id: 3390, word: "contrary to popular belief", pos: "phr.", zh: "與大眾觀念相反", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "contrary", origin: "Latin contrarius / contra", meaning: "相反" },
-        { form: "popular", origin: "Latin popularis / populus", meaning: "人民的" },
-        { form: "belief", origin: "Old English geleafa", meaning: "信念" }
+        { form: "contr-", origin: "Latin contra", meaning: "相反" },
+        { form: "popul-", origin: "Latin populus", meaning: "人民、大眾" },
+        { form: "belief", origin: "Old English belēafa", meaning: "信念" }
       ],
-      summary: "contrary to popular belief 中 contrary 來自拉丁 contra（相反），popular 來自 populus（人民），指與大眾普遍認為的相反",
-      family: ["contrary", "contrast", "contradict", "popular", "believe"]
+      summary: "與大多數人相信的內容相反，contra（反）+ popular（大眾）",
+      family: ["contrary", "contradict", "popular", "belief"]
     }, examples: [{ en: "Contrary to popular belief, procrastination is not due to laziness.", zh: "與大眾觀念相反，拖延並非因為懶惰。" }] },
   { id: 3391, word: "false assumption", pos: "n.", zh: "錯誤假設", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "false", origin: "Latin falsus / fallere", meaning: "欺騙、錯誤" },
-        { form: "assum-", origin: "Latin assumere / sumere", meaning: "取得、假設" },
-        { form: "-ption", origin: "Latin -ptio", meaning: "動作" }
+        { form: "fals-", origin: "Latin falsus", meaning: "錯誤的" },
+        { form: "assumpt-", origin: "Latin assumere", meaning: "假設、接受" },
+        { form: "-ion", meaning: "名詞化" }
       ],
-      summary: "false assumption：false 來自拉丁 fallere（欺騙），assumption 來自 assumere（接受為真），指錯誤接受的前提",
-      family: ["false", "fallacy", "assume", "assumption", "resume"]
+      summary: "不正確的前提或假設，assume 源自「拿取、接受為真」",
+      family: ["false", "assume", "assumption", "premise"]
     }, examples: [{ en: "The article corrects false assumptions about why people procrastinate.", zh: "文章修正了人們為何拖延的錯誤假設。" }] },
   { id: 3392, word: "mood management", pos: "n.", zh: "情緒管理", level: 5, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "mood", origin: "Old English mod", meaning: "心情、氣質" },
-        { form: "manage-", origin: "Italian maneggiare / Latin manus", meaning: "用手控制" },
-        { form: "-ment", origin: "Old French -ment", meaning: "動作結果" }
+        { form: "mood", origin: "Old English mōd", meaning: "心情、情緒" },
+        { form: "manag-", origin: "Italian maneggiare / Latin manus", meaning: "用手控制" },
+        { form: "-ment", meaning: "名詞化" }
       ],
-      summary: "mood management：mood 來自古英語 mod（心情），manage 來自拉丁 manus（手），指有意識地調節情緒狀態",
-      family: ["mood", "moody", "manage", "management"]
+      summary: "控制和調節情緒狀態的能力，manage 原指「用手掌控」",
+      family: ["manage", "mood", "regulate", "emotion"]
     }, examples: [{ en: "Procrastination is caused by poor mood management.", zh: "拖延是由情緒管理不佳所引起的。" }] },
   { id: 3393, word: "mood repair", pos: "n.", zh: "情緒修復", level: 5, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "mood", origin: "Old English mod", meaning: "心情" },
-        { form: "repair", origin: "Latin reparare / parare", meaning: "準備好、修復" }
+        { form: "mood", origin: "Old English mōd", meaning: "心情" },
+        { form: "repair", origin: "Latin reparare", meaning: "修復、重新備好" }
       ],
-      summary: "mood repair：repair 來自拉丁 reparare（再次準備/修復），指透過某些行為改善負面情緒的過程",
-      family: ["mood", "repair", "prepare", "reparation"]
+      summary: "修復負面情緒狀態的過程，repair 源自「重新準備、使恢復原狀」",
+      family: ["repair", "mood", "restore", "regulate"]
     }, examples: [{ en: "The 'mood repair' we experience through procrastination is temporary.", zh: "拖延帶來的「情緒修復」只是暫時的。" }] },
   { id: 3394, word: "self-esteem", pos: "n.", zh: "自尊", level: 5, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
         { form: "self", origin: "Old English self", meaning: "自我" },
-        { form: "esteem", origin: "Latin aestimare", meaning: "估價、評價" }
+        { form: "esteem", origin: "Latin aestimare", meaning: "評估、重視" }
       ],
-      summary: "self-esteem：esteem 來自拉丁 aestimare（估量），指對自身價值的整體評估與認可",
-      family: ["esteem", "estimate", "estimation", "estimable"]
+      summary: "對自我的評估和重視程度，esteem 源自「估量」，自尊即自我評價",
+      family: ["esteem", "self-worth", "confidence", "respect"]
     }, examples: [{ en: "Difficult tasks can damage our self-esteem.", zh: "困難的任務可能損害我們的自尊。" }] },
   { id: 3395, word: "self-worth", pos: "n.", zh: "自我價值感", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
         { form: "self", origin: "Old English self", meaning: "自我" },
-        { form: "worth", origin: "Old English weorth", meaning: "價值" }
+        { form: "worth", origin: "Old English weorð", meaning: "價值" }
       ],
-      summary: "self-worth 字面為『自我的價值』，指個人對自身內在價值的主觀感受，與外部成就無關",
-      family: ["worth", "worthwhile", "worthy", "self-esteem"]
+      summary: "對自身價值的主觀感受，worth 源自古英語「有價值的」",
+      family: ["worth", "self-esteem", "value", "dignity"]
     }, examples: [{ en: "Thinking about the task threatens our sense of self-worth.", zh: "想到任務會威脅我們的自我價值感。" }] },
   { id: 3396, word: "anxious", pos: "adj.", zh: "焦慮的", level: 5, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "anxi-", origin: "Latin anxius / angere", meaning: "束緊、使痛苦" },
-        { form: "-ous", origin: "Latin -osus", meaning: "充滿…的" }
+        { form: "anxi-", origin: "Latin anxius / angere", meaning: "使窒息、使不安" },
+        { form: "-ous", meaning: "形容詞化" }
       ],
-      summary: "anxious 來自拉丁 angere（束緊），指因擔憂未來而產生心胸緊縮感的焦慮狀態",
-      family: ["anxiety", "anguish", "angst", "anger"]
+      summary: "感到不安和憂慮的，源自拉丁語「窒息感、緊繃感」",
+      family: ["anxiety", "anxiously", "worry", "apprehensive"]
     }, examples: [{ en: "Difficult tasks make us anxious, so we put them off.", zh: "困難的任務讓我們焦慮，所以我們拖延。" }] },
   { id: 3397, word: "perfectionist", pos: "n.", zh: "完美主義者（拼字 ct 不是 vt）", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "perfect-", origin: "Latin perfectus / perficere", meaning: "完成、完美" },
-        { form: "-ion-", origin: "Latin -io", meaning: "狀態" },
-        { form: "-ist", origin: "Greek -istēs", meaning: "持某種傾向的人" }
+        { form: "perfect-", origin: "Latin perfectus", meaning: "完全完成的" },
+        { form: "-ion-", meaning: "名詞" },
+        { form: "-ist", meaning: "……主義者、追求者" }
       ],
-      summary: "perfectionist 來自拉丁 perficere（完全完成），指追求完美且對不完美難以接受的人",
-      family: ["perfect", "perfectionism", "imperfect", "perfection"]
+      summary: "追求完美到極致的人，perfect 源自「完全做好」，-ist 表示此為其特質",
+      family: ["perfect", "perfection", "perfectionism", "flawless"]
     }, examples: [{ en: "Perfectionists tend to procrastinate because they worry about harsh judgement.", zh: "完美主義者傾向拖延，因為他們擔心受到嚴厲評斷。" }] },
   { id: 3398, word: "guilt", pos: "n.", zh: "罪惡感", level: 5, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "guilt", origin: "Old English gylt", meaning: "罪行、過失" }
+        { form: "guilt", origin: "Old English gylt", meaning: "罪、過錯" }
       ],
-      summary: "guilt 來自古英語 gylt（犯罪/過失），指因違背道德標準而產生的內疚感",
-      family: ["guilty", "guileless", "guilt-free", "guilt trip"]
+      summary: "因做錯事或未盡責任而產生的道德上的負罪感，古英語 gylt 指犯罪或過失",
+      family: ["guilty", "guilt-ridden", "shame", "remorse"]
     }, examples: [{ en: "Procrastinators are often left with a sense of guilt.", zh: "拖延者常被罪惡感纏繞。" }] },
   { id: 3399, word: "vicious cycle", pos: "n.", zh: "惡性循環", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "vicious", origin: "Latin vitiosus / vitium", meaning: "有缺陷、惡的" },
-        { form: "cycle", origin: "Greek kyklos", meaning: "圓、循環" }
+        { form: "vici-", origin: "Latin vitiosus", meaning: "有缺陷的、有罪的" },
+        { form: "cycle", origin: "Greek kyklos", meaning: "圓圈、循環" }
       ],
-      summary: "vicious cycle：vicious 來自拉丁 vitium（惡習/缺陷），cycle 來自希臘 kyklos（圓），指使情況越來越糟的惡性循環",
-      family: ["vicious", "vice", "cycle", "bicycle", "cyclical"]
+      summary: "問題互相加劇、不斷循環的惡性模式，vicious 源自「有缺陷」，cycle 指循環",
+      family: ["vicious", "cycle", "spiral", "feedback loop"]
     }, examples: [{ en: "Finding better emotion management is one route out of the vicious cycle.", zh: "更好的情緒管理是擺脫惡性循環的一條路。" }] },
   { id: 3400, word: "reinforce", pos: "v.", zh: "強化", level: 5, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "re-", origin: "Latin re-", meaning: "再、重新" },
+        { form: "re-", origin: "Latin re-", meaning: "再次、加強" },
         { form: "in-", origin: "Latin in-", meaning: "進入" },
-        { form: "forc(e)", origin: "Latin fortis", meaning: "力量" }
+        { form: "fort", origin: "Latin fortis", meaning: "強壯的" }
       ],
-      summary: "re-（再）+ in-（進入）+ force（力量）→ 再次注入力量 → 強化",
-      family: ["reinforce", "reinforcement", "force", "enforce", "fortify"]
+      summary: "re-（加強）+ in-（進入）+ fort（強）→ 再次加強，使更堅固",
+      family: ["fortify", "force", "enforce", "fortress"]
     }, examples: [{ en: "Guilt reinforces their tendency to procrastinate.", zh: "罪惡感強化了他們拖延的傾向。" }] },
   { id: 3401, word: "overly critical", pos: "adj.", zh: "過度自我批判的", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
         { form: "over-", origin: "Old English ofer-", meaning: "過度" },
-        { form: "critic-", origin: "Greek kritikos", meaning: "評判" },
-        { form: "-al", origin: "Latin -alis", meaning: "形容詞字尾" }
+        { form: "critic", origin: "Greek kritikos", meaning: "判斷、批評" }
       ],
-      summary: "over-（過度）+ critic（評判）+ -al → 過度評判的",
-      family: ["critical", "critic", "criticism", "critique", "overcritical"]
+      summary: "over-（過度）+ critic（批評）→ 過度批評他人或自己",
+      family: ["critic", "criticism", "critical", "overcritical"]
     }, examples: [{ en: "We should admit we feel bad, but not be overly critical of ourselves.", zh: "我們可以承認難過，但不該過度自我批判。" }] },
   { id: 3402, word: "compassion", pos: "n.", zh: "同情、慈悲", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "com-", origin: "Latin com-", meaning: "共同、一起" },
-        { form: "pass-", origin: "Latin pati/passus", meaning: "受苦、感受" },
-        { form: "-ion", origin: "Latin -io", meaning: "名詞字尾" }
+        { form: "com-", origin: "Latin com-", meaning: "一起" },
+        { form: "pass", origin: "Latin pati", meaning: "承受、感受痛苦" }
       ],
-      summary: "com-（共同）+ pass（受苦）+ -ion → 與他人共同感受苦難 → 同情",
-      family: ["compassion", "compassionate", "passion", "patient", "passive"]
+      summary: "com-（一起）+ pass（受苦）→ 與他人共同承受痛苦，即同情",
+      family: ["compassionate", "passion", "impassive", "patient"]
     }, examples: [{ en: "Feeling compassion for ourselves can help break the procrastination cycle.", zh: "對自己懷有同情有助於打破拖延循環。" }] },
   { id: 3403, word: "fend off", pos: "phr.v.", zh: "抵擋、擋開", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "fend", origin: "Latin defendere", meaning: "防禦" },
-        { form: "off", origin: "Old English of", meaning: "離開" }
+        { form: "fend", origin: "Latin defendere", meaning: "防禦、擋開" },
+        { form: "off", origin: "Old English of", meaning: "離開、遠離" }
       ],
-      summary: "fend（防禦）+ off（離開）→ 把威脅擋開",
-      family: ["fend", "defend", "defense", "offend", "fence"]
+      summary: "fend（防禦）+ off（離開）→ 將威脅或攻擊擋在自身之外",
+      family: ["defend", "offend", "fender", "fence"]
     }, examples: [{ en: "Evidence-based strategies can help us fend off distractions.", zh: "有實證的策略能幫助我們抵擋干擾。" }] },
   { id: 3404, word: "get back on track", pos: "phr.", zh: "回到正軌", level: 5, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "track", origin: "Old Dutch trek", meaning: "軌道、路徑" }
+        { form: "track", origin: "Old French trac", meaning: "軌跡、路徑" }
       ],
-      summary: "get back on track → 回到（正確的）軌道上",
-      family: ["track", "racetrack", "backtrack", "on track"]
+      summary: "track（軌道）→ get back on track 意指回到原定的正確路線或計畫",
+      family: ["track", "traction", "tract", "retrace"]
     }, examples: [{ en: "This can make it easier to get back on track.", zh: "這能讓我們更容易回到正軌。" }] },
   { id: 3405, word: "neurological", pos: "adj.", zh: "神經學的", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
         { form: "neuro-", origin: "Greek neuron", meaning: "神經" },
-        { form: "-logic-", origin: "Greek logos", meaning: "學問、邏輯" },
-        { form: "-al", origin: "Latin -alis", meaning: "形容詞字尾" }
+        { form: "-logic", origin: "Greek logos", meaning: "學問、研究" },
+        { form: "-al", origin: "Latin -alis", meaning: "……的（形容詞後綴）" }
       ],
-      summary: "neuro（神經）+ logic（學問）+ -al → 關於神經學的",
-      family: ["neurological", "neurology", "neuron", "neuroscience", "neurologist"]
+      summary: "neuro（神經）+ logic（學問）+ -al（形容詞）→ 與神經系統學研究相關的",
+      family: ["neuron", "neurology", "neurosis", "neural"]
     }, examples: [{ en: "There is neurological evidence linking procrastination and emotion.", zh: "有神經學證據連結拖延與情緒。" }] },
   { id: 3406, word: "brain imaging", pos: "n.", zh: "腦部影像", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "brain", origin: "Old English braegen", meaning: "大腦" },
-        { form: "image", origin: "Latin imago", meaning: "影像" },
-        { form: "-ing", origin: "Old English -ing", meaning: "動名詞字尾" }
+        { form: "brain", origin: "Old English brægen", meaning: "大腦" },
+        { form: "imag-", origin: "Latin imago", meaning: "圖像、影像" },
+        { form: "-ing", origin: "Old English -ing", meaning: "動作名詞後綴" }
       ],
-      summary: "brain（大腦）+ imaging（成像技術）→ 對大腦進行影像掃描",
-      family: ["brain", "image", "imaging", "neuroimaging", "MRI"]
+      summary: "brain（大腦）+ imaging（成像）→ 以技術呈現大腦內部結構或活動的影像",
+      family: ["image", "imagine", "imagery", "imagination"]
     }, examples: [{ en: "Research involving brain imaging found differences in chronic procrastinators.", zh: "腦部影像研究發現長期拖延者有差異。" }] },
   { id: 3407, word: "detection of threats", pos: "phr.", zh: "偵測威脅", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "detect-", origin: "Latin detegere", meaning: "揭露、偵測" },
-        { form: "-ion", origin: "Latin -io", meaning: "名詞字尾" },
-        { form: "threat", origin: "Old English threat", meaning: "威脅" }
+        { form: "detect-", origin: "Latin detegere", meaning: "揭露、發現" },
+        { form: "threat", origin: "Old English þreat", meaning: "威脅、壓迫" }
       ],
-      summary: "detect（偵測）+ -ion（名詞）+ threat（威脅）→ 偵測威脅的行為",
-      family: ["detect", "detection", "detector", "threat", "threaten"]
+      summary: "detect（偵測）+ threat（威脅）→ 識別並察覺危險訊號的能力",
+      family: ["detect", "detective", "detection", "threaten"]
     }, examples: [{ en: "Areas of the brain linked to detection of threats differ between procrastinators.", zh: "與威脅偵測相關的腦區在拖延者身上有差異。" }] },
   { id: 3408, word: "emotion regulation", pos: "n.", zh: "情緒調節", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "e-mot-", origin: "Latin emovere", meaning: "移動、激動" },
-        { form: "-ion", origin: "Latin -io", meaning: "名詞字尾" },
-        { form: "regulat-", origin: "Latin regulare", meaning: "調節、規範" }
+        { form: "e-mot-", origin: "Latin emovere", meaning: "移動、激發" },
+        { form: "regulat-", origin: "Latin regulare", meaning: "調節、管控" }
       ],
-      summary: "emotion（情緒）+ regulation（調節）→ 對情緒的調節與管理",
-      family: ["emotion", "regulation", "regulate", "emotional", "self-regulation"]
+      summary: "emotion（情緒）+ regulation（調節）→ 對自身情緒的監控與管理能力",
+      family: ["emotion", "regulate", "regulation", "regulatory"]
     }, examples: [{ en: "Emotion regulation is different in chronic procrastinators.", zh: "長期拖延者的情緒調節能力有差異。" }] },
   { id: 3409, word: "evidence-based", pos: "adj.", zh: "有實證根據的", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "evid-", origin: "Latin evidentia", meaning: "明顯、證據" },
-        { form: "-ence", origin: "Latin -entia", meaning: "名詞字尾" },
-        { form: "base", origin: "Greek basis", meaning: "基礎" }
+        { form: "evident-", origin: "Latin evidentia", meaning: "明顯、證據" },
+        { form: "base", origin: "Greek basis", meaning: "基礎" },
+        { form: "-d", origin: "Old English", meaning: "形容詞後綴" }
       ],
-      summary: "evidence（證據）+ based（以……為基礎）→ 以實證為依據的",
-      family: ["evidence", "evident", "base", "evidence-based medicine"]
+      summary: "evidence（實證）+ based（以……為基礎）→ 以實際研究證據作為依據的",
+      family: ["evidence", "evident", "base", "basis"]
     }, examples: [{ en: "There are evidence-based strategies for managing procrastination.", zh: "有實證根據的策略可以管理拖延。" }] },
   { id: 3410, word: "correlate with", pos: "v.phr.", zh: "與……相關", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
         { form: "co-", origin: "Latin co-", meaning: "共同" },
-        { form: "relat-", origin: "Latin relatus", meaning: "關聯" },
-        { form: "-e", origin: "Latin -are", meaning: "動詞字尾" }
+        { form: "relat-", origin: "Latin relatus", meaning: "關聯、報告" },
+        { form: "-ate", origin: "Latin -atus", meaning: "動詞後綴" }
       ],
-      summary: "co-（共同）+ relate（關聯）→ 彼此相互關聯",
-      family: ["correlate", "correlation", "relate", "relation", "relative"]
+      summary: "co-（共同）+ relate（關聯）→ 兩個變量之間存在共同變化的關係",
+      family: ["relate", "relation", "correlation", "relative"]
     }, examples: [{ en: "Procrastination correlates with serious health problems.", zh: "拖延與嚴重的健康問題相關。" }] },
   { id: 3411, word: "chronic", pos: "adj.", zh: "慢性的、長期的", level: 5, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
         { form: "chron-", origin: "Greek khronos", meaning: "時間" },
-        { form: "-ic", origin: "Greek -ikos", meaning: "形容詞字尾" }
+        { form: "-ic", origin: "Greek -ikos", meaning: "……的（形容詞後綴）" }
       ],
-      summary: "chron（時間）+ -ic → 持續很長時間的 → 慢性的",
-      family: ["chronic", "chronological", "chronicle", "synchronize", "anachronism"]
+      summary: "chron（時間）+ -ic（形容詞）→ 持續很長時間的、長期存在的",
+      family: ["chronology", "chronic", "synchronize", "anachronism"]
     }, examples: [{ en: "Chronic procrastinators show different brain patterns.", zh: "長期拖延者顯示不同的腦部模式。" }] },
   { id: 3412, word: "demographics", pos: "n.", zh: "人口統計特徵", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
         { form: "demo-", origin: "Greek demos", meaning: "人民" },
         { form: "-graph-", origin: "Greek graphein", meaning: "書寫、記錄" },
-        { form: "-ics", origin: "Greek -ika", meaning: "學科名詞字尾" }
+        { form: "-ics", origin: "Greek -ika", meaning: "學科後綴" }
       ],
-      summary: "demo（人民）+ graph（記錄）+ -ics → 記錄人口特徵的學問",
-      family: ["demographics", "demographic", "democracy", "graph", "demography"]
+      summary: "demo（人民）+ graph（記錄）→ 統計記錄人口特徵（年齡、性別、收入等）的學科",
+      family: ["democracy", "demographic", "geography", "demography"]
     }, examples: [{ en: "The result holds after accounting for personality traits and demographics.", zh: "排除人格特質與人口統計後結果仍成立。" }] },
   { id: 3413, word: "misconduct", pos: "n.", zh: "不當行為", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
         { form: "mis-", origin: "Old English mis-", meaning: "錯誤、不當" },
-        { form: "conduct", origin: "Latin conducere", meaning: "行為、引導" }
+        { form: "conduct", origin: "Latin conducere", meaning: "引導、行為" }
       ],
-      summary: "mis-（不當）+ conduct（行為）→ 不當的行為",
-      family: ["misconduct", "conduct", "misbehavior", "misuse", "miscommunication"]
+      summary: "mis-（不當）+ conduct（行為）→ 不符合規範或道德標準的行為",
+      family: ["conduct", "misconduct", "misbehave", "misuse"]
     }, examples: [{ en: "Procrastinators were more likely to engage in study-related misconduct.", zh: "拖延者更可能涉及與學業相關的不當行為。" }] },
   { id: 3414, word: "plagiarism", pos: "n.", zh: "抄襲", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "plagiare", origin: "Latin plagiarius", meaning: "綁架者、剽竊者" },
-        { form: "-ism", origin: "Greek -ismos", meaning: "行為、主義" }
+        { form: "plagia-", origin: "Latin plagiarius", meaning: "拐走他人（奴隸或孩子）的人" },
+        { form: "-ism", origin: "Greek -ismos", meaning: "行為、主義後綴" }
       ],
-      summary: "Latin plagiarius（文字綁架者）+ -ism → 剽竊他人文字的行為",
-      family: ["plagiarism", "plagiarize", "plagiarist"]
+      summary: "plagiari（抄竊者）+ -ism（行為）→ 竊取他人作品並冒充為己作的行為",
+      family: ["plagiarize", "plagiarist", "piracy", "copy"]
     }, examples: [{ en: "Cheating and plagiarism are study-related misconduct.", zh: "作弊與抄襲屬於學業相關的不當行為。" }] },
   { id: 3415, word: "fraudulent", pos: "adj.", zh: "詐欺的", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "fraud-", origin: "Latin fraus/fraudis", meaning: "欺騙、詐欺" },
-        { form: "-ulent", origin: "Latin -ulentus", meaning: "充滿……的" }
+        { form: "fraud-", origin: "Latin fraus", meaning: "欺騙、詐欺" },
+        { form: "-ulent", origin: "Latin -ulentus", meaning: "充滿……的（形容詞後綴）" }
       ],
-      summary: "fraud（欺騙）+ -ulent（充滿）→ 充滿欺騙性質的",
-      family: ["fraudulent", "fraud", "defraud", "fraudulently"]
+      summary: "fraud（欺詐）+ -ulent（充滿）→ 充滿欺騙性質的、意圖詐欺的",
+      family: ["fraud", "defraud", "fraudulence", "deceit"]
     }, examples: [{ en: "They used fraudulent excuses to get deadline extensions.", zh: "他們用詐欺的藉口取得截止日延期。" }] },
   { id: 3416, word: "annual income", pos: "n.", zh: "年收入", level: 5, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "ann-", origin: "Latin annus", meaning: "年" },
-        { form: "-ual", origin: "Latin -ualis", meaning: "形容詞字尾" },
-        { form: "income", origin: "Old English in + cuman", meaning: "進來的錢" }
+        { form: "annu-", origin: "Latin annus", meaning: "年" },
+        { form: "in-", origin: "Latin in-", meaning: "進入" },
+        { form: "com-", origin: "Latin com-", meaning: "一起" },
+        { form: "-e", origin: "Old French", meaning: "名詞後綴" }
       ],
-      summary: "annual（每年的）+ income（收入）→ 全年所得",
-      family: ["annual", "anniversary", "income", "annually", "biannual"]
+      summary: "annual（每年的）+ income（收入）→ 一整年所獲得的總收入",
+      family: ["annual", "annuity", "income", "revenue"]
     }, examples: [{ en: "Regular procrastinators had less annual income.", zh: "經常拖延者的年收入較低。" }] },
   { id: 3417, word: "employment stability", pos: "n.", zh: "就業穩定性", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
         { form: "employ-", origin: "French employer", meaning: "雇用" },
-        { form: "-ment", origin: "Latin -mentum", meaning: "名詞字尾" },
-        { form: "stabil-", origin: "Latin stabilis", meaning: "穩定" },
-        { form: "-ity", origin: "Latin -itas", meaning: "名詞字尾" }
+        { form: "stabil-", origin: "Latin stabilis", meaning: "穩定的" }
       ],
-      summary: "employment（就業）+ stability（穩定性）→ 工作狀態的穩定程度",
-      family: ["employ", "employment", "stable", "stability", "stabilize"]
+      summary: "employment（就業）+ stability（穩定性）→ 工作狀態持續穩定、不易失業",
+      family: ["employ", "stable", "stability", "stabilize"]
     }, examples: [{ en: "Procrastinators had less employment stability.", zh: "拖延者的就業穩定性較差。" }] },
   { id: 3418, word: "toll", pos: "n.", zh: "損害、代價", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "toll", origin: "Old English toll", meaning: "稅、通行費、代價" }
+        { form: "toll", origin: "Old English toll", meaning: "稅、費用、代價" }
       ],
-      summary: "源自古英語 toll（通行費）→ 引申為必須付出的代價或損失",
-      family: ["toll", "tollbooth", "take a toll"]
+      summary: "toll 源自古英語「通行費」，引申為付出的代價或造成的損害",
+      family: ["tolerate", "taxation", "cost", "tribute"]
     }, examples: [{ en: "People think of procrastination's toll on productivity.", zh: "人們想到拖延對生產力造成的損害。" }] },
   { id: 3419, word: "prone to", pos: "adj.phr.", zh: "易於……的", level: 6, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
         { form: "prone", origin: "Latin pronus", meaning: "向前傾、傾向" },
         { form: "to", origin: "Old English to", meaning: "朝向" }
       ],
-      summary: "prone（傾向）+ to → 容易傾向某種（負面）狀態",
-      family: ["prone", "supine", "error-prone", "accident-prone"]
+      summary: "prone（傾向）+ to（朝向）→ 在性格或體質上容易出現某種狀況",
+      family: ["supine", "propensity", "tendency", "inclined"]
     }, examples: [{ en: "People prone to procrastination had a 63% greater risk of poor heart health.", zh: "易於拖延的人心臟健康風險增加 63%。" }] },
   { id: 3420, word: "coping strategies", pos: "n.", zh: "應對策略", level: 5, category: "閱讀心理", source: "閱讀 C20T2P2 拖延症", roots: {
       parts: [
-        { form: "cop-", origin: "Latin copia", meaning: "充足、應付" },
-        { form: "-ing", origin: "Old English -ing", meaning: "動名詞字尾" },
-        { form: "strateg-", origin: "Greek strategia", meaning: "策略" },
-        { form: "-y", origin: "Greek -ia", meaning: "名詞字尾" }
+        { form: "cope", origin: "Old French coper", meaning: "對付、應對" },
+        { form: "strat-", origin: "Greek strategos", meaning: "策略、計畫" }
       ],
-      summary: "coping（應對）+ strategy（策略）→ 面對壓力時的應對方法",
-      family: ["cope", "coping", "strategy", "strategic", "strategize"]
+      summary: "coping（應對）+ strategies（策略）→ 用來處理壓力或困境的方法與技巧",
+      family: ["cope", "strategy", "strategic", "strategize"]
     }, examples: [{ en: "They use destructive coping strategies to manage stress.", zh: "他們用具破壞性的應對策略來處理壓力。" }] },
 
   // === 雅思核心字（2026-05-21 自選 60 字）===
   { id: 3421, word: "earnest", pos: "adj.", zh: "認真的、堅決的", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "earn-", origin: "Old English eornost", meaning: "認真、熱切" },
-        { form: "-est", origin: "Old English -est", meaning: "形容詞字尾" }
+        { form: "earnest", origin: "Old English eornost", meaning: "認真、勇氣、嚴肅" }
       ],
-      summary: "源自古英語 eornost（認真、熱切）→ 態度認真堅決的",
-      family: ["earnest", "earnestly", "earnestness", "earn"]
+      summary: "earnest 源自古英語「認真、嚴肅」，表示真誠且堅定的態度",
+      family: ["serious", "sincere", "earnestly", "earnestness"]
     }, examples: [{ en: "Matthews was in earnest conversation with a young girl.", zh: "馬修斯正在和一名年輕女子認真地交談。" }] },
   { id: 3422, word: "adolescence", pos: "n.", zh: "青春、青春期", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "adolesc-", origin: "Latin adolescere", meaning: "成長、長大" },
-        { form: "-ence", origin: "Latin -entia", meaning: "名詞字尾" }
+        { form: "adolesc-", origin: "Latin adolescere", meaning: "成長、發育" },
+        { form: "-ence", origin: "Latin -entia", meaning: "狀態、過程後綴" }
       ],
-      summary: "adolescere（成長中）+ -ence → 正在成長的時期 → 青春期",
-      family: ["adolescence", "adolescent", "adult", "adulthood"]
+      summary: "adolesc（成長）+ -ence（狀態）→ 人體從兒童發育為成人的過渡時期",
+      family: ["adolescent", "adult", "adulthood", "puberty"]
     }, examples: [{ en: "Some young people become self-conscious in early adolescence.", zh: "有些年輕人在青春期早期會突然變得害羞。" }] },
   { id: 3423, word: "grave", pos: "adj./n.", zh: "嚴重的；墳墓", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "grav-", origin: "Latin gravis", meaning: "沉重、嚴重" }
+        { form: "grav-", origin: "Latin gravis", meaning: "沉重的、嚴重的" }
       ],
-      summary: "Latin gravis（沉重）→ 引申為嚴重的；另作名詞指墳墓（入土之重）",
-      family: ["grave", "gravity", "gravely", "grieve", "aggravate"]
+      summary: "grav（沉重）→ adj. 嚴重的；n. 墳墓（壓在地下的重物），兩義均源於「沉重」",
+      family: ["gravity", "grave", "gravitate", "aggravate"]
     }, examples: [{ en: "Matthew's life is in grave danger.", zh: "馬修的生命處在嚴重危險中。" }] },
   { id: 3424, word: "intrigue", pos: "v./n.", zh: "激起興趣；陰謀", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "intricare", origin: "Latin intricare", meaning: "使糾纏、引起好奇" },
         { form: "in-", origin: "Latin in-", meaning: "進入" },
-        { form: "tricae", origin: "Latin tricae", meaning: "糾纏、麻煩" }
+        { form: "trigu-", origin: "Latin intricare", meaning: "糾纏、使複雜" }
       ],
-      summary: "in-（進入）+ tricae（糾纏）→ 使人陷入好奇或糾纏 → 激起興趣；陰謀",
-      family: ["intrigue", "intricate", "intriguing", "intrigued"]
+      summary: "in（進入）+ trigu（糾纏）→ 使人深陷其中、引發強烈興趣；亦指秘密陰謀",
+      family: ["intricate", "intrigue", "intricacy", "entangle"]
     }, examples: [{ en: "Other people's houses always intrigued her.", zh: "別人的房子總讓她感到好奇。" }] },
   { id: 3425, word: "stipulate", pos: "v.", zh: "規定、約定", level: 7, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "stipul-", origin: "Latin stipulari", meaning: "要求、協議" },
-        { form: "-ate", origin: "Latin -atus", meaning: "動詞字尾" }
+        { form: "stipul-", origin: "Latin stipulari", meaning: "正式約定、要求" },
+        { form: "-ate", origin: "Latin -atus", meaning: "動詞後綴" }
       ],
-      summary: "stipulari（正式要求）+ -ate → 在合約或協議中明確規定",
-      family: ["stipulate", "stipulation", "stipulated"]
+      summary: "stipul（正式約定）+ -ate（動詞）→ 在合約或協議中明確規定某項條件",
+      family: ["stipulation", "specify", "contract", "clause"]
     }, examples: [{ en: "Laws stipulate the maximum interest rate that banks can charge.", zh: "法律規定銀行可以收取的最高利率。" }] },
   { id: 3426, word: "eradicate", pos: "v.", zh: "根除、消除", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "e-", origin: "Latin ex-", meaning: "出、完全" },
+        { form: "e-", origin: "Latin ex-", meaning: "出、去除" },
         { form: "radic-", origin: "Latin radix", meaning: "根" },
-        { form: "-ate", origin: "Latin -atus", meaning: "動詞字尾" }
+        { form: "-ate", origin: "Latin -atus", meaning: "動詞後綴" }
       ],
-      summary: "e-（完全）+ radic（根）+ -ate → 連根拔除 → 根除",
-      family: ["eradicate", "eradication", "radical", "radish", "root"]
+      summary: "e-（去除）+ radic（根）→ 將根部完全拔除，比喻徹底消滅某事物",
+      family: ["radical", "radish", "eradication", "uproot"]
     }, examples: [{ en: "This problem has now been completely eradicated.", zh: "這個問題現在已經徹底根除。" }] },
   { id: 3427, word: "delirium", pos: "n.", zh: "神智昏迷；極度興奮", level: 7, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "delir-", origin: "Latin delirare", meaning: "偏離犁溝、神智混亂" },
-        { form: "-ium", origin: "Latin -ium", meaning: "名詞字尾" }
+        { form: "delir-", origin: "Latin delirare", meaning: "偏離犁溝、精神錯亂" },
+        { form: "-ium", origin: "Latin -ium", meaning: "狀態名詞後綴" }
       ],
-      summary: "de-（偏離）+ lira（犁溝）→ 思維脫離正軌 → 神智昏迷或極度興奮",
-      family: ["delirium", "delirious", "deliriously"]
+      summary: "delir（精神偏離正軌）+ -ium（狀態）→ 因高燒或藥物引起的意識混亂狀態",
+      family: ["delirious", "delirium", "mania", "frenzy"]
     }, examples: [{ en: "Before she died she had fits of delirium.", zh: "她去世前一陣陣地胡言亂語。" }] },
   { id: 3428, word: "pole", pos: "n.", zh: "極（地理／物理）", level: 4, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "pol-", origin: "Greek polos", meaning: "軸、極點" }
+        { form: "pol-", origin: "Greek polos", meaning: "軸、天極" }
       ],
-      summary: "Greek polos（天體旋轉的軸端）→ 地球或磁場的極端點",
-      family: ["pole", "polar", "polarity", "polarize", "North Pole"]
+      summary: "pol（天極）→ 地球或磁場的端點，後引申為任何對立的兩端",
+      family: ["polar", "polarity", "polarize", "pole"]
     }, examples: [{ en: "the distance from pole to equator", zh: "從極到赤道的距離" }] },
   { id: 3429, word: "herd", pos: "n./v.", zh: "獸群、牧口群；把趕到一起", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "herd", origin: "Old English heord", meaning: "獸群、牧群" }
+        { form: "herd", origin: "Old English heord", meaning: "群、畜群" }
       ],
-      summary: "古英語 heord（一群牲畜）→ 名詞指獸群；動詞指把動物趕到一起",
-      family: ["herd", "shepherd", "herdsman", "herding"]
+      summary: "herd 源自古英語「畜群」，動詞用法為驅趕成群移動",
+      family: ["shepherd", "herdsman", "flock", "drove"]
     }, examples: [{ en: "Stefano used a motorcycle to herd the sheep.", zh: "斯特凡諾騎一輛摩托車趕羊群。" }] },
   { id: 3430, word: "stitch", pos: "n.", zh: "縫紉；縫線；（劇烈）刺痛", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "mim-", origin: "Greek mimos", meaning: "模仿者、演員" },
-        { form: "-ic", origin: "Greek -ikos", meaning: "動詞／形容詞字尾" }
+        { form: "stitch", origin: "Old English stice", meaning: "刺、縫" }
       ],
-      summary: "Greek mimos（模仿表演者）→ 模仿他人的動作或行為",
-      family: ["mimic", "mime", "mimicry", "mimetic"]
+      summary: "stitch 源自古英語「刺穿」，涵蓋縫紉動作、縫線本身及側腹刺痛感",
+      family: ["sew", "suture", "knit", "embroider"]
     }, examples: [{ en: "He had to have ten stitches in his head.", zh: "他頭上不得不縫了十針。" }] },
   { id: 3431, word: "slag", pos: "n.", zh: "礦渣、爐渣、熔渣", level: 7, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "imitare", origin: "Latin imitari", meaning: "複製、仿照" },
-        { form: "-ate", origin: "Latin -atus", meaning: "動詞字尾" }
+        { form: "slag", origin: "Middle Low German slagge", meaning: "熔煉後的廢渣" }
       ],
-      summary: "Latin imitari（仿照）→ 仿照他人的行為或作品",
-      family: ["imitate", "imitation", "imitator", "mimic"]
+      summary: "slag 源自中古低地德語「熔煉廢料」，指金屬冶煉後剩餘的爐渣",
+      family: ["dross", "scoria", "cinder", "ash"]
     }, examples: [{ en: "Steel slag is a waste material from metal production.", zh: "鋼渣是金屬生產的廢料。" }] },
   { id: 3432, word: "clash", pos: "v./n.", zh: "衝突、抵觸；金屬碰撞聲", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "in-", origin: "Latin in-", meaning: "在內、進入" },
-        { form: "nat-", origin: "Latin natus", meaning: "出生" },
-        { form: "-e", origin: "Latin -us", meaning: "形容詞字尾" }
+        { form: "clash", origin: "onomatopoeia", meaning: "金屬碰撞聲（擬聲）" }
       ],
-      summary: "in-（在內）+ natus（出生）→ 出生時便已具備的 → 先天的",
-      family: ["innate", "native", "nature", "natal", "prenatal"]
+      summary: "clash 為擬聲詞，模仿金屬撞擊聲，引申為雙方意見或利益激烈衝突",
+      family: ["crash", "clang", "conflict", "collide"]
     }, examples: [{ en: "Troops clashed near the border.", zh: "軍隊在邊境附近發生衝突。" }] },
   { id: 3433, word: "strap", pos: "n./v.", zh: "皮帶、帶；用帶束住", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "acquir-", origin: "Latin acquirere", meaning: "取得" },
-        { form: "ac-", origin: "Latin ad-", meaning: "朝向" },
-        { form: "quir-", origin: "Latin quaerere", meaning: "尋求" },
-        { form: "-ition", origin: "Latin -itio", meaning: "名詞字尾" }
+        { form: "strap", origin: "Old English stropp", meaning: "皮帶、束帶" }
       ],
-      summary: "ac-（朝向）+ quir（尋求）+ -ition → 主動尋求取得 → 習得",
-      family: ["acquisition", "acquire", "acquisitive", "quest", "require"]
+      summary: "strap 源自古英語「皮革帶子」，動詞指用帶子綁住或固定",
+      family: ["strap", "strapping", "band", "buckle"]
     }, examples: [{ en: "The strap of my bag is broken.", zh: "我包上的帶子斷了。" }] },
   { id: 3434, word: "trench", pos: "n.", zh: "地溝、戰壕", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "flu-", origin: "Latin fluere", meaning: "流動" },
-        { form: "-ent", origin: "Latin -ens", meaning: "形容詞字尾" }
+        { form: "trench", origin: "Old French trenchier", meaning: "切割、挖掘" }
       ],
-      summary: "flu（流動）+ -ent → 語言表達如流水般順暢 → 流利的",
-      family: ["fluent", "fluency", "fluid", "flux", "influence"]
+      summary: "trench 源自古法語「切割」，指挖掘而成的長形壕溝或戰壕",
+      family: ["trench", "entrench", "truncate", "truncheon"]
     }, examples: [{ en: "Workers dug a trench for gas lines.", zh: "工人們挖了一條溝來鋪設煤氣管道。" }] },
   { id: 3435, word: "vain", pos: "adj.", zh: "徒勞的、無效的；自負的", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "pro-", origin: "Latin pro-", meaning: "向前" },
-        { form: "fici-", origin: "Latin facere/proficere", meaning: "做、進展" },
-        { form: "-ent", origin: "Latin -ens", meaning: "形容詞字尾" }
+        { form: "van-", origin: "Latin vanus", meaning: "空的、無實質的" }
       ],
-      summary: "pro-（向前）+ fici（做進展）+ -ent → 在某技能上大幅進展 → 精通的",
-      family: ["proficient", "proficiency", "profit", "proficient"]
+      summary: "van（空虛）→ vain 指努力落空或人因外表而自大，均源於「空洞無實」",
+      family: ["vanity", "vanish", "evanescent", "vacant"]
     }, examples: [{ en: "Men can be just as vain as women.", zh: "男人也可以和女人一樣自負。" }] },
   { id: 3436, word: "exempt", pos: "v./adj.", zh: "免除、被豁免的", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "ar-", origin: "Latin ad-", meaning: "朝向" },
-        { form: "ticul-", origin: "Latin articulus", meaning: "關節、節點" },
-        { form: "-ate", origin: "Latin -atus", meaning: "動詞／形容詞字尾" }
+        { form: "ex-", origin: "Latin ex-", meaning: "出、離開" },
+        { form: "empt-", origin: "Latin emere", meaning: "取、拿" }
       ],
-      summary: "articulus（關節）→ 言語分節清晰 → 清楚表達；形容詞指表達清晰的",
-      family: ["articulate", "articulation", "article", "joint"]
+      summary: "ex-（取出）+ empt（拿）→ 將某人從義務或規定中取出，即予以豁免",
+      family: ["exemption", "redeem", "preempt", "prompt"]
     }, examples: [{ en: "The new rules exempt the user from legal liability.", zh: "新規定讓使用者免除法律責任。" }] },
   { id: 3437, word: "dwell", pos: "v.", zh: "居住；詳述", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "bi-", origin: "Latin bis", meaning: "雙、兩" },
-        { form: "lingu-", origin: "Latin lingua", meaning: "語言" },
-        { form: "-al", origin: "Latin -alis", meaning: "形容詞字尾" }
+        { form: "dwell", origin: "Old English dwellan", meaning: "延誤、停留、居住" }
       ],
-      summary: "bi-（兩）+ lingu（語言）+ -al → 使用兩種語言的",
-      family: ["bilingual", "monolingual", "multilingual", "language", "linguistics"]
+      summary: "dwell 源自古英語「延誤、停留」，演變為「長期居住」或「反覆思考某事」",
+      family: ["dwelling", "abide", "reside", "inhabit"]
     }, examples: [{ en: "They dwelt in the forest.", zh: "他們住在森林裡。" }] },
   { id: 3438, word: "misgiving", pos: "n.", zh: "懷疑、疑慮", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "mono-", origin: "Greek monos", meaning: "單一" },
-        { form: "lingu-", origin: "Latin lingua", meaning: "語言" },
-        { form: "-al", origin: "Latin -alis", meaning: "形容詞字尾" }
+        { form: "mis-", origin: "Old English mis-", meaning: "錯誤、不好" },
+        { form: "give", origin: "Old English giefan", meaning: "給予" },
+        { form: "-ing", origin: "Old English -ing", meaning: "名詞後綴" }
       ],
-      summary: "mono-（單一）+ lingu（語言）+ -al → 只使用一種語言的",
-      family: ["monolingual", "bilingual", "multilingual", "monologue", "monopoly"]
+      summary: "mis-（不好）+ give（給）→ 心裡給出不好的預感，即疑慮或不安",
+      family: ["misgivings", "doubt", "suspicion", "qualm"]
     }, examples: [{ en: "Opponents of nuclear energy have deep misgivings about its safety.", zh: "反核能人士對其安全性深感疑慮。" }] },
   { id: 3439, word: "vex", pos: "v.", zh: "使煩惱、使苦惱", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "multi-", origin: "Latin multus", meaning: "多" },
-        { form: "lingu-", origin: "Latin lingua", meaning: "語言" },
-        { form: "-al", origin: "Latin -alis", meaning: "形容詞字尾" }
+        { form: "vex", origin: "Latin vexare", meaning: "搖晃、折磨、使煩惱" }
       ],
-      summary: "multi-（多）+ lingu（語言）+ -al → 使用多種語言的",
-      family: ["multilingual", "bilingual", "monolingual", "multiple", "multicultural"]
+      summary: "vex 源自拉丁語「搖晃折磨」，指讓人感到持續的煩躁或苦惱",
+      family: ["vexation", "vexing", "irritate", "annoy"]
     }, examples: [{ en: "It vexed me to think of others gossiping behind my back.", zh: "想到別人在我背後說閒話讓我很煩心。" }] },
   { id: 3440, word: "sue", pos: "v.", zh: "控訴、控告、請求", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "dia-", origin: "Greek dia-", meaning: "穿越、分開" },
-        { form: "lect-", origin: "Greek legein", meaning: "說話" }
+        { form: "su-", origin: "Latin sequi", meaning: "跟隨、追隨" }
       ],
-      summary: "dia-（分開）+ lect（說話）→ 特定地區分開發展出的說話方式 → 方言",
-      family: ["dialect", "dialogue", "idiolect", "language", "sociolect"]
+      summary: "sue 源自拉丁語「跟隨（追討）」，引申為向法院追討權利，即提告",
+      family: ["pursue", "suit", "lawsuit", "ensue"]
     }, examples: [{ en: "If the builders don't fulfil the contract, we'll sue.", zh: "如果建商不履行合同，我們就提起訴訟。" }] },
   { id: 3441, word: "haphazard", pos: "adj./adv.", zh: "雜亂的、任意的", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "accent-", origin: "Latin accentus", meaning: "聲調" },
-        { form: "ac-", origin: "Latin ad-", meaning: "朝向" },
-        { form: "cant-", origin: "Latin cantus", meaning: "歌聲、語調" }
+        { form: "hap", origin: "Old Norse happ", meaning: "機運、偶然" },
+        { form: "hazard", origin: "Arabic az-zahr", meaning: "骰子、機率" }
       ],
-      summary: "ad-（朝向）+ cantus（歌聲）→ 說話時的聲調特色 → 口音",
-      family: ["accent", "accentuate", "accentuation"]
+      summary: "hap（機運）+ hazard（偶然）→ 兩個同義詞疊加，強調完全出於偶然、毫無計畫",
+      family: ["happen", "hazard", "perhaps", "random"]
     }, examples: [{ en: "The words were put together in a sort of haphazard way.", zh: "這些字以某種雜亂的方式被組合起來。" }] },
   { id: 3442, word: "allot", pos: "v.", zh: "分配、撥給", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "in-", origin: "Latin in-", meaning: "在內" },
-        { form: "ton-", origin: "Latin tonus", meaning: "音調" },
-        { form: "-ation", origin: "Latin -atio", meaning: "名詞字尾" }
+        { form: "al-", origin: "Old French a-", meaning: "朝向" },
+        { form: "lot", origin: "Old English hlot", meaning: "籤、份額" }
       ],
-      summary: "in（在內）+ tonus（音調）+ -ation → 語言內部音調的起伏變化",
-      family: ["intonation", "tone", "monotone", "intone", "tonal"]
+      summary: "al-（朝向）+ lot（籤）→ 用抽籤方式分派份額，引申為分配資源或任務",
+      family: ["lot", "ballot", "lottery", "allocate"]
     }, examples: [{ en: "The seats are allotted to the candidates with the most votes.", zh: "席位分配給得票最多的候選人。" }] },
   { id: 3443, word: "psychiatry", pos: "n.", zh: "精神病學", level: 7, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "pro-", origin: "Latin pro-", meaning: "向前" },
-        { form: "nunci-", origin: "Latin nuntiare", meaning: "宣告、發聲" },
-        { form: "-ation", origin: "Latin -atio", meaning: "名詞字尾" }
+        { form: "psych-", origin: "Greek psyche", meaning: "心靈、靈魂" },
+        { form: "-iatr-", origin: "Greek iatros", meaning: "醫生、醫療" },
+        { form: "-y", origin: "Greek -ia", meaning: "學科名詞後綴" }
       ],
-      summary: "pro-（向前）+ nunci（發聲）+ -ation → 把語音向前發出 → 發音",
-      family: ["pronunciation", "pronounce", "announce", "enunciate", "renounce"]
+      summary: "psych（心靈）+ iatry（醫療）→ 研究並治療心理與精神疾病的醫學分支",
+      family: ["psychology", "psyche", "psychiatrist", "pediatrics"]
     }, examples: [{ en: "Psychiatry is a branch of medical science.", zh: "精神病學是醫學的一個分支。" }] },
   { id: 3444, word: "posture", pos: "n.", zh: "姿勢、姿態、態度", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "vocabul-", origin: "Latin vocabulum", meaning: "詞、名稱" },
-        { form: "voc-", origin: "Latin vocare", meaning: "呼叫、命名" },
-        { form: "-ary", origin: "Latin -arius", meaning: "名詞字尾" }
+        { form: "posit-", origin: "Latin ponere", meaning: "放置" },
+        { form: "-ure", origin: "Latin -ura", meaning: "狀態、結果名詞後綴" }
       ],
-      summary: "vocab（詞彙命名）+ -ary → 所有詞彙的集合 → 詞彙量",
-      family: ["vocabulary", "vocal", "vocation", "invoke", "advocate"]
+      summary: "posit（放置）+ -ure（狀態）→ 身體被放置或擺放的方式，即姿勢或態度",
+      family: ["position", "impose", "deposit", "composure"]
     }, examples: [{ en: "her upright posture", zh: "她筆挺的姿勢" }] },
   { id: 3445, word: "perception", pos: "n.", zh: "感覺、知覺", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "gramm-", origin: "Greek gramma", meaning: "字母、書寫" },
-        { form: "-ar", origin: "Greek -matike", meaning: "技藝字尾" }
+        { form: "percip-", origin: "Latin percipere", meaning: "抓取、感知" },
+        { form: "-ion", origin: "Latin -io", meaning: "行為、狀態名詞後綴" }
       ],
-      summary: "Greek gramma（書寫的字）→ 書寫語言的規則系統 → 文法",
-      family: ["grammar", "grammatical", "diagram", "program", "telegram"]
+      summary: "per-（完全）+ cap（抓取）→ 完整接收並理解感官訊息的過程",
+      family: ["perceive", "perceptive", "conception", "reception"]
     }, examples: [{ en: "What do you think their perception will be?", zh: "你覺得他們的知覺會是怎樣的？" }] },
   { id: 3446, word: "paranoia", pos: "n.", zh: "偏執狂、妄想狂", level: 7, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "syn-", origin: "Greek syn-", meaning: "共同、一起" },
-        { form: "tax-", origin: "Greek taxis", meaning: "排列、順序" }
+        { form: "para-", origin: "Greek para-", meaning: "旁邊、偏離" },
+        { form: "noia", origin: "Greek nous", meaning: "心智、思想" }
       ],
-      summary: "syn-（共同）+ taxis（排列）→ 詞語一起排列的規則 → 句法",
-      family: ["syntax", "syntactic", "synthesis", "taxi", "taxonomy"]
+      summary: "para（偏離）+ noia（心智）→ 心智偏離正常，出現無根據的迫害妄想",
+      family: ["paranoid", "paranoia", "psychosis", "delusion"]
     }, examples: [{ en: "They capitalize on panic and paranoia.", zh: "他們利用恐慌和偏執狂。" }] },
   { id: 3447, word: "alongside", pos: "adv./prep.", zh: "在旁、靠近", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "morpho-", origin: "Greek morphe", meaning: "形態、形狀" },
-        { form: "-logy", origin: "Greek logos", meaning: "學問" }
+        { form: "along", origin: "Old English andlang", meaning: "沿著" },
+        { form: "side", origin: "Old English side", meaning: "側邊" }
       ],
-      summary: "morpho（形態）+ -logy（學問）→ 研究語言詞形變化的學問",
-      family: ["morphology", "morpheme", "morphological", "metamorphosis"]
+      summary: "along（沿著）+ side（旁邊）→ 位於旁邊或側邊，與某人或某物並列",
+      family: ["beside", "adjacent", "alongside", "parallel"]
     }, examples: [{ en: "We use the whiteboards alongside one of the walls.", zh: "我們用沿著其中一面牆的白色書寫板。" }] },
   { id: 3448, word: "canteen", pos: "n.", zh: "食堂、小賣部、餐具箱、水壺", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "phone-", origin: "Greek phone", meaning: "聲音" },
-        { form: "-tics", origin: "Greek -tike", meaning: "學科字尾" }
+        { form: "cantina", origin: "Italian cantina", meaning: "酒窖、儲藏室" }
       ],
-      summary: "phone（聲音）+ -tics（學科）→ 研究語音的學問",
-      family: ["phonetics", "phonology", "phone", "microphone", "phoneme"]
+      summary: "canteen 源自義大利語「酒窖、儲藏室」，引申為供應食物飲料的軍用或校園餐廳",
+      family: ["cafeteria", "mess hall", "buffet", "tavern"]
     }, examples: [{ en: "Rennie had eaten his supper in the canteen.", zh: "Rennie 已在食堂吃過晚飯。" }] },
   { id: 3449, word: "supreme", pos: "adj.", zh: "最高的、最大的、最重要的", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "lingu-", origin: "Latin lingua", meaning: "語言" },
-        { form: "-ist", origin: "Greek -istes", meaning: "專家、從事者" }
+        { form: "super-", origin: "Latin super-", meaning: "在上方" },
+        { form: "-em-", origin: "Latin superus", meaning: "高於一切的" }
       ],
-      summary: "lingu（語言）+ -ist（專家）→ 研究語言的專家",
-      family: ["linguist", "linguistics", "bilingual", "language"]
+      summary: "super（在上方）→ supreme 指在所有之上，無法再超越的最高等級",
+      family: ["superior", "superlative", "summit", "sovereign"]
     }, examples: [{ en: "the Supreme Allied Commander in Europe", zh: "歐洲盟軍最高指揮官" }] },
   { id: 3450, word: "reasonable", pos: "adj.", zh: "明智的、合理的、公平的", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "im-", origin: "Latin in-", meaning: "進入" },
-        { form: "mers-", origin: "Latin mergere", meaning: "浸入" },
-        { form: "-ion", origin: "Latin -io", meaning: "名詞字尾" }
+        { form: "ratio-", origin: "Latin ratio", meaning: "理性、計算" },
+        { form: "-able", origin: "Latin -abilis", meaning: "能夠……的" }
       ],
-      summary: "im-（進入）+ mers（浸入）+ -ion → 完全浸沒在某環境中 → 沉浸式學習",
-      family: ["immersion", "immerse", "submerge", "emerge", "merge"]
+      summary: "ratio（理性）+ -able（能夠）→ 能夠以理性判斷，符合邏輯與公平原則的",
+      family: ["rational", "reason", "ratio", "irrational"]
     }, examples: [{ en: "a reasonable request", zh: "合情合理的要求" }] },
   { id: 3451, word: "naught", pos: "n.", zh: "無、零", level: 7, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "input", origin: "Latin in + putare", meaning: "放入" },
-        { form: "hypo-", origin: "Greek hypo-", meaning: "在下方、假設" },
-        { form: "-thesis", origin: "Greek thesis", meaning: "命題" }
+        { form: "naught", origin: "Old English nawiht", meaning: "沒有任何東西" }
       ],
-      summary: "input（輸入）+ hypothesis（假說）→ 關於語言輸入如何促進習得的假說",
-      family: ["input", "hypothesis", "hypothesize", "output", "Krashen"]
+      summary: "naught 源自古英語「無物」，等同於 nothing，代表零或徒勞無功",
+      family: ["nought", "nothing", "nil", "zero"]
     }, examples: [{ en: "All our efforts came to naught.", zh: "我們所有的努力都失敗了。" }] },
   { id: 3452, word: "cushion", pos: "n./v.", zh: "墊子、坐墊；緩衝", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "out-", origin: "Old English ut-", meaning: "向外" },
-        { form: "put", origin: "Old English potian", meaning: "放置" }
+        { form: "couss-", origin: "Old French coussin", meaning: "靠墊、緩衝" }
       ],
-      summary: "out-（向外）+ put（放置）→ 向外產出的內容",
-      family: ["output", "input", "throughput", "turnout"]
+      summary: "cushion 源自古法語「靠墊」，引申為吸收衝擊或減緩負面影響的事物",
+      family: ["pad", "buffer", "cushion", "absorb"]
     }, examples: [{ en: "a velvet cushion", zh: "天鵝絨墊子" }] },
   { id: 3453, word: "mimic", pos: "adj./v.", zh: "假裝的、模仿的", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "inter-", origin: "Latin inter-", meaning: "在……之間" },
-        { form: "act-", origin: "Latin agere", meaning: "行動" },
-        { form: "-ion", origin: "Latin -io", meaning: "名詞字尾" }
+        { form: "mim-", origin: "Greek mimos", meaning: "模仿者、演員" }
       ],
-      summary: "inter-（之間）+ act（行動）+ -ion → 彼此之間的行動與交流",
-      family: ["interaction", "interact", "interactive", "action", "react"]
+      summary: "mim（模仿）→ mimic 指模仿他人言行或外觀，常有滑稽或諷刺意味",
+      family: ["mime", "mimicry", "imitate", "parody"]
     }, examples: [{ en: "mimic warfare", zh: "模擬戰爭" }] },
   { id: 3454, word: "vicinity", pos: "n.", zh: "鄰近、附近", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "scaffold", origin: "Old French eschafaut", meaning: "鷹架、支撐架" },
-        { form: "-ing", origin: "Old English -ing", meaning: "動名詞字尾" }
+        { form: "vicin-", origin: "Latin vicinus", meaning: "鄰近的、附近的" },
+        { form: "-ity", origin: "Latin -itas", meaning: "名詞後綴，表狀態" }
       ],
-      summary: "scaffold（建築用鷹架）→ 引申為學習中提供的暫時支撐結構",
-      family: ["scaffold", "scaffolding", "support", "framework"]
+      summary: "vicin（鄰近）+ -ity（狀態）→ 在某地附近的空間範圍",
+      family: ["vicinity", "village", "viceroy", "neighbor"]
     }, examples: [{ en: "The stolen car was found in the vicinity of the station.", zh: "失竊的汽車在車站附近被找到。" }] },
   { id: 3455, word: "toss", pos: "v./n.", zh: "扔、拋；搖擺", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "feed", origin: "Old English fedan", meaning: "餵食" },
-        { form: "back", origin: "Old English baec", meaning: "回頭" }
+        { form: "toss", origin: "Scandinavian origin", meaning: "搖動、拋擲" }
       ],
-      summary: "feed（餵）+ back（回頭）→ 把資訊回饋給原來的人或系統",
-      family: ["feedback", "feed", "feedforward", "input"]
+      summary: "toss 源自斯堪地那維亞語，指輕快地向上拋出或來回搖擺",
+      family: ["throw", "flip", "hurl", "fling"]
     }, examples: [{ en: "Toss the carrots in some butter before serving.", zh: "上桌前把胡蘿蔔下放在黃油裡攪拌一下。" }] },
   { id: 3456, word: "shred", pos: "n./v.", zh: "碎片；撕碎", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "motiv-", origin: "Latin movere/motivus", meaning: "移動、驅動" },
-        { form: "-ation", origin: "Latin -atio", meaning: "名詞字尾" }
+        { form: "shred", origin: "Old English screade", meaning: "切下的碎片" }
       ],
-      summary: "motiv（驅動）+ -ation → 推動行動的內在力量 → 動機",
-      family: ["motivation", "motivate", "motive", "motor", "promote"]
+      summary: "shred 源自古英語「切下的碎片」，動詞指將物品撕成細條碎片",
+      family: ["shred", "tear", "rip", "fragment"]
     }, examples: [{ en: "Cut the cabbage into fine long shreds.", zh: "把這捲心菜切成細長條。" }] },
   { id: 3457, word: "disperse", pos: "v.", zh: "（使）散開、使疏散", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "anxi-", origin: "Latin anxius", meaning: "緊縮、憂慮" },
-        { form: "-ety", origin: "Latin -etas", meaning: "名詞字尾" }
+        { form: "di-", origin: "Latin dis-", meaning: "分散、分開" },
+        { form: "sperse", origin: "Latin spargere", meaning: "撒、散布" }
       ],
-      summary: "Latin anxius（胸口緊縮感）+ -ety → 心理上的緊張焦慮感",
-      family: ["anxiety", "anxious", "anxiously", "angst"]
+      summary: "di-（分散）+ sperse（撒）→ 向四面八方撒開，使人群或物體疏散",
+      family: ["dispersion", "sparse", "scatter", "distribute"]
     }, examples: [{ en: "Police used tear gas to disperse the crowd.", zh: "警察用催淚瓦斯驅散人群。" }] },
   { id: 3458, word: "edition", pos: "n.", zh: "版本、版次", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "affect-", origin: "Latin affectus", meaning: "情感" },
-        { form: "filter", origin: "Medieval Latin filtrum", meaning: "過濾器" }
+        { form: "edit-", origin: "Latin edere", meaning: "發出、出版" },
+        { form: "-ion", origin: "Latin -io", meaning: "行為、結果名詞後綴" }
       ],
-      summary: "affective（情感的）+ filter（過濾器）→ Krashen 提出的情感障壁，影響語言輸入",
-      family: ["affective", "affect", "filter", "emotion", "emotional"]
+      summary: "edit（發出、出版）+ -ion（結果）→ 一本書或媒體出版的特定版次",
+      family: ["edit", "editor", "editorial", "publish"]
     }, examples: [{ en: "a paperback edition", zh: "平裝本" }] },
   { id: 3459, word: "fetter", pos: "n./v.", zh: "腳鐐；束縛", level: 7, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "ex-", origin: "Latin ex-", meaning: "向外" },
-        { form: "plic-", origin: "Latin plicare", meaning: "展開" },
-        { form: "-it", origin: "Latin -itus", meaning: "形容詞字尾" },
-        { form: "instruct-", origin: "Latin instruere", meaning: "建構、教導" }
+        { form: "fetter", origin: "Old English fetor", meaning: "腳鐐、束縛" }
       ],
-      summary: "explicit（明確展開）+ instruction（教學）→ 清楚直接地教導語言規則",
-      family: ["explicit", "instruction", "implicit", "instruct", "instructor"]
+      summary: "fetter 源自古英語「腳鐐」，引申為一切限制自由行動的束縛",
+      family: ["shackle", "chain", "restrain", "bind"]
     }, examples: [{ en: "fettered by family responsibilities", zh: "受家庭責任的束縛" }] },
   { id: 3460, word: "renaissance", pos: "n.", zh: "文藝復興；復興、勃發", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "im-", origin: "Latin in-", meaning: "在內" },
-        { form: "plic-", origin: "Latin plicare", meaning: "折疊、隱含" },
-        { form: "-it", origin: "Latin -itus", meaning: "形容詞字尾" },
-        { form: "learn-", origin: "Old English leornian", meaning: "學習" }
+        { form: "re-", origin: "Latin re-", meaning: "再次" },
+        { form: "naiss-", origin: "Latin nasci", meaning: "出生、誕生" },
+        { form: "-ance", origin: "French -ance", meaning: "狀態、過程名詞後綴" }
       ],
-      summary: "implicit（隱藏在內）+ learning（學習）→ 在不自覺中內化規則的學習方式",
-      family: ["implicit", "explicit", "learn", "learning", "imply"]
+      summary: "re-（再次）+ naiss（誕生）→ 再次誕生，特指14至17世紀歐洲文藝復興或任何文化的重新振興",
+      family: ["nascent", "nature", "native", "renascence"]
     }, examples: [{ en: "the Renaissance masterpieces in London's galleries", zh: "倫敦美術館裡的文藝復興時期傑作" }] },
   { id: 3461, word: "proceeding", pos: "n.", zh: "程序、進程；訴訟", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "spac-", origin: "Latin spatium", meaning: "空間、間隔" },
-        { form: "-ed", origin: "Old English -od", meaning: "形容詞字尾" },
-        { form: "repet-", origin: "Latin repetere", meaning: "重複" },
-        { form: "-ition", origin: "Latin -itio", meaning: "名詞字尾" }
+        { form: "pro-", origin: "Latin pro-", meaning: "向前" },
+        { form: "ceed-", origin: "Latin cedere", meaning: "走、進行" },
+        { form: "-ing", origin: "Old English -ing", meaning: "名詞後綴" }
       ],
-      summary: "spaced（間隔的）+ repetition（重複）→ 以間隔時間重複練習強化記憶",
-      family: ["space", "repetition", "repeat", "spaced practice", "interval"]
+      summary: "pro-（向前）+ ceed（走）→ 向前推進的過程，引申為法律或正式場合的程序",
+      family: ["proceed", "process", "precede", "succeed"]
     }, examples: [{ en: "John is taking legal proceedings against his ex-partner.", zh: "John 正在對他的前合夥人提起法律訴訟。" }] },
   { id: 3462, word: "abridge", pos: "v.", zh: "（書等）刪節", level: 7, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "re-", origin: "Latin re-", meaning: "再、回" },
-        { form: "triev-", origin: "Old French trouver", meaning: "找回" },
-        { form: "pract-", origin: "Greek praktike", meaning: "實踐" },
-        { form: "-ice", origin: "Latin -itia", meaning: "名詞字尾" }
+        { form: "ab-", origin: "Latin ab-", meaning: "離開、減少" },
+        { form: "bridge", origin: "Latin abbreviare", meaning: "縮短" }
       ],
-      summary: "retrieval（提取）+ practice（練習）→ 主動從記憶中提取訊息的學習練習",
-      family: ["retrieve", "retrieval", "practice", "recall", "testing effect"]
+      summary: "ab-（減少）+ bridge（橋接縮短）→ 削減書中內容，保留要點而刪去細節",
+      family: ["abbreviate", "brief", "condense", "summarize"]
     }, examples: [{ en: "A book publisher may alter or abridge a work with permission.", zh: "圖書出版商在獲得許可後可以修改或刪節作品。" }] },
   { id: 3463, word: "dome", pos: "n.", zh: "圓屋頂", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "activ-", origin: "Latin activus", meaning: "主動" },
-        { form: "re-", origin: "Latin re-", meaning: "再、回" },
-        { form: "call", origin: "Old Norse kalla", meaning: "呼叫" }
+        { form: "dom-", origin: "Latin domus", meaning: "房子、屋頂" }
       ],
-      summary: "active（主動）+ recall（回想）→ 主動把記憶從腦中喚出",
-      family: ["recall", "active", "retrieve", "memory", "call"]
+      summary: "dom（房屋）→ dome 原指半球形屋頂，形似倒扣的碗，源自「家屋」意象",
+      family: ["domestic", "domicile", "dome", "cathedral"]
     }, examples: [{ en: "the dome of the Capitol", zh: "國會大廈的穹頂" }] },
   { id: 3464, word: "reckon", pos: "v.", zh: "計算、估計、認為", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "compreh-", origin: "Latin comprehendere", meaning: "抓住、理解" },
-        { form: "input", origin: "Latin in + putare", meaning: "放入" }
+        { form: "reckon", origin: "Old English gerecenian", meaning: "列舉、計算、敘述" }
       ],
-      summary: "comprehensible（可理解的）+ input（輸入）→ 學習者能理解的語言輸入",
-      family: ["comprehensible", "comprehend", "input", "comprehension"]
+      summary: "reckon 源自古英語「列舉計算」，演變為估計數值或表達個人判斷",
+      family: ["count", "calculate", "estimate", "consider"]
     }, examples: [{ en: "The expression 'full moon' means the day the moon is reckoned from its first appearance.", zh: "「滿月」指從新月初現算起的第 14 天。" }] },
   { id: 3465, word: "rarely", pos: "adv.", zh: "非常地、難得、很少", level: 4, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "nativ-", origin: "Latin nativus", meaning: "天生、出生" },
-        { form: "speak-", origin: "Old English specan", meaning: "說話" }
+        { form: "rar-", origin: "Latin rarus", meaning: "稀少的、稀疏的" },
+        { form: "-ly", origin: "Old English -lice", meaning: "副詞後綴" }
       ],
-      summary: "native（天生的）+ speaker（說話者）→ 以該語言為母語的人",
-      family: ["native", "speaker", "speak", "nativity", "nativism"]
+      summary: "rar（稀少）+ -ly（副詞）→ 不常發生，頻率很低",
+      family: ["rare", "rarity", "scarce", "seldom"]
     }, examples: [{ en: "He rarely speaks in public.", zh: "他很少在公開場合發言。" }] },
   { id: 3466, word: "imitation", pos: "n.", zh: "模仿、仿造、仿製品", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "target", origin: "Old French targete", meaning: "目標" },
-        { form: "lingu-", origin: "Latin lingua", meaning: "語言" }
+        { form: "imit-", origin: "Latin imitari", meaning: "仿照、複製" },
+        { form: "-ation", origin: "Latin -atio", meaning: "行為、結果名詞後綴" }
       ],
-      summary: "target（目標）+ language（語言）→ 學習者正在學習的語言",
-      family: ["target", "language", "goal", "objective"]
+      summary: "imit（仿照）+ -ation（行為）→ 複製或模仿他人行為或外觀的行動",
+      family: ["imitate", "mimic", "simulate", "replica"]
     }, examples: [{ en: "The remake of 'Casablanca' was a pale imitation.", zh: "《卡薩布蘭加》的翻拍版只是個蒼白的仿製。" }] },
   { id: 3467, word: "steward", pos: "n.", zh: "乘務員、服務員、組織者", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "first", origin: "Old English fyrst", meaning: "第一" },
-        { form: "lingu-", origin: "Latin lingua", meaning: "語言" }
+        { form: "stig-", origin: "Old English stigweard", meaning: "房子" },
+        { form: "ward", origin: "Old English weard", meaning: "守護者" }
       ],
-      summary: "first（第一）+ language（語言）→ 出生後最先習得的語言",
-      family: ["first language", "mother tongue", "native language", "L1"]
+      summary: "stig（房屋）+ ward（守護者）→ 管理房產或財物的人，引申為服務人員或組織者",
+      family: ["stewardship", "ward", "guardian", "custodian"]
     }, examples: [{ en: "race stewards", zh: "比賽組織者" }] },
   { id: 3468, word: "abound", pos: "v.", zh: "多、富於", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "second-", origin: "Latin secundus", meaning: "第二" },
-        { form: "lingu-", origin: "Latin lingua", meaning: "語言" },
-        { form: "acquis-", origin: "Latin acquirere", meaning: "取得、習得" }
+        { form: "ab-", origin: "Latin ab-", meaning: "充滿" },
+        { form: "und-", origin: "Latin unda", meaning: "波浪、湧現" }
       ],
-      summary: "second language（第二語言）+ acquisition（習得）→ 非母語語言的習得過程",
-      family: ["acquisition", "language", "L2", "bilingual", "SLA"]
+      summary: "ab-（充滿）+ und（湧現）→ 像波浪般湧出，大量存在或富於某物",
+      family: ["abundant", "abundance", "undulate", "inundate"]
     }, examples: [{ en: "Rumors of such coordination abound.", zh: "關於這類協調的傳言很多。" }] },
   { id: 3469, word: "colonial", pos: "adj.", zh: "殖民地的", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "code", origin: "Latin codex", meaning: "代碼、語碼" },
-        { form: "switch", origin: "Low German swutsche", meaning: "切換" }
+        { form: "colon-", origin: "Latin colonia", meaning: "定居地、殖民地" },
+        { form: "-ial", origin: "Latin -ialis", meaning: "……的（形容詞後綴）" }
       ],
-      summary: "code（語碼）+ switching（切換）→ 在對話中交替使用兩種語言",
-      family: ["code", "switch", "bilingual", "language mixing"]
+      summary: "colon（定居）+ -ial（形容詞）→ 與海外殖民地的建立或統治相關的",
+      family: ["colony", "colonize", "colonist", "colonial"]
     }, examples: [{ en: "the struggle against colonial rule", zh: "反抗殖民統治的鬥爭" }] },
   { id: 3470, word: "immense", pos: "adj.", zh: "廣大的、巨大的", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "inter-", origin: "Latin inter-", meaning: "在……之間" },
-        { form: "fer-", origin: "Latin ferre", meaning: "攜帶" },
-        { form: "-ence", origin: "Latin -entia", meaning: "名詞字尾" }
+        { form: "im-", origin: "Latin in-", meaning: "否定、非" },
+        { form: "mens-", origin: "Latin mensura", meaning: "測量" }
       ],
-      summary: "inter-（之間）+ fer（攜帶）+ -ence → 兩語言之間互相夾帶干擾",
-      family: ["interference", "interfere", "transfer", "refer", "infer"]
+      summary: "im-（否定）+ mens（測量）→ 無法測量的，即極其廣大或巨大",
+      family: ["immensity", "measure", "dimension", "enormous"]
     }, examples: [{ en: "People who travel by rail still read an immense amount.", zh: "搭火車旅行的人們仍然閱讀很多。" }] },
   { id: 3471, word: "placard", pos: "n.", zh: "招貼、布告", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "fossil", origin: "Latin fossilis", meaning: "挖掘出的、化石" },
-        { form: "-isation", origin: "French -isation", meaning: "過程名詞字尾" }
+        { form: "plaqu-", origin: "Dutch plakken", meaning: "貼上、黏貼" },
+        { form: "-ard", origin: "French -ard", meaning: "名詞後綴" }
       ],
-      summary: "fossil（化石）+ -isation → 語言錯誤如化石般固化、無法改變",
-      family: ["fossilisation", "fossilize", "fossil", "interlanguage"]
+      summary: "plak（黏貼）+ -ard（名詞）→ 貼在牆上或手持的大型告示牌",
+      family: ["plaque", "poster", "billboard", "placard"]
     }, examples: [{ en: "a huge placard saying 'Welcome to Derbyville'", zh: "印有「歡迎來到德比維爾」的巨幅標語牌" }] },
   { id: 3472, word: "flavour", pos: "n./v.", zh: "味、風味、調味、特點", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "flav-", origin: "拉丁文 flavor", meaning: "氣味、香氣" },
-        { form: "-our", meaning: "名詞字尾（英式拼法）" }
+        { form: "flav-", origin: "Latin flavus", meaning: "金黃色、香氣" },
+        { form: "-our", origin: "Latin -or", meaning: "名詞後綴，表性質" }
       ],
-      summary: "食物的香氣與味道感受 → 風味",
-      family: ["flavour", "flavor", "flavorful", "flavouring", "savour"]
+      summary: "flav（香氣、色澤）+ -our（性質）→ 食物或事物的口味、風味與獨特特色",
+      family: ["flavor", "fragrant", "savor", "taste"]
     }, examples: [{ en: "Which flavour do you want — chocolate or vanilla?", zh: "你要哪種味道的，巧克力還是香草？" }] },
   { id: 3473, word: "exchange", pos: "v./n.", zh: "交換、兌換", level: 4, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "ex-", origin: "拉丁文 ex-", meaning: "向外" },
-        { form: "-change", origin: "古法語 changier，拉丁文 cambiare", meaning: "改變、交換" }
+        { form: "ex-", origin: "Latin ex-", meaning: "出" },
+        { form: "chang-", origin: "Old French changer", meaning: "改變、替換" }
       ],
-      summary: "向外互換 → 交換、兌換",
-      family: ["exchange", "change", "interchange", "stock exchange", "foreign exchange"]
+      summary: "ex-（出）+ change（改變）→ 將手中之物給出，換取另一樣東西",
+      family: ["change", "interchange", "exchange", "barter"]
     }, examples: [{ en: "Four of my cassettes for your Madonna CD is a fair exchange.", zh: "拿我四盒卡帶換你的瑪丹娜光碟很公平。" }] },
   { id: 3474, word: "pamphlet", pos: "n.", zh: "小冊子", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "pamphlet", origin: "中古法語 Pamphilet（12 世紀拉丁情詩 Pamphilus 的暱稱）", meaning: "小書冊" }
+        { form: "pamphlet", origin: "Medieval Latin pamphilus", meaning: "一部12世紀拉丁文愛情短詩的書名" }
       ],
-      summary: "源自一本廣泛流傳的小冊子書名 → 泛指薄型印刷小冊子",
-      family: ["pamphlet", "leaflet", "brochure", "booklet"]
+      summary: "pamphlet 源自中世紀流傳的短詩小冊《Pamphilus》，後泛指任何薄型小冊子",
+      family: ["booklet", "brochure", "leaflet", "flyer"]
     }, examples: [{ en: "a political pamphlet", zh: "政治宣傳冊" }] },
   { id: 3475, word: "module", pos: "n.", zh: "量度單位、模組", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "modul-", origin: "拉丁文 modulus", meaning: "小尺度、標準單位（modus = 方式/尺度）" },
-        { form: "-e", meaning: "名詞字尾" }
+        { form: "modul-", origin: "Latin modulus", meaning: "小尺度、量度單位" }
       ],
-      summary: "按標準尺度製作的一個小單元 → 模組",
-      family: ["module", "modular", "model", "mode", "moderate", "modify", "modulate"]
+      summary: "modul（量度單位）→ module 指可獨立運作的標準化組件或課程單元",
+      family: ["modulate", "model", "mode", "modular"]
     }, examples: [{ en: "You choose five modules in the first year.", zh: "第一年你要選五門課程。" }] },
   { id: 3476, word: "gentle", pos: "adj.", zh: "文雅的、有禮貌的、溫柔的", level: 4, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "gent-", origin: "拉丁文 gentilis", meaning: "出身好的、貴族的（gens = 家族）" },
-        { form: "-le", meaning: "形容詞字尾" }
+        { form: "gentil-", origin: "Latin gentilis", meaning: "出身高貴的" }
       ],
-      summary: "出身良好的人舉止溫文儒雅 → 溫柔的、有禮的",
-      family: ["gentle", "gently", "gentleness", "gentleman", "gentry", "genteel"]
+      summary: "gentil（高貴出身）→ gentle 原指貴族的優雅舉止，後引申為溫柔有禮",
+      family: ["gentlemen", "gentile", "gentry", "gentleness"]
     }, examples: [{ en: "Arthur was a very gentle, caring person.", zh: "阿瑟是一個非常溫柔體貼的人。" }] },
   { id: 3477, word: "annoy", pos: "v.", zh: "使煩惱、使生氣", level: 4, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "an-", origin: "古法語 anoier，拉丁文 inodiare", meaning: "使感到厭惡（in + odium = 憎恨）" },
-        { form: "-noy", meaning: "動詞字尾" }
+        { form: "an-", origin: "Latin ante-", meaning: "在前、對抗" },
+        { form: "noy", origin: "Latin in odio", meaning: "令人厭惡的" }
       ],
-      summary: "引起厭惡感 → 使煩惱、使生氣",
-      family: ["annoy", "annoying", "annoyance", "annoyed", "odium（憎恨）"]
+      summary: "an-（對抗）+ noy（厭惡）→ 持續引發他人煩躁或不快的行為",
+      family: ["annoyance", "annoy", "irritate", "bother"]
     }, examples: [{ en: "What annoyed him most was that he had received no apology.", zh: "最令他生氣的是他沒收到道歉。" }] },
   { id: 3478, word: "luminous", pos: "adj.", zh: "發光的、發亮的", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "lumin-", origin: "拉丁文 lumen", meaning: "光" },
-        { form: "-ous", meaning: "形容詞字尾" }
+        { form: "lumin-", origin: "Latin lumen", meaning: "光、光線" },
+        { form: "-ous", origin: "Latin -osus", meaning: "充滿……的" }
       ],
-      summary: "充滿光的 → 發光的",
-      family: ["luminous", "illuminate", "luminescence", "lumen", "lunar（月光）", "lux"]
+      summary: "lumin（光）+ -ous（充滿）→ 充滿光亮、能自行發光或反射光線的",
+      family: ["illuminate", "luminescence", "luminary", "lumen"]
     }, examples: [{ en: "Her large dark eyes were almost luminous.", zh: "她那雙黑色的大眼睛幾乎是閃閃發光的。" }] },
   { id: 3479, word: "exclaim", pos: "v.", zh: "呼叫、驚叫", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "ex-", origin: "拉丁文 ex-", meaning: "向外" },
-        { form: "-claim", origin: "拉丁文 clamare", meaning: "大聲呼叫" }
+        { form: "ex-", origin: "Latin ex-", meaning: "向外" },
+        { form: "clam-", origin: "Latin clamare", meaning: "呼喊、大聲說" }
       ],
-      summary: "向外大叫 → 驚叫",
-      family: ["exclaim", "exclamation", "claim", "proclaim", "acclaim", "reclaim"]
+      summary: "ex-（向外）+ clam（呼喊）→ 向外大聲喊出，因驚訝或激動而失聲驚叫",
+      family: ["exclamation", "claim", "proclaim", "clamor"]
     }, examples: [{ en: "'No!' she exclaimed in shock.", zh: "「不！」她震驚地喊道。" }] },
   { id: 3480, word: "pertinent", pos: "adj.", zh: "貼切的、中肯的", level: 6, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "cover", origin: "Latin cooperire", meaning: "覆蓋" },
-        { form: "litter-", origin: "Latin littera", meaning: "字母、文字" }
+        { form: "per-", origin: "Latin per", meaning: "完全、徹底" },
+        { form: "tin", origin: "Latin tenere", meaning: "持有、保持" }
       ],
-      summary: "cover（封面）+ letter（信）→ 放在申請文件封面上的一封介紹信",
-      family: ["cover", "letter", "application", "motivation letter"]
+      summary: "per-（完全）+ tinere（持有）→ 完全切中要點，形容言論或資訊切題中肯。",
+      family: ["pertain", "pertinence", "impertinent", "retain"]
     }, examples: [{ en: "He asked me a lot of very pertinent questions.", zh: "他問了我許多非常切中要點的問題。" }] },
   { id: 3481, word: "certify", pos: "v.", zh: "（發給證書）證明", level: 5, category: "雅思核心", source: "雅思核心 2026-05-21", roots: {
       parts: [
-        { form: "job", origin: "Middle English jobbe", meaning: "工作" },
-        { form: "de-", origin: "Latin de-", meaning: "向下、關於" },
-        { form: "scrib-", origin: "Latin scribere", meaning: "書寫" },
-        { form: "-ption", origin: "Latin -ptio", meaning: "名詞字尾" }
+        { form: "cert-", origin: "Latin certus", meaning: "確定的" },
+        { form: "-ify", origin: "Latin facere", meaning: "使……、做" }
       ],
-      summary: "job（工作）+ description（描述）→ 對一份職位職責的書面說明",
-      family: ["describe", "description", "job", "prescribe", "subscribe"]
+      summary: "certus（確定）+ -ify（使）→ 使某事成為確定事實，即以書面或證書加以證明。",
+      family: ["certificate", "certain", "certitude", "verify"]
     }, examples: [{ en: "The accounts were certified by an auditor.", zh: "這些帳目經審計員核實。" }] },
 
   // === 聽力 C19T3P3 科學實驗設計 ===
   { id: 3482, word: "practical teaching", pos: "n.", zh: "實踐教學", level: 5, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", roots: {
       parts: [
-        { form: "qualif-", origin: "Medieval Latin qualificare", meaning: "賦予資格" },
-        { form: "quali-", origin: "Latin qualis", meaning: "何種品質" },
-        { form: "-ication", origin: "Latin -ficatio", meaning: "名詞字尾" }
+        { form: "pract-", origin: "Greek praktikos", meaning: "實際操作的" },
+        { form: "teach", origin: "Old English tæcan", meaning: "指導、教導" }
       ],
-      summary: "quali（品質）+ -fication（賦予）→ 使人具備某種能力或資格的條件",
-      family: ["qualifications", "qualify", "quality", "disqualify", "qualified"]
+      summary: "practical（實踐的）+ teaching（教學）→ 在實際操作情境中進行的教學活動。",
+      family: ["practice", "practitioner", "teacher", "instruction"]
     }, examples: [{ en: "How are you getting on with the practical teaching?", zh: "你的實踐教學進展如何？" }] },
   { id: 3483, word: "struggle with", pos: "v.phr.", zh: "苦於、難以應付", level: 5, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", roots: {
       parts: [
-        { form: "probat-", origin: "Latin probare", meaning: "測試、證明" },
-        { form: "-ion", origin: "Latin -io", meaning: "名詞字尾" },
-        { form: "peri-", origin: "Greek peri-", meaning: "周圍、期間" },
-        { form: "-od", origin: "Greek hodos", meaning: "道路" }
+        { form: "struggle", origin: "Middle English struglen", meaning: "掙扎、費力對付" },
+        { form: "with", origin: "Old English wiþ", meaning: "面對、對抗" }
       ],
-      summary: "probation（試驗）+ period（期間）→ 受測試以確認適任性的時期",
-      family: ["probation", "period", "probe", "prove", "probationary"]
+      summary: "struggle（掙扎）+ with（面對）→ 費力應對某困難或挑戰，難以處理。",
+      family: ["struggle", "strive", "cope", "grapple"]
     }, examples: [{ en: "I'm really struggling with my Year 12 science class.", zh: "12 年級的科學課讓我很吃力。" }] },
   { id: 3484, word: "confidentiality", pos: "n.", zh: "保密性", level: 6, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", roots: {
       parts: [
-        { form: "apprais-", origin: "Old French aprisier", meaning: "評估價值" },
-        { form: "ap-", origin: "Latin ad-", meaning: "朝向" },
-        { form: "prais-", origin: "Latin pretium", meaning: "價格、價值" },
-        { form: "-al", origin: "Latin -alis", meaning: "名詞字尾" }
+        { form: "con-", origin: "Latin com-", meaning: "共同、完全" },
+        { form: "fid-", origin: "Latin fidere", meaning: "信任、信賴" },
+        { form: "-ential", origin: "Latin -entialis", meaning: "具有……性質的" },
+        { form: "-ity", origin: "Latin -itas", meaning: "狀態、性質" }
       ],
-      summary: "ap-（朝向）+ praise（評估價值）+ -al → 正式評估員工表現",
-      family: ["appraisal", "appraise", "appreciate", "praise", "depreciate"]
+      summary: "con-（完全）+ fidere（信任）→ 完全信賴的狀態，即保密、不對外公開的性質。",
+      family: ["confident", "confide", "confidence", "fidelity"]
     }, examples: [{ en: "Confidentiality would be an issue with medical records.", zh: "醫療記錄的保密性會是個問題。" }] },
   { id: 3485, word: "food supplement", pos: "n.", zh: "食物補充劑", level: 5, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", roots: {
       parts: [
-        { form: "pro-", origin: "Latin pro-", meaning: "向前" },
-        { form: "mot-", origin: "Latin movere", meaning: "移動" },
-        { form: "-ion", origin: "Latin -io", meaning: "名詞字尾" }
+        { form: "food", origin: "Old English fōd", meaning: "食物" },
+        { form: "supple-", origin: "Latin supplere", meaning: "補足、填補" },
+        { form: "-ment", origin: "Latin -mentum", meaning: "結果、手段" }
       ],
-      summary: "pro-（向前）+ mot（移動）+ -ion → 向前升遷 → 晉升",
-      family: ["promotion", "promote", "demote", "demotion", "motion"]
+      summary: "supplement（補充）來自 sub-（下面）+ plere（填滿）→ 用來填補飲食不足的食物補充品。",
+      family: ["supplement", "supply", "complementary", "nutrition"]
     }, examples: [{ en: "We could look at food supplements like extra iron and protein.", zh: "我們可以研究像鐵和蛋白質這類食物補充劑。" }] },
   { id: 3486, word: "specially bred", pos: "adj.", zh: "專門培育的", level: 6, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", roots: {
       parts: [
-        { form: "re-", origin: "Latin re-", meaning: "回" },
-        { form: "sign-", origin: "Latin signum", meaning: "標記" },
-        { form: "-ation", origin: "Latin -atio", meaning: "名詞字尾" }
+        { form: "special-", origin: "Latin specialis", meaning: "特定的、特別的" },
+        { form: "breed", origin: "Old English brēdan", meaning: "繁殖、培育" }
       ],
-      summary: "re-（回）+ sign（標記）+ -ation → 送還自己職位的書面文件 → 辭職",
-      family: ["resignation", "resign", "sign", "signature", "assign"]
+      summary: "specially（特別地）+ bred（繁殖培育）→ 經過人為特定目的選育的動植物品種。",
+      family: ["breed", "breeding", "species", "cultivate"]
     }, examples: [{ en: "Experimental mice are specially bred for experiments.", zh: "實驗鼠是專門為實驗培育的。" }] },
   { id: 3487, word: "food intake", pos: "n.", zh: "食物攝取量", level: 6, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", roots: {
       parts: [
-        { form: "re-", origin: "Latin re-", meaning: "再" },
-        { form: "dund-", origin: "Latin redundare", meaning: "溢出、多餘" },
-        { form: "-ancy", origin: "Latin -antia", meaning: "名詞字尾" }
+        { form: "food", origin: "Old English fōd", meaning: "食物" },
+        { form: "in-", origin: "Latin in-", meaning: "向內" },
+        { form: "take", origin: "Old Norse taka", meaning: "拿取、接受" }
       ],
-      summary: "re-（再）+ dund（溢出）+ -ancy → 超出需要的人力 → 裁員；也指備援",
-      family: ["redundancy", "redundant", "abound", "superfluous"]
+      summary: "food（食物）+ intake（攝入）→ 身體從外部攝入食物的總量。",
+      family: ["intake", "uptake", "consumption", "ingestion"]
     }, examples: [{ en: "The experiment looks at whether mice can control their food intake.", zh: "實驗看老鼠能否控制自己的食物攝取量。" }] },
   { id: 3488, word: "control group", pos: "n.", zh: "對照組", level: 6, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", roots: {
       parts: [
-        { form: "sever-", origin: "Latin severus", meaning: "嚴厲；分離" },
-        { form: "-ance", origin: "Latin -antia", meaning: "名詞字尾" },
-        { form: "pay", origin: "Old French payer", meaning: "付款" }
+        { form: "control", origin: "Medieval Latin contrarotulare", meaning: "對照核查、管控" },
+        { form: "group", origin: "French groupe", meaning: "群組" }
       ],
-      summary: "severance（切斷關係）+ pay（薪資）→ 解除勞動關係時給予的補償金",
-      family: ["severance", "sever", "separate", "pay", "compensation"]
+      summary: "control（對照管控）+ group（群組）→ 實驗中不接受實驗處理、用於比對結果的基準組別。",
+      family: ["control", "experiment", "variable", "baseline"]
     }, examples: [{ en: "Group A would be the control group.", zh: "A 組是對照組。" }] },
   { id: 3489, word: "food colouring", pos: "n.", zh: "食用色素", level: 5, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", roots: {
       parts: [
-        { form: "head", origin: "Old English heafod", meaning: "頭" },
-        { form: "hunt-", origin: "Old English huntian", meaning: "獵捕" }
+        { form: "food", origin: "Old English fōd", meaning: "食物" },
+        { form: "colour", origin: "Latin color", meaning: "顏色、色澤" }
       ],
-      summary: "head（頭腦人才）+ hunter（獵捕者）→ 專門尋找高端人才的招募者",
-      family: ["headhunter", "head", "hunt", "hunter", "recruit"]
+      summary: "food（食物）+ colouring（著色劑）→ 添加於食物中改變其外觀顏色的色素物質。",
+      family: ["pigment", "dye", "additive", "artificial"]
     }, examples: [{ en: "You could use food colouring to tag the mice.", zh: "你可以用食用色素標記老鼠。" }] },
   { id: 3490, word: "weighing chamber", pos: "n.", zh: "稱重艙", level: 6, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", roots: {
       parts: [
-        { form: "ex-", origin: "Latin ex-", meaning: "向外" },
-        { form: "secut-", origin: "Latin sequi", meaning: "跟隨、執行" },
-        { form: "-ive", origin: "Latin -ivus", meaning: "形容詞／名詞字尾" }
+        { form: "weigh", origin: "Old English wegan", meaning: "稱重、衡量" },
+        { form: "chamber", origin: "Latin camera", meaning: "房間、密閉空間" }
       ],
-      summary: "ex-（向外）+ secut（執行）+ -ive → 執行任務的人 → 主管、高層",
-      family: ["executive", "execute", "execution", "sequel", "consecutive"]
+      summary: "weighing（稱重）+ chamber（密閉空間）→ 用於精確測量重量的密閉腔體裝置。",
+      family: ["weigh", "weight", "scale", "chamber"]
     }, examples: [{ en: "Place them in a weighing chamber to stop the mice from running away.", zh: "把牠們放進稱重艙以防老鼠跑走。" }] },
   { id: 3491, word: "weight gain", pos: "n.", zh: "體重增加", level: 5, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", roots: {
       parts: [
-        { form: "manag-", origin: "Italian maneggiare", meaning: "管理、控制" },
-        { form: "-erial", origin: "Latin -arius", meaning: "形容詞字尾" }
+        { form: "weight", origin: "Old English gewiht", meaning: "重量" },
+        { form: "gain", origin: "Old French gaaignier", meaning: "獲得、增加" }
       ],
-      summary: "manage（管理）+ -erial（形容詞字尾）→ 與管理職責有關的",
-      family: ["managerial", "manage", "manager", "management", "manageable"]
+      summary: "weight（體重）+ gain（增加）→ 體重上升的現象，通常指脂肪或肌肉量的增加。",
+      family: ["weight", "gain", "obesity", "mass"]
     }, examples: [{ en: "We measured the weight gain of each mouse.", zh: "我們量了每隻老鼠的體重增加量。" }] },
   { id: 3492, word: "standard deviation", pos: "n.", zh: "標準差", level: 7, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", roots: {
       parts: [
-        { form: "de-", origin: "Latin de-", meaning: "向下、向外" },
-        { form: "leg-", origin: "Latin legare", meaning: "指派、授權" },
-        { form: "-ate", origin: "Latin -atus", meaning: "動詞／名詞字尾" }
+        { form: "standard", origin: "Old French estandart", meaning: "標準、基準" },
+        { form: "de-", origin: "Latin de-", meaning: "偏離、向下" },
+        { form: "via-", origin: "Latin via", meaning: "道路、方向" },
+        { form: "-tion", origin: "Latin -tio", meaning: "行為、結果" }
       ],
-      summary: "de-（向外）+ leg（指派）+ -ate → 把任務指派給他人 → 委派；也指代表",
-      family: ["delegate", "delegation", "legal", "legacy", "relegate"]
+      summary: "standard（標準）+ deviation（偏差）→ 統計上衡量數據偏離平均值程度的指標。",
+      family: ["deviation", "deviate", "variance", "average"]
     }, examples: [{ en: "We work out the average and the standard deviation.", zh: "我們算出平均值和標準差。" }] },
   { id: 3493, word: "variable", pos: "n.", zh: "變項、變量", level: 6, category: "聽力科學", source: "聽力 C19T3P3 實驗設計", roots: {
       parts: [
-        { form: "micro-", origin: "Greek mikros", meaning: "微小" },
-        { form: "manag-", origin: "Italian maneggiare", meaning: "管理" }
+        { form: "vari-", origin: "Latin variare", meaning: "改變、變化" },
+        { form: "-able", origin: "Latin -abilis", meaning: "可……的" }
       ],
-      summary: "micro-（微小）+ manage（管理）→ 對細節進行過度細緻的管控",
-      family: ["micromanage", "micromanagement", "manage", "macro", "control"]
+      summary: "variare（變化）+ -able（可）→ 可以改變的量，統計或實驗中可操控或觀測的因素。",
+      family: ["vary", "variation", "variable", "invariable"]
     }, examples: [{ en: "You could do a follow-up experiment adding another variable.", zh: "你可以做後續實驗加入另一個變項。" }] },
 
   // === 閱讀 C20T2P3 機器人裁判 ===
   { id: 3494, word: "umpire", pos: "n.", zh: "裁判（棒球／網球）", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "remot-", origin: "Latin remotus", meaning: "遠離" },
-        { form: "team", origin: "Old English team", meaning: "隊伍" }
+        { form: "umpire", origin: "Old French nonper", meaning: "無偶的、公正第三方（non + per）" }
       ],
-      summary: "remote（遠端）+ team（團隊）→ 成員分散各地、遠距協作的團隊",
-      family: ["remote", "team", "distributed team", "virtual team"]
+      summary: "源自古法語 nonper（無偶數、不偏任何一方）→ 比賽中居中裁決的公正第三者。",
+      family: ["referee", "arbitrator", "judge", "official"]
     }, examples: [{ en: "DeJesus became the first umpire to use ABS.", zh: "DeJesus 成為第一個使用 ABS 的裁判。" }] },
   { id: 3495, word: "strike zone", pos: "n.", zh: "好球帶", level: 5, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "perform-", origin: "Old French parfournir", meaning: "完成、執行" },
-        { form: "-ance", origin: "Latin -antia", meaning: "名詞字尾" },
-        { form: "re-", origin: "Latin re-", meaning: "再、回" },
-        { form: "view", origin: "Latin videre", meaning: "觀看" }
+        { form: "strike", origin: "Old English strīcan", meaning: "揮擊" },
+        { form: "zone", origin: "Greek zōnē", meaning: "帶狀區域" }
       ],
-      summary: "performance（表現）+ review（審視）→ 定期評估員工工作表現",
-      family: ["performance", "review", "appraisal", "evaluate", "assessment"]
+      summary: "strike（揮擊）+ zone（區域）→ 棒球中投手必須投入、打者應揮棒的有效區域。",
+      family: ["strike", "zone", "boundary", "pitch"]
     }, examples: [{ en: "A ball that passes through the strike zone is considered a strike.", zh: "穿越好球帶的球被視為好球。" }] },
   { id: 3496, word: "judgment call", pos: "n.", zh: "主觀判決", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "on-", origin: "Old English on-", meaning: "上、進入" },
-        { form: "board", origin: "Old English bord", meaning: "板、船板" },
-        { form: "-ing", origin: "Old English -ing", meaning: "動名詞字尾" }
+        { form: "judge", origin: "Latin judicare", meaning: "判斷、裁決" },
+        { form: "-ment", origin: "Latin -mentum", meaning: "行為結果" },
+        { form: "call", origin: "Old Norse kalla", meaning: "呼叫、宣告" }
       ],
-      summary: "on board（登上船/飛機）→ 引申為讓新員工融入組織的過程",
-      family: ["onboarding", "board", "aboard", "induction", "orientation"]
+      summary: "judgment（判斷）+ call（宣告）→ 需要依靠個人主觀判斷而非明確規則作出的裁定。",
+      family: ["judgment", "decision", "discretion", "ruling"]
     }, examples: [{ en: "Calling a strike was previously a judgment call by the umpire.", zh: "判好球以前是裁判的主觀判決。" }] },
   { id: 3497, word: "commission", pos: "v.", zh: "委託", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "train-", origin: "Old French trainer", meaning: "拖拉、訓練" },
-        { form: "-ing", origin: "Old English -ing", meaning: "動名詞字尾" },
-        { form: "programm-", origin: "Greek programma", meaning: "公告、方案" }
+        { form: "com-", origin: "Latin com-", meaning: "共同、一起" },
+        { form: "miss-", origin: "Latin mittere", meaning: "送出、委派" },
+        { form: "-ion", origin: "Latin -io", meaning: "行為、結果" }
       ],
-      summary: "training（訓練）+ programme（方案）→ 有系統的員工培訓計畫",
-      family: ["train", "training", "programme", "program", "trainer"]
+      summary: "com-（共同）+ mittere（送出）→ 授權某人執行特定任務，即委託或授命。",
+      family: ["mission", "commit", "permit", "transmit"]
     }, examples: [{ en: "MLB commissioned the new system.", zh: "MLB 委託了這套新系統。" }] },
   { id: 3498, word: "contraption", pos: "n.", zh: "奇特裝置", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "up-", origin: "Old English up-", meaning: "向上" },
-        { form: "skill", origin: "Old Norse skil", meaning: "技能、辨別力" }
+        { form: "contraption", origin: "possibly contrive + trap + caption", meaning: "（俚語合成）奇特組裝物" }
       ],
-      summary: "up-（向上）+ skill（技能）→ 提升現有技能水平",
-      family: ["upskill", "reskill", "skill", "upskilling", "training"]
+      summary: "可能由 contrive（設計）混合 trap（裝置）演變而來，指外觀奇特或設計複雜的機械裝置。",
+      family: ["device", "gadget", "mechanism", "apparatus"]
     }, examples: [{ en: "The contraption looked like a large black pizza box.", zh: "這個裝置看起來像一個又大又黑的披薩盒。" }] },
   { id: 3499, word: "heckling", pos: "n.", zh: "起哄、喝倒采", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "re-", origin: "Latin re-", meaning: "重新" },
-        { form: "skill", origin: "Old Norse skil", meaning: "技能" }
+        { form: "heckle", origin: "Middle English hekelen", meaning: "梳理麻纖維；引申為刁難質問" },
+        { form: "-ing", origin: "Old English -ung", meaning: "進行中的行為" }
       ],
-      summary: "re-（重新）+ skill（技能）→ 學習新技能以應對職場變化",
-      family: ["reskill", "upskill", "skill", "retrain", "retraining"]
+      summary: "heckle 原指用鐵梳梳麻，引申為用尖銳問題或嘲諷打斷演講者或表演者。",
+      family: ["heckle", "jeer", "taunt", "boo"]
     }, examples: [{ en: "There was no heckling when DeJesus announced the calls.", zh: "DeJesus 宣布判決時沒有人起哄。" }] },
   { id: 3500, word: "tweak", pos: "v.", zh: "微調", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "litter-", origin: "Latin littera", meaning: "字母、文字" },
-        { form: "-acy", origin: "Latin -acia", meaning: "狀態、能力" }
+        { form: "tweak", origin: "Old English twiccian", meaning: "用力扭拉、捏調" }
       ],
-      summary: "littera（字母文字）+ -acy（能力）→ 讀寫文字的能力；引申為某領域的基本素養",
-      family: ["literacy", "literate", "literature", "illiteracy", "letter"]
+      summary: "源自古英語 twiccian（扭拉）→ 對某事物進行小幅度的精細調整。",
+      family: ["adjust", "fine-tune", "modify", "tinker"]
     }, examples: [{ en: "MLB decided to tweak the dimensions of the zone.", zh: "MLB 決定微調好球帶的尺寸。" }] },
   { id: 3501, word: "amend", pos: "v.", zh: "修改、修訂", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "compreh-", origin: "Latin comprehendere", meaning: "抓住、理解" },
-        { form: "com-", origin: "Latin com-", meaning: "完全" },
-        { form: "prehend-", origin: "Latin prehendere", meaning: "抓住" },
-        { form: "-ion", origin: "Latin -io", meaning: "名詞字尾" }
+        { form: "a-", origin: "Latin ad-", meaning: "朝向" },
+        { form: "mend", origin: "Latin emendare", meaning: "糾正、改善（e- + menda 缺陷）" }
       ],
-      summary: "com-（完全）+ prehend（抓住）+ -ion → 完全把握意義 → 理解力",
-      family: ["comprehension", "comprehend", "comprehensive", "apprehend", "grasp"]
+      summary: "ad- + emendare（去除缺陷）→ 對文件、法律或錯誤進行正式的修改與訂正。",
+      family: ["emend", "amendment", "mend", "correct"]
     }, examples: [{ en: "They had to amend the size of the strike zone.", zh: "他們得修改好球帶的尺寸。" }] },
   { id: 3502, word: "dimensions", pos: "n.", zh: "尺寸、規模", level: 5, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "in-", origin: "Latin in-", meaning: "在內" },
-        { form: "fer-", origin: "Latin ferre", meaning: "攜帶" },
-        { form: "-ence", origin: "Latin -entia", meaning: "名詞字尾" }
+        { form: "di-", origin: "Latin dis-", meaning: "分開、兩個方向" },
+        { form: "mens-", origin: "Latin metiri", meaning: "測量" },
+        { form: "-ion", origin: "Latin -io", meaning: "行為、結果" }
       ],
-      summary: "in-（在內）+ fer（攜帶）+ -ence → 從已知帶出未知的推論",
-      family: ["inference", "infer", "refer", "defer", "transfer"]
+      summary: "dis-（分開）+ metiri（測量）→ 沿各方向測量所得的尺寸，引申為事物的規模或層面。",
+      family: ["measure", "immense", "commensurate", "extent"]
     }, examples: [{ en: "MLB tweaked the dimensions of the zone.", zh: "MLB 微調了好球帶的尺寸。" }] },
   { id: 3503, word: "consensus", pos: "n.", zh: "共識", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "para-", origin: "Greek para-", meaning: "在旁邊" },
-        { form: "phrās-", origin: "Greek phrazein", meaning: "說明、表達" },
-        { form: "-e", origin: "Greek -e", meaning: "名詞字尾" }
+        { form: "con-", origin: "Latin com-", meaning: "共同、一起" },
+        { form: "sens-", origin: "Latin sentire", meaning: "感覺、意見" },
+        { form: "-us", origin: "Latin noun ending", meaning: "名詞字尾" }
       ],
-      summary: "para-（在旁邊）+ phrase（表達）→ 用另一種方式在旁邊說同樣的意思",
-      family: ["paraphrase", "phrase", "rephrase", "periphrasis"]
+      summary: "con-（共同）+ sentire（感覺意見）→ 多方共同的意見或看法，即共識。",
+      family: ["consent", "sense", "dissent", "assent"]
     }, examples: [{ en: "The consensus was that ABS is profoundly consistent.", zh: "共識是 ABS 非常一致。" }] },
   { id: 3504, word: "profoundly", pos: "adv.", zh: "極為地、深刻地", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "summar-", origin: "Latin summarium", meaning: "摘要" },
-        { form: "summ-", origin: "Latin summa", meaning: "總和、最高點" },
-        { form: "-ise", origin: "Greek -izein", meaning: "動詞字尾" }
+        { form: "pro-", origin: "Latin pro-", meaning: "向前、深入" },
+        { form: "fund-", origin: "Latin fundus", meaning: "底部、深處" },
+        { form: "-ly", origin: "Old English -lice", meaning: "副詞字尾" }
       ],
-      summary: "summa（總和）+ -ise → 把內容歸納為最主要的部分",
-      family: ["summarise", "summary", "sum", "summarize", "summarization"]
+      summary: "pro-（深入）+ fundus（底部）→ 深入底部，形容影響極深或程度極大。",
+      family: ["profound", "profundity", "fundamental", "depth"]
     }, examples: [{ en: "ABS is profoundly consistent.", zh: "ABS 非常一致。" }] },
   { id: 3505, word: "algorithm", pos: "n.", zh: "演算法", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "annot-", origin: "Latin annotare", meaning: "加上標記" },
-        { form: "ad-", origin: "Latin ad-", meaning: "朝向" },
-        { form: "not-", origin: "Latin nota", meaning: "記號、注記" },
-        { form: "-ate", origin: "Latin -atus", meaning: "動詞字尾" }
+        { form: "algorism", origin: "Medieval Latin algorismus", meaning: "源自阿拉伯數學家 al-Khwārizmī 的名字" }
       ],
-      summary: "ad-（朝向）+ nota（記號）+ -ate → 在文字旁加上說明記號",
-      family: ["annotate", "annotation", "note", "notable", "notation"]
+      summary: "源自 9 世紀阿拉伯數學家 al-Khwārizmī 的拉丁化名字，後指一套解決問題的明確步驟規則。",
+      family: ["logarithm", "arithmetic", "procedure", "computation"]
     }, examples: [{ en: "This is part of a movement to use algorithms to take the hard choices out of life.", zh: "這是用演算法把生活中的艱難選擇拿掉的一部分。" }] },
   { id: 3506, word: "discretion", pos: "n.", zh: "自由裁量、主觀判斷空間", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "high", origin: "Old English heah", meaning: "高" },
-        { form: "light", origin: "Old English leoht", meaning: "光" }
+        { form: "dis-", origin: "Latin dis-", meaning: "分開" },
+        { form: "cret-", origin: "Latin cernere", meaning: "分辨、判斷" },
+        { form: "-ion", origin: "Latin -io", meaning: "行為、能力" }
       ],
-      summary: "high（高）+ light（光）→ 用光標出最重要的部分 → 重點標記",
-      family: ["highlight", "highlighted", "highlighter", "underline", "mark"]
+      summary: "dis-（分開）+ cernere（分辨）→ 能夠自行分辨、作判斷的能力，即自由裁量的空間。",
+      family: ["discreet", "discern", "discrete", "secretion"]
     }, examples: [{ en: "Historically, a certain discretion has been appreciated in sports.", zh: "歷史上，運動中的某種主觀裁量是被珍視的。" }] },
   { id: 3507, word: "controversy", pos: "n.", zh: "爭議", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "skim", origin: "Old French escumer", meaning: "撇去浮沫" }
+        { form: "contro-", origin: "Latin contra", meaning: "對立、反對" },
+        { form: "vers-", origin: "Latin vertere", meaning: "轉、轉向" },
+        { form: "-y", origin: "Latin -ia", meaning: "名詞字尾" }
       ],
-      summary: "skim（撇去表面）→ 只看文章表面重點，不深入閱讀 → 略讀",
-      family: ["skim", "skimming", "scan", "speed reading"]
+      summary: "contra-（對立）+ vertere（轉向）→ 意見相互對立轉動，即引發公眾爭論的議題。",
+      family: ["controversial", "contradict", "reverse", "divert"]
     }, examples: [{ en: "ABS will reduce controversy in the game.", zh: "ABS 會減少場上的爭議。" }] },
   { id: 3508, word: "unforgiving", pos: "adj.", zh: "嚴苛、不寬容的", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "scan", origin: "Latin scandere", meaning: "攀爬、掃視" }
+        { form: "un-", origin: "Old English un-", meaning: "否定" },
+        { form: "forgive", origin: "Old English forgiefan", meaning: "寬恕、原諒" },
+        { form: "-ing", origin: "Old English -ende", meaning: "具有……性質的" }
       ],
-      summary: "Latin scandere（逐行攀爬）→ 快速掃視文字尋找特定資訊",
-      family: ["scan", "scanner", "scanning", "scansion"]
+      summary: "un-（否定）+ forgive（寬恕）→ 不寬恕的，形容環境或標準極為嚴苛、不容犯錯。",
+      family: ["forgive", "strict", "relentless", "harsh"]
     }, examples: [{ en: "ABS is unforgiving and pedantic.", zh: "ABS 既嚴苛又拘泥細節。" }] },
   { id: 3509, word: "pedantic", pos: "adj.", zh: "拘泥細節的、學究的", level: 7, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "clos-", origin: "Latin claudere", meaning: "關閉、仔細" },
-        { form: "read-", origin: "Old English raedan", meaning: "閱讀" },
-        { form: "-ing", origin: "Old English -ing", meaning: "動名詞字尾" }
+        { form: "pedagog-", origin: "Greek paidagōgos", meaning: "教導孩子的人（pais 兒童 + agein 帶領）" },
+        { form: "-ic", origin: "Greek -ikos", meaning: "有關……的" }
       ],
-      summary: "close（仔細）+ reading（閱讀）→ 對文章進行仔細深入的逐字分析",
-      family: ["close reading", "close", "read", "reading", "textual analysis"]
+      summary: "源自希臘 paidagōgos（教師），引申為過分專注於學術規則細節、刻板迂腐的態度。",
+      family: ["pedagogy", "pedant", "academic", "didactic"]
     }, examples: [{ en: "ABS is unforgiving and pedantic, almost legalistic.", zh: "ABS 既嚴苛又拘泥細節，幾乎像律師。" }] },
   { id: 3510, word: "dissenting", pos: "adj.", zh: "持異議的", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "critic-", origin: "Greek kritikos", meaning: "評判" },
-        { form: "-al", origin: "Latin -alis", meaning: "形容詞字尾" },
-        { form: "read-", origin: "Old English raedan", meaning: "閱讀" }
+        { form: "dis-", origin: "Latin dis-", meaning: "分開、相異" },
+        { form: "sent-", origin: "Latin sentire", meaning: "感覺、意見" },
+        { form: "-ing", origin: "Old English -ende", meaning: "進行、具有……性質" }
       ],
-      summary: "critical（批判性的）+ reading（閱讀）→ 帶有評判與分析眼光的閱讀",
-      family: ["critical", "reading", "critique", "critic", "critical thinking"]
+      summary: "dis-（相異）+ sentire（意見）→ 持有與主流或官方立場不同意見的。",
+      family: ["dissent", "consent", "assent", "disagree"]
     }, examples: [{ en: "Some players share a dissenting stance toward the robots.", zh: "一些球員對機器人持異議的立場。" }] },
   { id: 3511, word: "stance", pos: "n.", zh: "立場、態度", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "text", origin: "Latin textus", meaning: "織物、文字" },
-        { form: "struct-", origin: "Latin struere", meaning: "建構" },
-        { form: "-ure", origin: "Latin -ura", meaning: "名詞字尾" }
+        { form: "stan-", origin: "Latin stare / Old English standan", meaning: "站立" },
+        { form: "-ce", origin: "Old French -ance", meaning: "名詞字尾、狀態" }
       ],
-      summary: "text（文字）+ structure（結構）→ 文章組織與排列的方式",
-      family: ["text", "structure", "textual", "structured", "restructure"]
+      summary: "stare/standan（站立）→ 站穩某個位置，引申為對某議題採取的明確立場或態度。",
+      family: ["stand", "standing", "standpoint", "position"]
     }, examples: [{ en: "Players have a dissenting stance toward the robots.", zh: "球員對機器人持異議的立場。" }] },
   { id: 3512, word: "terrified of", pos: "adj.phr.", zh: "害怕……的", level: 5, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "main", origin: "Old French main", meaning: "主要" },
-        { form: "ide-", origin: "Greek idea", meaning: "概念" },
-        { form: "-a", origin: "Greek -a", meaning: "名詞字尾" }
+        { form: "terr-", origin: "Latin terrere", meaning: "使恐懼" },
+        { form: "-ify", origin: "Latin facere", meaning: "使……" },
+        { form: "of", origin: "Old English of", meaning: "關於、對於" }
       ],
-      summary: "main（主要）+ idea（概念）→ 文章中最核心的論點或思想",
-      family: ["main", "idea", "topic", "central idea", "thesis"]
+      summary: "terrere（恐懼）+ -ify（使）→ 使人極度恐懼，形容對某事物感到害怕。",
+      family: ["terror", "terrify", "terrible", "deter"]
     }, examples: [{ en: "Executives are terrified of losing younger fans.", zh: "高層怕失去年輕球迷。" }] },
   { id: 3513, word: "ruled out", pos: "phr.v.", zh: "排除（可能性）", level: 5, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "support", origin: "Latin supportare", meaning: "支撐" },
-        { form: "detail", origin: "Old French detailler", meaning: "細節" }
+        { form: "rule", origin: "Latin regula", meaning: "規則、直尺" },
+        { form: "out", origin: "Old English ūt", meaning: "向外、排除" }
       ],
-      summary: "supporting（支撐的）+ detail（細節）→ 用來支持主旨的補充細節",
-      family: ["support", "detail", "evidence", "example", "elaborate"]
+      summary: "rule（規則劃定）+ out（排除在外）→ 依據規則或邏輯排除某種可能性。",
+      family: ["exclude", "eliminate", "discard", "preclude"]
     }, examples: [{ en: "These fixes were ruled out as potential solutions.", zh: "這些方案被排除作為潛在解法。" }] },
   { id: 3514, word: "flatten", pos: "v.", zh: "（比喻）變得單調", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "thes-", origin: "Greek thesis", meaning: "命題、立場" },
-        { form: "stat-", origin: "Latin stare", meaning: "站立" },
-        { form: "-ement", origin: "Latin -mentum", meaning: "名詞字尾" }
+        { form: "flat", origin: "Old Norse flatr", meaning: "平坦的" },
+        { form: "-en", origin: "Old English -nian", meaning: "使成為……" }
       ],
-      summary: "thesis（命題）+ statement（陳述）→ 文章中明確陳述核心論點的句子",
-      family: ["thesis", "statement", "state", "hypothesis", "antithesis"]
+      summary: "flat（平坦）+ -en（使）→ 使某事物變得平坦，比喻使聲音、情緒或表現失去起伏變化。",
+      family: ["flat", "level", "monotone", "deflate"]
     }, examples: [{ en: "The fastball flattened the game into strikeouts and home runs.", zh: "快速球讓比賽變得只剩三振和全壘打。" }] },
   { id: 3515, word: "retain", pos: "v.", zh: "保留、維持", level: 5, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "top-", origin: "Greek topos", meaning: "地方、主題" },
-        { form: "-ic", origin: "Greek -ikos", meaning: "形容詞字尾" },
-        { form: "sent-", origin: "Latin sentire", meaning: "感知" },
-        { form: "-ence", origin: "Latin -entia", meaning: "名詞字尾" }
+        { form: "re-", origin: "Latin re-", meaning: "再次、往後" },
+        { form: "ten-", origin: "Latin tenere", meaning: "持有、保持" },
+        { form: "-ain", origin: "Latin -inere", meaning: "動詞字尾" }
       ],
-      summary: "topic（主題）+ sentence（句子）→ 段落中陳述主旨的句子",
-      family: ["topic", "sentence", "topical", "subtopic", "subject"]
+      summary: "re-（往後）+ tenere（持有）→ 繼續持有、不放棄，即保留或維持某事物的現狀。",
+      family: ["contain", "detain", "maintain", "tenure"]
     }, examples: [{ en: "ABS was an attempt to retain a young audience.", zh: "ABS 是嘗試留住年輕觀眾的方法。" }] },
   { id: 3516, word: "feasible", pos: "adj.", zh: "可行的", level: 6, category: "閱讀體育科技", source: "閱讀 C20T2P3 機器人裁判", roots: {
       parts: [
-        { form: "trans-", origin: "Latin trans-", meaning: "穿越" },
-        { form: "it-", origin: "Latin ire", meaning: "走" },
-        { form: "-ion", origin: "Latin -io", meaning: "名詞字尾" }
+        { form: "feas-", origin: "Latin facere via Old French faisable", meaning: "可做到的" },
+        { form: "-ible", origin: "Latin -ibilis", meaning: "可……的" }
       ],
-      summary: "trans-（穿越）+ ition（走）→ 從一個狀態走向另一個狀態的過渡",
-      family: ["transition", "transit", "transitive", "transit", "translation"]
+      summary: "facere（做）+ -ible（可）→ 可以做到的，形容計畫或方案在實際條件下可行。",
+      family: ["feasibility", "possible", "viable", "practicable"]
     }, examples: [{ en: "ABS makes changes to the shape of the strike zone feasible.", zh: "ABS 讓改變好球帶形狀變得可行。" }] },
 
   // === 聽力 C19T4P2 跑步 podcast ===
   { id: 3517, word: "training programme", pos: "n.", zh: "訓練計畫", level: 4, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "coher-", origin: "Latin cohaerere", meaning: "黏合在一起" },
-        { form: "co-", origin: "Latin co-", meaning: "共同" },
-        { form: "haer-", origin: "Latin haerere", meaning: "黏著" },
-        { form: "-ence", origin: "Latin -entia", meaning: "名詞字尾" }
+        { form: "train-", origin: "Latin trahere", meaning: "拖拉、引導" },
+        { form: "programme", origin: "Greek programma", meaning: "預先寫下的計畫（pro- + gramma）" }
       ],
-      summary: "co-（共同）+ haer（黏著）+ -ence → 各部分黏合在一起的性質 → 連貫性",
-      family: ["coherence", "coherent", "cohere", "incoherent", "cohesion"]
+      summary: "training（訓練）+ programme（計畫）→ 為達成特定目標而設計的系統性訓練計畫。",
+      family: ["program", "schedule", "regimen", "curriculum"]
     }, examples: [{ en: "Many training programmes aim to help people build up to running 5 kilometres.", zh: "許多訓練計畫的目的是幫助人慢慢練到能跑 5 公里。" }] },
   { id: 3518, word: "build up to", pos: "phr.v.", zh: "慢慢練到、逐步達到", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "cohes-", origin: "Latin cohaesus", meaning: "黏合" },
-        { form: "co-", origin: "Latin co-", meaning: "共同" },
-        { form: "haes-", origin: "Latin haerere", meaning: "黏著" },
-        { form: "-ion", origin: "Latin -io", meaning: "名詞字尾" }
+        { form: "build", origin: "Old English byldan", meaning: "建立、積累" },
+        { form: "up", origin: "Old English up", meaning: "向上" },
+        { form: "to", origin: "Old English tō", meaning: "至、直到" }
       ],
-      summary: "co-（共同）+ hes（黏著）+ -ion → 文字之間通過語言手段緊密相連",
-      family: ["cohesion", "cohesive", "coherence", "adhere", "adhesive"]
+      summary: "build up（積累增強）+ to（直到達到）→ 逐步增加強度或量，直到達到目標水準。",
+      family: ["build", "progress", "increase", "develop"]
     }, examples: [{ en: "The programmes help people build up to running 5 kilometres.", zh: "這些計畫幫助人慢慢練到能跑 5 公里。" }] },
   { id: 3519, word: "take up", pos: "phr.v.", zh: "開始（從事某活動）", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "rhet-", origin: "Greek rhetor", meaning: "演說家" },
-        { form: "-oric", origin: "Greek -orike", meaning: "技藝字尾" }
+        { form: "take", origin: "Old Norse taka", meaning: "拿取、接受" },
+        { form: "up", origin: "Old English up", meaning: "向上、接手" }
       ],
-      summary: "Greek rhetor（演說家）→ 演說與說服的藝術技巧",
-      family: ["rhetoric", "rhetorical", "rhetorician", "orator"]
+      summary: "take（接受）+ up（承接）→ 開始從事、接手某項活動或習慣。",
+      family: ["adopt", "begin", "start", "pursue"]
     }, examples: [{ en: "If you're thinking about taking up running, I'm here to help.", zh: "如果你正在考慮開始跑步，我可以提供幫助。" }] },
   { id: 3520, word: "heart condition", pos: "n.", zh: "心臟病", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "persuad-", origin: "Latin persuadere", meaning: "說服" },
-        { form: "per-", origin: "Latin per-", meaning: "完全、貫穿" },
-        { form: "suad-", origin: "Latin suadere", meaning: "建議、促使" },
-        { form: "-ive", origin: "Latin -ivus", meaning: "形容詞字尾" }
+        { form: "heart", origin: "Old English heorte", meaning: "心臟" },
+        { form: "condition", origin: "Latin condicio", meaning: "狀況、情況（con- + dicere 說明）" }
       ],
-      summary: "per-（完全）+ suad（促使）+ -ive → 能充分促使他人相信的 → 有說服力的",
-      family: ["persuasive", "persuade", "persuasion", "dissuade", "suasion"]
+      summary: "heart（心臟）+ condition（狀況）→ 心臟功能出現異常的醫療狀態，泛指心臟疾病。",
+      family: ["cardiac", "cardiovascular", "disorder", "disease"]
     }, examples: [{ en: "These programmes don't work for people with heart conditions.", zh: "這些計畫不適合有心臟病的人。" }] },
   { id: 3521, word: "asthma", pos: "n.", zh: "哮喘", level: 6, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "argument-", origin: "Latin argumentum", meaning: "論點" },
-        { form: "argu-", origin: "Latin arguere", meaning: "證明、辯論" },
-        { form: "-ative", origin: "Latin -ativus", meaning: "形容詞字尾" }
+        { form: "asthma", origin: "Greek asthma", meaning: "喘息（源自 aazein 喘氣）" }
       ],
-      summary: "argument（論點）+ -ative → 以提出論點和論證為主要目的的",
-      family: ["argumentative", "argue", "argument", "counter-argument"]
+      summary: "源自希臘語 aazein（喘氣）→ 以反覆發作的喘鳴和呼吸困難為特徵的慢性呼吸道疾病。",
+      family: ["asthmatic", "breathe", "wheeze", "bronchitis"]
     }, examples: [{ en: "People with asthma should be careful with training programmes.", zh: "氣喘患者應該對訓練計畫多加小心。" }] },
   { id: 3522, word: "stay motivated", pos: "phr.", zh: "保持動力", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "narrat-", origin: "Latin narrare", meaning: "講述" },
-        { form: "-ive", origin: "Latin -ivus", meaning: "形容詞字尾" }
+        { form: "stay", origin: "Old French estayer", meaning: "停留、維持" },
+        { form: "motiv-", origin: "Latin movere", meaning: "移動、推動" },
+        { form: "-ated", origin: "Latin -atus", meaning: "被……的" }
       ],
-      summary: "narrate（講述）+ -ive → 以講述故事或事件為主的",
-      family: ["narrative", "narrate", "narrator", "narration", "story"]
+      summary: "stay（持續維持）+ motivated（被推動的）→ 持續保有完成目標的內在驅動力。",
+      family: ["motivate", "motivation", "inspire", "driven"]
     }, examples: [{ en: "It can be hard to stay motivated when training alone.", zh: "獨自訓練時很難保持動力。" }] },
   { id: 3523, word: "individual support", pos: "n.", zh: "個人化的支援", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "describ-", origin: "Latin describere", meaning: "書寫描述" },
-        { form: "de-", origin: "Latin de-", meaning: "完全" },
-        { form: "scrib-", origin: "Latin scribere", meaning: "書寫" },
-        { form: "-tive", origin: "Latin -tivus", meaning: "形容詞字尾" }
+        { form: "individ-", origin: "Latin individuus", meaning: "不可分割的（in- + dividere）" },
+        { form: "support", origin: "Latin supportare", meaning: "從下方承托（sub- + portare）" }
       ],
-      summary: "de-（完全）+ scrib（書寫）+ -tive → 詳細書寫描述事物外觀或特性的",
-      family: ["descriptive", "describe", "description", "prescriptive", "script"]
+      summary: "individual（個別的）+ support（支持）→ 針對單一個人需求量身提供的協助與支援。",
+      family: ["individual", "personal", "tailored", "assistance"]
     }, examples: [{ en: "Online programmes lack individual support.", zh: "線上計畫缺乏個人化支援。" }] },
   { id: 3524, word: "get into a rhythm", pos: "phr.", zh: "進入節奏", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "ex-", origin: "Latin ex-", meaning: "向外" },
-        { form: "posit-", origin: "Latin ponere", meaning: "放置、展示" },
-        { form: "-ory", origin: "Latin -orius", meaning: "形容詞字尾" }
+        { form: "rhythm", origin: "Greek rhythmos", meaning: "有規律的流動（源自 rhein 流動）" }
       ],
-      summary: "ex-（向外）+ posit（展示）+ -ory → 把資訊展示出來說明的 → 說明性的",
-      family: ["expository", "expose", "exposition", "explain", "explicit"]
+      summary: "rhythm 源自希臘 rhein（流動），get into a rhythm 指進入一種規律有序、流暢自然的狀態。",
+      family: ["rhythm", "routine", "pace", "flow"]
     }, examples: [{ en: "Listening to music helps your body get into a rhythm.", zh: "聽音樂幫助你的身體進入節奏。" }] },
   { id: 3525, word: "competitive", pos: "adj.", zh: "爭強好勝的、有競爭心的", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "analyt-", origin: "Greek analytikos", meaning: "分解、分析" },
-        { form: "ana-", origin: "Greek ana-", meaning: "向上、分開" },
-        { form: "ly-", origin: "Greek lyein", meaning: "解開" },
-        { form: "-ical", origin: "Greek -ikos + Latin -alis", meaning: "形容詞字尾" }
+        { form: "compet-", origin: "Latin competere", meaning: "共同追求（com- + petere 追求）" },
+        { form: "-itive", origin: "Latin -itivus", meaning: "具有……傾向的" }
       ],
-      summary: "ana-（分開）+ ly（解開）+ -ical → 把事物分解開來仔細研究的",
-      family: ["analytical", "analyse", "analysis", "analyst", "analytic"]
+      summary: "com-（共同）+ petere（追求）→ 與他人共同追逐目標，形容具有強烈競爭欲望的性格或市場。",
+      family: ["compete", "competition", "competitor", "petition"]
     }, examples: [{ en: "Most people are competitive, which isn't ideal for beginners.", zh: "多數人有競爭心，這對新手不太好。" }] },
   { id: 3526, word: "put your name down for", pos: "phr.", zh: "報名（賽事）", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "e-", origin: "Latin ex-", meaning: "向外" },
-        { form: "valu-", origin: "Latin valere", meaning: "有價值" },
-        { form: "-ate", origin: "Latin -atus", meaning: "動詞字尾" }
+        { form: "put", origin: "Old English potian", meaning: "放置" },
+        { form: "name", origin: "Old English nama", meaning: "名字" },
+        { form: "down", origin: "Old English dūn", meaning: "向下、記錄" }
       ],
-      summary: "e-（向外）+ valu（價值）+ -ate → 把價值判斷出來 → 評估",
-      family: ["evaluate", "evaluation", "value", "valid", "devalue"]
+      summary: "put（放置）+ name（名字）+ down（記下）→ 將自己的名字寫入名單，即正式報名參加某活動。",
+      family: ["register", "sign up", "enroll", "enter"]
     }, examples: [{ en: "After a few weeks of training, put your name down for a 5K.", zh: "訓練幾週後，可以報名 5 公里賽。" }] },
   { id: 3527, word: "sense of achievement", pos: "n.", zh: "成就感", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "inter-", origin: "Latin inter-", meaning: "在……之間" },
-        { form: "pret-", origin: "Latin pretium", meaning: "價格、意義" },
-        { form: "-ate", origin: "Latin -atus", meaning: "動詞字尾" }
+        { form: "sense", origin: "Latin sensus", meaning: "感覺、感受" },
+        { form: "ac-", origin: "Latin ad-", meaning: "朝向" },
+        { form: "chiev-", origin: "Old French achever", meaning: "完成（à chef 到頂點）" },
+        { form: "-ment", origin: "French -ment", meaning: "名詞字尾" }
       ],
-      summary: "inter-（之間）+ pret（意義）+ -ate → 在文字與理解之間架橋 → 詮釋",
-      family: ["interpret", "interpretation", "interpreter", "reinterpret"]
+      summary: "sense（感受）+ achievement（成就）→ 完成目標後所感受到的滿足與自我肯定。",
+      family: ["achieve", "accomplish", "satisfaction", "pride"]
     }, examples: [{ en: "Signing up for a race gives you a sense of achievement.", zh: "報名比賽能給你成就感。" }] },
   { id: 3528, word: "lack of confidence", pos: "n.", zh: "缺乏自信", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "ana-", origin: "Greek ana-", meaning: "向上、分開" },
-        { form: "lys-", origin: "Greek lyein", meaning: "解開" },
-        { form: "-e", origin: "Greek -e", meaning: "動詞字尾" }
+        { form: "lack", origin: "Middle Dutch lac", meaning: "缺少" },
+        { form: "con-", origin: "Latin com-", meaning: "共同、完全" },
+        { form: "fid-", origin: "Latin fidere", meaning: "信任" },
+        { form: "-ence", origin: "Latin -entia", meaning: "名詞字尾" }
       ],
-      summary: "ana-（分開）+ lyse（解開）→ 把複雜事物拆解成各部分加以研究",
-      family: ["analyse", "analysis", "analyst", "analytical", "psychoanalysis"]
+      summary: "lack（缺少）+ confidence（自信）→ 對自身能力缺乏信任感，即不自信的心理狀態。",
+      family: ["confidence", "self-esteem", "doubt", "insecurity"]
     }, examples: [{ en: "Many new members are put off by a lack of confidence.", zh: "很多新成員因為缺乏自信而卻步。" }] },
   { id: 3529, word: "put off", pos: "phr.v.", zh: "使卻步、勸退", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "syn-", origin: "Greek syn-", meaning: "共同" },
-        { form: "thes-", origin: "Greek tithenai", meaning: "放置" },
-        { form: "-ise", origin: "Greek -izein", meaning: "動詞字尾" }
+        { form: "put", origin: "Old English potian", meaning: "放置" },
+        { form: "off", origin: "Old English of", meaning: "離開、推遲" }
       ],
-      summary: "syn-（共同）+ thes（放置）+ -ise → 把多個部分放在一起組合成整體",
-      family: ["synthesise", "synthesis", "synthesize", "synthetic", "antithesis"]
+      summary: "put（推）+ off（離開）→ 使人產生退卻或反感，讓人打消念頭不想繼續。",
+      family: ["deter", "discourage", "dissuade", "repel"]
     }, examples: [{ en: "They were put off running because they lacked confidence.", zh: "他們因為缺乏自信而對跑步卻步。" }] },
   { id: 3530, word: "left behind", pos: "phr.", zh: "被落在後面", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "cit-", origin: "Latin citare", meaning: "呼叫、引用" },
-        { form: "-e", origin: "Latin -are", meaning: "動詞字尾" }
+        { form: "left", origin: "Old English lyft", meaning: "留下" },
+        { form: "behind", origin: "Old English behindan", meaning: "在後方" }
       ],
-      summary: "citare（呼叫）→ 呼叫原作者的文字 → 引用",
-      family: ["cite", "citation", "recite", "incite", "excite"]
+      summary: "left（留下）+ behind（在後方）→ 被遺留在其他人後面，形容跟不上群體進度的狀態。",
+      family: ["lag", "trail", "straggle", "fall behind"]
     }, examples: [{ en: "She was worried about being left behind.", zh: "她擔心被落在後面。" }] },
   { id: 3531, word: "taster session", pos: "n.", zh: "試訓課程、體驗課", level: 6, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "re-", origin: "Latin re-", meaning: "再、回" },
-        { form: "fer-", origin: "Latin ferre", meaning: "攜帶" },
-        { form: "-ence", origin: "Latin -entia", meaning: "名詞字尾" }
+        { form: "taste", origin: "Old French taster", meaning: "品嘗、試驗" },
+        { form: "-er", origin: "Old English -ere", meaning: "執行者、事物" },
+        { form: "session", origin: "Latin sessio", meaning: "坐下、集會（sedere 坐）" }
       ],
-      summary: "re-（回）+ fer（攜帶）+ -ence → 帶回去查看的資料 → 參考資料",
-      family: ["reference", "refer", "referee", "referral", "deferral"]
+      summary: "taster（試味者）+ session（課程時段）→ 讓人先行體驗感受的短暫試驗課程或活動。",
+      family: ["taste", "sample", "trial", "experience"]
     }, examples: [{ en: "A friend encouraged him to come along for a taster session.", zh: "朋友鼓勵他來參加試訓課程。" }] },
   { id: 3532, word: "hasn't looked back", pos: "phr.", zh: "一發不可收拾、再也沒回頭", level: 6, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "biblio-", origin: "Greek biblion", meaning: "書" },
-        { form: "-graph-", origin: "Greek graphein", meaning: "書寫" },
-        { form: "-y", origin: "Greek -ia", meaning: "名詞字尾" }
+        { form: "look", origin: "Old English lōcian", meaning: "看、回望" },
+        { form: "back", origin: "Old English bæc", meaning: "向後" }
       ],
-      summary: "biblio（書）+ graph（書寫記錄）+ -y → 書目記錄清單 → 參考書目",
-      family: ["bibliography", "bible", "library", "biography", "graphic"]
+      summary: "hasn't（沒有）+ looked back（回頭看）→ 一旦開始便不再猶豫回顧，形容從此一路向前、全力投入。",
+      family: ["persevere", "commit", "press on", "dedicate"]
     }, examples: [{ en: "Since joining the club, he hasn't looked back.", zh: "自從加入俱樂部後他一發不可收拾。" }] },
   { id: 3533, word: "demanding job", pos: "n.", zh: "要求很高的工作", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "abs-", origin: "Latin abs-", meaning: "遠離" },
-        { form: "tract-", origin: "Latin trahere", meaning: "拉" }
+        { form: "demand", origin: "Latin demandare", meaning: "委以重任（de- + mandare 命令）" },
+        { form: "-ing", origin: "Old English -ende", meaning: "具有……特質的" },
+        { form: "job", origin: "unknown origin", meaning: "工作" }
       ],
-      summary: "abs-（遠離）+ tract（拉）→ 從完整內容中拉出精華 → 摘要；也指抽象的",
-      family: ["abstract", "extract", "distract", "attract", "subtract"]
+      summary: "demanding（高要求的）+ job（工作）→ 對時間、精力或技能要求極高、令人吃力的工作。",
+      family: ["demanding", "stressful", "challenging", "taxing"]
     }, examples: [{ en: "He never misses training despite having a demanding job.", zh: "儘管工作要求很高，他從未錯過訓練。" }] },
   { id: 3534, word: "fit into one's schedule", pos: "phr.", zh: "安排進日程", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "intro-", origin: "Latin intro-", meaning: "向內" },
-        { form: "duc-", origin: "Latin ducere", meaning: "引導" },
-        { form: "-tion", origin: "Latin -tio", meaning: "名詞字尾" }
+        { form: "fit", origin: "Old Norse fitja", meaning: "使符合、安置" },
+        { form: "schedule", origin: "Latin schedula", meaning: "小紙片→清單→時間表" }
       ],
-      summary: "intro-（向內）+ duc（引導）+ -tion → 引導讀者進入主題的部分 → 引言",
-      family: ["introduction", "introduce", "conduct", "deduce", "produce"]
+      summary: "fit（使符合）+ into（放進）+ schedule（時間表）→ 將某活動安排進已有的日程計畫中。",
+      family: ["schedule", "arrange", "accommodate", "plan"]
     }, examples: [{ en: "He wasn't sure he'd be able to fit training into his busy schedule.", zh: "他不確定能不能把訓練排進忙碌的日程。" }] },
   { id: 3535, word: "give it a go", pos: "phr.", zh: "試一試", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "method-", origin: "Greek methodos", meaning: "方法" },
-        { form: "meta-", origin: "Greek meta-", meaning: "之後" },
-        { form: "hod-", origin: "Greek hodos", meaning: "路" },
-        { form: "-logy", origin: "Greek logos", meaning: "學問" }
+        { form: "give", origin: "Old English giefan", meaning: "給予" },
+        { form: "it", origin: "Old English hit", meaning: "它" },
+        { form: "go", origin: "Old English gān", meaning: "前進、嘗試" }
       ],
-      summary: "method（方法）+ -logy（學問）→ 研究所採用方法的系統性學問",
-      family: ["methodology", "method", "methodical", "systematic"]
+      summary: "give it a go 字面為「給它一個出發機會」，是英式慣用語，意指嘗試某事看看結果如何。",
+      family: ["try", "attempt", "have a go", "venture"]
     }, examples: [{ en: "He came along and gave it a go.", zh: "他來參加並試了一試。" }] },
   { id: 3536, word: "find the courage", pos: "phr.", zh: "鼓起勇氣", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "find-", origin: "Old English findan", meaning: "發現" },
-        { form: "-ings", origin: "Old English -ing", meaning: "複數名詞字尾" }
+        { form: "cour-", origin: "Latin cor", meaning: "心臟、內心" },
+        { form: "-age", origin: "Old French -age", meaning: "名詞字尾" },
+        { form: "find", origin: "Old English findan", meaning: "找到、發現" }
       ],
-      summary: "find（發現）+ -ings（複數）→ 研究過程中發現的結果",
-      family: ["findings", "find", "finding", "discovery", "result"]
+      summary: "find（找到）+ courage（源自 cor 心）→ 在內心深處找到克服恐懼所需的勇氣。",
+      family: ["courage", "encourage", "courageous", "bravery"]
     }, examples: [{ en: "It took him months to find the courage to contact us.", zh: "他花了幾個月才鼓起勇氣聯絡我們。" }] },
   { id: 3537, word: "take up the challenge", pos: "phr.", zh: "接受挑戰", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "con-", origin: "Latin con-", meaning: "完全、共同" },
-        { form: "clud-", origin: "Latin claudere", meaning: "關閉" },
-        { form: "-sion", origin: "Latin -sio", meaning: "名詞字尾" }
+        { form: "take", origin: "Old Norse taka", meaning: "拿取、接受" },
+        { form: "up", origin: "Old English up", meaning: "承接" },
+        { form: "chall-", origin: "Latin calumnia", meaning: "質疑、考驗" },
+        { form: "-enge", origin: "Old French -enge", meaning: "名詞字尾" }
       ],
-      summary: "con-（完全）+ clud（關閉）+ -sion → 把討論關閉收尾 → 結論",
-      family: ["conclusion", "conclude", "include", "exclude", "preclude"]
+      summary: "take up（承接）+ challenge（挑戰）→ 主動接受困難任務或考驗，不迴避挑戰。",
+      family: ["challenge", "undertake", "face", "tackle"]
     }, examples: [{ en: "After retiring he decided to take up the challenge.", zh: "退休後他決定接受挑戰。" }] },
   { id: 3538, word: "spectator", pos: "n.", zh: "觀眾", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "re-", origin: "Latin re-", meaning: "再" },
-        { form: "commend-", origin: "Latin commendare", meaning: "委託、讚揚" },
-        { form: "-ation", origin: "Latin -atio", meaning: "名詞字尾" }
+        { form: "spect-", origin: "Latin spectare", meaning: "看、觀看" },
+        { form: "-ator", origin: "Latin -ator", meaning: "執行者、人" }
       ],
-      summary: "re-（再）+ commend（委託讚揚）+ -ation → 進一步提出值得採納的建議",
-      family: ["recommendation", "recommend", "commend", "commendation"]
+      summary: "spectare（看）+ -ator（人）→ 在旁觀看而非參與的人，即現場觀眾。",
+      family: ["spectacle", "inspect", "respect", "prospect"]
     }, examples: [{ en: "It was only the support of the spectators that kept me going.", zh: "是觀眾的支持讓我堅持下來。" }] },
   { id: 3539, word: "reassured", pos: "adj.", zh: "感到安心、放心的", level: 5, category: "聽力跑步", source: "聽力 C19T4P2 跑步 podcast", roots: {
       parts: [
-        { form: "limit-", origin: "Latin limes/limitis", meaning: "界線、邊界" },
-        { form: "-ation", origin: "Latin -atio", meaning: "名詞字尾" }
+        { form: "re-", origin: "Latin re-", meaning: "再次、重新" },
+        { form: "assure", origin: "Latin ad- + securus", meaning: "使安心（確保安全）" },
+        { form: "-d", origin: "past participle ending", meaning: "已……的狀態" }
       ],
-      summary: "limit（界線）+ -ation → 研究範圍或能力的邊界所在 → 限制",
-      family: ["limitation", "limit", "limited", "unlimited", "delimit"]
+      summary: "re-（再次）+ assure（確保）→ 重新被確保安全或無憂，形容感到放心安慰的狀態。",
+      family: ["assure", "reassure", "secure", "comfort"]
     }, examples: [{ en: "He felt reassured immediately.", zh: "他立刻就放心了。" }] },
 
   // === 閱讀 C20T2P1 冷凍食品 ===
   { id: 3540, word: "preserve", pos: "v.", zh: "保存、保鮮", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "im-", origin: "Latin in-", meaning: "進入" },
-        { form: "plic-", origin: "Latin plicare", meaning: "折疊" },
-        { form: "-ation", origin: "Latin -atio", meaning: "名詞字尾" }
+        { form: "pre-", origin: "Latin prae-", meaning: "在前、預先" },
+        { form: "serv-", origin: "Latin servare", meaning: "守護、保持" },
+        { form: "-e", origin: "verb ending", meaning: "動詞字尾" }
       ],
-      summary: "im-（進入）+ plic（折疊）+ -ation → 折疊在內未明說的意思 → 涵義",
-      family: ["implication", "imply", "implicit", "implicate", "complex"]
+      summary: "prae-（在前）+ servare（守護）→ 預先守護使不腐壞，即保存食物或資源使其維持原狀。",
+      family: ["conserve", "reserve", "observe", "servant"]
     }, examples: [{ en: "Ice was used to preserve food in summer 10,000 years ago.", zh: "一萬年前人們就用冰保存夏天的食物。" }] },
   { id: 3541, word: "conserve", pos: "v.", zh: "保存、節省", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "further", origin: "Old English furthor", meaning: "更遠、進一步" },
-        { form: "re-", origin: "Latin re-", meaning: "再" },
-        { form: "search", origin: "Old French cerchier", meaning: "搜尋" }
+        { form: "con-", origin: "Latin com-", meaning: "共同、完全" },
+        { form: "serv-", origin: "Latin servare", meaning: "守護、保持" },
+        { form: "-e", origin: "verb ending", meaning: "動詞字尾" }
       ],
-      summary: "further（更進一步）+ research（研究）→ 在現有研究基礎上進行的延伸探究",
-      family: ["further", "research", "future research", "extend", "investigate"]
+      summary: "com-（完全）+ servare（守護）→ 謹慎保全資源使其不浪費或消耗，強調節約與維護。",
+      family: ["preserve", "reserve", "conservation", "observe"]
     }, examples: [{ en: "They had a unique means of conserving potatoes.", zh: "他們有一種獨特的保存馬鈴薯的方法。" }] },
   { id: 3542, word: "refrigeration", pos: "n.", zh: "冷藏（技術）", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "peer", origin: "Old French per", meaning: "同輩" },
-        { form: "re-", origin: "Latin re-", meaning: "再" },
-        { form: "view", origin: "Latin videre", meaning: "觀看" }
+        { form: "refriger-", origin: "Latin refrigerare", meaning: "使冷卻（re- + frigus 寒冷）" },
+        { form: "-ation", origin: "Latin -atio", meaning: "過程、技術" }
       ],
-      summary: "peer（同儕）+ reviewed（審查過的）→ 由同領域學者進行評審的",
-      family: ["peer", "review", "peer review", "peer-reviewed", "referee"]
+      summary: "re-（使）+ frigus（寒冷）+ -ation（技術）→ 利用低溫延長食物保鮮的冷藏技術。",
+      family: ["refrigerator", "frigid", "freeze", "cool"]
     }, examples: [{ en: "Natural ice remained the main form of refrigeration until the 19th century.", zh: "直到 19 世紀，天然冰一直是主要的冷藏方式。" }] },
   { id: 3543, word: "insulated", pos: "adj.", zh: "隔熱的、隔絕的", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "journ-", origin: "Old French jornal", meaning: "每日、期刊" },
-        { form: "-al", origin: "Latin -alis", meaning: "名詞字尾" },
-        { form: "articul-", origin: "Latin articulus", meaning: "小節" }
+        { form: "in-", origin: "Latin in-", meaning: "向內" },
+        { form: "sul-", origin: "Latin insula", meaning: "島嶼→隔絕" },
+        { form: "-ated", origin: "Latin -atus", meaning: "被……處理的" }
       ],
-      summary: "journal（期刊）+ article（文章）→ 刊登在學術期刊上的研究論文",
-      family: ["journal", "article", "journalism", "journalist", "academic journal"]
+      summary: "insula（島嶼）→ insulate（使如島嶼般隔絕）→ 以隔熱或隔音材料阻斷能量傳遞。",
+      family: ["insulate", "insulation", "isolate", "island"]
     }, examples: [{ en: "Railroads put ice in insulated rail cars.", zh: "鐵路把冰塊放進隔熱車廂。" }] },
   { id: 3544, word: "compressor", pos: "n.", zh: "壓縮機", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "academ-", origin: "Greek Akademia", meaning: "柏拉圖學園" },
-        { form: "-ic", origin: "Greek -ikos", meaning: "形容詞字尾" },
-        { form: "integr-", origin: "Latin integer", meaning: "完整、誠實" },
-        { form: "-ity", origin: "Latin -itas", meaning: "名詞字尾" }
+        { form: "compress-", origin: "Latin comprimere", meaning: "壓縮（com- + premere 壓）" },
+        { form: "-or", origin: "Latin -or", meaning: "執行裝置" }
       ],
-      summary: "academic（學術的）+ integrity（誠信）→ 在學術工作中保持誠實與道德的原則",
-      family: ["integrity", "academic", "honest", "ethics", "integer"]
+      summary: "com-（共同壓）+ premere（壓）+ -or（裝置）→ 用於壓縮氣體或液體的機械裝置，如冷藏系統中的核心零件。",
+      family: ["compress", "compression", "pressure", "depress"]
     }, examples: [{ en: "They used a compressor to force a gas through a condenser.", zh: "他們用壓縮機把氣體壓進冷凝器。" }] },
   { id: 3545, word: "ammonia", pos: "n.", zh: "氨", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "cit-", origin: "Latin citare", meaning: "引用" },
-        { form: "-ation", origin: "Latin -atio", meaning: "名詞字尾" },
-        { form: "styl-", origin: "Latin stilus", meaning: "書寫工具、風格" }
+        { form: "ammonia", origin: "New Latin ammonia", meaning: "源自古埃及神廟 Amun（阿蒙神）附近採集的鹽礦" }
       ],
-      summary: "citation（引用）+ style（風格）→ 引用文獻所採用的格式規範",
-      family: ["citation", "style", "cite", "APA", "MLA", "format"]
+      summary: "源自埃及阿蒙神廟（Ammonium）附近產出的含氮鹽，後指具刺激氣味的含氮化合物。",
+      family: ["nitrogen", "ammonium", "alkaline", "refrigerant"]
     }, examples: [{ en: "The gas used was ammonia at first and later Freon.", zh: "最初使用的氣體是氨，後來改用氟利昂。" }] },
   { id: 3546, word: "palatable", pos: "adj.", zh: "可口的、味道好的", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "para-", origin: "Greek para-", meaning: "在旁邊" },
-        { form: "phrās-", origin: "Greek phrazein", meaning: "說明、表達" }
+        { form: "palat-", origin: "Latin palatum", meaning: "上顎、味覺" },
+        { form: "-able", origin: "Latin -abilis", meaning: "可……的" }
       ],
-      summary: "para-（在旁邊）+ phrase（表達）→ 用另一種方式表達相同意思",
-      family: ["paraphrase", "phrase", "rephrase", "periphrasis"]
+      summary: "palatum（上顎）+ -able（可）→ 可被味覺接受的，形容食物口味令人愉悅、可口。",
+      family: ["palate", "taste", "appetizing", "savory"]
     }, examples: [{ en: "The frozen food was still palatable.", zh: "冷凍的食物仍然可口。" }] },
   { id: 3547, word: "deterioration", pos: "n.", zh: "變質、惡化", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "quot-", origin: "Latin quotare", meaning: "標記章節" },
-        { form: "-ation", origin: "Latin -atio", meaning: "名詞字尾" }
+        { form: "deterior-", origin: "Latin deterior", meaning: "較差的、更壞的" },
+        { form: "-ation", origin: "Latin -atio", meaning: "過程、結果" }
       ],
-      summary: "quot（標記引用）+ -ation → 直接引用他人說的話或寫的文字",
-      family: ["quotation", "quote", "misquote", "unquote"]
+      summary: "deterior（更壞的）+ -ation（過程）→ 品質逐漸變差的過程，如食物腐壞或狀況惡化。",
+      family: ["deteriorate", "decay", "degrade", "worsen"]
     }, examples: [{ en: "There was some deterioration in the frozen food.", zh: "冷凍食品仍會出現一些變質。" }] },
   { id: 3548, word: "indigenous", pos: "adj.", zh: "原住民的、土生土長的", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "foot", origin: "Old English fot", meaning: "腳、底部" },
-        { form: "note", origin: "Latin nota", meaning: "記號、注記" }
+        { form: "indigen-", origin: "Latin indigena", meaning: "土生土長的人（indi- 在內 + gena 生）" },
+        { form: "-ous", origin: "Latin -osus", meaning: "具有……性質的" }
       ],
-      summary: "foot（頁腳）+ note（注記）→ 放在頁面底部的補充說明",
-      family: ["footnote", "endnote", "note", "sidenote", "annotation"]
+      summary: "indi-（在內）+ gena（生）+ -ous → 在某地內部自然生長或出生，指原住民族或土生物種。",
+      family: ["native", "aboriginal", "endemic", "local"]
     }, examples: [{ en: "The modern frozen food industry began with the indigenous Inuit people.", zh: "現代冷凍食品產業始於原住民因紐特人。" }] },
   { id: 3549, word: "quick-freezing", pos: "adj.", zh: "速凍的", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "end", origin: "Old English ende", meaning: "末端" },
-        { form: "note", origin: "Latin nota", meaning: "記號、注記" }
+        { form: "quick", origin: "Old English cwic", meaning: "快速的、有活力的" },
+        { form: "freeze", origin: "Old English frēosan", meaning: "凍結" }
       ],
-      summary: "end（末端）+ note（注記）→ 放在文章末尾的補充說明",
-      family: ["endnote", "footnote", "note", "bibliography", "reference"]
+      summary: "quick（快速）+ freeze（冷凍）→ 以極低溫快速冷凍食物，減少冰晶破壞細胞結構的保鮮技術。",
+      family: ["freeze", "flash-freeze", "cryogenic", "preservation"]
     }, examples: [{ en: "Birdseye developed quick-freezing techniques.", zh: "Birdseye 發明了速凍技術。" }] },
   { id: 3550, word: "cellophane", pos: "n.", zh: "賽璐玢、透明玻璃紙", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "manu-", origin: "Latin manus", meaning: "手" },
-        { form: "script-", origin: "Latin scribere", meaning: "書寫" }
+        { form: "cellulose", origin: "French cellulose", meaning: "纖維素" },
+        { form: "-phane", origin: "Greek phainein", meaning: "顯現、透明可見" }
       ],
-      summary: "manu（手）+ script（書寫）→ 手寫的文稿；引申為未出版的書面稿件",
-      family: ["manuscript", "script", "manual", "handwriting", "inscribe"]
+      summary: "cellulose（纖維素）+ phainein（透明）→ 由纖維素製成的透明薄膜，早期廣泛用於食品包裝。",
+      family: ["cellulose", "transparent", "film", "packaging"]
     }, examples: [{ en: "He introduced the use of cellophane for food packaging.", zh: "他引進賽璐玢作為食品包裝材料。" }] },
   { id: 3551, word: "lease", pos: "v.", zh: "出租（給別人）", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "draft", origin: "Old English dragan", meaning: "拉、拖" }
+        { form: "leas-", origin: "Old French laissier / Latin laxare", meaning: "放開、讓渡" },
+        { form: "-e", origin: "verb ending", meaning: "動詞字尾" }
       ],
-      summary: "源自拖拉出初步形狀的概念 → 未定稿的草稿",
-      family: ["draft", "draught", "redraft", "rough draft", "final draft"]
+      summary: "laxare（放鬆、讓出）→ 將財產的使用權暫時讓渡給他人，換取定期租金報酬。",
+      family: ["release", "lease", "lax", "relay"]
     }, examples: [{ en: "Birdseye leased inexpensive freezer cases to grocery stores.", zh: "Birdseye 以低租金把冷凍櫃租給雜貨店。" }] },
   { id: 3552, word: "tin", pos: "n.", zh: "錫；罐頭", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "re-", origin: "Latin re-", meaning: "再" },
-        { form: "vis-", origin: "Latin videre", meaning: "看" },
-        { form: "-ion", origin: "Latin -io", meaning: "名詞字尾" }
+        { form: "tin", origin: "Old English tin", meaning: "錫（金屬元素）" }
       ],
-      summary: "re-（再）+ vis（看）+ -ion → 再次審視並修改 → 修訂",
-      family: ["revision", "revise", "review", "vision", "supervise"]
+      summary: "源自古英語 tin（錫），因早期罐頭以鍍錫鐵皮製成，後引申泛指金屬罐頭。",
+      family: ["can", "metal", "container", "steel"]
     }, examples: [{ en: "Tin was being used for munitions during WWII.", zh: "二戰時錫被用於軍火生產。" }] },
   { id: 3553, word: "munitions", pos: "n.", zh: "軍火、彈藥", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "proof", origin: "Latin probare", meaning: "測試、證明" },
-        { form: "read-", origin: "Old English raedan", meaning: "閱讀" },
-        { form: "-ing", origin: "Old English -ing", meaning: "動名詞字尾" }
+        { form: "munit-", origin: "Latin munitio", meaning: "防禦工事、供給（munire 建造防禦）" },
+        { form: "-ions", origin: "Latin plural ending", meaning: "複數字尾" }
       ],
-      summary: "proof（驗證）+ reading（閱讀）→ 仔細閱讀以驗證並找出錯誤",
-      family: ["proofreading", "proofread", "proof", "edit", "correct"]
+      summary: "munire（建造防禦、供應）→ munitio → 軍事作戰所需的彈藥、武器與供給物資。",
+      family: ["ammunition", "munition", "fortify", "supply"]
     }, examples: [{ en: "Tin was being used for munitions.", zh: "錫被用於軍火。" }] },
   { id: 3554, word: "rationed", pos: "adj.", zh: "被配給的", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "edit-", origin: "Latin edere", meaning: "出版、給出" },
-        { form: "-ing", origin: "Old English -ing", meaning: "動名詞字尾" }
+        { form: "ration", origin: "Latin ratio", meaning: "計算、份量（reri 計算）" },
+        { form: "-ed", origin: "past participle ending", meaning: "被……分配的" }
       ],
-      summary: "edit（修訂出版）+ -ing → 對文章進行改寫與整理的過程",
-      family: ["editing", "edit", "editor", "editorial", "edition"]
+      summary: "ratio（計算份量）+ -ed → 已按配給制度分配的，形容物資受到政府管制按量供應。",
+      family: ["ration", "ratio", "allocate", "distribute"]
     }, examples: [{ en: "Canned foods were rationed to save tin.", zh: "罐頭食品被配給以節省錫的使用。" }] },
   { id: 3555, word: "appliance", pos: "n.", zh: "家電", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "pub-", origin: "Latin publicus", meaning: "公開" },
-        { form: "lic-", origin: "Latin licere", meaning: "允許" },
-        { form: "-ish", origin: "Old French -iss-", meaning: "動詞字尾" }
+        { form: "appli-", origin: "Latin applicare", meaning: "應用、使用（ad- + plicare 折疊）" },
+        { form: "-ance", origin: "Latin -antia", meaning: "名詞字尾、工具" }
       ],
-      summary: "public（公開）→ 把作品公開出版讓大眾取得",
-      family: ["publish", "publication", "publisher", "public", "publicize"]
+      summary: "applicare（應用）+ -ance（工具）→ 供實際應用的機械裝置，特指家用電器。",
+      family: ["apply", "application", "device", "instrument"]
     }, examples: [{ en: "Refrigerators became affordable appliances for average families.", zh: "冰箱成為一般家庭負擔得起的家電。" }] },
   { id: 3556, word: "poultry", pos: "n.", zh: "家禽", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "copy", origin: "Latin copia", meaning: "豐富、複製" },
-        { form: "right", origin: "Old English riht", meaning: "權利" }
+        { form: "poultry", origin: "Old French pouletrie", meaning: "家禽（poulet 雛雞）" }
       ],
-      summary: "copy（複製）+ right（權利）→ 對作品複製與使用的排他性權利",
-      family: ["copyright", "copy", "copyrighted", "intellectual property", "plagiarism"]
+      summary: "源自古法語 poulet（小雞）→ pouletrie → 泛指供食用飼養的禽類，如雞、鴨、火雞等。",
+      family: ["fowl", "chicken", "turkey", "livestock"]
     }, examples: [{ en: "Swanson Foods was a producer of canned and frozen poultry.", zh: "Swanson Foods 是罐頭與冷凍家禽的生產商。" }] },
   { id: 3557, word: "single-serving", pos: "adj.", zh: "單人份的", level: 5, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
-        { form: "royal-", origin: "Old French roial", meaning: "皇家" },
-        { form: "-ty", origin: "Old French -te", meaning: "名詞字尾" }
+        { form: "single", origin: "Latin singulus", meaning: "單一的" },
+        { form: "serve", origin: "Latin servire", meaning: "服務、供應" },
+        { form: "-ing", origin: "present participle ending", meaning: "形容詞字尾" }
       ],
-      summary: "royal（皇家）+ -ty → 原指給君主的費用，引申為支付給創作者的授權金",
-      family: ["royalty", "royal", "royalties", "copyright", "licensing fee"]
+      summary: "single（單一）+ serving（一份供應量）→ 設計或包裝成一次只供一人食用份量的產品。",
+      family: ["serving", "portion", "individual", "package"]
     }, examples: [{ en: "Consumers loved the single-serving package.", zh: "消費者喜歡單人份的包裝。" }] },
   { id: 3558, word: "turnover", pos: "n.", zh: "營業額、營業總額", level: 6, category: "閱讀食品工業", source: "閱讀 C20T2P1 冷凍食品", roots: {
       parts: [
@@ -14211,8 +14033,499 @@ const VOCAB = [
   { id: 3670, word: "exotic vegetation", pos: "n.", zh: "異國植被", level: 6, category: "閱讀藝術", source: "閱讀 C20T4P1 Georgia O'Keeffe", examples: [{ en: "Exotic vegetation was part of the region's appeal.", zh: "異國植被是這個地區魅力的一部分。" }] },
   { id: 3671, word: "patio", pos: "n.", zh: "庭院", level: 5, category: "閱讀藝術", source: "閱讀 C20T4P1 Georgia O'Keeffe", examples: [{ en: "The large walled patio was particularly inspirational.", zh: "帶圍牆的大庭院特別激發靈感。" }] },
   { id: 3672, word: "aerial view", pos: "n.", zh: "航拍視角", level: 6, category: "閱讀藝術", source: "閱讀 C20T4P1 Georgia O'Keeffe", examples: [{ en: "She painted aerial views of rivers seen from planes.", zh: "她從飛機上畫河流的航拍視角。" }] },
-  { id: 3673, word: "motif", pos: "n.", zh: "主題、母題", level: 6, category: "閱讀藝術", source: "閱讀 C20T4P1 Georgia O'Keeffe", examples: [{ en: "She translated one of her cloud motifs to a monumental canvas.", zh: "她把雲景母題轉化為巨幅畫布。" }] }
+  { id: 3673, word: "motif", pos: "n.", zh: "主題、母題", level: 6, category: "閱讀藝術", source: "閱讀 C20T4P1 Georgia O'Keeffe", examples: [{ en: "She translated one of her cloud motifs to a monumental canvas.", zh: "她把雲景母題轉化為巨幅畫布。" }] },
+  { id: 3674, word: 'thoughtful', phonetic: '/ˈθɔːtfəl/', pos: 'adj.', zh: '體貼的；深思熟慮的', definition: 'Showing careful consideration for the needs or feelings of others, or thinking seriously about something.', example: "The manager's thoughtful approach to staff welfare led to higher productivity across the team.", roots: { parts: [{ form: 'thought', meaning: '思考' }, { form: '-ful', meaning: '充滿……的' }], summary: '充滿思考的，引申為體貼、深思熟慮', family: ['think', 'thoughtless', 'thoughtfully'] } },
+  { id: 3675, word: 'regular', phonetic: '/ˈreɡjʊlə/', pos: 'adj.', zh: '規律的；定期的', definition: 'Done or happening repeatedly at fixed intervals.', example: 'Regular exercise has been shown to reduce the risk of chronic disease significantly.', roots: { parts: [{ form: 'regul-', origin: 'Latin regula', meaning: '規則、標準' }, { form: '-ar', meaning: '形容詞後綴' }], summary: '按照規則進行的，即定期、規律的', family: ['regulate', 'regulation', 'regularly'] } },
+  { id: 3676, word: 'sporty', phonetic: '/ˈspɔːti/', pos: 'adj.', zh: '喜愛運動的；運動風格的', definition: 'Fond of or good at sport; having a style associated with sport.', example: 'The sporty design of the new vehicle appeals to younger consumers who value an active lifestyle.', roots: { parts: [{ form: 'sport', meaning: '運動' }, { form: '-y', meaning: '具有……特質的（形容詞後綴）' }], summary: '具有運動特質的，源自 sport 加形容詞後綴 -y', family: ['sport', 'sportsman', 'sportswear'] } },
+  { id: 3677, word: 'passenger', phonetic: '/ˈpæsɪndʒə/', pos: 'n.', zh: '乘客', definition: 'A person who travels in a vehicle, aircraft, or ship but is not the driver or crew.', example: 'The number of passengers using public transport increased by 15% following the introduction of discounted fares.', roots: { parts: [{ form: 'pass-', origin: 'Old French passer', meaning: '通過' }, { form: '-enger', meaning: '名詞後綴，指人' }], summary: '乘坐交通工具通過某地的人，即乘客', family: ['pass', 'passage', 'passageway'] } },
+  { id: 3678, word: 'squeezed', phonetic: '/skwiːzd/', pos: 'adj./v.', zh: '受擠壓的；壓縮的', definition: 'Pressed firmly from opposite sides; reduced or restricted under pressure.', example: 'Many small businesses feel squeezed between rising costs and declining consumer demand.', roots: { parts: [{ form: 'squeeze', origin: 'Old English cwȳsan', meaning: '擠壓' }], summary: '被從兩側壓縮，引申為受夾擊、資源受限', family: ['squeeze', 'squeezer', 'tight'] } },
+  { id: 3679, word: 'traffic jam', phonetic: '/ˈtræfɪk dʒæm/', pos: 'n.', zh: '交通堵塞', definition: 'A long line of vehicles on a road that are unable to move or can only move slowly.', example: "Traffic jams during rush hour add an average of 40 minutes to commuters' daily journeys.", roots: { parts: [{ form: 'traffic', meaning: '交通流量' }, { form: 'jam', meaning: '堵塞、卡住' }], summary: '交通流量被卡住，即塞車', family: ['traffic congestion', 'gridlock', 'bottleneck'] } },
+  { id: 3680, word: 'pace', phonetic: '/peɪs/', pos: 'n.', zh: '速度；步調', definition: 'The speed at which someone or something moves, develops, or changes.', example: 'The pace of technological change has made it difficult for regulations to keep up.', roots: { parts: [{ form: 'pac-', origin: 'Latin passus', meaning: '步伐、步距' }], summary: '源自拉丁語「步伐」，指移動或進展的速度', family: ['pacemaker', 'spacious', 'pass'] } },
+  { id: 3681, word: 'acre', phonetic: '/ˈeɪkə/', pos: 'n.', zh: '英畝', definition: 'A unit of land area equal to 4,047 square metres, commonly used in farming contexts.', example: 'The farm covers over 200 acres of arable land used for cereal production.', roots: { parts: [{ form: 'acre', origin: 'Old English æcer', meaning: '田地、耕地' }], summary: '古英語「田地」，現為土地面積單位（約 4047 平方公尺）', family: ['acreage', 'field', 'hectare'] } },
+  { id: 3682, word: 'grassland', phonetic: '/ˈɡrɑːslænd/', pos: 'n.', zh: '草地；草原', definition: 'A large open area of land covered with grass, often used for grazing animals.', example: 'The conversion of natural grassland to farmland has dramatically reduced biodiversity in the region.', roots: { parts: [{ form: 'grass', meaning: '草' }, { form: 'land', meaning: '土地' }], summary: '長滿草的土地，即草原、牧草地', family: ['meadow', 'pasture', 'savanna'] } },
+  { id: 3683, word: 'gravel pit', phonetic: '/ˈɡrævəl pɪt/', pos: 'n.', zh: '砂礫坑；礫石採掘場', definition: 'An area where gravel has been extracted from the ground, often forming a hollow or lake.', example: 'The disused gravel pit was transformed into a nature reserve attracting numerous bird species.', roots: { parts: [{ form: 'gravel', origin: 'Old French gravele', meaning: '碎石、礫石' }, { form: 'pit', meaning: '坑、採掘場' }], summary: '挖取礫石所留下的坑地', family: ['quarry', 'gravel road', 'excavation'] } },
+  { id: 3684, word: 'pond', phonetic: '/pɒnd/', pos: 'n.', zh: '池塘', definition: 'A small area of still water, either natural or artificially created.', example: 'The village pond serves as a habitat for frogs, dragonflies, and various aquatic plants.', roots: { parts: [{ form: 'pond', origin: 'Middle English ponde', meaning: '圍住的水體' }], summary: '源自中古英語，指人工圍起或天然靜止的小水域', family: ['lake', 'pool', 'wetland'] } },
+  { id: 3685, word: 'stream', phonetic: '/striːm/', pos: 'n.', zh: '小溪；溪流', definition: 'A small, narrow river or a continuous flow of water.', example: 'Pollution from agricultural runoff has severely damaged the fish populations in local streams.', roots: { parts: [{ form: 'stream', origin: 'Old English strēam', meaning: '流動的水' }], summary: '持續流動的小水流，源自古英語', family: ['mainstream', 'downstream', 'upstream'] } },
+  { id: 3686, word: 'deer', phonetic: '/dɪə/', pos: 'n.', zh: '鹿', definition: 'A hoofed grazing or browsing animal with antlers, typically found in forests and grasslands.', example: 'The reintroduction of wolves helped control deer populations and allowed forest vegetation to recover.', roots: { parts: [{ form: 'deer', origin: 'Old English dēor', meaning: '野獸（後來特指鹿）' }], summary: '古英語原指所有野獸，後專指鹿類動物', family: ['reindeer', 'antler', 'fawn'] } },
+  { id: 3687, word: 'heather', phonetic: '/ˈheðə/', pos: 'n.', zh: '石南花；帚石南', definition: 'A low-growing shrub with small purple, pink, or white flowers, found especially on moorland.', example: 'The moorland landscape was dominated by heather, which provides vital habitat for ground-nesting birds.', roots: { parts: [{ form: 'heather', origin: 'Old English hǣddre', meaning: '荒地植物' }], summary: '源自古英語，指荒野地帶常見的低矮灌木', family: ['heath', 'moorland', 'shrub'] } },
+  { id: 3688, word: 'paddock', phonetic: '/ˈpædək/', pos: 'n.', zh: '小牧場；圍欄草地', definition: 'A small field or enclosure where horses or other animals are kept or exercised.', example: 'Each horse was kept in a separate paddock to prevent territorial conflict.', roots: { parts: [{ form: 'paddock', origin: 'Old English pearroc', meaning: '圍起的場地' }], summary: '圍起供馬匹活動的小塊草地，源自古英語', family: ['enclosure', 'pasture', 'corral'] } },
+  { id: 3689, word: 'crop rotation', phonetic: '/krɒp rəʊˈteɪʃən/', pos: 'n.', zh: '輪作；輪耕', definition: 'The practice of growing different types of crops in the same area in successive seasons to maintain soil health.', example: 'Farmers who practise crop rotation report fewer pest problems and less need for chemical fertilisers.', roots: { parts: [{ form: 'crop', meaning: '作物' }, { form: 'rotat-', origin: 'Latin rotare', meaning: '旋轉、輪替' }], summary: '作物在同一土地上輪番種植，以維持土壤肥力', family: ['rotate', 'rotation', 'fallow'] } },
+  { id: 3690, word: 'pressure', phonetic: '/ˈpreʃə/', pos: 'n.', zh: '壓力；壓強', definition: 'The force applied to a surface, or a compelling influence causing stress or urgency.', example: 'Young people often face significant pressure to perform well in national examinations.', roots: { parts: [{ form: 'press-', origin: 'Latin pressura', meaning: '擠壓、施力' }, { form: '-ure', meaning: '名詞後綴' }], summary: '來自拉丁語「擠壓」，指物理壓力或心理上的迫力', family: ['press', 'compress', 'depress', 'impression'] } },
+  { id: 3691, word: 'climatic', phonetic: '/klaɪˈmætɪk/', pos: 'adj.', zh: '氣候的；與氣候相關的', definition: 'Relating to the climate of a region or the long-term patterns of weather.', example: 'Climatic conditions in the Arctic have changed dramatically over the past three decades.', roots: { parts: [{ form: 'climat-', origin: 'Greek klima', meaning: '地區、傾斜（指地球傾斜所造成的氣候帶）' }, { form: '-ic', meaning: '形容詞後綴' }], summary: '源自希臘語「地球傾斜度」，指氣候帶或氣候條件', family: ['climate', 'climatology', 'acclimatize'] } },
+  { id: 3692, word: 'wear down', phonetic: '/weə daʊn/', pos: 'phr.v.', zh: '磨損；使疲憊；逐漸削弱', definition: 'To gradually reduce or erode something through friction or repeated effort.', example: 'Constant exposure to wind and rain slowly wears down even the hardest rock surfaces.', roots: { parts: [{ form: 'wear', origin: 'Old English werian', meaning: '磨損' }, { form: 'down', meaning: '向下、減少' }], summary: '持續摩擦或反覆壓力使某物逐漸磨蝕、衰弱', family: ['erode', 'exhaust', 'grind down'] } },
+  { id: 3693, word: 'shower gel', phonetic: '/ˈʃaʊə dʒel/', pos: 'n.', zh: '沐浴露', definition: 'A liquid soap product designed for use in the shower to cleanse the body.', example: 'Many consumers are switching from shower gel in plastic bottles to solid bar alternatives to reduce waste.', roots: { parts: [{ form: 'shower', meaning: '淋浴' }, { form: 'gel', origin: 'Latin gelare', meaning: '凝固、膠狀物' }], summary: '用於淋浴的膠狀清潔產品', family: ['body wash', 'gel', 'cleanser'] } },
+  { id: 3694, word: 'facial cleanser', phonetic: '/ˈfeɪʃəl ˈklenzə/', pos: 'n.', zh: '洗面乳；臉部清潔劑', definition: 'A skincare product used to remove dirt, oil, and impurities from the face.', example: "The study found that using a gentle facial cleanser twice daily improved participants' skin condition.", roots: { parts: [{ form: 'faci-', origin: 'Latin facies', meaning: '臉、外觀' }, { form: 'cleans-', origin: 'Old English clænsian', meaning: '清潔' }], summary: '清潔臉部的護膚產品，去除污垢與油脂', family: ['cleanse', 'face wash', 'toner'] } },
+  { id: 3695, word: 'fertility', phonetic: '/fəˈtɪlɪti/', pos: 'n.', zh: '肥沃度；生育能力', definition: 'The quality of soil that enables plants to grow well, or the ability of a person or animal to reproduce.', example: 'Decades of intensive farming have reduced the natural fertility of the soil in many agricultural zones.', roots: { parts: [{ form: 'fertil-', origin: 'Latin fertilis', meaning: '肥沃的、多產的' }, { form: '-ity', meaning: '名詞後綴，表示性質' }], summary: '源自拉丁語「多產」，指土壤肥沃度或生物生育力', family: ['fertile', 'fertilize', 'infertile'] } },
+  { id: 3696, word: 'polyethylene', phonetic: '/ˌpɒliˈeθɪliːn/', pos: 'n.', zh: '聚乙烯', definition: 'A common plastic material used in packaging, containers, and many everyday products.', example: 'Polyethylene is one of the most widely produced plastics and contributes substantially to ocean pollution.', roots: { parts: [{ form: 'poly-', origin: 'Greek polys', meaning: '多、許多' }, { form: 'ethylene', origin: 'Greek aither', meaning: '乙烯（有機化合物）' }], summary: '由多個乙烯單體聚合而成的塑料材料', family: ['polymer', 'polypropylene', 'plastic'] } },
+  { id: 3697, word: 'logging', phonetic: '/ˈlɒɡɪŋ/', pos: 'n.', zh: '伐木；採伐', definition: 'The activity of cutting down trees in a forest, especially for commercial purposes.', example: 'Illegal logging continues to threaten large areas of tropical rainforest despite government regulations.', roots: { parts: [{ form: 'log', origin: 'Middle English logge', meaning: '木材、原木' }, { form: '-ing', meaning: '動名詞後綴' }], summary: '砍伐並搬運原木的活動，源自 log（原木）', family: ['deforestation', 'timber', 'lumber'] } },
+  { id: 3698, word: 'paste', phonetic: '/peɪst/', pos: 'n./v.', zh: '糊狀物；膏；貼上', definition: 'A thick, soft, moist substance, or to stick something using adhesive.', example: 'The researcher used a special conductive paste to attach the sensors to the surface.', roots: { parts: [{ form: 'past-', origin: 'Late Latin pasta', meaning: '麵糊、糊狀物' }], summary: '源自拉丁語麵糊，指黏稠膏狀物或黏貼動作', family: ['pasta', 'pasty', 'toothpaste'] } },
+  { id: 3699, word: 'pharmacy', phonetic: '/ˈfɑːməsi/', pos: 'n.', zh: '藥局；藥房', definition: 'A shop or department in a hospital where medicines are prepared and sold.', example: 'The government plans to expand the role of community pharmacies in providing basic health consultations.', roots: { parts: [{ form: 'pharmac-', origin: 'Greek pharmakon', meaning: '藥物' }, { form: '-y', meaning: '名詞後綴，表示場所或學科' }], summary: '源自希臘語「藥物」，指調配與販售藥品的地方', family: ['pharmacist', 'pharmaceutical', 'pharmacology'] } },
+  { id: 3700, word: 'inspiring', phonetic: '/ɪnˈspaɪərɪŋ/', pos: 'adj.', zh: '令人振奮的；激勵人心的', definition: 'Producing a feeling of enthusiasm and desire to do something creative or worthwhile.', example: 'The documentary presented an inspiring account of how the local community rebuilt after the flood.', roots: { parts: [{ form: 'in-', meaning: '進入' }, { form: 'spir-', origin: 'Latin spirare', meaning: '呼吸、吹入' }, { form: '-ing', meaning: '形容詞後綴' }], summary: '將精神「吹入」他人，使其振奮，源自拉丁語呼吸', family: ['inspire', 'inspiration', 'spirit'] } },
+  { id: 3701, word: 'entertaining', phonetic: '/ˌentəˈteɪnɪŋ/', pos: 'adj.', zh: '有趣的；令人愉快的', definition: "Providing amusement or enjoyment; holding someone's attention in a pleasurable way.", example: 'An entertaining presentation is more likely to keep an audience engaged than one that is purely factual.', roots: { parts: [{ form: 'enter-', origin: 'Latin inter', meaning: '在……之間' }, { form: 'tain-', origin: 'Latin tenere', meaning: '持有、保持' }, { form: '-ing', meaning: '形容詞後綴' }], summary: '讓人注意力保持在中間，即使人投入娛樂', family: ['entertain', 'entertainment', 'entertainer'] } },
+  { id: 3702, word: 'best-selling', phonetic: '/ˌbestˈselɪŋ/', pos: 'adj.', zh: '暢銷的', definition: 'Describing a product, especially a book, that has sold in very large numbers.', example: 'Her best-selling novel has been translated into over 30 languages and adapted for television.', roots: { parts: [{ form: 'best', meaning: '最好的' }, { form: 'selling', meaning: '銷售中' }], summary: '銷售成績最佳的，複合形容詞', family: ['bestseller', 'top-selling', 'blockbuster'] } },
+  { id: 3703, word: 'awareness', phonetic: '/əˈweənɪs/', pos: 'n.', zh: '意識；認識；覺察', definition: 'Knowledge or perception of a situation, fact, or issue.', example: 'Public awareness of the dangers of excessive sugar consumption has grown considerably in recent years.', roots: { parts: [{ form: 'aware', origin: 'Old English gewær', meaning: '警覺的、知道的' }, { form: '-ness', meaning: '名詞後綴，表示狀態' }], summary: '對某事保持警覺或了解的狀態，源自古英語「知道」', family: ['aware', 'unaware', 'self-awareness'] } },
+  { id: 3704, word: 'destructive', phonetic: '/dɪˈstrʌktɪv/', pos: 'adj.', zh: '破壞性的；有害的', definition: 'Causing great damage or harm.', example: 'The destructive impact of the storm on coastal infrastructure took years and millions of dollars to repair.', roots: { parts: [{ form: 'de-', meaning: '向下、摧毀' }, { form: 'struct-', origin: 'Latin struere', meaning: '建造' }, { form: '-ive', meaning: '形容詞後綴' }], summary: '拆除建造物的，即具有破壞力的，源自拉丁語「建造」的反義', family: ['destroy', 'destruction', 'destructible'] } },
+  { id: 3705, word: 'apply to', phonetic: '/əˈplaɪ tuː/', pos: 'phr.v.', zh: '適用於；申請；塗抹', definition: 'To be relevant or suitable to something; or to make a formal request to an institution.', example: 'These safety regulations apply to all workers on the construction site without exception.', roots: { parts: [{ form: 'ap-', meaning: '向（ad- 的變體）' }, { form: 'ply-', origin: 'Latin plicare', meaning: '折疊、靠攏' }], summary: '靠攏、附著於某事物，引申為適用或申請', family: ['apply', 'application', 'applicable'] } },
+  { id: 3706, word: 'consistent', phonetic: '/kənˈsɪstənt/', pos: 'adj.', zh: '一致的；始終如一的', definition: 'Acting or done in the same way over time; not containing contradictions.', example: 'Consistent practice over several months is the most reliable way to improve language skills.', roots: { parts: [{ form: 'con-', meaning: '共同、一起' }, { form: 'sist-', origin: 'Latin sistere', meaning: '站立、持守' }, { form: '-ent', meaning: '形容詞後綴' }], summary: '始終站在同一立場的，即前後一致', family: ['consist', 'consistency', 'inconsistent'] } },
+  { id: 3707, word: 'sponge', phonetic: '/spʌndʒ/', pos: 'n.', zh: '海綿', definition: 'A porous material that absorbs liquid easily, used for cleaning or as a natural marine organism.', example: 'The cleaning team used biodegradable sponges to reduce plastic waste in the office.', roots: { parts: [{ form: 'sponge', origin: 'Greek spongos', meaning: '海綿（多孔海洋生物）' }], summary: '源自希臘語多孔海洋生物，引申為吸水材料', family: ['spongy', 'absorb', 'porous'] } },
+  { id: 3708, word: 'dentist', phonetic: '/ˈdentɪst/', pos: 'n.', zh: '牙醫', definition: 'A medical professional qualified to treat conditions of the teeth and gums.', example: 'Regular visits to the dentist can prevent minor dental issues from developing into serious problems.', roots: { parts: [{ form: 'dent-', origin: 'Latin dens/dentis', meaning: '牙齒' }, { form: '-ist', meaning: '名詞後綴，指從事某專業的人' }], summary: '源自拉丁語「牙齒」，指牙齒相關的醫療專業人員', family: ['dental', 'dentistry', 'dentures'] } },
+  { id: 3709, word: 'timetable', phonetic: '/ˈtaɪmteɪbəl/', pos: 'n.', zh: '時刻表；課程表；時間安排', definition: 'A list or plan of times when events or activities are scheduled to happen.', example: 'The revised train timetable introduced more frequent services during morning and evening peak hours.', roots: { parts: [{ form: 'time', meaning: '時間' }, { form: 'table', meaning: '表格' }], summary: '列出時間的表格，即時刻表或課程表', family: ['schedule', 'timetable', 'roster'] } },
+  { id: 3710, word: 'transparent', phonetic: '/trænsˈpærənt/', pos: 'adj.', zh: '透明的；清晰易懂的；公開的', definition: 'Allowing light to pass through so objects behind can be seen clearly; or open and honest.', example: 'The organisation has committed to transparent reporting of its environmental impact each year.', roots: { parts: [{ form: 'trans-', origin: 'Latin trans', meaning: '穿越、通過' }, { form: 'par-', origin: 'Latin parere', meaning: '出現、顯現' }, { form: '-ent', meaning: '形容詞後綴' }], summary: '讓光線穿越而顯現的，引申為公開坦誠', family: ['transparency', 'transparently', 'opaque'] } },
+  { id: 3711, word: 'ranking', phonetic: '/ˈræŋkɪŋ/', pos: 'n.', zh: '排名；排行', definition: 'A position in a scale of achievement or status, or the process of ordering things by relative importance.', example: "The university's high global ranking has helped attract leading researchers from around the world.", roots: { parts: [{ form: 'rank', origin: 'Old French rang', meaning: '行列、等級' }, { form: '-ing', meaning: '名詞後綴' }], summary: '源自法語「行列」，指按等級排列的位置或過程', family: ['rank', 'ranked', 'standings'] } },
+  { id: 3712, word: 'achievement', phonetic: '/əˈtʃiːvmənt/', pos: 'n.', zh: '成就；成績', definition: 'A thing done successfully, especially through effort, courage, or skill.', example: 'Winning the international science competition was regarded as a remarkable achievement for such a young team.', roots: { parts: [{ form: 'achieve', origin: 'Old French achever', meaning: '完成、到達頂點' }, { form: '-ment', meaning: '名詞後綴，表示行為或結果' }], summary: '努力完成某事的結果，源自法語「到達頂點」', family: ['achieve', 'overachieve', 'underachievement'] } },
+  { id: 3713, word: 'tension', phonetic: '/ˈtenʃən/', pos: 'n.', zh: '緊張；張力；矛盾', definition: 'Mental or emotional strain; or the state of being stretched tight.', example: 'There is often tension between economic development goals and the need to protect the natural environment.', roots: { parts: [{ form: 'tens-', origin: 'Latin tendere', meaning: '伸展、拉緊' }, { form: '-ion', meaning: '名詞後綴' }], summary: '被拉緊的狀態，引申為緊張感或對立的張力', family: ['tense', 'tension', 'extend', 'intense'] } },
+  { id: 3714, word: 'stiff', phonetic: '/stɪf/', pos: 'adj.', zh: '僵硬的；不靈活的；嚴苛的', definition: 'Not easily bent or moved; or describing strong competition or strict conditions.', example: 'Athletes who do not warm up adequately are likely to experience stiff muscles the following day.', roots: { parts: [{ form: 'stiff', origin: 'Old English stīf', meaning: '硬的、不彎曲的' }], summary: '源自古英語，指不易彎曲的，引申為嚴格或激烈', family: ['stiffness', 'rigid', 'inflexible'] } },
+  { id: 3715, word: 'hybrid', phonetic: '/ˈhaɪbrɪd/', pos: 'adj./n.', zh: '混合的；混合動力的；雜交品種', definition: 'A combination of two different elements or types, especially a vehicle using both petrol and electricity.', example: 'The government offers tax incentives to encourage consumers to purchase hybrid or fully electric vehicles.', roots: { parts: [{ form: 'hybrid-', origin: 'Latin hybrida', meaning: '雜種（馴化動物與野生動物的後代）' }], summary: '源自拉丁語雜交品種，指兩種不同來源組合而成的事物', family: ['hybridize', 'crossbreed', 'mixed'] } },
+  { id: 3716, word: 'permanent', phonetic: '/ˈpɜːmənənt/', pos: 'adj.', zh: '永久的；長期的', definition: 'Lasting or intended to last indefinitely; not temporary.', example: 'The company announced plans to create 500 permanent jobs at its new distribution centre.', roots: { parts: [{ form: 'per-', meaning: '完全、貫穿' }, { form: 'man-', origin: 'Latin manere', meaning: '留下、持續' }, { form: '-ent', meaning: '形容詞後綴' }], summary: '完全持續留存的，即永久不變的', family: ['permanence', 'permanently', 'impermanent'] } },
+  { id: 3717, word: 'productive', phonetic: '/prəˈdʌktɪv/', pos: 'adj.', zh: '高效的；富有成效的；肥沃的', definition: 'Achieving a significant amount of results; or producing large quantities of crops.', example: 'Researchers found that shorter working hours often lead to more productive employees.', roots: { parts: [{ form: 'pro-', meaning: '向前' }, { form: 'duc-', origin: 'Latin ducere', meaning: '引導、帶出' }, { form: '-ive', meaning: '形容詞後綴' }], summary: '能夠帶出成果的，即富有生產力或效率的', family: ['produce', 'production', 'productivity'] } },
+  { id: 3718, word: 'reforest', phonetic: '/ˌriːˈfɒrɪst/', pos: 'v.', zh: '重新造林；再植樹', definition: 'To plant trees in an area where forest has been removed or destroyed.', example: "The charity's mission is to reforest degraded land across three continents by 2035.", roots: { parts: [{ form: 're-', meaning: '再次' }, { form: 'forest', origin: 'Latin forestis', meaning: '林地、森林' }], summary: '在砍伐後的土地上再次種植森林', family: ['reforestation', 'afforest', 'deforestation'] } },
+  { id: 3719, word: 'fig', phonetic: '/fɪɡ/', pos: 'n.', zh: '無花果', definition: 'A soft, sweet fruit with many small seeds, eaten fresh or dried.', example: 'Fig trees thrive in dry climates and have been cultivated in the Mediterranean region for thousands of years.', roots: { parts: [{ form: 'fig', origin: 'Old French figue / Latin ficus', meaning: '無花果' }], summary: '源自拉丁語，指地中海地區常見的甜味果實', family: ['ficus', 'fig tree', 'dried fig'] } },
+  { id: 3720, word: 'deforested', phonetic: '/ˌdiːˈfɒrɪstɪd/', pos: 'adj.', zh: '已砍伐的；已破壞森林的', definition: 'Describing an area from which trees have been removed, often leaving bare or degraded land.', example: 'Deforested hillsides are highly vulnerable to landslides and soil erosion during heavy rainfall.', roots: { parts: [{ form: 'de-', meaning: '去除、反向' }, { form: 'forest', origin: 'Latin forestis', meaning: '森林' }], summary: '樹木被去除後的土地狀態，即已遭砍伐的', family: ['deforestation', 'reforest', 'logging'] } },
+  { id: 3721, word: 'aquatic ecosystem', phonetic: '/əˈkwætɪk ˈiːkəʊsɪstəm/', pos: 'n.', zh: '水生生態系統', definition: 'A community of living organisms that interact with each other and their environment within a water-based habitat.', example: 'Industrial pollution poses a serious threat to the aquatic ecosystem of the river delta.', roots: { parts: [{ form: 'aqua-', origin: 'Latin aqua', meaning: '水' }, { form: 'eco-', origin: 'Greek oikos', meaning: '家、環境' }, { form: 'system', meaning: '系統' }], summary: '水域中生物與環境組成的整體系統', family: ['aquatic', 'ecosystem', 'marine biology'] } },
+  { id: 3722, word: 'creative writing', phonetic: '/kriˈeɪtɪv ˈraɪtɪŋ/', pos: 'n.', zh: '創意寫作', definition: 'Writing, such as fiction, poetry, or drama, that aims to express imagination and original ideas.', example: "The school introduced a creative writing programme to develop students' ability to communicate ideas imaginatively.", roots: { parts: [{ form: 'creat-', origin: 'Latin creare', meaning: '創造' }, { form: 'writing', meaning: '書寫' }], summary: '以創造力為核心的書寫形式，如小說、詩歌等', family: ['creative', 'creativity', 'fiction writing'] } },
+  { id: 3723, word: 'make a mental note', phonetic: '/meɪk ə ˈmentəl nəʊt/', pos: 'phr.', zh: '在心裡記下；默記', definition: 'To deliberately remember something without writing it down.', example: 'As she walked through the laboratory, she made a mental note of the equipment that needed replacing.', roots: { parts: [{ form: 'mental', origin: 'Latin mens/mentis', meaning: '心智' }, { form: 'note', origin: 'Latin nota', meaning: '標記、記號' }], summary: '在心智中留下標記，即默默記住某事', family: ['note', 'memorize', 'bear in mind'] } },
+  { id: 3724, word: 'follow-up', phonetic: '/ˈfɒləʊ ʌp/', pos: 'adj./n.', zh: '後續的；跟進；追蹤', definition: 'Done as a continuation of a previous action or to check results.', example: 'The follow-up study confirmed the findings of the original experiment conducted two years earlier.', roots: { parts: [{ form: 'follow', origin: 'Old English folgian', meaning: '跟隨' }, { form: 'up', meaning: '向上、繼續' }], summary: '繼續跟隨前一行動，即後續追蹤', family: ['follow up', 'follow-through', 'continuation'] } },
+  { id: 3725, word: 'genetic', phonetic: '/dʒɪˈnetɪk/', pos: 'adj.', zh: '遺傳的；基因的', definition: 'Relating to genes or heredity; connected with the inherited characteristics of an organism.', example: 'Genetic research has led to significant advances in the treatment of inherited diseases.', roots: { parts: [{ form: 'gen-', origin: 'Greek genesis', meaning: '起源、生成' }, { form: '-ic', meaning: '形容詞後綴' }], summary: '源自希臘語「起源」，指遺傳基因相關的特質', family: ['gene', 'genetics', 'genome'] } },
+  { id: 3726, word: 'sign up for', phonetic: '/saɪn ʌp fɔː/', pos: 'phr.v.', zh: '報名；登記參加', definition: 'To register or enrol for a course, event, or activity.', example: 'Over 2,000 volunteers signed up for the coastal clean-up programme within the first 24 hours.', roots: { parts: [{ form: 'sign', origin: 'Latin signum', meaning: '標記、簽名' }, { form: 'up', meaning: '完成動作' }], summary: '以簽名方式完成登記，即報名參加', family: ['register', 'enrol', 'join'] } },
+  { id: 3727, word: 'uphill', phonetic: '/ˌʌpˈhɪl/', pos: 'adj./adv.', zh: '上坡的；向上坡方向；困難的', definition: 'Going or sloping upward; or requiring a lot of effort.', example: 'Changing long-established habits is always an uphill task, but consistent effort produces results.', roots: { parts: [{ form: 'up', meaning: '向上' }, { form: 'hill', origin: 'Old English hyll', meaning: '山丘' }], summary: '向山丘上方走，引申為費力困難的事', family: ['uphill battle', 'uphill struggle', 'downhill'] } },
+  { id: 3728, word: 'ladder', phonetic: '/ˈlædə/', pos: 'n.', zh: '梯子；階梯', definition: 'A piece of equipment used for climbing, consisting of a series of bars between two long poles; also used metaphorically for a hierarchy.', example: 'Access to quality education is widely regarded as the first rung on the ladder out of poverty.', roots: { parts: [{ form: 'ladder', origin: 'Old English hlǣder', meaning: '梯子' }], summary: '源自古英語，指攀爬用的梯子，比喻晉升的階梯', family: ['rung', 'step', 'hierarchy'] } },
+  { id: 3729, word: 'freezing point', phonetic: '/ˈfriːzɪŋ pɔɪnt/', pos: 'n.', zh: '冰點；凝固點', definition: 'The temperature at which a liquid solidifies; for water, this is 0 degrees Celsius.', example: 'In northern regions, roads are regularly treated with salt to lower the freezing point of water on the surface.', roots: { parts: [{ form: 'freeze', origin: 'Old English frēosan', meaning: '結冰' }, { form: 'point', origin: 'Latin punctum', meaning: '點、位置' }], summary: '液體結凍的溫度點，即凝固點', family: ['melting point', 'boiling point', 'solidify'] } },
+  { id: 3730, word: 'competitive advantage', phonetic: '/kəmˈpetɪtɪv ədˈvɑːntɪdʒ/', pos: 'n.', zh: '競爭優勢', definition: 'A condition or circumstance that puts a company or individual in a favourable position relative to competitors.', example: 'Investment in research and development is essential for maintaining a competitive advantage in the technology sector.', roots: { parts: [{ form: 'compet-', origin: 'Latin competere', meaning: '共同競爭' }, { form: 'advantage', origin: 'Old French avantage', meaning: '優勢、前進位置' }], summary: '在競爭中佔有的有利位置或條件', family: ['competitive', 'advantage', 'edge'] } },
+  { id: 3731, word: 'moulded', phonetic: '/ˈməʊldɪd/', pos: 'adj./v.', zh: '模製的；成型的；塑造的', definition: 'Shaped using a mould; or formed and influenced over time.', example: 'The moulded plastic casing was designed to be both lightweight and highly durable.', roots: { parts: [{ form: 'mould', origin: 'Old French modle / Latin modulus', meaning: '模型、尺度' }, { form: '-ed', meaning: '過去分詞' }], summary: '源自拉丁語「模型」，指按模型成形，引申為塑造性格', family: ['mould', 'model', 'shape'] } },
+  { id: 3732, word: 'topspin', phonetic: '/ˈtɒpspɪn/', pos: 'n.', zh: '上旋球；頂旋', definition: 'A forward spin given to a ball that causes it to dip sharply and bounce high.', example: 'Players who generate heavy topspin can control the depth and bounce of the ball more effectively.', roots: { parts: [{ form: 'top', meaning: '頂部、向前' }, { form: 'spin', origin: 'Old English spinnan', meaning: '旋轉' }], summary: '球向前旋轉的技術術語，使球落地後彈高', family: ['backspin', 'sidespin', 'spin'] } },
+  { id: 3733, word: 'educational visit', phonetic: '/ˌedʒʊˈkeɪʃənəl ˈvɪzɪt/', pos: 'n.', zh: '教育參觀；校外教學', definition: 'A trip organised for students to a place of learning interest, such as a museum or nature reserve.', example: 'The educational visit to the science museum gave students the chance to interact with live experiments.', roots: { parts: [{ form: 'educat-', origin: 'Latin educare', meaning: '引導、培育' }, { form: 'visit', origin: 'Latin visitare', meaning: '前往探訪' }], summary: '以學習為目的的場外參觀活動，源自拉丁語「培育」與「探訪」', family: ['field trip', 'excursion', 'school trip'] } },
+  { id: 3734, word: 'leisure', phonetic: '/ˈleʒə/', pos: 'n.', zh: '休閒；閒暇', definition: 'Free time available for relaxation or activities done for enjoyment.', example: 'As working hours have decreased, the leisure industry has grown substantially in many developed countries.', roots: { parts: [{ form: 'leisur-', origin: 'Old French leisir / Latin licere', meaning: '被允許的、自由的' }], summary: '源自拉丁語「被允許」，指可自由支配、用於放鬆的時間', family: ['leisure time', 'leisurely', 'recreation'] } },
+  { id: 3735, word: 'decaying', phonetic: '/dɪˈkeɪɪŋ/', pos: 'adj.', zh: '腐爛的；衰退中的', definition: 'In the process of rotting or decomposing; deteriorating gradually.', example: 'Decaying organic matter releases nutrients back into the soil, supporting the growth of new plants.', roots: { parts: [{ form: 'de-', meaning: '向下、惡化' }, { form: 'cay-', origin: 'Old French caïr / Latin cadere', meaning: '落下、衰敗' }], summary: '逐漸落下衰壞的過程，即腐爛或衰退', family: ['decay', 'decompose', 'rot'] } },
+  { id: 3736, word: 'rye grass', phonetic: '/ˈraɪ ɡrɑːs/', pos: 'n.', zh: '黑麥草；牧草', definition: 'A type of grass commonly used for pasture, lawns, and soil stabilisation.', example: 'Rye grass grows quickly and is frequently used to restore vegetation on disturbed or eroded land.', roots: { parts: [{ form: 'rye', origin: 'Old English ryge', meaning: '黑麥' }, { form: 'grass', meaning: '草' }], summary: '一種快速生長的牧草，源自古英語黑麥', family: ['pasture grass', 'lawn grass', 'perennial rye'] } },
+  { id: 3737, word: 'flattened', phonetic: '/ˈflætənd/', pos: 'adj./v.', zh: '被壓平的；夷平的', definition: 'Made completely flat by pressing or crushing; destroyed or levelled.', example: 'The flattened grassland was eventually restored through a decade-long conservation programme.', roots: { parts: [{ form: 'flat', origin: 'Old Norse flatr', meaning: '平坦的' }, { form: '-en', meaning: '動詞後綴，表使動' }, { form: '-ed', meaning: '過去分詞' }], summary: '使變平坦的動作，源自北歐語「平坦」', family: ['flatten', 'level', 'compress'] } },
+  { id: 3738, word: 'collection box', phonetic: '/kəˈlekʃən bɒks/', pos: 'n.', zh: '捐款箱；募集箱', definition: 'A container placed in a public area for people to donate money or items to a cause.', example: 'Volunteers stood outside the supermarket with collection boxes to raise funds for the local food bank.', roots: { parts: [{ form: 'collect-', origin: 'Latin colligere', meaning: '聚集、收集' }, { form: 'box', meaning: '箱子' }], summary: '用於收集捐款的箱子，源自拉丁語「聚集」', family: ['donation box', 'charity box', 'tin'] } },
+  { id: 3739, word: 'playmate', phonetic: '/ˈpleɪmeɪt/', pos: 'n.', zh: '玩伴；遊伴', definition: 'A child who plays regularly with another child.', example: 'Studies suggest that having regular playmates in early childhood supports the development of social skills.', roots: { parts: [{ form: 'play', origin: 'Old English plegian', meaning: '玩耍、遊戲' }, { form: 'mate', origin: 'Middle Low German mate', meaning: '伙伴、同伴' }], summary: '一起遊玩的伙伴，源自古英語「玩耍」與低地德語「伙伴」', family: ['classmate', 'roommate', 'companion'] } },
+  { id: 3740, word: 'handle', phonetic: '/ˈhændəl/', pos: 'n.', zh: '把手；手柄', definition: 'The part of an object that is designed to be held or gripped by the hand.', example: 'The ergonomic handle on the new design reduces strain on the wrist during extended use.', roots: { parts: [{ form: 'hand', origin: 'Old English hand', meaning: '手' }, { form: '-le', meaning: '名詞小詞後綴' }], summary: '供手握持的部分，源自古英語「手」', family: ['handgrip', 'grip', 'knob'] } },
+  { id: 3741, word: 'strikeout', phonetic: '/ˈstraɪkaʊt/', pos: 'n.', zh: '三振出局', definition: 'In baseball, an instance of a batter being dismissed after three strikes.', example: "The pitcher's record of 15 strikeouts in a single game drew widespread attention from sports analysts.", roots: { parts: [{ form: 'strike', origin: 'Old English strīcan', meaning: '揮擊' }, { form: 'out', meaning: '出局' }], summary: '三次揮擊失敗後出局，棒球術語', family: ['strikeout', 'homerun', 'walk'] } },
+  { id: 3742, word: 'batter', phonetic: '/ˈbætə/', pos: 'n.', zh: '打擊者（棒球）；麵糊', definition: 'In baseball, the player who stands at the plate and attempts to hit the ball; also a liquid mixture for cooking.', example: 'The batter successfully hit the ball into the outfield, allowing two runners to score.', roots: { parts: [{ form: 'bat', origin: 'Old French battre', meaning: '打擊' }, { form: '-er', meaning: '名詞後綴，指做某動作的人' }], summary: '棒球中執行打擊的球員，源自法語「打擊」', family: ['bat', 'batting', 'pitcher'] } },
+  { id: 3743, word: 'delineated', phonetic: '/dɪˈlɪnieɪtɪd/', pos: 'adj./v.', zh: '劃定的；明確描述的', definition: 'Clearly described or marked out with precise boundaries.', example: 'The responsibilities of each department should be clearly delineated to avoid confusion and duplication of effort.', roots: { parts: [{ form: 'de-', meaning: '完全' }, { form: 'lineat-', origin: 'Latin linea', meaning: '線、輪廓' }], summary: '以線條清楚劃出範圍，引申為明確界定', family: ['delineate', 'define', 'demarcate'] } },
+  { id: 3744, word: 'legalistic', phonetic: '/ˌliːɡəˈlɪstɪk/', pos: 'adj.', zh: '過於拘泥法律條文的；法條主義的', definition: 'Excessively concerned with the strict interpretation of laws or rules, often at the expense of common sense.', example: "Critics argued that the committee's legalistic approach prevented practical solutions from being implemented.", roots: { parts: [{ form: 'legal-', origin: 'Latin lex/legis', meaning: '法律' }, { form: '-istic', meaning: '形容詞後綴，表示傾向或特徵' }], summary: '過度依賴法律條文的，源自拉丁語「法律」', family: ['legal', 'legalism', 'legalize'] } },
+  { id: 3745, word: 'fluctuate wildly', phonetic: '/ˈflʌktʃueɪt ˈwaɪldli/', pos: 'phr.', zh: '大幅波動', definition: 'To change in an irregular and unpredictable manner with large variation.', example: 'Sales of plasma TVs fluctuated wildly, but the overall trend was upward.', roots: { parts: [{ form: 'fluctuat-', origin: 'Latin fluctuare', meaning: '像波浪般起伏' }, { form: 'wildly', meaning: '劇烈地、不受控地' }], summary: '如波浪大幅且不規則地上下變動', family: ['fluctuate', 'vary', 'oscillate'] } },
+  { id: 3746, word: 'rocket', phonetic: '/ˈrɒkɪt/', pos: 'v.', zh: '急速上升', definition: 'To increase or rise very rapidly and sharply.', example: 'Sales rocketed in the final quarter of the year.', roots: { parts: [{ form: 'rocket', origin: 'Italian rocchetto', meaning: '小軸、火箭' }], summary: '像火箭般急速上升，引申為數字快速攀升', family: ['soar', 'skyrocket', 'surge'] } },
+  { id: 3747, word: 'plummet', phonetic: '/ˈplʌmɪt/', pos: 'v.', zh: '驟降', definition: 'To fall or drop very quickly and steeply.', example: 'Share prices plummeted following the announcement.', roots: { parts: [{ form: 'plummet', origin: 'Old French plommet', meaning: '鉛錘（測深用的錘子）' }], summary: '像鉛錘垂直墜落，指數值急速下跌', family: ['plunge', 'nosedive', 'crash'] } },
+  { id: 3748, word: 'tumble', phonetic: '/ˈtʌmbəl/', pos: 'v.', zh: '急速下跌', definition: 'To fall suddenly and steeply in value or amount.', example: 'Profits tumbled as competition increased.', roots: { parts: [{ form: 'tumble', origin: 'Middle Low German tummelen', meaning: '翻滾、跌落' }], summary: '快速翻落，引申為數值急速下跌', family: ['plummet', 'drop', 'collapse'] } },
+  { id: 3749, word: 'slump', phonetic: '/slʌmp/', pos: 'v.', zh: '大幅下滑', definition: 'To fall or decline sharply and suddenly.', example: 'Manufacturing output slumped during the recession.', roots: { parts: [{ form: 'slump', origin: 'Norwegian slumpe', meaning: '突然落下' }], summary: '突然重重落下，引申為經濟或數值大幅下滑', family: ['decline', 'plummet', 'recession'] } },
+  { id: 3750, word: 'dwindle', phonetic: '/ˈdwɪndəl/', pos: 'v.', zh: '逐漸減少', definition: 'To decrease gradually until very little remains.', example: 'Government funding for the arts has dwindled over the past decade.', roots: { parts: [{ form: 'dwindle', origin: 'Old English dwinan', meaning: '萎縮、消退' }], summary: '源自古英語「萎縮」，指數量緩慢減少至幾乎消失', family: ['diminish', 'decrease', 'shrink'] } },
+  { id: 3751, word: 'surge', phonetic: '/sɜːdʒ/', pos: 'v.', zh: '急增', definition: 'To increase suddenly and by a large amount.', example: 'Internet usage surged after smartphones became widely available.', roots: { parts: [{ form: 'surg-', origin: 'Latin surgere', meaning: '升起、湧起' }], summary: '源自拉丁語「升起」，如浪湧般急速增加', family: ['surge', 'upsurge', 'surging'] } },
+  { id: 3752, word: 'noticeable', phonetic: '/ˈnəʊtɪsəbəl/', pos: 'adj.', zh: '明顯的', definition: 'Easily seen or noticed; evident.', example: 'The most noticeable feature of the chart is the sharp rise in mobile phone ownership.', roots: { parts: [{ form: 'notice', origin: 'Latin notitia', meaning: '知識、認識' }, { form: '-able', meaning: '形容詞後綴，表示可……的' }], summary: '可以被注意到的，源自拉丁語「認識」', family: ['notice', 'notable', 'evident'] } },
+  { id: 3753, word: 'noticeable decrease', phonetic: '/ˈnəʊtɪsəbəl dɪˈkriːs/', pos: 'phr.', zh: '明顯的下降', definition: 'A clearly observable reduction in amount or level.', example: 'There has been a noticeable decrease in research investment over recent years.', roots: { parts: [{ form: 'noticeable', meaning: '明顯的' }, { form: 'decrease', origin: 'Latin decrescere', meaning: '向下成長（減少）' }], summary: '清楚可見的數量減少，雅思寫作常用描述短語', family: ['notable decline', 'significant drop', 'sharp fall'] } },
+  { id: 3754, word: 'paraphrase', phonetic: '/ˈpærəfreɪz/', pos: 'v.', zh: '改寫；換句話說', definition: 'To express the meaning of something using different words, especially to achieve greater clarity.', example: 'Always paraphrase the question in your introduction rather than copying it directly.', roots: { parts: [{ form: 'para-', origin: 'Greek para', meaning: '在旁邊、相似' }, { form: 'phrase', origin: 'Greek phrazein', meaning: '說話、表達' }], summary: '以相似但不同的語句表達同樣意思，即改寫換句', family: ['rephrase', 'reword', 'summarize'] } },
+  { id: 3755, word: 'overgeneralize', phonetic: '/ˌəʊvəˈdʒenərəlaɪz/', pos: 'v.', zh: '過度概括', definition: 'To draw a conclusion that is too broad based on limited evidence.', example: 'A common mistake in IELTS writing is to overgeneralize without giving reasons.', roots: { parts: [{ form: 'over-', meaning: '過度' }, { form: 'general-', origin: 'Latin generalis', meaning: '普遍的、全體的' }, { form: '-ize', meaning: '動詞後綴' }], summary: '過度延伸結論，以有限證據做出過廣的判斷', family: ['generalize', 'overstating', 'sweeping statement'] } },
+  { id: 3756, word: 'drawback', phonetic: '/ˈdrɔːbæk/', pos: 'n.', zh: '缺點；不利之處', definition: 'A disadvantage or problem that makes something less effective or desirable.', example: 'The main drawback of portable entertainment devices is that they isolate people.', roots: { parts: [{ form: 'draw back', meaning: '拉退、退縮' }], summary: '令人退縮的因素，引申為缺點或不利之處', family: ['disadvantage', 'downside', 'limitation'] } },
+  { id: 3757, word: 'handicap', phonetic: '/ˈhændɪkæp/', pos: 'n.', zh: '障礙；不利條件', definition: 'A circumstance that makes progress or success more difficult.', example: "Not having access to the Internet is a serious handicap in today's world.", roots: { parts: [{ form: 'hand in cap', origin: 'Old English trade game', meaning: '手放帽中的抽籤賭注遊戲' }], summary: '源自古代競賽中的不利條件概念，引申為障礙', family: ['obstacle', 'disadvantage', 'impediment'] } },
+  { id: 3758, word: 'invaluable', phonetic: '/ɪnˈvæljuəbəl/', pos: 'adj.', zh: '非常寶貴的', definition: 'Extremely useful or important beyond what can be measured.', example: 'Documentaries are invaluable sources of knowledge about the natural world.', roots: { parts: [{ form: 'in-', meaning: '否定（此處為強調，「無法估量」）' }, { form: 'valu-', origin: 'Latin valere', meaning: '有價值的' }, { form: '-able', meaning: '形容詞後綴' }], summary: '價值無法估量的，即極為珍貴，注意 in- 此處非否定而是加強', family: ['valuable', 'priceless', 'indispensable'] } },
+  { id: 3759, word: 'advantageous', phonetic: '/ˌædvənˈteɪdʒəs/', pos: 'adj.', zh: '有利的', definition: 'Giving a benefit or a better position; favourable.', example: 'Being culturally aware is highly advantageous in international business.', roots: { parts: [{ form: 'advantage', origin: 'Old French avantage', meaning: '前面的位置、優勢' }, { form: '-ous', meaning: '形容詞後綴，表示充滿……的' }], summary: '處於前面有利位置的，源自法語「優勢」', family: ['advantage', 'beneficial', 'favourable'] } },
+  { id: 3760, word: 'worthless', phonetic: '/ˈwɜːθlɪs/', pos: 'adj.', zh: '毫無價值的', definition: 'Having no real value, use, or importance.', example: 'Without practical skills, academic knowledge alone can seem worthless to employers.', roots: { parts: [{ form: 'worth', origin: 'Old English weorth', meaning: '價值' }, { form: '-less', meaning: '形容詞後綴，表示缺乏' }], summary: '缺乏價值的，源自古英語「價值」加否定後綴', family: ['worthwhile', 'priceless', 'useless'] } },
+  { id: 3761, word: 'enrich', phonetic: '/ɪnˈrɪtʃ/', pos: 'v.', zh: '豐富；使充實', definition: 'To improve or enhance the quality, value, or significance of something.', example: "Arts exhibitions enrich people's lives by exposing them to new creative works.", roots: { parts: [{ form: 'en-', meaning: '使……（使動前綴）' }, { form: 'rich', origin: 'Old French riche / Old High German rihhi', meaning: '富裕的' }], summary: '使變得豐富充實的，源自使動前綴加「富裕」', family: ['rich', 'richness', 'impoverish'] } },
+  { id: 3762, word: 'concession', phonetic: '/kənˈseʃən/', pos: 'n.', zh: '讓步（句型）', definition: "In writing, an acknowledgement of the opposing viewpoint before asserting one's own.", example: "Using concession phrases like 'although' helps you present a balanced argument.", roots: { parts: [{ form: 'con-', meaning: '共同、完全' }, { form: 'cess-', origin: 'Latin cedere', meaning: '讓步、退讓' }, { form: '-ion', meaning: '名詞後綴' }], summary: '源自拉丁語「退讓」，指承認對方觀點後再陳述己見', family: ['concede', 'yield', 'acknowledge'] } },
+  { id: 3763, word: 'hypothesize', phonetic: '/haɪˈpɒθɪsaɪz/', pos: 'v.', zh: '假設；推測', definition: 'To suggest a possible explanation or situation without certainty.', example: "You can hypothesize about consequences by using 'if' and 'unless' in your writing.", roots: { parts: [{ form: 'hypo-', origin: 'Greek hypo', meaning: '在下面、不足' }, { form: 'thesis', origin: 'Greek tithenai', meaning: '放置、命題' }, { form: '-ize', meaning: '動詞後綴' }], summary: '在確定之前提出的初步命題，源自希臘語「置於下方的命題」', family: ['hypothesis', 'theory', 'speculate'] } },
+  { id: 3764, word: 'prototype', phonetic: '/ˈprəʊtətaɪp/', pos: 'n.', zh: '原型；雛形', definition: 'A first or early version of a product used to test the design before mass production.', example: 'After the motorcycle is designed, a prototype is made and tested.', roots: { parts: [{ form: 'proto-', origin: 'Greek protos', meaning: '第一、最初' }, { form: 'type', origin: 'Greek typos', meaning: '印記、模式' }], summary: '最初的模式或樣本，即產品生產前的第一個版本', family: ['archetype', 'prototype', 'model'] } },
+  { id: 3765, word: 'mass-produce', phonetic: '/ˌmæs prəˈdjuːs/', pos: 'v.', zh: '大量生產', definition: 'To manufacture goods in large quantities using standardized processes.', example: 'Once the prototype is approved, the car is mass-produced in factories.', roots: { parts: [{ form: 'mass', origin: 'Latin massa', meaning: '大量、一團' }, { form: 'produce', origin: 'Latin producere', meaning: '向前帶出、生產' }], summary: '以大規模標準化流程帶出大量產品', family: ['mass production', 'manufacture', 'fabricate'] } },
+  { id: 3766, word: 'conveyor belt', phonetic: '/kənˈveɪə belt/', pos: 'n.', zh: '輸送帶', definition: 'A continuous moving strip used to transport objects from one place to another in a factory or process.', example: 'The coal is carried along a conveyor belt to the power plant.', roots: { parts: [{ form: 'convey-', origin: 'Old French convoier / Latin conviare', meaning: '同路傳送' }, { form: 'belt', origin: 'Old English belt', meaning: '帶子' }], summary: '持續移動的帶子，用於工廠中傳送物品', family: ['conveyor', 'assembly line', 'production line'] } },
+  { id: 3767, word: 'furnace', phonetic: '/ˈfɜːnɪs/', pos: 'n.', zh: '熔爐；鍋爐', definition: 'A large enclosed structure in which coal or other fuel is burned to produce heat or energy.', example: 'The coal is burned in a large furnace to which oxygen is added.', roots: { parts: [{ form: 'furnac-', origin: 'Latin fornax', meaning: '烤爐、熔爐' }], summary: '源自拉丁語烤爐，指工業用大型燃燒爐', family: ['forge', 'kiln', 'boiler'] } },
+  { id: 3768, word: 'exhaust gas', phonetic: '/ɪɡˈzɔːst ɡæs/', pos: 'n.', zh: '廢氣', definition: 'Waste gases produced by burning fuel, especially in an engine or industrial process.', example: 'The hot exhaust gases are piped to a heat recovery steam generator.', roots: { parts: [{ form: 'exhaust', origin: 'Latin exhaurire', meaning: '完全抽乾、排出' }, { form: 'gas', origin: 'Dutch gas / Greek chaos', meaning: '氣體' }], summary: '燃燒後完全排出的廢棄氣體', family: ['emission', 'fumes', 'exhaust pipe'] } },
+  { id: 3769, word: 'turbine', phonetic: '/ˈtɜːbaɪn/', pos: 'n.', zh: '渦輪機', definition: 'A machine for generating power in which a wheel or rotor is made to revolve by a fast-moving flow of water, steam, or gas.', example: 'The purified gas is used to drive a gas turbine which powers a generator.', roots: { parts: [{ form: 'turbin-', origin: 'Latin turbo', meaning: '旋轉物、陀螺' }], summary: '源自拉丁語旋轉體，指利用流體旋轉發電的機器', family: ['turbine', 'turbojet', 'windmill'] } },
+  { id: 3770, word: 'purified', phonetic: '/ˈpjʊərɪfaɪd/', pos: 'adj.', zh: '純化的；淨化的', definition: 'Cleaned of contaminants or impurities.', example: 'The purified water is stored before being distributed to the supply system.', roots: { parts: [{ form: 'pur-', origin: 'Latin purus', meaning: '純淨的' }, { form: '-ify', meaning: '動詞後綴，表使動' }, { form: '-ed', meaning: '過去分詞' }], summary: '使去除雜質而變純淨，源自拉丁語「純淨」', family: ['purify', 'pure', 'purification'] } },
+  { id: 3771, word: 'membrane', phonetic: '/ˈmembreɪn/', pos: 'n.', zh: '薄膜；過濾膜', definition: 'A thin layer of material used to filter substances in industrial or biological processes.', example: 'Water is forced through a membrane at high pressure to remove salt.', roots: { parts: [{ form: 'membran-', origin: 'Latin membrana', meaning: '皮膜（源自 membrum 成員、肢體）' }], summary: '薄薄的隔離或過濾層，源自拉丁語「皮膜」', family: ['membrane filter', 'cell membrane', 'film'] } },
+  { id: 3772, word: 'desalination', phonetic: '/ˌdiːsælɪˈneɪʃən/', pos: 'n.', zh: '海水淡化', definition: 'The process of removing salt from seawater to make it suitable for drinking or irrigation.', example: 'The diagram illustrates the various stages in the desalination of seawater.', roots: { parts: [{ form: 'de-', meaning: '去除' }, { form: 'salin-', origin: 'Latin sal', meaning: '鹽' }, { form: '-ation', meaning: '名詞後綴，表示過程' }], summary: '去除鹽分的過程，使海水變為可用淡水', family: ['desalinate', 'saline', 'freshwater'] } },
+  { id: 3773, word: 'impurity', phonetic: '/ɪmˈpjʊərɪti/', pos: 'n.', zh: '雜質', definition: 'A substance that makes something else dirty or less pure.', example: 'During the pre-treatment stage, large impurities are removed from the seawater.', roots: { parts: [{ form: 'im-', meaning: '非、否定' }, { form: 'pur-', origin: 'Latin purus', meaning: '純淨的' }, { form: '-ity', meaning: '名詞後綴' }], summary: '不純淨的物質，即混入的雜質，源自拉丁語「純淨」的否定', family: ['impure', 'contaminant', 'pollutant'] } },
+  { id: 3774, word: 'water table', phonetic: '/ˈwɔːtə ˈteɪbəl/', pos: 'n.', zh: '地下水位', definition: 'The level below which the ground is saturated with water.', example: 'If long periods of rain occur, the water table rises.', roots: { parts: [{ form: 'water', meaning: '水' }, { form: 'table', meaning: '（此處指）水平面、台面' }], summary: '地下飽和水的上緣水平面，即地下水位', family: ['groundwater', 'aquifer', 'water level'] } },
+  { id: 3775, word: 'pollutant', phonetic: '/pəˈluːtənt/', pos: 'n.', zh: '污染物', definition: 'A substance that pollutes the environment, especially one that causes harm to living organisms.', example: 'All the pollutants in the water would be destroyed using modern treatment methods.', roots: { parts: [{ form: 'pollut-', origin: 'Latin polluere', meaning: '弄髒、污染' }, { form: '-ant', meaning: '名詞後綴，表示施動物質' }], summary: '源自拉丁語「弄髒」，指造成污染的物質', family: ['pollute', 'pollution', 'contaminant'] } },
+  { id: 3776, word: 'allocated', phonetic: '/ˈæləkeɪtɪd/', pos: 'adj./v.', zh: '被分配的；撥款', definition: 'Assigned or set aside for a particular purpose.', example: 'The table shows the proportion of national income allocated to R&D by each country.', roots: { parts: [{ form: 'al-', meaning: '向（ad- 的變體）' }, { form: 'locat-', origin: 'Latin locare', meaning: '放置、安置' }, { form: '-ed', meaning: '過去分詞' }], summary: '指定放置在特定用途上，源自拉丁語「放置」', family: ['allocate', 'allocation', 'assign'] } },
+  { id: 3777, word: 'expenditure', phonetic: '/ɪkˈspendɪtʃə/', pos: 'n.', zh: '支出；開銷', definition: 'The total amount of money spent, especially by an organization or government.', example: 'The pie chart shows the expected expenditure breakdown for the first year of the project.', roots: { parts: [{ form: 'ex-', meaning: '向外' }, { form: 'pend-', origin: 'Latin pendere', meaning: '支付、稱重' }, { form: '-iture', meaning: '名詞後綴' }], summary: '向外支付出去的金錢，源自拉丁語「支付」', family: ['expend', 'spend', 'expenses'] } },
+  { id: 3778, word: 'sustainable forestry', phonetic: '/səˈsteɪnəbəl ˈfɒrɪstri/', pos: 'phr.', zh: '永續林業', definition: 'The management of forests in a way that maintains their ecological functions while meeting human needs.', example: 'The table shows projected costs for three environmental projects for sustainable forestry.', roots: { parts: [{ form: 'sustain-', origin: 'Latin sustinere', meaning: '維持、支撐' }, { form: 'forestry', meaning: '林業管理' }], summary: '維持生態功能的長期林業管理方式', family: ['sustainability', 'forest management', 'conservation'] } },
+  { id: 3779, word: 'set-up costs', phonetic: '/ˈset ʌp kɒsts/', pos: 'n.', zh: '初期建設費用', definition: 'The expenses required to establish or start a project or business.', example: 'According to the pie chart, 30 per cent of the budget will be spent on set-up costs.', roots: { parts: [{ form: 'set up', meaning: '建立、創設' }, { form: 'costs', origin: 'Latin constare', meaning: '代價、費用' }], summary: '建立或啟動一個項目所需的初期費用', family: ['start-up costs', 'initial investment', 'setup fee'] } },
+  { id: 3780, word: 'over-reliant', phonetic: '/ˌəʊvəˈrɪlaɪənt/', pos: 'adj.', zh: '過度依賴的', definition: 'Depending on something or someone too much.', example: 'People are now so over-reliant on machines that they have lost basic practical skills.', roots: { parts: [{ form: 'over-', meaning: '過度' }, { form: 'reliant', origin: 'Latin religare', meaning: '綁靠、依靠' }], summary: '過度綁靠某事物，即依賴程度超出正常範圍', family: ['reliant', 'dependent', 'independent'] } },
+  { id: 3781, word: 'unsociable hours', phonetic: '/ʌnˈsəʊʃəbəl ˈaʊəz/', pos: 'phr.', zh: '不正常的工作時間', definition: 'Working hours that are irregular or inconvenient, such as nights, weekends, or holidays.', example: 'Parents no longer have enough time with their children because they are working unsociable hours.', roots: { parts: [{ form: 'un-', meaning: '不、非' }, { form: 'social', origin: 'Latin socialis', meaning: '社交的、群居的' }, { form: 'hours', meaning: '時間' }], summary: '非正常社交時間工作，即夜班、週末等不便的工時', family: ['antisocial hours', 'shift work', 'irregular hours'] } },
+  { id: 3782, word: 'deprived of', phonetic: '/dɪˈpraɪvd ɒv/', pos: 'phr. v.', zh: '被剝奪……', definition: 'To be denied something necessary or important.', example: 'Young people are consequently deprived of valuable time to learn practical skills.', roots: { parts: [{ form: 'de-', meaning: '去除、否定' }, { form: 'priv-', origin: 'Latin privare', meaning: '剝奪、使失去' }, { form: '-ed of', meaning: '被……剝奪' }], summary: '被強行去除本應擁有的東西，源自拉丁語「剝奪」', family: ['deprive', 'deprivation', 'stripped of'] } },
+  { id: 3783, word: 'deficient', phonetic: '/dɪˈfɪʃənt/', pos: 'adj.', zh: '缺乏的；不足的', definition: 'Lacking something necessary; not having enough of a required quality.', example: 'It has also created a generation almost deficient in basic practical skills.', roots: { parts: [{ form: 'de-', meaning: '向下、不足' }, { form: 'fici-', origin: 'Latin facere', meaning: '做、製造' }, { form: '-ent', meaning: '形容詞後綴' }], summary: '無法足量製造或供應，即不足的、缺乏的', family: ['deficit', 'deficiency', 'insufficient'] } },
+  { id: 3784, word: 'squeezed out', phonetic: '/skwiːzd aʊt/', pos: 'phr. v.', zh: '被擠出；被排除', definition: 'To be pushed out or eliminated from something, often due to competing priorities.', example: 'Technical problem-solving like carpentry has been squeezed out of the school curriculum.', roots: { parts: [{ form: 'squeezed', meaning: '被擠壓' }, { form: 'out', meaning: '向外、排出' }], summary: '受壓力被擠壓出去，引申為被排除在外', family: ['pushed out', 'eliminated', 'crowded out'] } },
+  { id: 3785, word: 'carpentry', phonetic: '/ˈkɑːpɪntri/', pos: 'n.', zh: '木工；木匠技藝', definition: 'The skill or occupation of making and repairing things in wood.', example: 'Technical problem-solving like carpentry has been removed from the school curriculum.', roots: { parts: [{ form: 'carpent-', origin: 'Latin carpentum', meaning: '木製馬車' }, { form: '-ry', meaning: '名詞後綴，表示技藝或行業' }], summary: '源自拉丁語木製車輛，引申為木材製作與修繕的技藝', family: ['carpenter', 'woodwork', 'joinery'] } },
+  { id: 3786, word: 'massage therapy', phonetic: '/ˈmæsɑːʒ ˈθerəpi/', pos: 'n.', zh: '按摩療法', definition: "A form of physical therapy that involves manipulating the body's soft tissues to relieve tension or pain.", example: 'In some companies, gym facilities or massage therapies are available to help employees relax.', roots: { parts: [{ form: 'massage', origin: 'French masser / Arabic mass', meaning: '揉捏、觸摸' }, { form: 'therapy', origin: 'Greek therapeia', meaning: '治療、護理' }], summary: '以揉捏方式治療身體緊張與疼痛的療法', family: ['physiotherapy', 'reflexology', 'therapeutic'] } },
+  { id: 3787, word: 'traffic congestion', phonetic: '/ˈtræfɪk kənˈdʒestʃən/', pos: 'n.', zh: '交通堵塞', definition: 'A condition in which there is too much traffic on the roads, causing slow movement or standstill.', example: 'Encouraging people to move to the countryside could help reduce traffic congestion in cities.', roots: { parts: [{ form: 'traffic', meaning: '交通流量' }, { form: 'congest-', origin: 'Latin congerere', meaning: '堆積在一起' }], summary: '交通流量堆積造成壅塞，源自拉丁語「堆積」', family: ['traffic jam', 'gridlock', 'bottleneck'] } },
+  { id: 3788, word: 'overcrowding', phonetic: '/ˌəʊvəˈkraʊdɪŋ/', pos: 'n.', zh: '過度擁擠', definition: 'A situation in which too many people occupy a space, causing problems.', example: 'Overcrowding in large cities can be reduced by building skyscrapers or encouraging migration to rural areas.', roots: { parts: [{ form: 'over-', meaning: '過度' }, { form: 'crowd', origin: 'Old English crudan', meaning: '擠入、群集' }, { form: '-ing', meaning: '名詞後綴' }], summary: '人或物過多地擠在一個空間，源自古英語「擠入」', family: ['overpopulation', 'congestion', 'cramped'] } },
+  { id: 3789, word: 'skyscraper', phonetic: '/ˈskaɪskreɪpə/', pos: 'n.', zh: '摩天大樓', definition: 'A very tall building with many floors, typically found in urban areas.', example: 'One proposed solution to overcrowding is to build more skyscrapers.', roots: { parts: [{ form: 'sky', meaning: '天空' }, { form: 'scraper', meaning: '刮削者（指極高之物）' }], summary: '高到好像刮著天空的建築，即摩天大樓', family: ['high-rise', 'tower block', 'skyscraper'] } },
+  { id: 3790, word: 'bypass', phonetic: '/ˈbaɪpɑːs/', pos: 'n.', zh: '繞道；外環道路', definition: 'A road built around a town or city to divert traffic away from the centre.', example: 'They built a bypass and an industrial estate a few years ago, bringing more traffic.', roots: { parts: [{ form: 'by-', meaning: '旁邊、繞過' }, { form: 'pass', origin: 'Latin passus', meaning: '通過' }], summary: '繞過市中心通行的旁路，減少主幹道壅塞', family: ['ring road', 'detour', 'arterial road'] } },
+  { id: 3791, word: 'industrial estate', phonetic: '/ɪnˈdʌstriəl ɪˈsteɪt/', pos: 'n.', zh: '工業區', definition: 'An area of land developed for industrial use, typically on the outskirts of a town.', example: 'A new industrial estate with factories and warehouses sprang up around the school.', roots: { parts: [{ form: 'industr-', origin: 'Latin industria', meaning: '勤勞、生產活動' }, { form: 'estate', origin: 'Old French estat', meaning: '地產、地區' }], summary: '為工業生產規劃的土地區域，多在城市郊區', family: ['business park', 'industrial zone', 'trading estate'] } },
+  { id: 3792, word: 'marina', phonetic: '/məˈriːnə/', pos: 'n.', zh: '遊艇碼頭', definition: 'A harbour with moorings and facilities for small boats and yachts.', example: 'A marina was also built at the mouth of the river to attract tourists.', roots: { parts: [{ form: 'marin-', origin: 'Latin marinus', meaning: '海洋的' }], summary: '供小型船艇停泊的港口設施，源自拉丁語「海洋」', family: ['marine', 'harbour', 'pier'] } },
+  { id: 3793, word: 'predominantly', phonetic: '/prɪˈdɒmɪnəntli/', pos: 'adv.', zh: '主要地；以……為主', definition: 'Mainly; for the most part.', example: 'The town was predominantly residential in 1990, with many trees and individual houses.', roots: { parts: [{ form: 'pre-', meaning: '在前、優先' }, { form: 'domin-', origin: 'Latin dominari', meaning: '支配、主導' }, { form: '-antly', meaning: '副詞後綴' }], summary: '在前頭主導一切，源自拉丁語「支配」，即以……為主', family: ['predominant', 'dominate', 'mainly'] } },
+  { id: 3794, word: 'sprang up', phonetic: '/spræŋ ʌp/', pos: 'phr. v.', definition: '突然出現；迅速形成', example: 'A new industrial estate with factories and warehouses sprang up around the station.', roots: { parts: [{ form: 'spring', meaning: '跳躍；突然出現' }], summary: 'spring up 來自古英文 springan，表示向上跳，引申為「突然冒出」；sprang 是過去式。', family: ['spring', 'sprout', 'surge'] } },
+  { id: 3795, word: 'make way for', phonetic: '/meɪk weɪ fɔː/', pos: 'phr. v.', definition: '為……讓路；被……取代', example: 'The woodland was cleared to make way for a park, a golf course, and a car park.', roots: { parts: [{ form: 'way', meaning: '道路；空間' }], summary: '固定片語，字面意思為「清出道路給某物」，引申為讓位或被取代。', family: ['give way', 'pave the way', 'yield'] } },
+  { id: 3796, word: 'underwent', phonetic: '/ˌʌndəˈwent/', pos: 'v.', definition: '經歷（undergo 的過去式）', example: 'The town underwent a considerable transformation over the twenty-year period.', roots: { parts: [{ form: 'under-', meaning: '在……之下' }, { form: 'go', origin: 'Old English gān', meaning: '走；進行' }], summary: 'undergo 字面為「在下面走過」，引申為「承受、經歷某事」；underwent 是其不規則過去式。', family: ['undergo', 'undertake', 'undergo'] } },
+  { id: 3797, word: 'transformation', phonetic: '/ˌtrænsfəˈmeɪʃən/', pos: 'n.', definition: '巨大變化；轉型', example: 'The most striking feature was the complete transformation of the town centre.', roots: { parts: [{ form: 'trans-', origin: 'Latin trans', meaning: '越過；改變' }, { form: 'form', origin: 'Latin forma', meaning: '形狀；形式' }, { form: '-ation', meaning: '名詞後綴' }], summary: 'trans-（跨越）+ forma（形狀）= 形狀完全改變，即「徹底轉變」。', family: ['transform', 'reform', 'conform', 'inform'] } },
+  { id: 3798, word: 'spectacular', phonetic: '/spekˈtækjʊlə/', pos: 'adj.', definition: '壯觀的；驚人的', example: 'A number of spectacular changes took place in the area between 2005 and 2012.', roots: { parts: [{ form: 'spect-', origin: 'Latin spectare', meaning: '看；觀看' }, { form: '-acular', meaning: '形容詞後綴，表示「與……有關的」' }], summary: 'spect-（看）衍生出「值得一看的」，即令人嘆為觀止的景象。', family: ['spectator', 'inspect', 'expect', 'respect'] } },
+  { id: 3799, word: 'redevelop', phonetic: '/ˌriːdɪˈveləp/', pos: 'v.', definition: '重新開發', example: 'The old factories were totally redeveloped to make way for new housing.', roots: { parts: [{ form: 're-', origin: 'Latin re-', meaning: '再次' }, { form: 'develop', origin: 'Old French desveloper', meaning: '展開；發展' }], summary: 're-（再次）+ develop（開發）= 對舊有區域進行重新規劃與建設。', family: ['develop', 'development', 'redevelopment'] } },
+  { id: 3800, word: 'reconstruct', phonetic: '/ˌriːkənˈstrʌkt/', pos: 'v.', definition: '重建', example: 'The residential area was totally reconstructed following the earthquake.', roots: { parts: [{ form: 're-', origin: 'Latin re-', meaning: '再次' }, { form: 'con-', origin: 'Latin con-', meaning: '共同；一起' }, { form: 'struct', origin: 'Latin struere', meaning: '建造；堆疊' }], summary: 're-（再次）+ construere（建造）= 將損毀之物重新建造起來。', family: ['construct', 'structure', 'instruct', 'destroy'] } },
+  { id: 3801, word: 'modernize', phonetic: '/ˈmɒdənaɪz/', pos: 'v.', definition: '現代化', example: 'The entertainment district was completely modernized to attract younger visitors.', roots: { parts: [{ form: 'modern', origin: 'Latin modernus, from modo', meaning: '現在；剛剛' }, { form: '-ize', meaning: '動詞後綴，表示「使……化」' }], summary: 'modo（現在）演變出 modern，加上 -ize 後綴表示使其符合現代標準。', family: ['modern', 'modernity', 'postmodern'] } },
+  { id: 3802, word: 'artefact', phonetic: '/ˈɑːtɪfækt/', pos: 'n.', definition: '人工製品；文物', example: 'Archaeologists look for evidence in artefacts like pots and jewellery.', roots: { parts: [{ form: 'arte-', origin: 'Latin ars/artis', meaning: '技藝；技術' }, { form: 'fact', origin: 'Latin factum', meaning: '製作的事物' }], summary: 'arte（技藝）+ factum（製品）= 人類技藝所製造出來的物品。', family: ['artifact', 'artificial', 'artisan', 'fact'] } },
+  { id: 3803, word: 'heritage', phonetic: '/ˈherɪtɪdʒ/', pos: 'n.', definition: '文化遺產；傳承', example: 'Governments should provide money to preserve historical sites so our heritage is saved.', roots: { parts: [{ form: 'herit-', origin: 'Latin hereditas, from heres', meaning: '繼承人；遺產' }, { form: '-age', meaning: '名詞後綴' }], summary: 'heres（繼承人）衍生出「繼承下來的事物」，即文化與傳統的傳承。', family: ['heir', 'inherit', 'hereditary'] } },
+  { id: 3804, word: 'pitfall', phonetic: '/ˈpɪtfɔːl/', pos: 'n.', definition: '陷阱；隱患', example: 'Studying history can help young people avoid pitfalls by showing how past mistakes occurred.', roots: { parts: [{ form: 'pit', origin: 'Old English pytt', meaning: '坑；穴' }, { form: 'fall', meaning: '跌落' }], summary: 'pit（坑）+ fall（跌落）= 讓人不小心掉進去的坑，引申為潛在的危險或困難。', family: ['trap', 'snare', 'hazard'] } },
+  { id: 3805, word: 'equipped', phonetic: '/ɪˈkwɪpt/', pos: 'adj.', definition: '具備（能力）的', example: 'Young people need to be equipped with digital skills to study and find work in a competitive world.', roots: { parts: [{ form: 'equip', origin: 'Old French esquiper', meaning: '裝備；配備' }, { form: '-ed', meaning: '形容詞後綴' }], summary: 'esquiper 源自「登船前整備」，引申為為某任務配備所需工具或能力。', family: ['equip', 'equipment', 'outfit'] } },
+  { id: 3806, word: 'digital age', phonetic: '/ˈdɪdʒɪtəl eɪdʒ/', pos: 'n.', definition: '數位時代', example: 'All young people need a wide range of digital skills to survive in the digital age.', roots: { parts: [{ form: 'digit-', origin: 'Latin digitus', meaning: '手指；數字' }, { form: 'age', origin: 'Latin aetas', meaning: '時代；年齡' }], summary: 'digit（數字）引申為電腦二進位運算；digital age 指以數位科技為核心的當代。', family: ['digit', 'digital', 'digitize', 'age'] } },
+  { id: 3807, word: 'open-minded', phonetic: '/ˌəʊpən ˈmaɪndɪd/', pos: 'adj.', definition: '思想開放的', example: 'Reaching a good understanding of another culture requires people to remain open-minded.', roots: { parts: [{ form: 'open', origin: 'Old English open', meaning: '開放的' }, { form: 'mind', origin: 'Old English gemynd', meaning: '心智；思想' }], summary: '複合形容詞，open（開放）+ mind（心智），表示思想不封閉、願意接受新觀點。', family: ['broad-minded', 'narrow-minded', 'open-mindedness'] } },
+  { id: 3808, word: 'superficial', phonetic: '/ˌsuːpəˈfɪʃəl/', pos: 'adj.', definition: '膚淺的；表面的', example: 'A short, superficial experience of another culture can give people mistaken ideas about it.', roots: { parts: [{ form: 'super-', origin: 'Latin super', meaning: '在……上面' }, { form: 'faci-', origin: 'Latin facies', meaning: '臉；表面' }], summary: 'super（上面）+ facies（表面）= 只停留在表面，未深入了解。', family: ['surface', 'face', 'superficially', 'facade'] } },
+  { id: 3809, word: 'generalization', phonetic: '/ˌdʒenərəlaɪˈzeɪʃən/', pos: 'n.', definition: '概括；泛論', example: 'People may make generalizations about another culture based on brief contact.', roots: { parts: [{ form: 'gener-', origin: 'Latin genus/generis', meaning: '種類；類別' }, { form: '-ize', meaning: '動詞化' }, { form: '-ation', meaning: '名詞後綴' }], summary: 'genus（類別）衍生出「將個別情況歸納成一般規律」的動作，即概括化。', family: ['general', 'genre', 'generate', 'generic'] } },
+  { id: 3810, word: 'pool of talent', phonetic: '/puːl əv ˈtælənt/', pos: 'phr.', definition: '人才庫', example: 'Companies can draw on a wider pool of talent if they recruit from different cultures.', roots: { parts: [{ form: 'pool', origin: 'Old English pol', meaning: '水池；集合' }, { form: 'talent', origin: 'Latin talentum, from Greek talanton', meaning: '重量單位；才能' }], summary: 'talent 源自古代重量單位，比喻天賦；pool of talent 指可供選用的優秀人才集合。', family: ['talent', 'talented', 'skill pool'] } },
+  { id: 3811, word: 'culturally aware', phonetic: '/ˈkʌltʃərəli əˈweə/', pos: 'phr.', definition: '具有文化意識的', example: 'Business people who are culturally aware may adapt their products to suit new customers abroad.', roots: { parts: [{ form: 'cultur-', origin: 'Latin cultura, from colere', meaning: '耕耘；培育' }, { form: 'aware', origin: 'Old English gewær', meaning: '意識到；警覺' }], summary: 'cultura（文化）+ aware（意識）= 對不同文化習俗有認識與感知。', family: ['culture', 'cultural', 'multicultural', 'awareness'] } },
+  { id: 3812, word: 'brain drain', phonetic: '/breɪn dreɪn/', pos: 'n.', definition: '人才外流', example: 'The brain drain of skilled workers like scientists to rich economies is a controversial issue.', roots: { parts: [{ form: 'brain', origin: 'Old English brægen', meaning: '大腦；智識' }, { form: 'drain', origin: 'Old English drehnian', meaning: '排出；流失' }], summary: '腦（智識人才）+ 排出（流走），合成比喻高學歷人才離開本國的現象。', family: ['brain', 'drain', 'emigration', 'human capital'] } },
+  { id: 3813, word: 'R&D', phonetic: '/ˌɑː ən ˈdiː/', pos: 'n.', definition: '研發（研究與開發）', example: 'The chart shows sources of funding for research and development in the UK.', roots: { parts: [{ form: 'research', origin: 'Old French recerchier', meaning: '仔細搜尋；研究' }, { form: 'development', origin: 'Old French desveloper', meaning: '展開；發展' }], summary: 'R&D 是 Research and Development 的縮寫，指系統性的科學研究與新產品開發活動。', family: ['research', 'develop', 'innovation', 'technology'] } },
+  { id: 3814, word: 'under-represented', phonetic: '/ˌʌndə reprɪˈzentɪd/', pos: 'adj.', definition: '代表性不足的', example: 'Women have been consistently under-represented in science jobs.', roots: { parts: [{ form: 'under-', meaning: '不足；低於應有水準' }, { form: 'represent', origin: 'Latin repraesentare', meaning: '代表；呈現' }], summary: 'under-（不足）+ represent（代表）= 在某群體中所佔比例低於應有水準。', family: ['represent', 'representation', 'overrepresented'] } },
+  { id: 3815, word: 'marginally', phonetic: '/ˈmɑːdʒɪnəli/', pos: 'adv.', definition: '些微地；輕微地', example: 'Sales were marginally up on the previous quarter.', roots: { parts: [{ form: 'margin', origin: 'Latin margo/marginis', meaning: '邊緣；頁邊' }, { form: '-al', meaning: '形容詞後綴' }, { form: '-ly', meaning: '副詞後綴' }], summary: 'margo（邊緣）衍生出「在邊緣上」，即差距極小、只有些微變化。', family: ['margin', 'marginal', 'marginate'] } },
+  { id: 3816, word: 'evidently', phonetic: '/ˈevɪdəntli/', pos: 'adv.', definition: '顯然地；明顯地', example: 'Evidently, investment in the arts needs to be increased to support national culture.', roots: { parts: [{ form: 'evid-', origin: 'Latin evidens, from e- + videre', meaning: '看見；清楚可見' }, { form: '-ent', meaning: '形容詞後綴' }, { form: '-ly', meaning: '副詞後綴' }], summary: 'e-（出）+ videre（看）= 顯而易見的，evident 加 -ly 成副詞。', family: ['evident', 'evidence', 'video', 'vision'] } },
+  { id: 3817, word: 'noticeably', phonetic: '/ˈnəʊtɪsəbli/', pos: 'adv.', definition: '明顯地', example: 'The pattern for investment in the arts is noticeably the reverse of the previous period.', roots: { parts: [{ form: 'notice', origin: 'Latin notitia, from notus', meaning: '已知的；知識' }, { form: '-able', meaning: '可……的' }, { form: '-ly', meaning: '副詞後綴' }], summary: 'notus（已知）→ notice（注意到）→ noticeable（可被注意的）→ noticeably。', family: ['notice', 'noticeable', 'notable', 'note'] } },
+  { id: 3818, word: 'substantially', phonetic: '/səbˈstænʃəli/', pos: 'adv.', definition: '大幅地；相當程度地', example: "Italy's spending on R&D was substantially below the EU average.", roots: { parts: [{ form: 'sub-', origin: 'Latin sub', meaning: '在下面；支撐' }, { form: 'stant-', origin: 'Latin stare', meaning: '站立；存在' }, { form: '-ial', meaning: '形容詞後綴' }], summary: 'substantia（本質、實質）衍生出 substantial（大量的），加 -ly 成副詞，表示程度顯著。', family: ['substance', 'substantial', 'substantiate'] } },
+  { id: 3819, word: 'considerably', phonetic: '/kənˈsɪdərəbli/', pos: 'adv.', definition: '相當地；大大地', example: 'The UK was considerably behind France and Germany in R&D spending.', roots: { parts: [{ form: 'consider', origin: 'Latin considerare', meaning: '仔細觀察；考慮' }, { form: '-able', meaning: '值得……的' }, { form: '-ly', meaning: '副詞後綴' }], summary: 'considerare（仔細觀察）→ considerable（值得關注的大量）→ considerably（大幅地）。', family: ['consider', 'considerable', 'consideration'] } },
+  { id: 3820, word: 'consistently', phonetic: '/kənˈsɪstəntli/', pos: 'adv.', definition: '一貫地；持續地', example: 'The government consistently contributed around seventeen per cent of R&D funding.', roots: { parts: [{ form: 'con-', origin: 'Latin con-', meaning: '共同；一起' }, { form: 'sist-', origin: 'Latin sistere', meaning: '站立；維持' }, { form: '-ent', meaning: '形容詞後綴' }], summary: 'con-（共同）+ sistere（站立）= 保持一致站立，引申為行為前後一貫。', family: ['consistent', 'consistency', 'insist', 'persist'] } },
+  { id: 3821, word: 'in-patient', phonetic: '/ˈɪnˌpeɪʃənt/', pos: 'n./adj.', definition: '住院病人（的）', example: 'The proportion of hospital budgets allocated to in-patient care declined after day-surgery was introduced.', roots: { parts: [{ form: 'in-', meaning: '在內；住在' }, { form: 'patient', origin: 'Latin patiens, from pati', meaning: '忍受；病人' }], summary: 'in（在裡面）+ patient（病人）= 留在醫院內接受治療的病人，對應 out-patient（門診病人）。', family: ['patient', 'outpatient', 'impatient'] } },
+  { id: 3822, word: 'day-care surgery', phonetic: '/ˈdeɪ keə ˈsɜːdʒəri/', pos: 'n.', definition: '日間手術', example: 'Bed occupancy dropped after the introduction of day-care surgery.', roots: { parts: [{ form: 'surgery', origin: 'Latin chirurgia, from Greek cheir + ergon', meaning: '手；工作' }], summary: 'surgery 源自「用手操作」（希臘文 cheir=手 + ergon=工作）；day-care 表示當天完成不留院。', family: ['surgeon', 'surgery', 'surgical'] } },
+  { id: 3823, word: 'occupancy', phonetic: '/ˈɒkjʊpənsi/', pos: 'n.', definition: '佔用率；使用率', example: 'Average bed occupancy at the French hospital reached a peak of just under 70 beds.', roots: { parts: [{ form: 'occup-', origin: 'Latin occupare, from ob- + capere', meaning: '抓住；佔據' }, { form: '-ancy', meaning: '名詞後綴，表示狀態' }], summary: 'ob-（對著）+ capere（抓）= occupare（佔據），occupancy 指某空間被佔用的比例或狀態。', family: ['occupy', 'occupation', 'occupant'] } },
+  { id: 3824, word: 'coincide', phonetic: '/ˌkəʊɪnˈsaɪd/', pos: 'v.', definition: '同時發生；巧合', example: 'The fall in bed use coincides with the reduction in the average budget for in-patient care.', roots: { parts: [{ form: 'co-', origin: 'Latin co-', meaning: '共同；一起' }, { form: 'incident', origin: 'Latin incidere, from in- + cadere', meaning: '落在；發生' }], summary: 'co-（一起）+ incidere（落下/發生）= 同時落在同一點，引申為同時發生或完全一致。', family: ['coincidence', 'incident', 'accident', 'coincidental'] } },
+  { id: 3825, word: 'conventional medicine', phonetic: '/kənˈvenʃənəl ˈmedɪsɪn/', pos: 'n.', definition: '傳統西醫', example: 'Animals are increasingly being used to supplement conventional medicine.', roots: { parts: [{ form: 'convent-', origin: 'Latin conventio, from convenire', meaning: '共同來到；約定' }, { form: 'medic-', origin: 'Latin medicus, from mederi', meaning: '治療；醫藥' }], summary: 'conventional（約定俗成的）+ medicine（醫學）= 基於既定科學原則的主流醫學體系。', family: ['convention', 'conventional', 'medicine', 'medical'] } },
+  { id: 3826, word: 'homeopathic', phonetic: '/ˌhəʊmiəˈpæθɪk/', pos: 'adj.', definition: '順勢療法的', example: 'Many doctors do not believe in homeopathic medicine, but some evidence suggests it can be beneficial.', roots: { parts: [{ form: 'homeo-', origin: 'Greek homoios', meaning: '相似的；同類的' }, { form: 'path-', origin: 'Greek pathos', meaning: '疾病；苦難' }], summary: 'homoios（相似）+ pathos（疾病）= 用類似症狀的物質治療疾病，即順勢療法的核心概念。', family: ['homeopathy', 'pathology', 'sympathy', 'empathy'] } },
+  { id: 3827, word: 'acupuncture', phonetic: '/ˈækjʊˌpʌŋktʃə/', pos: 'n.', definition: '針灸', example: 'Acupuncture is becoming more and more popular around the world as an alternative therapy.', roots: { parts: [{ form: 'acu-', origin: 'Latin acus', meaning: '針；尖的' }, { form: 'punct-', origin: 'Latin punctura, from pungere', meaning: '刺；穿刺' }], summary: 'acus（針）+ punctura（刺入）= 用針刺入特定穴位的治療方式。', family: ['acute', 'puncture', 'acupressure'] } },
+  { id: 3828, word: 'preventive medicine', phonetic: '/prɪˈventɪv ˈmedɪsɪn/', pos: 'n.', definition: '預防醫學', example: 'More emphasis should be put on preventive medicine, like health education.', roots: { parts: [{ form: 'prevent-', origin: 'Latin praevenire, from prae- + venire', meaning: '預先來到；阻止' }, { form: 'medic-', origin: 'Latin mederi', meaning: '治療' }], summary: 'prae-（預先）+ venire（來到）= 在疾病到來前先行阻止，即預防醫學的核心思想。', family: ['prevent', 'prevention', 'preventable'] } },
+  { id: 3829, word: 'morale', phonetic: '/məˈrɑːl/', pos: 'n.', definition: '士氣；精神狀態', example: 'The pressurized situation in hospitals has resulted in low morale among nurses.', roots: { parts: [{ form: 'moral', origin: 'Latin moralis, from mos/moris', meaning: '習俗；道德' }], summary: 'morale 借自法文，源自拉丁文 mos（習俗、道德），指團體或個人的精神與信心狀態。', family: ['moral', 'morale', 'immoral', 'morality'] } },
+  { id: 3830, word: 'wellbeing', phonetic: '/ˈwelˌbiːɪŋ/', pos: 'n.', definition: '幸福感；健康狀態', example: "The beneficial effect that animals have on people's health and general wellbeing is well recognized.", roots: { parts: [{ form: 'well', origin: 'Old English wel', meaning: '好；順利' }, { form: 'being', origin: 'Old English beon', meaning: '存在；狀態' }], summary: 'well（好）+ being（存在狀態）= 生活在良好狀態中，涵蓋身心健康與滿足感。', family: ['welfare', 'wellness', 'flourishing'] } },
+  { id: 3831, word: 'famine', phonetic: '/ˈfæmɪn/', pos: 'n.', definition: '饑荒', example: 'Drought left Africa with famine, and millions of children suffer from malnutrition.', roots: { parts: [{ form: 'fam-', origin: 'Latin fames', meaning: '飢餓' }], summary: '拉丁文 fames（飢餓）演變為古法文 famine，指大規模的糧食短缺與飢餓。', family: ['famished', 'starvation', 'hunger'] } },
+  { id: 3832, word: 'space research', phonetic: '/speɪs rɪˈsɜːtʃ/', pos: 'n.', definition: '太空研究', example: 'Money spent on space research has brought enormous benefits to mankind.', roots: { parts: [{ form: 'space', origin: 'Latin spatium', meaning: '空間；距離' }, { form: 'research', origin: 'Old French recerchier, re- + cerchier', meaning: '反覆搜尋；研究' }], summary: 'spatium（空間）+ recerchier（仔細搜尋）= 對宇宙空間進行系統性探索與研究。', family: ['spatial', 'research', 'explore', 'astronomy'] } },
+  { id: 3833, word: 'satellite', phonetic: '/ˈsætəlaɪt/', pos: 'n.', definition: '衛星', example: 'NASA has launched satellites to improve their ability to forecast weather and predict climate change.', roots: { parts: [{ form: 'satellit-', origin: 'Latin satelles/satellitis', meaning: '護衛；隨從' }], summary: 'satelles（護衛隨從）引申為繞行主體運轉的天體或人造物，現代意義指人造衛星。', family: ['satellite state', 'moon', 'orbit'] } },
+  { id: 3834, word: 'oppressed', phonetic: '/əˈprest/', pos: 'adj.', definition: '受壓迫的', example: 'Education is a major factor in lifting oppressed people out of poverty.', roots: { parts: [{ form: 'op-', origin: 'Latin ob-', meaning: '對著；壓制' }, { form: 'press-', origin: 'Latin pressare, from premere', meaning: '壓；擠' }], summary: 'ob-（對著）+ premere（壓）= oppress（壓迫），oppressed 指長期遭受不公正壓制的狀態。', family: ['oppress', 'oppression', 'suppress', 'compress'] } },
+  { id: 3835, word: 'curriculum vitae', phonetic: '/kəˈrɪkjʊləm ˈviːtaɪ/', pos: 'n.', definition: '履歷（CV）', example: 'Sport was part of curriculum vitae in the past and will continue to be in the future.', roots: { parts: [{ form: 'curriculum', origin: 'Latin curriculum, from currere', meaning: '跑道；課程' }, { form: 'vitae', origin: 'Latin vita', meaning: '生命；生平' }], summary: 'curriculum（跑道/人生軌跡）+ vitae（生命的，所有格）= 人生跑過的歷程，即個人經歷總結。', family: ['curriculum', 'vital', 'vitality', 'course'] } },
+  { id: 3836, word: 'offender', phonetic: '/əˈfendə/', pos: 'n.', definition: '違法者；罪犯', example: 'If criminals are reformed, the offender will have a better chance of not reoffending.', roots: { parts: [{ form: 'offend', origin: 'Latin offendere, from ob- + fendere', meaning: '碰撞；冒犯' }, { form: '-er', meaning: '表示人的後綴' }], summary: 'ob-（對著）+ fendere（打擊）= 主動攻擊或違反規定的人，即違法者或冒犯者。', family: ['offend', 'offense', 'defend', 'defend'] } },
+  { id: 3837, word: 'reoffend', phonetic: '/ˌriːəˈfend/', pos: 'v.', definition: '再次犯罪', example: 'Reforming criminals rather than just punishing them reduces the likelihood of reoffending.', roots: { parts: [{ form: 're-', origin: 'Latin re-', meaning: '再次' }, { form: 'offend', origin: 'Latin offendere', meaning: '冒犯；違法' }], summary: 're-（再次）+ offend（犯罪）= 在受到懲罰後重新犯罪。', family: ['offend', 'reoffending', 'recidivism'] } },
+  { id: 3838, word: 'global village', phonetic: '/ˈɡləʊbəl ˈvɪlɪdʒ/', pos: 'n.', definition: '地球村', example: 'We are living in a global village where people can make contact with those from other cultures.', roots: { parts: [{ form: 'glob-', origin: 'Latin globus', meaning: '球體；地球' }, { form: 'village', origin: 'Latin villa', meaning: '農莊；村莊' }], summary: 'globus（球體）+ villa（村莊）= 因通訊技術縮短距離，地球如同一個小村莊的比喻。', family: ['globe', 'global', 'globalization'] } },
+  { id: 3839, word: 'dominance', phonetic: '/ˈdɒmɪnəns/', pos: 'n.', definition: '主導地位；優勢', example: 'With the global dominance of English, some minority languages may feel under threat.', roots: { parts: [{ form: 'domin-', origin: 'Latin dominus', meaning: '主人；統治者' }, { form: '-ance', meaning: '名詞後綴，表示狀態' }], summary: 'dominus（主人）→ dominate（支配）→ dominance（主導地位），指擁有最大影響力的狀態。', family: ['dominate', 'dominant', 'domain', 'domino'] } },
+  { id: 3840, word: 'minority language', phonetic: '/maɪˈnɒrɪti ˈlæŋɡwɪdʒ/', pos: 'n.', definition: '少數族裔語言；少數語言', example: 'Some minority languages such as Welsh or Estonian may feel threatened by global English.', roots: { parts: [{ form: 'minor-', origin: 'Latin minor', meaning: '較小的；較少的' }, { form: 'lingua', origin: 'Latin lingua', meaning: '舌頭；語言' }], summary: 'minor（較小）+ lingua（語言）= 在特定社會中使用人數少於主流語言的語言。', family: ['minor', 'minority', 'language', 'linguistic'] } },
+  { id: 3841, word: 'far-reaching', phonetic: '/ˌfɑː ˈriːtʃɪŋ/', pos: 'adj.', definition: '影響深遠的', example: "Emails have certainly had far-reaching effects on people's ability to communicate.", roots: { parts: [{ form: 'far', origin: 'Old English feor', meaning: '遠的' }, { form: 'reach', origin: 'Old English rǣcan', meaning: '伸展；到達' }], summary: 'far（遠）+ reach（延伸到達）= 影響範圍廣泛、延伸至遠處的複合形容詞。', family: ['reach', 'far-fetched', 'wide-ranging'] } },
+  { id: 3842, word: 'portability', phonetic: '/ˌpɔːtəˈbɪlɪti/', pos: 'n.', definition: '可攜性；便攜性', example: 'Portability is one of the main factors explaining the popularity of small electronic devices.', roots: { parts: [{ form: 'port-', origin: 'Latin portare', meaning: '攜帶；搬運' }, { form: '-able', meaning: '可……的' }, { form: '-ity', meaning: '名詞後綴' }], summary: 'portare（搬運）→ portable（可搬運的）→ portability（可攜帶的特性）。', family: ['portable', 'transport', 'import', 'export'] } },
+  { id: 3843, word: 'nuisance', phonetic: '/ˈnjuːsəns/', pos: 'n.', definition: '令人討厭的事（人）；麻煩', example: 'Loud music from personal devices is a nuisance for other travellers on public transport.', roots: { parts: [{ form: 'nuis-', origin: 'Old French nuire, from Latin nocere', meaning: '傷害；困擾' }, { form: '-ance', meaning: '名詞後綴' }], summary: 'nocere（傷害、造成損害）→ 古法文 nuire → nuisance，指造成不便或困擾的人事物。', family: ['noxious', 'innocent', 'annoy'] } },
+  { id: 3844, word: 'portable', phonetic: '/ˈpɔːtəbəl/', pos: 'adj.', definition: '可攜帶的；手提的', example: 'Portable entertainment devices allow people to listen to music or watch films on the move.', roots: { parts: [{ form: 'port-', origin: 'Latin portare', meaning: '攜帶；運送' }, { form: '-able', meaning: '可……的' }], summary: 'portare（攜帶）+ -able（可以）= 可以被帶著移動的，形容易於攜帶的物品。', family: ['portability', 'transport', 'port', 'import'] } },
+  { id: 3845, word: 'account for', phonetic: '/əˈkaʊnt fɔː/', pos: 'phr. v.', definition: '佔（比例）；說明原因', example: 'Approximately half of all investment throughout the period came from business.', roots: { parts: [{ form: 'account', origin: 'Old French aconter, from Latin ad- + computare', meaning: '計算；說明' }], summary: 'ad-（向）+ computare（計算）= account（計算），account for 表示「解釋說明」或「佔某比例」。', family: ['account', 'accountable', 'count', 'compute'] } },
+  { id: 3846, word: 'backpacking', phonetic: '/ˈbækˌpækɪŋ/', pos: 'n.', definition: '背包旅行', example: 'The table shows the age profile of tourists on backpacking holidays and guided tours.', roots: { parts: [{ form: 'back', origin: 'Old English bæc', meaning: '背部' }, { form: 'pack', origin: 'Middle Dutch pak', meaning: '包裹；行李' }], summary: 'back（背）+ pack（包）= 背著背包旅行，通常指低成本、自由行的旅遊方式。', family: ['backpack', 'backpacker', 'budget travel'] } },
+  { id: 3847, word: 'guided tour', phonetic: '/ˌɡaɪdɪd ˈtʊə/', pos: 'n.', definition: '有導遊的行程', example: 'People aged 41-50 made up 57 per cent of those on guided tours.', roots: { parts: [{ form: 'guide', origin: 'Old French guider, from Germanic *witan', meaning: '知道道路；引導' }, { form: 'tour', origin: 'Old French tour, from Latin tornare', meaning: '旋轉；巡迴' }], summary: 'guide（引導）+ tour（巡迴）= 由專業導遊帶領、按既定路線遊覽的旅行形式。', family: ['guide', 'guideline', 'tour', 'tourism'] } },
+  { id: 3848, word: 'satisfaction rating', phonetic: '/ˌsætɪsˈfækʃən ˈreɪtɪŋ/', pos: 'n.', definition: '滿意度評分', example: "The pie chart gives the satisfaction rating of tourists' stay in New Zealand.", roots: { parts: [{ form: 'satis-', origin: 'Latin satis', meaning: '足夠' }, { form: 'fac-', origin: 'Latin facere', meaning: '做；完成' }, { form: 'rate', origin: 'Latin rata, from reri', meaning: '估算；評量' }], summary: 'satis（足夠）+ facere（做）= 滿足需求；rating（評分）= 對滿足程度的量化測量。', family: ['satisfy', 'satisfaction', 'rate', 'rating'] } },
+  { id: 3849, word: 'doctorate', phonetic: '/ˈdɒktərət/', pos: 'n.', definition: '博士學位', example: 'Those students researching for a doctorate read significantly more articles per week.', roots: { parts: [{ form: 'doct-', origin: 'Latin docere', meaning: '教導；教學' }, { form: '-orate', meaning: '名詞後綴，表示職位或學位' }], summary: 'docere（教導）→ doctor（教師/博士）→ doctorate（博士學位），學術最高位階。', family: ['doctor', 'doctrine', 'document', 'docile'] } },
+  { id: 3850, word: 'junior lecturer', phonetic: '/ˈdʒuːniə ˈlektʃərə/', pos: 'n.', definition: '初級講師', example: 'Junior lecturers read more journal articles per week than the average student.', roots: { parts: [{ form: 'junior', origin: 'Latin iunior, from iuvenis', meaning: '年輕的；資淺的' }, { form: 'lect-', origin: 'Latin legere/lectum', meaning: '閱讀；選取' }], summary: 'iunior（較年輕的）+ lectare（朗讀、講授）= 大學中職位較低的初級教師。', family: ['junior', 'lecture', 'lecturer', 'elect'] } },
+  { id: 3851, word: 'hefty', phonetic: '/ˈhefti/', pos: 'adj.', definition: '大量的（用於數字前）', example: 'The average for all students in this category is a hefty 67 per cent.', roots: { parts: [{ form: 'heft', origin: 'Old English hebban', meaning: '舉起；重量' }, { form: '-y', meaning: '形容詞後綴' }], summary: 'heft（重量感）→ hefty 原指「有份量的」，引申為數量或程度上顯著龐大。', family: ['heavy', 'heft', 'substantial'] } },
+  { id: 3852, word: 'overwhelming majority', phonetic: '/ˌəʊvəˈwelmɪŋ məˈdʒɒrɪti/', pos: 'phr.', definition: '絕大多數', example: 'The overwhelming majority of those studying doctorates read at least twelve articles per week.', roots: { parts: [{ form: 'over-', meaning: '超過；壓倒' }, { form: 'whelm', origin: 'Old English hwelman', meaning: '淹沒；覆蓋' }, { form: 'major-', origin: 'Latin maior', meaning: '較大的；主要的' }], summary: 'overwhelming（壓倒性的）+ majority（多數）= 壓倒性的多數，即佔比極高的部分。', family: ['overwhelm', 'majority', 'dominate'] } },
+  { id: 3853, word: 'mere', phonetic: '/mɪə/', pos: 'adj.', definition: '僅僅；只不過（數量小）', example: 'Only a mere twelve per cent of students read between one and five articles.', roots: { parts: [{ form: 'mere', origin: 'Latin merus', meaning: '純粹的；只是' }], summary: '拉丁文 merus（純粹、不混雜）→ 英文 mere 用來強調某事物只不過如此，帶有「小到微不足道」的語氣。', family: ['merely', 'pure', 'only'] } },
+  { id: 3854, word: 'respectively', phonetic: '/rɪˈspektɪvli/', pos: 'adv.', definition: '分別地；各自地', example: 'The figures were 50 per cent and 12 per cent respectively.', roots: { parts: [{ form: 're-', meaning: '向後；再次' }, { form: 'spect-', origin: 'Latin spectare', meaning: '看' }, { form: '-ive', meaning: '形容詞後綴' }], summary: 'respect（分別考量）+ -ively = 按照前述的順序各自對應，常用於學術寫作列舉。', family: ['respect', 'respective', 'inspect', 'perspective'] } },
+  { id: 3855, word: 'striking', phonetic: '/ˈstraɪkɪŋ/', pos: 'adj.', definition: '顯著的；引人注目的', example: 'The most striking feature is that males were more interested in music than females.', roots: { parts: [{ form: 'strike', origin: 'Old English strican', meaning: '打擊；擊中' }, { form: '-ing', meaning: '形容詞後綴' }], summary: 'strike（打擊）引申為「打中眼睛」，striking 形容某事物如此突出以至於一眼就能注意到。', family: ['strike', 'remarkable', 'noticeable'] } },
+  { id: 3856, word: 'sizeable', phonetic: '/ˈsaɪzəbəl/', pos: 'adj.', definition: '相當大的；可觀的', example: 'A sizeable majority of undergraduates spent only 1-7 hours per week in the library.', roots: { parts: [{ form: 'size', origin: 'Old French sise, from assise', meaning: '尺寸；規模' }, { form: '-able', meaning: '值得注意的' }], summary: 'size（規模）+ -able = 規模值得一提的，表示數量或體積相當大。', family: ['size', 'large', 'substantial', 'considerable'] } },
+  { id: 3857, word: 'coincidental', phonetic: '/kəʊˌɪnsɪˈdentəl/', pos: 'adj.', definition: '巧合的；同時發生的', example: 'The coincidental fall in the budget for in-patient care mirrors the drop in bed use.', roots: { parts: [{ form: 'co-', origin: 'Latin co-', meaning: '共同；一起' }, { form: 'incident', origin: 'Latin incidere', meaning: '落下；發生' }], summary: 'co-（共同）+ incidere（發生）→ coincide（同時發生）→ coincidental（巧合性的）。', family: ['coincide', 'coincidence', 'incident', 'accident'] } },
+  { id: 3858, word: 'disparity', phonetic: '/dɪˈspærɪti/', pos: 'n.', definition: '差異；不一致', example: 'There was a disparity of just over four thousand between the estimated and actual figures.', roots: { parts: [{ form: 'dis-', origin: 'Latin dis-', meaning: '不；相反' }, { form: 'par-', origin: 'Latin par', meaning: '相等；同等' }, { form: '-ity', meaning: '名詞後綴' }], summary: 'dis-（否定）+ par（相等）= 不相等，disparity 強調兩者間明顯且往往不公平的差距。', family: ['parity', 'disparate', 'equal', 'inequality'] } },
+  { id: 3859, word: 'in the event', phonetic: '/ɪn ðɪ ɪˈvent/', pos: 'phr.', definition: '結果；事實上', example: 'It was estimated that 3,200 houses would be built but in the event the figure was only 3,000.', roots: { parts: [{ form: 'event', origin: 'Latin eventus, from evenire', meaning: '出來；發生' }], summary: 'e-（出）+ venire（來）= 最終發生的事；in the event 用於說明實際結果與預期不同。', family: ['event', 'eventually', 'eventful'] } },
+  { id: 3860, word: 'coordination', phonetic: '/kəʊˌɔːdɪˈneɪʃən/', pos: 'n.', definition: '協調能力；協調性', example: 'Sport helps the brain to function better and increases coordination among students.', roots: { parts: [{ form: 'co-', origin: 'Latin co-', meaning: '共同；一起' }, { form: 'ordin-', origin: 'Latin ordinare, from ordo', meaning: '排序；安排' }], summary: 'co-（共同）+ ordinare（排列）= 將不同部分共同安排有序，引申為動作或行動的協調配合。', family: ['coordinate', 'order', 'ordinate', 'ordinance'] } },
+  { id: 3861, word: 'enrolment', phonetic: '/ɪnˈrəʊlmənt/', pos: 'n.', definition: '入學率；招生人數', example: 'There are clear differences in the pattern of student enrolment at university in different years.', roots: { parts: [{ form: 'en-', origin: 'Old French en-', meaning: '使……進入' }, { form: 'roll', origin: 'Old French rolle, from Latin rotulus', meaning: '捲軸；名冊' }], summary: 'en-（進入）+ rolle（名冊）= 將姓名登入冊上，即正式報名或入學登記。', family: ['enrol', 'roll', 'register', 'roster'] } },
+  { id: 3862, word: 'post-graduate', phonetic: '/ˌpəʊst ˈɡrædʒuət/', pos: 'adj./n.', definition: '研究生的；研究生', example: "She enrolled in a post-graduate programme in education after completing her bachelor's degree.", roots: { parts: [{ form: 'post-', origin: 'Latin post', meaning: '在……之後' }, { form: 'graduat-', origin: 'Latin graduare, from gradus', meaning: '步驟；學位' }], summary: 'post-（之後）+ gradus（學位步驟）= 在取得大學學位之後繼續進修的學習階段。', family: ['graduate', 'undergraduate', 'postdoctoral'] } },
+  { id: 3863, word: 'well-rounded', phonetic: '/ˌwel ˈraʊndɪd/', pos: 'adj.', definition: '全面發展的', example: 'A well-rounded education includes not only academic subjects but also arts and sports.', roots: { parts: [{ form: 'well', origin: 'Old English wel', meaning: '好；充分' }, { form: 'round', origin: 'Old French roond, from Latin rotundus', meaning: '圓的；完整的' }], summary: 'well（充分）+ rounded（圓整的）= 各方面都發展充分、沒有偏廢的，形容均衡全面。', family: ['rounded', 'balanced', 'comprehensive'] } },
+  { id: 3864, word: 'proliferation', phonetic: '/prəˌlɪfəˈreɪʃən/', pos: 'n.', definition: '激增；擴散', example: 'The proliferation of websites offering illegal downloads is a major problem for the music industry.', roots: { parts: [{ form: 'proli-', origin: 'Latin proles', meaning: '後代；子孫' }, { form: 'fer-', origin: 'Latin ferre', meaning: '帶來；生育' }], summary: 'proles（後代）+ ferre（帶來）= 不斷產生新個體，引申為數量的迅速增加與擴散。', family: ['proliferate', 'prolific', 'fertile'] } },
+  { id: 3865, word: 'advent', phonetic: '/ˈædvent/', pos: 'n.', definition: '出現；到來', example: 'The advent of social media has fundamentally changed the way people communicate.', roots: { parts: [{ form: 'ad-', origin: 'Latin ad-', meaning: '向；到' }, { form: 'vent-', origin: 'Latin venire', meaning: '來；到達' }], summary: 'ad-（向）+ venire（來）= 到來、降臨，advent 指某重要事物的首次出現或到來。', family: ['adventure', 'event', 'arrive', 'convention'] } },
+  { id: 3866, word: 'supervision', phonetic: '/ˌsuːpəˈvɪʒən/', pos: 'n.', definition: '監督；管理', example: 'Children should not be allowed to access the internet without adult supervision.', roots: { parts: [{ form: 'super-', origin: 'Latin super', meaning: '在上面；超越' }, { form: 'vis-', origin: 'Latin videre/visum', meaning: '看；視察' }], summary: 'super-（在上面）+ videre（看）= 從上方看顧，即監督與管理他人的工作。', family: ['supervise', 'supervisor', 'vision', 'visual'] } },
+  { id: 3867, word: 'social isolation', phonetic: '/ˈsəʊʃəl ˌaɪsəˈleɪʃən/', pos: 'phr.', definition: '社交孤立', example: 'Research suggests that excessive use of social media may contribute to social isolation.', roots: { parts: [{ form: 'isol-', origin: 'Italian isolare, from Latin insula', meaning: '島嶼；孤立' }], summary: 'insula（島嶼）→ isolare（像島嶼一樣孤立）→ isolation，social isolation 指缺乏社會連結的孤立狀態。', family: ['isolate', 'island', 'insulate'] } },
+  { id: 3868, word: 'social cohesion', phonetic: '/ˈsəʊʃəl kəʊˈhiːʒən/', pos: 'phr.', definition: '社會凝聚力', example: 'The internet has not necessarily increased social cohesion despite its global reach.', roots: { parts: [{ form: 'co-', origin: 'Latin co-', meaning: '共同；一起' }, { form: 'haes-', origin: 'Latin haerere', meaning: '黏住；附著' }], summary: 'co-（共同）+ haerere（黏附）= cohesion（黏合力），social cohesion 指社會成員凝聚在一起的力量。', family: ['cohesion', 'cohere', 'adhesion', 'adhere'] } },
+  { id: 3869, word: 'heritage site', phonetic: '/ˈherɪtɪdʒ saɪt/', pos: 'n.', definition: '文化遺址；歷史遺跡', example: 'Eighty per cent of tourists include a visit to a heritage site on their holiday.', roots: { parts: [{ form: 'herit-', origin: 'Latin hereditas', meaning: '繼承；遺產' }, { form: 'site', origin: 'Latin situs, from sinere', meaning: '位置；地點' }], summary: 'hereditas（遺產）+ situs（地點）= 承載文化遺產的特定地點，通常受法律保護。', family: ['heritage', 'inherit', 'site', 'location'] } },
+  { id: 3870, word: 'untouched destination', phonetic: '/ʌnˈtʌtʃt ˌdestɪˈneɪʃən/', pos: 'phr.', definition: '未開發的目的地', example: 'Many backpackers seek out untouched destinations far from popular tourist routes.', roots: { parts: [{ form: 'un-', meaning: '未；沒有' }, { form: 'touch', origin: 'Old French tochier', meaning: '接觸；影響' }, { form: 'destin-', origin: 'Latin destinare', meaning: '確定；指定目標' }], summary: 'un-（未）+ touch（接觸）= 未被觸及的；destination（目的地）源自 destinare（確定目標）。', family: ['destination', 'destiny', 'determine'] } },
+  { id: 3871, word: 'leakage', phonetic: '/ˈliːkɪdʒ/', pos: 'n.', definition: '（資金）外流', example: 'A disadvantage of tourism is the financial leakage that occurs when profits go to foreign companies.', roots: { parts: [{ form: 'leak', origin: 'Middle Dutch leken', meaning: '滲漏；洩漏' }, { form: '-age', meaning: '名詞後綴，表示動作或結果' }], summary: 'leak（滲漏）+ -age（名詞化）= 液體或資源逐漸流失的現象，在經濟學中指收入流向境外。', family: ['leak', 'leaky', 'drain', 'outflow'] } },
+  { id: 3872, word: 'outweigh', phonetic: '/ˌaʊtˈweɪ/', pos: 'v.', definition: '超過；比⋯重要', example: 'Many people believe the benefits of tourism outweigh the problems it creates.', roots: { parts: [{ form: 'out-', meaning: '超過；勝過' }, { form: 'weigh', origin: 'Old English wegan', meaning: '稱重；考量' }], summary: 'out-（超越）+ weigh（衡量）= 在重量或重要性上超過另一方，常用於利弊比較。', family: ['outdo', 'outperform', 'weigh', 'outrun'] } },
+  { id: 3873, word: 'overdeveloped', phonetic: '/ˌəʊvədɪˈveləpt/', pos: 'adj.', definition: '過度開發的', example: 'Once beautiful coastal areas can become overdeveloped as tourism grows.', roots: { parts: [{ form: 'over-', meaning: '過度；超過' }, { form: 'develop', origin: 'Old French desveloper', meaning: '發展；開發' }], summary: 'over-（過度）+ develop（開發）= 開發程度超出合理範圍，導致環境或文化受損。', family: ['develop', 'overdevelopment', 'overpopulated'] } },
+  { id: 3874, word: 'commercialized', phonetic: '/kəˈmɜːʃəlaɪzd/', pos: 'adj.', definition: '商業化的', example: 'Many traditional festivals have become highly commercialized and lost their cultural meaning.', roots: { parts: [{ form: 'commerc-', origin: 'Latin commercium, from com- + merx', meaning: '共同；商品交換' }, { form: '-ialize', meaning: '動詞化後綴' }], summary: 'com-（共同）+ merx（商品）→ commerce（商業）→ commercialize（商業化）→ commercialized。', family: ['commerce', 'commercial', 'mercantile', 'market'] } },
+  { id: 3875, word: 'high culture', phonetic: '/haɪ ˈkʌltʃə/', pos: 'phr.', definition: '高雅文化', example: 'Opera and classical concerts are often classified as high culture because of their elite associations.', roots: { parts: [{ form: 'cultur-', origin: 'Latin cultura, from colere', meaning: '耕耘；培育（精神）' }], summary: 'cultura（培育精神）引申為社會中的藝術與知識成就；high culture 指傳統上被認為最具藝術價值的文化形式。', family: ['culture', 'cultivate', 'agriculture'] } },
+  { id: 3876, word: 'cultural heritage', phonetic: '/ˈkʌltʃərəl ˈherɪtɪdʒ/', pos: 'phr.', definition: '文化遺產', example: "Museums play a vital role in preserving a society's cultural heritage for future generations.", roots: { parts: [{ form: 'cultur-', origin: 'Latin cultura', meaning: '耕耘；文化培育' }, { form: 'herit-', origin: 'Latin hereditas', meaning: '繼承；遺產' }], summary: 'cultura（文化）+ hereditas（繼承）= 由過去世代傳承下來、具有文化意義的整體資產。', family: ['culture', 'heritage', 'inherit', 'legacy'] } },
+  { id: 3877, word: 'hindrance', phonetic: '/ˈhɪndrəns/', pos: 'n.', definition: '阻礙；障礙', example: 'Large crowds can become a hindrance to the enjoyment of a museum visit.', roots: { parts: [{ form: 'hinder', origin: 'Old English hindrian', meaning: '妨礙；阻止' }, { form: '-ance', meaning: '名詞後綴' }], summary: 'hindrian（妨礙）源自古英文，加 -ance 名詞化，指任何使進展減慢或困難的事物。', family: ['hinder', 'obstacle', 'impediment'] } },
+  { id: 3878, word: 'urban growth', phonetic: '/ˈɜːbən ɡrəʊθ/', pos: 'phr.', definition: '城市擴張', example: 'Urban growth has put considerable pressure on housing and public services in major cities.', roots: { parts: [{ form: 'urban-', origin: 'Latin urbanus, from urbs', meaning: '城市' }, { form: 'growth', origin: 'Old Norse groinn', meaning: '增長；生長' }], summary: 'urbs（城市）+ growth（增長）= 城市人口與面積的持續擴大，常伴隨基礎設施壓力。', family: ['urban', 'suburb', 'urbanize', 'grow'] } },
+  { id: 3879, word: 'conservation area', phonetic: '/ˌkɒnsəˈveɪʃən ˈeəriə/', pos: 'phr.', definition: '自然保護區；保育區', example: 'Building new houses in conservation areas is strictly regulated to protect the environment.', roots: { parts: [{ form: 'conserv-', origin: 'Latin conservare, from con- + servare', meaning: '共同保護；維持' }], summary: 'con-（共同）+ servare（保護）= conserve（保護）→ conservation，指被指定用於自然或歷史保存的區域。', family: ['conserve', 'preserve', 'reserve', 'conservation'] } },
+  { id: 3880, word: 'overpopulation', phonetic: '/ˌəʊvəˌpɒpjʊˈleɪʃən/', pos: 'n.', definition: '人口過多', example: 'Overpopulation in major cities creates challenges for transport, housing, and public services.', roots: { parts: [{ form: 'over-', meaning: '超過；過度' }, { form: 'popul-', origin: 'Latin populus', meaning: '人民；人口' }, { form: '-ation', meaning: '名詞後綴' }], summary: 'over-（超過）+ populus（人口）= 人口數量超出環境或資源可承載的程度。', family: ['population', 'populate', 'populous', 'depopulate'] } },
+  { id: 3881, word: 'city dweller', phonetic: '/ˈsɪti ˈdwelə/', pos: 'n.', definition: '城市居民', example: 'The number of city dwellers is projected to reach nearly five billion by 2030.', roots: { parts: [{ form: 'dwell', origin: 'Old English dwellan', meaning: '居住；停留' }, { form: '-er', meaning: '表示人的後綴' }], summary: 'dwellan（居住）→ dweller（居住者），city dweller 即在城市中定居生活的人。', family: ['dwell', 'dwelling', 'inhabitant', 'resident'] } },
+  { id: 3882, word: 'prohibitive', phonetic: '/prəˈhɪbɪtɪv/', pos: 'adj.', definition: '（價格）高得令人望而卻步的', example: 'The cost of accommodation in many cities is prohibitive, restricting opportunities for young workers.', roots: { parts: [{ form: 'pro-', origin: 'Latin pro-', meaning: '在前；阻擋' }, { form: 'hibit-', origin: 'Latin habere', meaning: '持有；阻止' }], summary: 'pro-（前方）+ habere（持有/阻擋）= prohibit（禁止），prohibitive 形容某條件高到足以阻止行動。', family: ['prohibit', 'prohibition', 'exhibit', 'inhibit'] } },
+  { id: 3883, word: 'high-rise', phonetic: '/ˈhaɪ raɪz/', pos: 'adj.', definition: '高層的', example: 'High-rise architecture allows cities to house more people on a smaller area of land.', roots: { parts: [{ form: 'rise', origin: 'Old English risan', meaning: '上升；高起' }], summary: 'high（高）+ rise（上升）= 向高處延伸的建築，複合形容詞形容多層樓的高層建築。', family: ['rise', 'skyscraper', 'tower', 'high-rise building'] } },
+  { id: 3884, word: 'megacity', phonetic: '/ˈmeɡəˌsɪti/', pos: 'n.', definition: '超大城市', example: 'Tokyo and Mexico City are examples of megacities that face extreme pressure on infrastructure.', roots: { parts: [{ form: 'mega-', origin: 'Greek megas', meaning: '巨大的；百萬' }, { form: 'city', origin: 'Latin civitas', meaning: '城市；公民共同體' }], summary: 'megas（巨大）+ civitas（城市）= 人口超過千萬的超大型城市。', family: ['mega', 'metropolis', 'megalopolis'] } },
+  { id: 3885, word: 'sustainable agriculture', phonetic: '/səˈsteɪnəbəl ˈæɡrɪˌkʌltʃə/', pos: 'phr.', definition: '可持續農業', example: 'Governments are promoting sustainable agriculture to reduce environmental damage from farming.', roots: { parts: [{ form: 'sustain-', origin: 'Latin sustinere, from sub- + tenere', meaning: '從下支撐；維持' }, { form: 'agri-', origin: 'Latin ager', meaning: '田地' }, { form: 'cultur-', origin: 'Latin cultura', meaning: '耕耘' }], summary: 'sub-（下方支撐）+ tenere（持有）= sustain（維持）；agri+cultura（農業）= 能長期維持而不耗盡資源的農業方式。', family: ['sustain', 'sustainable', 'agriculture', 'cultivate'] } },
+  { id: 3886, word: 'intensive farming', phonetic: '/ɪnˈtensɪv ˈfɑːmɪŋ/', pos: 'phr.', definition: '密集農業；集約農業', example: 'Intensive farming increases crop yields but also leads to greater use of pesticides.', roots: { parts: [{ form: 'intens-', origin: 'Latin intensus, from intendere', meaning: '拉緊；加強' }, { form: 'farm', origin: 'Old French ferme', meaning: '租賃農場' }], summary: 'intendere（拉緊/加強）→ intensive（高強度的）= 投入大量資源以最大化產量的農業方式。', family: ['intense', 'intensify', 'intensive', 'farm'] } },
+  { id: 3887, word: 'pesticides', phonetic: '/ˈpestɪsaɪdz/', pos: 'n.', definition: '農藥；殺蟲劑', example: 'Many consumers prefer organic produce because it is grown without the use of pesticides.', roots: { parts: [{ form: 'pest-', origin: 'Latin pestis', meaning: '瘟疫；害蟲' }, { form: '-cide', origin: 'Latin caedere', meaning: '殺死' }], summary: 'pestis（害蟲）+ caedere（殺）= pesticide，字面為「殺死害蟲的物質」，即農藥。', family: ['pest', 'pestilence', 'herbicide', 'fungicide'] } },
+  { id: 3888, word: 'soil erosion', phonetic: '/sɔɪl ɪˈrəʊʒən/', pos: 'phr.', definition: '土壤侵蝕', example: 'Deforestation leads to soil erosion because there are fewer roots to hold the soil in place.', roots: { parts: [{ form: 'e-', origin: 'Latin ex-', meaning: '向外' }, { form: 'rod-', origin: 'Latin rodere', meaning: '啃咬；侵蝕' }], summary: 'ex-（向外）+ rodere（啃咬）= erosion（侵蝕），soil erosion 指土壤表層被風水啃蝕流失的過程。', family: ['erode', 'erosion', 'corrode', 'corrosion'] } },
+  { id: 3889, word: 'genetically modified', phonetic: '/dʒəˈnetɪkli ˈmɒdɪfaɪd/', pos: 'adj.', definition: '基因改造的', example: 'Genetically modified crops can produce higher yields and resist disease.', roots: { parts: [{ form: 'gen-', origin: 'Greek genesis/genos', meaning: '起源；基因' }, { form: 'modif-', origin: 'Latin modificare, from modus + facere', meaning: '測量；製作（適當改變）' }], summary: 'genos（基因/起源）+ modificare（調整）= 透過生物技術改變生物遺傳物質。', family: ['gene', 'genetic', 'modify', 'modification'] } },
+  { id: 3890, word: 'starvation', phonetic: '/stɑːˈveɪʃən/', pos: 'n.', definition: '飢餓；挨餓', example: 'Millions of people still die from starvation each year despite global food production capacity.', roots: { parts: [{ form: 'starve', origin: 'Old English steorfan', meaning: '死亡（尤其由飢寒）' }, { form: '-ation', meaning: '名詞後綴' }], summary: 'steorfan（死亡）特化為「因缺乏食物而死」的意思，starvation 指嚴重的長期飢餓狀態。', family: ['starve', 'starving', 'hunger', 'famine'] } },
+  { id: 3891, word: 'overgrazing', phonetic: '/ˌəʊvəˈɡreɪzɪŋ/', pos: 'n.', definition: '過度放牧', example: 'Overgrazing and deforestation reduce the land available for productive farming.', roots: { parts: [{ form: 'over-', meaning: '過度' }, { form: 'graze', origin: 'Old English grasian, from græs', meaning: '吃草；放牧' }], summary: 'over-（過度）+ graze（放牧吃草）= 動物過度啃食導致植被無法恢復的放牧行為。', family: ['graze', 'grazing', 'grassland', 'pasture'] } },
+  { id: 3892, word: 'counteract', phonetic: '/ˌkaʊntərˈækt/', pos: 'v.', definition: '抵消；對抗', example: 'Anti-flooding measures can help counteract the effects of unpredictable rainfall patterns.', roots: { parts: [{ form: 'counter-', origin: 'Latin contra', meaning: '反對；對抗' }, { form: 'act', origin: 'Latin agere/actum', meaning: '行動；做' }], summary: 'contra-（對抗）+ agere（行動）= 採取對立行動來抵消或中和某種效果。', family: ['counter', 'contradict', 'act', 'react'] } },
+  { id: 3893, word: 'participle clause', phonetic: '/ˈpɑːtɪsɪpəl klɔːz/', pos: 'phr.', definition: '分詞子句', example: 'Using a participle clause can make academic writing more sophisticated and concise.', roots: { parts: [{ form: 'particip-', origin: 'Latin participium, from pars + capere', meaning: '部分；拿取（兼具動詞與形容詞）' }, { form: 'clause', origin: 'Latin clausula, from claudere', meaning: '關閉；句尾' }], summary: 'pars（部分）+ capere（拿取）= 既是動詞又是形容詞的成分；clause（子句）源自 claudere（關閉/句末）。', family: ['participate', 'clause', 'gerund'] } },
+  { id: 3894, word: 'workshy', phonetic: '/ˈwɜːkʃaɪ/', pos: 'adj.', definition: '懶散的；不願工作的', example: 'People who are workshy often struggle to hold down a job for very long.', roots: { parts: [{ form: 'work', origin: 'Old English weorc', meaning: '工作' }, { form: 'shy', origin: 'Old English sceoh', meaning: '膽怯的；迴避的' }], summary: 'work（工作）+ shy（迴避）= 對工作感到迴避、不情願努力的，複合形容詞形容懶惰者。', family: ['work', 'shirk', 'idle', 'lazy'] } },
+  { id: 3895, word: 'high-powered', phonetic: '/ˌhaɪ ˈpaʊəd/', pos: 'adj.', definition: '高職位的；極有影響力的', example: 'She eventually moved into a high-powered job in the financial sector.', roots: { parts: [{ form: 'power', origin: 'Old French povoir, from Latin potere', meaning: '能力；權力' }], summary: 'high（高）+ power（能力/權力）= 需要高度能力或擁有重大影響力的，描述要求高或地位重要的職位。', family: ['power', 'powerful', 'empower'] } },
+  { id: 3896, word: 'manual job', phonetic: '/ˈmænjʊəl dʒɒb/', pos: 'phr.', definition: '體力勞動工作', example: 'The factory closure left many people doing manual jobs without employment.', roots: { parts: [{ form: 'manu-', origin: 'Latin manus', meaning: '手' }], summary: 'manus（手）→ manual（用手的）= manual job 指主要依賴雙手體力完成的工作。', family: ['manual', 'manuscript', 'manufacture', 'manage'] } },
+  { id: 3897, word: 'job satisfaction', phonetic: '/dʒɒb ˌsætɪsˈfækʃən/', pos: 'phr.', definition: '工作滿足感', example: 'Many teachers report high levels of job satisfaction despite relatively modest pay.', roots: { parts: [{ form: 'satis-', origin: 'Latin satis', meaning: '足夠' }, { form: 'fac-', origin: 'Latin facere', meaning: '做；完成' }], summary: 'satis（足夠）+ facere（完成）= 在工作中得到足夠的滿足，指從職業中獲得的成就感與快樂。', family: ['satisfy', 'satisfaction', 'sufficient'] } },
+  { id: 3898, word: 'child labour', phonetic: '/tʃaɪld ˈleɪbə/', pos: 'phr.', definition: '童工', example: 'Child labour remains a serious problem in some of the least developed countries.', roots: { parts: [{ form: 'labour', origin: 'Latin labor', meaning: '勞苦；工作' }], summary: 'labor（勞苦）源自拉丁文，child labour 指讓兒童從事剝奪其童年、教育及健康的工作。', family: ['labor', 'laborious', 'elaborate'] } },
+  { id: 3899, word: 'hazardous', phonetic: '/ˈhæzədəs/', pos: 'adj.', definition: '危險的；有害的', example: 'Many working children labour in hazardous conditions and suffer physical harm.', roots: { parts: [{ form: 'hazard', origin: 'Old French hasard, from Arabic az-zahr', meaning: '骰子；機遇；風險' }, { form: '-ous', meaning: '形容詞後綴，表示充滿……' }], summary: '源自阿拉伯語的骰子遊戲（az-zahr），演變為「充滿風險」的概念，hazardous 指充滿危險的。', family: ['hazard', 'risk', 'perilous', 'dangerous'] } },
+  { id: 3900, word: 'informal sector', phonetic: '/ɪnˈfɔːməl ˈsektə/', pos: 'phr.', definition: '非正規就業部門', example: 'Most child workers are employed in the informal sector where there is no legal protection.', roots: { parts: [{ form: 'in-', meaning: '非；不' }, { form: 'form-', origin: 'Latin forma', meaning: '形式；規範' }, { form: 'sect-', origin: 'Latin secare', meaning: '切割；分區' }], summary: 'in-（否定）+ forma（規範）= informal（非正式的）；sector（部門）= 經濟的某一區塊。', family: ['formal', 'informal', 'sector', 'sector'] } },
+  { id: 3901, word: 'refute', phonetic: '/rɪˈfjuːt/', pos: 'v.', definition: '駁斥；反駁', example: 'These statistics are not exact and can be refuted by those with different sources of data.', roots: { parts: [{ form: 're-', origin: 'Latin re-', meaning: '回擊；反對' }, { form: 'fut-', origin: 'Latin futare', meaning: '打擊；反駁' }], summary: 're-（反向）+ futare（打擊）= 以論據或證據予以回擊，證明某說法錯誤。', family: ['refutation', 'confute', 'rebut', 'disprove'] } },
+  { id: 3902, word: 'assert', phonetic: '/əˈsɜːt/', pos: 'v.', definition: '斷言；堅持主張', example: 'Some people assert that part-time work is not beneficial for children under 16.', roots: { parts: [{ form: 'as-', origin: 'Latin ad-', meaning: '向；對著' }, { form: 'sert-', origin: 'Latin serere', meaning: '連接；加入（論述）' }], summary: 'ad-（向）+ serere（加入）= assertere（加入己見）= 自信而有力地陳述某立場或事實。', family: ['assertion', 'assertive', 'insert', 'desert'] } },
+  { id: 3903, word: 'conjecture', phonetic: '/kənˈdʒektʃə/', pos: 'n.', definition: '推測；猜測', example: 'Without solid evidence, any conclusion about the cause of the trend is mere conjecture.', roots: { parts: [{ form: 'con-', origin: 'Latin con-', meaning: '共同；一起' }, { form: 'ject-', origin: 'Latin jacere', meaning: '投擲；拋出' }], summary: 'con-（共同）+ jacere（投擲）= 將各種可能性一起拋出，指在缺乏確鑿證據時形成的推測。', family: ['conjecture', 'project', 'reject', 'inject'] } },
+  { id: 3904, word: 'speculation', phonetic: '/ˌspekjʊˈleɪʃən/', pos: 'n.', definition: '推測；臆測', example: 'It is speculation to suggest that the rise in crime is directly caused by unemployment alone.', roots: { parts: [{ form: 'specul-', origin: 'Latin speculari, from specere', meaning: '觀察；偵察' }, { form: '-ation', meaning: '名詞後綴' }], summary: 'specere（看/觀察）→ speculari（偵察）→ speculation，指缺乏確定基礎、基於觀察而做出的猜想。', family: ['speculate', 'speculative', 'inspect', 'spectacle'] } },
+  { id: 3905, word: 'misconception', phonetic: '/ˌmɪskənˈsepʃən/', pos: 'n.', definition: '誤解；錯誤觀念', example: 'There is a common misconception that all street crime is committed by young people.', roots: { parts: [{ form: 'mis-', meaning: '錯誤地' }, { form: 'con-', origin: 'Latin con-', meaning: '共同；一起' }, { form: 'cept-', origin: 'Latin capere', meaning: '抓取；理解' }], summary: 'mis-（錯誤）+ con + capere（理解）= misconceive（錯誤理解），misconception 指由此形成的錯誤觀念。', family: ['conceive', 'conception', 'perceive', 'misunderstand'] } },
+  { id: 3906, word: 'prevailing opinion', phonetic: '/prɪˈveɪlɪŋ əˈpɪnjən/', pos: 'phr.', definition: '主流觀點；主流意見', example: 'The prevailing opinion is that education should be accessible to all regardless of background.', roots: { parts: [{ form: 'pre-', origin: 'Latin prae', meaning: '在前；超越' }, { form: 'val-', origin: 'Latin valere', meaning: '強壯；有力' }, { form: 'opin-', origin: 'Latin opinari', meaning: '認為；持見解' }], summary: 'prae（超越）+ valere（有力）= prevail（佔主導）；opinion（觀點）源自 opinari（持見解）。', family: ['prevail', 'prevalent', 'opinion', 'opine'] } },
+  { id: 3907, word: 'fronting', phonetic: '/ˈfrʌntɪŋ/', pos: 'n.', definition: '前置（句型）', example: 'Fronting sentences is a technique used in formal academic writing to add emphasis.', roots: { parts: [{ form: 'front', origin: 'Latin frons/frontis', meaning: '額頭；前面' }, { form: '-ing', meaning: '動名詞後綴' }], summary: 'frons（前面）→ front（前方）→ fronting，語法術語指將句子成分移至句首以達強調效果。', family: ['front', 'confront', 'affront', 'frontal'] } },
+  { id: 3908, word: 'correlation', phonetic: '/ˌkɒrəˈleɪʃən/', pos: 'n.', definition: '相關性', example: 'The data suggests there is a strong correlation between high temperatures and heat-related illness.', roots: { parts: [{ form: 'co-', origin: 'Latin co-', meaning: '共同；互相' }, { form: 'relat-', origin: 'Latin relatus, from referre', meaning: '帶回；關聯' }], summary: 'co-（相互）+ relatus（關聯）= 兩個或多個事物之間相互關聯或共同變化的程度。', family: ['correlate', 'relate', 'relation', 'relative'] } },
+  { id: 3909, word: 'heat-related illness', phonetic: '/hiːt rɪˈleɪtɪd ˈɪlnəs/', pos: 'phr.', definition: '熱相關疾病', example: 'The number of heat-related illnesses among athletes peaked in August when temperatures were highest.', roots: { parts: [{ form: 'ill', origin: 'Old Norse illr', meaning: '不好的；生病的' }, { form: '-ness', meaning: '名詞後綴' }], summary: 'heat（高熱）+ related（相關的）+ illness（疾病）= 由暴露於高溫環境導致身體過熱所引發的醫學狀況。', family: ['illness', 'disease', 'heat stroke', 'hyperthermia'] } },
+  { id: 3910, word: 'incidence', phonetic: '/ˈɪnsɪdəns/', pos: 'n.', definition: '發生率；發生次數', example: 'There was a high incidence of heat-related illness in August compared to other months.', roots: { parts: [{ form: 'in-', origin: 'Latin in-', meaning: '在……上面' }, { form: 'cid-', origin: 'Latin cadere', meaning: '落下；發生' }, { form: '-ence', meaning: '名詞後綴' }], summary: 'in-（上面）+ cadere（落下）= incident（落在某處/發生之事），incidence 表示事件在特定期間的發生頻率。', family: ['incident', 'accident', 'coincide', 'occident'] } },
+  { id: 3911, word: 'brittle', phonetic: '/ˈbrɪtəl/', pos: 'adj.', definition: '脆的；易碎的', example: 'After the age of 30, bones become more brittle and more susceptible to injury.', roots: { parts: [{ form: 'brittle', origin: 'Old English brēotan', meaning: '破裂；折斷' }], summary: '源自古英文 brēotan（折斷），brittle 形容雖硬但輕易破裂的物質特性，常用於骨骼或玻璃。', family: ['break', 'fragile', 'frail', 'fracture'] } },
+  { id: 3912, word: 'athletic ability', phonetic: '/æθˈletɪk əˈbɪlɪti/', pos: 'phr.', definition: '運動能力', example: 'With better nutrition and technology, athletes can maintain their athletic ability into their thirties.', roots: { parts: [{ form: 'athlet-', origin: 'Greek athletēs, from athlein', meaning: '競技；爭奪獎品' }, { form: 'abilit-', origin: 'Latin habilis', meaning: '適合的；有能力的' }], summary: 'athlein（競技）→ athlete（運動員）→ athletic；habilis（適合）→ ability（能力）。', family: ['athlete', 'athletic', 'ability', 'capable'] } },
+  { id: 3913, word: 'deterrent', phonetic: '/dɪˈterənt/', pos: 'n.', definition: '威嚇物；嚇阻因素', example: 'Punishment can act as a deterrent, warning others against committing similar crimes.', roots: { parts: [{ form: 'de-', origin: 'Latin de-', meaning: '離開；阻止' }, { form: 'terr-', origin: 'Latin terrere', meaning: '使恐懼；威嚇' }, { form: '-ent', meaning: '名詞/形容詞後綴' }], summary: 'de-（阻止）+ terrere（使恐懼）= deter（嚇阻），deterrent 指用恐懼感阻止某人行動的事物。', family: ['deter', 'terror', 'terrible', 'terrify'] } },
+  { id: 3914, word: "retribution", phonetic: "/ˌretrɪˈbjuːʃən/", pos: "n.", zh: "報應；懲罰", definition: "懲罰被認為是道德上正確且完全應得的。", example: "Some people support capital punishment as a form of retribution for the most serious crimes.", roots: { parts: [{ form: "re-", origin: "Latin re-", meaning: "回、反" }, { form: "tribut-", origin: "Latin tribuere", meaning: "給予、分配" }], summary: "re-（回）+ tribut（給予）→ 給予回報，即報應", family: ["tribute", "contribute", "distribute"] } },
+  { id: 3915, word: "capital punishment", phonetic: "/ˈkæpɪtl ˈpʌnɪʃmənt/", pos: "phr.", zh: "死刑", definition: "對罪犯執行法律授權的殺害作為懲罰。", example: "There is ongoing debate about whether capital punishment is an effective or humane penalty.", roots: { parts: [{ form: "capit-", origin: "Latin caput", meaning: "頭" }, { form: "punit-", origin: "Latin punire", meaning: "懲罰" }], summary: "capital 源自「頭」（古代砍頭之刑），punishment 源自 punire（懲罰）→ 極刑", family: ["capital", "decapitate", "punish"] } },
+  { id: 3916, word: "rehabilitate", phonetic: "/ˌriːəˈbɪlɪteɪt/", pos: "v.", zh: "使改過自新；復原", definition: "在監禁或成癮後使某人恢復對社會有用且有建設性的地位。", example: "Many argue that the purpose of prison should be to rehabilitate criminals rather than simply punish them.", roots: { parts: [{ form: "re-", origin: "Latin re-", meaning: "再次" }, { form: "habilit-", origin: "Latin habilis", meaning: "適合的、有能力的" }], summary: "re-（再次）+ habilit（使具能力）→ 再次使人具備生活能力", family: ["ability", "habilitate", "rehabilitation"] } },
+  { id: 3917, word: "law-abiding", phonetic: "/ˈlɔː əˌbaɪdɪŋ/", pos: "adj.", zh: "守法的", definition: "服從社會法律的。", example: "Many ex-prisoners go on to lead law-abiding lives after their release.", roots: { parts: [{ form: "abide", origin: "Old English abīdan", meaning: "等待、忍受、遵守" }], summary: "law（法律）+ abiding（遵守的）→ 遵守法律的", family: ["abide", "law", "comply"] } },
+  { id: 3918, word: "wrongdoing", phonetic: "/ˈrɒŋduːɪŋ/", pos: "n.", zh: "違法行為；壞事", definition: "非法或不誠實的行為。", example: "Many ex-prisoners give up their previous lifestyle and live a life free from wrongdoing.", roots: { parts: [{ form: "wrong", origin: "Old Norse rangr", meaning: "不正確的" }, { form: "doing", origin: "Old English dōn", meaning: "做" }], summary: "wrong（錯誤）+ doing（行為）→ 做錯事、違法行為", family: ["misdeed", "misconduct", "offense"] } },
+  { id: 3919, word: "vandalism", phonetic: "/ˈvændəlɪzəm/", pos: "n.", zh: "故意破壞；惡意毀損", definition: "故意破壞或損毀公共或私人財產的行為。", example: "Vandalism accounted for the second highest proportion of crimes in the survey.", roots: { parts: [{ form: "Vandal", origin: "Latin Vandalus", meaning: "汪達爾人（日耳曼民族，以破壞羅馬文明著稱）" }], summary: "源自汪達爾人（Vandals）入侵羅馬時大肆破壞，後引申為故意毀損行為", family: ["vandal", "desecrate", "sabotage"] } },
+  { id: 3920, word: "burglary", phonetic: "/ˈbɜːɡləri/", pos: "n.", zh: "入室竊盜", definition: "闖入建築物（尤其是住宅）竊取財物的罪行。", example: "Theft made up a higher proportion of offences than burglary in the data.", roots: { parts: [{ form: "burg-", origin: "Medieval Latin burgus", meaning: "城鎮、建築" }], summary: "burg（建築/住宅）→ 闖入住宅行竊的罪行", family: ["burglar", "burglarize", "housebreaking"] } },
+  { id: 3921, word: "affluent", phonetic: "/ˈæfluənt/", pos: "adj.", zh: "富裕的", definition: "擁有大量財富；富有的。", example: "People in more affluent areas tend to have better access to education and healthcare.", roots: { parts: [{ form: "af-", origin: "Latin ad-", meaning: "朝向" }, { form: "flu-", origin: "Latin fluere", meaning: "流動" }], summary: "af-（朝向）+ flu（流動）→ 財富向你流來 → 富裕的", family: ["affluence", "influence", "fluid"] } },
+  { id: 3922, word: "destitute", phonetic: "/ˈdestɪtjuːt/", pos: "adj.", zh: "極度貧困的", definition: "沒有生活基本必需品；極度貧窮。", example: "Without a welfare system, many elderly people would be left completely destitute.", roots: { parts: [{ form: "de-", origin: "Latin de-", meaning: "去除、離開" }, { form: "statut-", origin: "Latin statuere", meaning: "放置、建立" }], summary: "de-（去除）+ statut（放置）→ 被拿走了一切 → 極度貧困", family: ["destitution", "institute", "constitute"] } },
+  { id: 3923, word: "making ends meet", phonetic: "/ˌmeɪkɪŋ ˈendz ˈmiːt/", pos: "phr.", zh: "勉強維持生計", definition: "剛好有足夠的錢支付所需的東西。", example: "Many families on low incomes struggle with making ends meet at the end of each month.", roots: { parts: [{ form: "ends meet", origin: "Accounting metaphor", meaning: "讓收支兩端相接" }], summary: "源自會計比喻：讓帳本的兩端（收入與支出）相接 → 收支平衡、勉強度日", family: ["budget", "subsist", "scrape by"] } },
+  { id: 3924, word: "materialism", phonetic: "/məˈtɪərɪəlɪzəm/", pos: "n.", zh: "物質主義；唯物主義", definition: "傾向於把物質財富和物質舒適看得比精神價值更重要。", example: "Occasionally we realize the extent to which materialism controls our lives in modern society.", roots: { parts: [{ form: "mater-", origin: "Latin materia", meaning: "物質、材料" }, { form: "-ism", origin: "Greek -ismos", meaning: "主義、思想體系" }], summary: "mater（物質）+ -ism（主義）→ 以物質為核心的世界觀", family: ["material", "immaterial", "materialize"] } },
+  { id: 3925, word: "bartering", phonetic: "/ˈbɑːtərɪŋ/", pos: "n.", zh: "以物易物；物物交換", definition: "不使用金錢交換商品或服務。", example: "Bartering was the original form of trade before metal money was introduced.", roots: { parts: [{ form: "barter", origin: "Old French barater", meaning: "交換、欺騙" }], summary: "源自古法語 barater（交換），指不用貨幣直接以物換物", family: ["trade", "exchange", "swap"] } },
+  { id: 3926, word: "monetary", phonetic: "/ˈmʌnɪtəri/", pos: "adj.", zh: "貨幣的；金融的", definition: "與金錢或貨幣有關的。", example: "Coins paved the way for an age in which people were involved in a complex monetary system.", roots: { parts: [{ form: "monet-", origin: "Latin Moneta", meaning: "朱諾女神（羅馬鑄幣廠設於其神殿）" }], summary: "源自羅馬女神 Juno Moneta，其神殿為鑄幣場所，因此衍生出貨幣相關詞", family: ["money", "mint", "monetize"] } },
+  { id: 3927, word: "hedging", phonetic: "/ˈhedʒɪŋ/", pos: "n./v.", zh: "模糊語言；語氣軟化", definition: "使用語言來降低主張或陳述的強度，避免絕對斷言。", example: "Hedging language is important in academic writing to show that different viewpoints are possible.", roots: { parts: [{ form: "hedge", origin: "Old English hecg", meaning: "樹籬、圍欄" }], summary: "原指樹籬（模糊邊界），引申為在語言上設置緩衝、避免絕對表述", family: ["hedge", "qualify", "moderate"] } },
+  { id: 3928, word: "softening language", phonetic: "/ˈsɒfənɪŋ ˈlæŋɡwɪdʒ/", pos: "phr.", zh: "軟化語氣的語言", definition: "用於使陳述不那麼直接或不那麼確定的詞語或短語。", example: "Using softening language such as 'it appears that' makes an essay sound more balanced.", roots: { parts: [{ form: "soft", origin: "Old English sōfte", meaning: "柔軟、溫和" }], summary: "soft（柔和）+ en（使動）+ -ing → 使語氣柔和的表達方式", family: ["hedge", "qualify", "mitigate"] } },
+  { id: 3929, word: "nominalization", phonetic: "/ˌnɒmɪnəlaɪˈzeɪʃən/", pos: "n.", zh: "名詞化", definition: "從動詞或形容詞形成名詞的過程，常用於學術寫作。", example: "Nominalization makes sentences more formal: 'investigate' becomes 'investigation'.", roots: { parts: [{ form: "nomin-", origin: "Latin nomen", meaning: "名字、名稱" }, { form: "-ize", origin: "Greek -izein", meaning: "使成為" }, { form: "-ation", origin: "Latin -atio", meaning: "過程、結果" }], summary: "nomin（名詞）+ -ize（使化）+ -ation（化的過程）→ 詞語名詞化的過程", family: ["nominate", "nominal", "denomination"] } },
+  { id: 3930, word: "cleft sentence", phonetic: "/ˈkleft ˈsentəns/", pos: "phr.", zh: "分裂句", definition: "為了強調而將資訊分成兩個子句的句子，通常使用「It is ... that」。", example: "A cleft sentence such as 'It is education that matters most' gives strong emphasis to the subject.", roots: { parts: [{ form: "cleft", origin: "Old English clēofan", meaning: "劈開、分裂" }], summary: "cleft（劈開的）→ 句子被劈成兩半以突顯重點", family: ["split", "divide", "cleave"] } },
+  { id: 3931, word: "bilingualism", phonetic: "/ˌbaɪˈlɪŋɡwəlɪzəm/", pos: "n.", zh: "雙語能力", definition: "能流利使用兩種語言的能力。", example: "Bilingualism can increase average wages by approximately eight per cent compared to monolingualism.", roots: { parts: [{ form: "bi-", origin: "Latin bi-", meaning: "二" }, { form: "lingu-", origin: "Latin lingua", meaning: "語言、舌頭" }], summary: "bi-（二）+ lingu（語言）→ 擁有兩種語言能力", family: ["bilingual", "monolingualism", "multilingual"] } },
+  { id: 3932, word: "proficiency", phonetic: "/prəˈfɪʃənsi/", pos: "n.", zh: "熟練度；精通程度", definition: "在特定活動或學科中高度的能力或技巧。", example: "Immigrants who arrived at a younger age demonstrated much greater language proficiency.", roots: { parts: [{ form: "pro-", origin: "Latin pro-", meaning: "向前" }, { form: "fic-", origin: "Latin facere", meaning: "做、製造" }], summary: "pro-（向前）+ fic（做）→ 能夠向前推進地做 → 精通", family: ["proficient", "efficient", "sufficient"] } },
+  { id: 3933, word: "cosmopolitan", phonetic: "/ˌkɒzməˈpɒlɪtən/", pos: "adj.", zh: "國際化的；多元文化的", definition: "熟悉許多不同國家和文化並感到自在的。", example: "Many cities today are cosmopolitan, with residents from dozens of different countries.", roots: { parts: [{ form: "cosmo-", origin: "Greek kosmos", meaning: "世界、宇宙" }, { form: "polit-", origin: "Greek polites", meaning: "公民" }], summary: "cosmo（世界）+ polit（公民）→ 世界公民 → 國際化的", family: ["cosmos", "cosmopolite", "metropolitan"] } },
+  { id: 3934, word: "harmoniously", phonetic: "/hɑːˈməʊniəsli/", pos: "adv.", zh: "和諧地", definition: "以沒有分歧或衝突的方式；令人愉快地結合在一起。", example: "Governments must work to ensure that people from different backgrounds can live together harmoniously.", roots: { parts: [{ form: "harmon-", origin: "Greek harmonia", meaning: "連接、和諧" }], summary: "harmonia（和諧）→ harmonious（和諧的）→ harmoniously（和諧地）", family: ["harmony", "harmonize", "harmonic"] } },
+  { id: 3935, word: "stringent", phonetic: "/ˈstrɪndʒənt/", pos: "adj.", zh: "嚴格的；嚴厲的", definition: "在執行規則（尤其是法律）方面嚴格、精確、苛求。", example: "Stringent laws are needed to protect immigrants from aggression or prejudice.", roots: { parts: [{ form: "string-", origin: "Latin stringere", meaning: "拉緊、束縛" }], summary: "stringere（拉緊）→ 約束力強 → 嚴格的", family: ["strict", "restrict", "constrain"] } },
+  { id: 3936, word: "prejudice", phonetic: "/ˈpredʒʊdɪs/", pos: "n.", zh: "偏見；歧視", definition: "並非基於理性或實際經驗的先入為主的看法。", example: "Legal protections should exist for anyone who faces prejudice because of their background.", roots: { parts: [{ form: "pre-", origin: "Latin pre-", meaning: "在前、預先" }, { form: "judic-", origin: "Latin judicium", meaning: "判斷、審判" }], summary: "pre-（預先）+ judic（判斷）→ 預先判斷 → 偏見", family: ["judge", "prejudge", "judicial"] } },
+  { id: 3937, word: "signposting language", phonetic: "/ˈsaɪnpəʊstɪŋ ˈlæŋɡwɪdʒ/", pos: "phr.", zh: "篇章銜接語言", definition: "用於引導讀者了解文章結構和方向的詞語和短語。", example: "Using signposting language such as 'firstly' and 'subsequently' helps to clarify the order of events.", roots: { parts: [{ form: "sign", origin: "Latin signum", meaning: "記號、標誌" }, { form: "post", origin: "Latin postis", meaning: "柱子" }], summary: "signpost（路標）→ 在文章中設立路標引導讀者方向", family: ["transition", "discourse marker", "connector"] } },
+  { id: 3938, word: "upward trend", phonetic: "/ˈʌpwəd trend/", pos: "phr.", zh: "上升趨勢", definition: "在一段時間內所示數據的總體增加方向。", example: "The number of students enrolled in undergraduate courses showed a clear upward trend from 2008 to 2012.", roots: { parts: [{ form: "trend", origin: "Old English trendan", meaning: "滾動、轉向" }], summary: "trend（趨勢方向）+ upward（向上）→ 向上的走勢", family: ["downward trend", "plateau", "fluctuation"] } },
+  { id: 3939, word: "downward trend", phonetic: "/ˈdaʊnwəd trend/", pos: "phr.", zh: "下降趨勢", definition: "在一段時間內的總體下降方向。", example: "The literacy course showed a downward trend throughout the period shown.", roots: { parts: [{ form: "trend", origin: "Old English trendan", meaning: "滾動、轉向" }], summary: "trend（趨勢）+ downward（向下）→ 向下的走勢", family: ["upward trend", "decline", "decrease"] } },
+  { id: 3940, word: "moderately", phonetic: "/ˈmɒdərətli/", pos: "adv.", zh: "適度地；中等程度地", definition: "在中等程度上；既不太多也不太少。", example: "Numbers of students on postgraduate courses increased moderately from 2008 to 2012.", roots: { parts: [{ form: "moder-", origin: "Latin modus", meaning: "尺度、量度" }], summary: "modus（度量）→ moderate（適度的）→ moderately（適度地）", family: ["moderate", "moderation", "mode"] } },
+  { id: 3941, word: "markedly", phonetic: "/ˈmɑːkɪdli/", pos: "adv.", zh: "顯著地；明顯地", definition: "以清晰可見的方式；在顯著程度上。", example: "Performance improved markedly after the new training programme was introduced.", roots: { parts: [{ form: "mark", origin: "Old English mearc", meaning: "記號、標誌" }], summary: "mark（記號）→ marked（有明顯標記的）→ markedly（明顯地）", family: ["marked", "noticeable", "significantly"] } },
+  { id: 3942, word: "progressively", phonetic: "/prəˈɡresɪvli/", pos: "adv.", zh: "漸進地；逐步地", definition: "在程度或嚴重程度上增加；分階段發生。", example: "The population of the city grew progressively larger throughout the twentieth century.", roots: { parts: [{ form: "pro-", origin: "Latin pro-", meaning: "向前" }, { form: "gress-", origin: "Latin gradi", meaning: "走、前進" }], summary: "pro-（向前）+ gress（走）→ 逐步向前推進", family: ["progress", "progressive", "regress"] } },
+  { id: 3943, word: "plunge", phonetic: "/plʌndʒ/", pos: "v.", zh: "驟降；猛跌", definition: "數量、價值或水平急劇突然下降。", example: "Sales of the product plunged after the company was involved in a public scandal.", roots: { parts: [{ form: "plunge", origin: "Old French plongier", meaning: "投入水中" }], summary: "源自古法語 plongier（投入水中），引申為急速下跌、驟降", family: ["plummet", "drop", "nosedive"] } },
+  { id: 3944, word: "soar", phonetic: "/sɔː/", pos: "v.", zh: "急升；猛增", definition: "水平或數量非常迅速上升。", example: "Apple's sales soared from just 2.3 million in 2007 to nearly 136 million by 2012.", roots: { parts: [{ form: "soar", origin: "Old French essorer", meaning: "在空中飛翔" }], summary: "源自古法語 essorer（飛翔），引申為數量急速攀升", family: ["surge", "skyrocket", "escalate"] } },
+  { id: 3945, word: "remain stable", phonetic: "/rɪˈmeɪn ˈsteɪbəl/", pos: "phr.", zh: "保持穩定", definition: "在沒有重大變化的情況下保持在同一水平。", example: "The proportion of female prisoners remained stable at around 4,000–5,000 throughout the period.", roots: { parts: [{ form: "stab-", origin: "Latin stabilis", meaning: "穩定、堅固" }], summary: "stabilis（穩固）→ stable（穩定的）→ remain stable（保持穩定）", family: ["stable", "stability", "stabilize"] } },
+  { id: 3946, word: "dip", phonetic: "/dɪp/", pos: "v./n.", zh: "短暫下降；輕微下滑", definition: "數量或質量略微暫時下降；略微減少。", example: "There was a minor dip in the number of literacy course students in 2010.", roots: { parts: [{ form: "dip", origin: "Old English dyppan", meaning: "浸入" }], summary: "原指浸入（短暫下降），引申為數據上的短暫輕微下滑", family: ["drop", "slight decrease", "trough"] } },
+  { id: 3947, word: "span", phonetic: "/spæn/", pos: "v.", zh: "涵蓋；橫跨", definition: "延伸至一段時間或一組值的範圍。", example: "By 2009 the difference between countries spanned from approximately 15 per cent to over 27 per cent.", roots: { parts: [{ form: "span", origin: "Old English spann", meaning: "手掌張開的寬度" }], summary: "原指手掌張開的長度，引申為橫跨某段時間或範圍", family: ["range", "cover", "extend"] } },
+  { id: 3948, word: "outstrip", phonetic: "/ˌaʊtˈstrɪp/", pos: "v.", zh: "超過；超越", definition: "移動比（某人）更快並超越；超過。", example: "The number of male prisoners consistently outstrips the number of female prisoners.", roots: { parts: [{ form: "out-", origin: "Old English ut-", meaning: "超出" }, { form: "strip", origin: "Middle Low German strippen", meaning: "快速移動" }], summary: "out-（超出）+ strip（快速移動）→ 超越、勝過", family: ["surpass", "exceed", "overtake"] } },
+  { id: 3949, word: "beset", phonetic: "/bɪˈset/", pos: "v.", zh: "困擾；被⋯所困", definition: "持續困擾或威脅；被困難所包圍。", example: "Major cities around the world are beset by a similar problem: traffic congestion.", roots: { parts: [{ form: "be-", origin: "Old English be-", meaning: "周圍、完全" }, { form: "set", origin: "Old English settan", meaning: "放置" }], summary: "be-（四周）+ set（放置）→ 四面被放置困難 → 困擾、圍困", family: ["plague", "afflict", "trouble"] } },
+  { id: 3950, word: "entice", phonetic: "/ɪnˈtaɪs/", pos: "v.", zh: "吸引；誘使", definition: "透過提供令人愉快的東西來吸引某人做某事。", example: "Reducing public transport costs would entice more people to leave their cars at home.", roots: { parts: [{ form: "entice", origin: "Old French enticier", meaning: "煽動、點燃" }], summary: "源自古法語 enticier（煽動），引申為以誘人之物吸引他人", family: ["attract", "lure", "tempt"] } },
+  { id: 3951, word: "self-indulgent", phonetic: "/ˌself ɪnˈdʌldʒənt/", pos: "adj.", zh: "放縱自我的；自我耽溺的", definition: "以做自己想做的事為特徵，尤其是忽視他人的方式。", example: "Some people argue that a gap year is simply an extendable, self-indulgent holiday.", roots: { parts: [{ form: "indulge", origin: "Latin indulgere", meaning: "寬容、縱容" }], summary: "self（自我）+ indulge（縱容）→ 縱容自己的慾望", family: ["indulgence", "pamper", "gratify"] } },
+  { id: 3952, word: "broaden one's horizons", phonetic: "/ˈbrɔːdən wʌnz həˈraɪzənz/", pos: "phr.", zh: "開拓眼界", definition: "擴大自己的知識、經驗或興趣範圍。", example: "Many young people see a gap year as a chance to broaden their horizons before starting work.", roots: { parts: [{ form: "horizon", origin: "Greek horizōn", meaning: "限定、地平線" }], summary: "horizon（地平線，視野邊界）→ 拓寬視野邊界 → 開拓眼界", family: ["expand", "widen", "perspective"] } },
+  { id: 3953, word: "employable", phonetic: "/ɪmˈplɔɪəbəl/", pos: "adj.", zh: "有就業競爭力的；容易受僱的", definition: "具備被聘用所需的素質和技能。", example: "Work experience makes students more employable when they eventually enter the job market.", roots: { parts: [{ form: "employ", origin: "French employer", meaning: "使用、雇用" }, { form: "-able", origin: "Latin -abilis", meaning: "能夠" }], summary: "employ（雇用）+ -able（能夠）→ 值得被雇用的", family: ["employment", "unemployable", "hireable"] } },
+  { id: 3954, word: "diligence", phonetic: "/ˈdɪlɪdʒəns/", pos: "n.", zh: "勤奮；努力", definition: "仔細且持續的工作或努力。", example: "Having work experience demonstrates diligence in a real working context.", roots: { parts: [{ form: "dilig-", origin: "Latin diligere", meaning: "珍視、認真對待" }], summary: "diligere（認真對待）→ 勤奮努力，認真執行", family: ["diligent", "assiduous", "industrious"] } },
+  { id: 3955, word: "autonomously", phonetic: "/ɔːˈtɒnəməsli/", pos: "adv.", zh: "自主地；獨立地", definition: "獨立行動並自己做決定。", example: "The teacher encouraged her student to work autonomously after providing initial guidance.", roots: { parts: [{ form: "auto-", origin: "Greek autos", meaning: "自己" }, { form: "nom-", origin: "Greek nomos", meaning: "法律、規則" }], summary: "auto-（自己）+ nom（規則）→ 自己制定規則 → 自主", family: ["autonomous", "autonomy", "self-directed"] } },
+  { id: 3956, word: "proficient", phonetic: "/prəˈfɪʃənt/", pos: "adj.", zh: "熟練的；精通的", definition: "在做某事或使用某物方面有能力或技巧的。", example: "Immigrants who arrived as young children became proficient in the language more quickly.", roots: { parts: [{ form: "pro-", origin: "Latin pro-", meaning: "向前" }, { form: "fic-", origin: "Latin facere", meaning: "做" }], summary: "pro-（向前）+ fic（做）→ 能夠向前有效率地做事 → 熟練的", family: ["proficiency", "efficient", "adept"] } },
+  { id: 3957, word: "embark upon", phonetic: "/ɪmˈbɑːk əˌpɒn/", pos: "phr. v.", zh: "著手；開始（某事業）", definition: "開始一個行動過程，尤其是重要或艱辛的事情。", example: "Gap years give young people time to reflect before they embark upon a long-term career.", roots: { parts: [{ form: "em-", origin: "French en-", meaning: "進入" }, { form: "bark", origin: "Old Provençal barca", meaning: "船" }], summary: "em-（進入）+ bark（船）→ 登船出發 → 著手開始某件大事", family: ["begin", "undertake", "commence"] } },
+  { id: 3958, word: "chandelier", phonetic: "/ˌʃændəˈlɪə/", pos: "n.", zh: "吊燈", definition: "掛在天花板上的大型裝飾性燈具，有支架可固定燈泡或蠟燭。", example: "The grand ballroom was filled with sparkling chandeliers.", roots: { parts: [{ form: "chandel-", origin: "Old French chandelle", meaning: "蠟燭" }], summary: "chandelle（蠟燭）→ chandelier（掛蠟燭的裝置）→ 吊燈", family: ["candle", "candelabra", "sconce"] } },
+  { id: 3959, word: "extravagant", phonetic: "/ɪkˈstrævəɡənt/", pos: "adj.", zh: "奢華的", definition: "花費遠超必要或合理的金額；過度精緻。", example: "Critics described the mansion's interior as extravagant and over the top.", roots: { parts: [{ form: "extra-", origin: "Latin extra", meaning: "超出、外部" }, { form: "vag-", origin: "Latin vagari", meaning: "漫遊、徘徊" }], summary: "extra-（超出）+ vag（漫遊）→ 超出正常範圍地揮霍 → 奢華的", family: ["extravagance", "lavish", "excessive"] } },
+  { id: 3960, word: "maintenance", phonetic: "/ˈmeɪntənəns/", pos: "n.", zh: "維護費用", definition: "保持某物良好狀態所需的工作，或進行此工作的費用。", example: "When Hearst died, his family learnt how expensive maintenance of the castle would be.", roots: { parts: [{ form: "maint-", origin: "Latin manu tenere", meaning: "用手握住" }], summary: "manu（手）+ tenere（握住）→ 持續抓住保養 → 維護", family: ["maintain", "sustain", "upkeep"] } },
+  { id: 3961, word: "retaliation", phonetic: "/rɪˌtæliˈeɪʃən/", pos: "n.", zh: "報復", definition: "因為某人對你做了有害的事而對他們做有害事情的行為。", example: "In retaliation, Beckham kicked Simeone and was given a red card.", roots: { parts: [{ form: "re-", origin: "Latin re-", meaning: "回" }, { form: "tali-", origin: "Latin talio", meaning: "同等報復（以牙還牙）" }], summary: "re-（回）+ tali（以牙還牙）→ 以相同方式回擊 → 報復", family: ["retaliate", "revenge", "reprisal"] } },
+  { id: 3962, word: "endorsement", phonetic: "/ɪnˈdɔːsmənt/", pos: "n.", zh: "代言", definition: "對某產品的公開支持或認可，尤指獲得報酬。", example: "A large portion of his earnings came from brand endorsements for major companies.", roots: { parts: [{ form: "en-", origin: "Latin in-", meaning: "在上面" }, { form: "dors-", origin: "Latin dorsum", meaning: "背面" }], summary: "en-（在上）+ dors（背面）→ 在背面簽名認可 → 背書、代言", family: ["endorse", "sponsor", "support"] } },
+  { id: 3963, word: "expedition", phonetic: "/ˌekspɪˈdɪʃən/", pos: "n.", zh: "探險任務", definition: "為特定目的（尤指探索或研究）進行的有組織的旅行。", example: "The students were discussing three space expeditions in the news with their tutor.", roots: { parts: [{ form: "ex-", origin: "Latin ex-", meaning: "出" }, { form: "ped-", origin: "Latin pes/pedis", meaning: "腳" }], summary: "ex-（出）+ ped（腳）→ 邁出腳步出發 → 探險", family: ["expedite", "pedestrian", "impede"] } },
+  { id: 3964, word: "isolation", phonetic: "/ˌaɪsəˈleɪʃən/", pos: "n.", zh: "隔離", definition: "與其他人或事物分開的狀態。", example: "Isolation was probably the reason for the conflict among the project participants.", roots: { parts: [{ form: "isol-", origin: "Italian isola / Latin insula", meaning: "島嶼" }], summary: "insula（島）→ 像孤島般被隔開 → 隔離", family: ["isolate", "insulate", "insular"] } },
+  { id: 3965, word: "simulation", phonetic: "/ˌsɪmjʊˈleɪʃən/", pos: "n.", zh: "模擬", definition: "用於訓練或研究的真實世界過程或系統的模仿。", example: "The Mars simulation project placed participants in a closed environment for months.", roots: { parts: [{ form: "simul-", origin: "Latin simulare", meaning: "使像、模仿" }], summary: "simulare（使像）→ 模仿真實狀況 → 模擬", family: ["simulate", "similar", "simultaneous"] } },
+  { id: 3966, word: "participant", phonetic: "/pɑːˈtɪsɪpənt/", pos: "n.", zh: "參與者", definition: "參加活動或事件的人。", example: "Several participants had serious health problems during the project.", roots: { parts: [{ form: "parti-", origin: "Latin pars/partis", meaning: "部分" }, { form: "cip-", origin: "Latin capere", meaning: "拿取" }], summary: "parti（部分）+ cip（拿取）→ 拿走一部分份額 → 參與", family: ["participate", "partake", "involvement"] } },
+  { id: 3967, word: "conscript", phonetic: "/ˈkɒnskrɪpt/", pos: "v.", zh: "徵召", definition: "依法或強制讓某人加入武裝部隊或參與某項工作。", example: "Soldiers and convicts had to be conscripted to help build the railway.", roots: { parts: [{ form: "con-", origin: "Latin con-", meaning: "一起" }, { form: "script-", origin: "Latin scribere", meaning: "寫、登記" }], summary: "con-（一起）+ script（寫）→ 把名字寫入名冊 → 強制徵召", family: ["inscribe", "prescribe", "draft"] } },
+  { id: 3968, word: "sabotage", phonetic: "/ˈsæbətɑːʒ/", pos: "v./n.", zh: "蓄意破壞", definition: "故意損壞或摧毀某物以阻止其運作。", example: "Many claimed convicts had sabotaged the railway line.", roots: { parts: [{ form: "sabot", origin: "French sabot", meaning: "木鞋" }], summary: "源自法語 sabot（木鞋），工人將木鞋丟入機器阻止運作，引申為蓄意破壞", family: ["vandalize", "undermine", "subvert"] } },
+  { id: 3969, word: "charitable", phonetic: "/ˈtʃærɪtəbəl/", pos: "adj.", zh: "慈善的", definition: "與向有需要者給予金錢、食物或幫助有關的。", example: "Carnegie was equally well known for his charitable contribution to society.", roots: { parts: [{ form: "charit-", origin: "Latin caritas", meaning: "愛、善意" }], summary: "caritas（愛與善意）→ charity（慈善）→ charitable（慈善的）", family: ["charity", "beneficent", "philanthropic"] } },
+  { id: 3970, word: "immeasurable", phonetic: "/ɪˈmeʒərəbəl/", pos: "adj.", zh: "無法衡量的", definition: "太大或太極端而無法測量或計算。", example: "No new business start-up is without risk, but the benefits can be immeasurable.", roots: { parts: [{ form: "im-", origin: "Latin in-", meaning: "否定" }, { form: "measur-", origin: "Latin mensura", meaning: "度量" }], summary: "im-（否定）+ measur（度量）→ 無法用任何尺度衡量 → 無限的", family: ["immense", "measure", "inestimable"] } },
+  { id: 3971, word: "aerospace", phonetic: "/ˈeərəʊspeɪs/", pos: "adj./n.", zh: "航太的", definition: "與設計和建造飛機及太空船的科學或工業有關的。", example: "Travelling to space used to be possible only for governments or large aerospace companies.", roots: { parts: [{ form: "aero-", origin: "Greek aēr", meaning: "空氣" }, { form: "space", origin: "Latin spatium", meaning: "空間" }], summary: "aero-（空氣/大氣層）+ space（太空）→ 大氣層與太空的合稱", family: ["aeronautics", "astronaut", "aviation"] } },
+  { id: 3972, word: "altitude", phonetic: "/ˈæltɪtjuːd/", pos: "n.", zh: "高度", definition: "某物在海平面或地面以上的高度。", example: "The jetpack can manage speeds of up to 74 kph and an altitude of 914 metres.", roots: { parts: [{ form: "alti-", origin: "Latin altus", meaning: "高" }], summary: "altus（高）→ altitude（高度），指距地面或海平面的垂直距離", family: ["alto", "exalt", "altimeter"] } },
+  { id: 3973, word: "cultured", phonetic: "/ˈkʌltʃəd/", pos: "adj.", zh: "人工培育的", definition: "在受控環境中人工生長的，尤指細胞或組織。", example: "Professor Post predicted that cultured meat would mean the end of traditional cattle farming.", roots: { parts: [{ form: "cultur-", origin: "Latin colere", meaning: "耕作、培育" }], summary: "colere（耕作）→ culture（培育）→ cultured（人工培育的）", family: ["culture", "cultivate", "agriculture"] } },
+  { id: 3974, word: "vertical farming", phonetic: "/ˈvɜːtɪkəl ˈfɑːmɪŋ/", pos: "n.", zh: "垂直農業", definition: "在受控城市環境中垂直疊放層次中種植作物的做法。", example: "Vertical farming comes from the belief that cities should grow their own crops in multi-storey greenhouses.", roots: { parts: [{ form: "vertic-", origin: "Latin vertex", meaning: "頂點、垂直" }], summary: "vertical（垂直的）→ 以垂直疊層方式進行的農業種植", family: ["urban farming", "hydroponics", "greenhouse"] } },
+  { id: 3975, word: "landslide", phonetic: "/ˈlændslaɪd/", pos: "n.", zh: "山崩", definition: "因重力使岩石、土壤或碎石沿斜坡滑落的現象。", example: "Landslides and flooding can cause significant damage to homes and businesses.", roots: { parts: [{ form: "land", origin: "Old English land", meaning: "陸地" }, { form: "slide", origin: "Old English slīdan", meaning: "滑動" }], summary: "land（陸地）+ slide（滑動）→ 土地滑動崩落 → 山崩", family: ["avalanche", "mudslide", "rockfall"] } },
+  { id: 3976, word: "sinkhole", phonetic: "/ˈsɪŋkhəʊl/", pos: "n.", zh: "天坑", definition: "當地表塌陷到地下空洞時形成的洞。", example: "Sinkholes are among the natural phenomena that cause concern for residents.", roots: { parts: [{ form: "sink", origin: "Old English sincan", meaning: "下沉" }, { form: "hole", origin: "Old English hol", meaning: "洞" }], summary: "sink（下沉）+ hole（洞）→ 地面下沉形成的洞 → 天坑", family: ["subsidence", "collapse", "cavity"] } },
+  { id: 3977, word: "volcanic eruption", phonetic: "/vɒlˈkænɪk ɪˈrʌpʃən/", pos: "n.", zh: "火山爆發", definition: "火山向周圍地區釋放熔岩、灰燼和氣體的過程。", example: "Volcanic eruptions are classified as natural disasters that cannot be prevented.", roots: { parts: [{ form: "Vulcan", origin: "Latin Vulcanus", meaning: "火神" }, { form: "rupt-", origin: "Latin rumpere", meaning: "破裂" }], summary: "Vulcan（羅馬火神）+ rupt（破裂）→ 火山的破裂噴發", family: ["erupt", "rupture", "disrupt"] } },
+  { id: 3978, word: "tsunami", phonetic: "/tsuːˈnɑːmi/", pos: "n.", zh: "海嘯", definition: "由地震等大型海底擾動引起的一系列海浪。", example: "Tsunamis can travel across entire ocean basins and cause massive coastal damage.", roots: { parts: [{ form: "tsu-", origin: "Japanese 津 (tsu)", meaning: "港口" }, { form: "nami", origin: "Japanese 波 (nami)", meaning: "波浪" }], summary: "源自日語 津波（tsu-nami），意為「港口的波浪」，因海嘯在淺水港灣最具破壞力", family: ["tidal wave", "seiche", "flood wave"] } },
+  { id: 3979, word: "radiation leak", phonetic: "/ˌreɪdiˈeɪʃən liːk/", pos: "n.", zh: "輻射外洩", definition: "設施或事故中放射性物質的不受控釋放。", example: "Proper care of important facilities will result in fewer radiation leaks.", roots: { parts: [{ form: "radi-", origin: "Latin radius", meaning: "射線、輻射" }], summary: "radius（射線）→ radiation（輻射）→ radiation leak（輻射外洩）", family: ["radioactive", "radiation", "contamination"] } },
+  { id: 3980, word: "emission", phonetic: "/ɪˈmɪʃən/", pos: "n.", zh: "排放量", definition: "排放到空氣中的物質，尤其是氣體。", example: "Humanity is to blame for the increase in emissions around the world.", roots: { parts: [{ form: "e-", origin: "Latin ex-", meaning: "出" }, { form: "miss-", origin: "Latin mittere", meaning: "發送" }], summary: "e-（出）+ miss（送出）→ 向外送出氣體或物質 → 排放", family: ["emit", "mission", "transmit"] } },
+  { id: 3981, word: "enrol", phonetic: "/ɪnˈrəʊl/", pos: "v.", zh: "報名", definition: "正式加入或登記為課程、班級或機構的成員。", example: "To enrol on extra courses, please visit the university website.", roots: { parts: [{ form: "en-", origin: "French en-", meaning: "使入" }, { form: "rol-", origin: "Old French rolle", meaning: "名冊（卷軸）" }], summary: "en-（使進入）+ rol（名冊）→ 把名字列入名冊 → 報名", family: ["register", "enlist", "sign up"] } },
+  { id: 3982, word: "prospectus", phonetic: "/prəˈspektəs/", pos: "n.", zh: "學校簡介", definition: "為准大學生或學生提供大學或學校資訊的印刷文件。", example: "Please take a prospectus or visit the student information centre for more information.", roots: { parts: [{ form: "pro-", origin: "Latin pro-", meaning: "向前" }, { form: "spect-", origin: "Latin specere", meaning: "看" }], summary: "pro-（向前）+ spect（看）→ 向前展望的文件 → 招生簡介", family: ["prospect", "inspect", "spectator"] } },
+  { id: 3983, word: "doctoral", phonetic: "/ˈdɒktərəl/", pos: "adj.", zh: "博士的", definition: "與大學授予的最高學術學位有關的。", example: "To be accepted onto a doctoral programme, you need high achievement in a master's degree.", roots: { parts: [{ form: "doctor-", origin: "Latin doctor", meaning: "教師、學者" }], summary: "doctor（教師/學者）→ doctoral（博士級的），源自拉丁語最高師者稱謂", family: ["doctorate", "doctor", "academic"] } },
+  { id: 3984, word: "multicultural", phonetic: "/ˌmʌltiˈkʌltʃərəl/", pos: "adj.", zh: "多元文化的", definition: "包含或關聯數種不同文化共存的。", example: "The festival celebrated the multicultural nature of the university community.", roots: { parts: [{ form: "multi-", origin: "Latin multus", meaning: "多" }, { form: "cultur-", origin: "Latin colere", meaning: "培育、文化" }], summary: "multi-（多）+ cultur（文化）→ 多元文化並存", family: ["multilingual", "intercultural", "diverse"] } },
+  { id: 3985, word: "artisan", phonetic: "/ˈɑːtɪzæn/", pos: "n.", zh: "工匠", definition: "用傳統方法手工製作高質量商品的人。", example: "Local artisans displayed their crafts and pottery at the festival.", roots: { parts: [{ form: "arti-", origin: "Latin ars/artis", meaning: "技藝、藝術" }], summary: "ars（技藝）→ artisan（掌握技藝的工匠）", family: ["art", "artist", "craftsman"] } },
+  { id: 3986, word: "commemorate", phonetic: "/kəˈmemərеɪt/", pos: "v.", zh: "紀念", definition: "做一些特別的事情以記念重要的事件或人物。", example: "The ceremony was held to commemorate the founding of the university.", roots: { parts: [{ form: "com-", origin: "Latin com-", meaning: "一起、完全" }, { form: "memor-", origin: "Latin memoria", meaning: "記憶" }], summary: "com-（完全）+ memor（記憶）→ 完整地保留記憶 → 紀念", family: ["memory", "memorial", "memorialize"] } },
+  { id: 3987, word: "procession", phonetic: "/prəˈseʃən/", pos: "n.", zh: "遊行", definition: "作為儀式一部分緩慢向前移動的一排人或車輛。", example: "A colourful procession moved through the streets during the festival.", roots: { parts: [{ form: "pro-", origin: "Latin pro-", meaning: "向前" }, { form: "cess-", origin: "Latin cedere", meaning: "走、移動" }], summary: "pro-（向前）+ cess（走）→ 向前走的隊伍 → 遊行", family: ["process", "proceed", "access"] } },
+  { id: 3988, word: "archery", phonetic: "/ˈɑːtʃəri/", pos: "n.", zh: "射箭", definition: "用弓箭射擊的運動或練習。", example: "People were playing football rather than practising archery, which angered the king.", roots: { parts: [{ form: "arcu-", origin: "Latin arcus", meaning: "弓" }], summary: "arcus（弓）→ archer（弓箭手）→ archery（射箭術）", family: ["archer", "arc", "arcade"] } },
+  { id: 3989, word: "bladder", phonetic: "/ˈblædə/", pos: "n.", zh: "氣囊", definition: "儲存液體或空氣的囊狀器官或物體；歷史上用於製作足球。", example: "The English equivalent of a football was made using an animal bladder.", roots: { parts: [{ form: "blad-", origin: "Old English blǣdre", meaning: "水泡、囊" }], summary: "源自古英語 blǣdre（水泡/囊），原指儲存液氣的器官，後引申為人造氣囊", family: ["inflatable", "sac", "pouch"] } },
+  { id: 3990, word: "archaic", phonetic: "/ɑːˈkeɪɪk/", pos: "adj.", zh: "古老的", definition: "非常古老或過時的；不再普遍使用的。", example: "The game had archaic rules that allowed players to be violent towards opponents.", roots: { parts: [{ form: "arche-", origin: "Greek arkhē", meaning: "開始、古代" }], summary: "arkhē（開始、古代）→ archaic（古老的、屬於早期時代的）", family: ["archaeology", "archive", "monarch"] } },
+  { id: 3991, word: "proprietor", phonetic: "/prəˈpraɪətə/", pos: "n.", zh: "業主", definition: "企業或財產的所有者。", example: "William Randolph Hearst was a successful newspaper proprietor.", roots: { parts: [{ form: "propri-", origin: "Latin proprius", meaning: "自己的、專屬的" }], summary: "proprius（自己的）→ proprietor（擁有自己財產的人）→ 業主", family: ["property", "proprietary", "appropriate"] } },
+  { id: 3992, word: "aerial", phonetic: "/ˈeərɪəl/", pos: "adj.", zh: "空中的", definition: "存在於或發生在空中的；與飛機有關的。", example: "Guests could arrive at the castle using Hearst's private aerial facilities.", roots: { parts: [{ form: "aer-", origin: "Greek aēr", meaning: "空氣" }], summary: "aēr（空氣）→ aerial（空中的），泛指在空中運作的事物", family: ["aerospace", "aeronautics", "atmosphere"] } },
+  { id: 3993, word: "renowned", phonetic: "/rɪˈnaʊnd/", pos: "adj.", zh: "知名的", definition: "著名且受人尊重的，尤指因特定品質或成就。", example: "She became renowned for her innovative approach to the beauty industry.", roots: { parts: [{ form: "re-", origin: "Latin re-", meaning: "再次" }, { form: "nom-", origin: "Latin nomen", meaning: "名字" }], summary: "re-（再次）+ nom（名字）→ 名字反覆被提及 → 知名的", family: ["renown", "fame", "celebrity"] } },
+  { id: 3994, word: "self-taught", phonetic: "/ˌself ˈtɔːt/", pos: "adj.", zh: "自學的", definition: "未經正式教學而自行獲得知識或技能的。", example: "Carnegie was mostly self-taught, starting his career as a messenger boy.", roots: { parts: [{ form: "self", origin: "Old English self", meaning: "自己" }, { form: "taught", origin: "Old English tǣcan", meaning: "教" }], summary: "self（自己）+ taught（被教）→ 自己教自己 → 自學", family: ["autodidact", "self-educated", "independent learner"] } },
+  { id: 3995, word: "assembly line", phonetic: "/əˈsembli laɪn/", pos: "n.", zh: "裝配線", definition: "工廠中一系列工人和機器，每個人按順序做特定工作。", example: "Ford's success was primarily achieved by using the assembly line to manufacture his cars.", roots: { parts: [{ form: "assembl-", origin: "Old French assembler", meaning: "聚集在一起" }], summary: "assembler（聚集）→ assembly（組裝集合）→ 以流水線方式集合工人逐步組裝", family: ["production line", "manufacture", "mass production"] } },
+  { id: 3996, word: "innovative", phonetic: "/ˈɪnəvətɪv/", pos: "adj.", zh: "創新的", definition: "具有新方法或想法的；引入變化和新想法的。", example: "Estee Lauder was recognised as an innovative businesswoman in the beauty industry.", roots: { parts: [{ form: "in-", origin: "Latin in-", meaning: "進入" }, { form: "nov-", origin: "Latin novus", meaning: "新的" }], summary: "in-（進入）+ nov（新）→ 帶入新東西 → 創新的", family: ["innovate", "novel", "renovate"] } },
+  { id: 3997, word: "sole trader", phonetic: "/ˈsəʊl ˈtreɪdə/", pos: "n.", zh: "獨資經營者", definition: "獨自擁有並經營企業而不成立公司的人。", example: "A sole trader can start a business without registering with Companies House.", roots: { parts: [{ form: "sole", origin: "Latin solus", meaning: "單獨的、唯一的" }], summary: "sole（唯一的）+ trader（商人）→ 唯一的商業主體，獨資經營", family: ["sole proprietor", "self-employed", "entrepreneur"] } },
+  { id: 3998, word: "liability", phonetic: "/ˌlaɪəˈbɪlɪti/", pos: "n.", zh: "責任", definition: "對某事的法律責任，尤其是債務或損害。", example: "In a limited liability company, personal possessions are protected.", roots: { parts: [{ form: "liabil-", origin: "French lier / Latin ligare", meaning: "綁定、束縛" }], summary: "ligare（綁定）→ liable（有責任的）→ liability（法律責任）", family: ["liable", "obligation", "responsibility"] } },
+  { id: 3999, word: "corporation tax", phonetic: "/ˌkɔːpəˈreɪʃən tæks/", pos: "n.", zh: "公司稅", definition: "對公司利潤徵收的稅。", example: "A limited liability company pays corporation tax rather than income tax.", roots: { parts: [{ form: "corpor-", origin: "Latin corpus", meaning: "身體、整體" }], summary: "corpus（整體/法人）→ corporation（法人公司）→ corporation tax（公司稅）", family: ["corporate", "incorporate", "fiscal"] } },
+  { id: 4000, word: "prospective", phonetic: "/prəˈspektɪv/", pos: "adj.", zh: "預期的", definition: "預期是或可能在未來成為某事物的。", example: "The careers centre provides advice for prospective employees and graduates.", roots: { parts: [{ form: "pro-", origin: "Latin pro-", meaning: "向前" }, { form: "spect-", origin: "Latin specere", meaning: "看" }], summary: "pro-（向前）+ spect（看）→ 向前看的 → 預期未來的", family: ["prospect", "perspective", "inspect"] } },
+  { id: 4001, word: "gap year", phonetic: "/ˈɡæp jɪə/", pos: "n.", zh: "間隔年", definition: "在學校和大學或工作之間休息一年以旅行或積累經驗。", example: "Many students choose to take a gap year before starting university to travel or work.", roots: { parts: [{ form: "gap", origin: "Old Norse gap", meaning: "缺口、間隔" }], summary: "gap（間隔/缺口）+ year（年）→ 學業之間的一年間隔時間", family: ["sabbatical", "break", "intermission"] } },
+  { id: 4002, word: "brainstorm", phonetic: "/ˈbreɪnstɔːm/", pos: "v.", zh: "腦力激盪", definition: "快速且不加慎重考慮地就某個話題產生大量想法。", example: "After analysing the task, it is important to start brainstorming your ideas.", roots: { parts: [{ form: "brain", origin: "Old English brægen", meaning: "大腦" }, { form: "storm", origin: "Old English storm", meaning: "風暴" }], summary: "brain（大腦）+ storm（風暴）→ 腦中掀起思想的風暴 → 腦力激盪", family: ["ideate", "mind map", "generate ideas"] } },
+  { id: 4003, word: "cohesion", phonetic: "/kəʊˈhiːʒən/", pos: "n.", zh: "連貫性", definition: "邏輯上和一致地連接的質量。", example: "Two aspects you must take into consideration are coherence and cohesion.", roots: { parts: [{ form: "co-", origin: "Latin co-", meaning: "一起" }, { form: "haes-", origin: "Latin haerere", meaning: "黏附、連接" }], summary: "co-（一起）+ haes（黏附）→ 緊密連接在一起 → 連貫性", family: ["coherent", "cohere", "adhesion"] } },
+  { id: 4004, word: "coherence", phonetic: "/kəʊˈhɪərəns/", pos: "n.", zh: "一致性", definition: "作為整體清晰且易於理解的質量。", example: "Coherence means your ideas are organised in a logical and easy-to-follow way.", roots: { parts: [{ form: "co-", origin: "Latin co-", meaning: "一起" }, { form: "haer-", origin: "Latin haerere", meaning: "黏著、堅守" }], summary: "co-（一起）+ haer（黏著）→ 觀念緊緊黏合在一起 → 一致性、邏輯連貫", family: ["cohesion", "logical", "consistency"] } },
+  { id: 4005, word: "linker", phonetic: "/ˈlɪŋkə/", pos: "n.", zh: "連接詞", definition: "用於連接寫作或演講中的想法或句子的詞語或短語。", example: "You need to use linkers to make your essay easy to read.", roots: { parts: [{ form: "link", origin: "Old Norse hlekkr", meaning: "鎖環、連接" }], summary: "link（連接環）→ linker（連接的東西）→ 連接句子意思的詞語", family: ["connector", "discourse marker", "transition word"] } },
+  { id: 4006, word: "proofreading", phonetic: "/ˈpruːfriːdɪŋ/", pos: "n.", zh: "校對", definition: "閱讀和更正文章中錯誤的過程。", example: "Proofreading effectively means checking punctuation, grammar, and spelling.", roots: { parts: [{ form: "proof", origin: "Old French prove", meaning: "試驗、驗證" }], summary: "proof（驗證）+ reading（閱讀）→ 邊讀邊驗證，找出錯誤", family: ["edit", "revise", "proofread"] } },
+  { id: 4007, word: "synonym", phonetic: "/ˈsɪnənɪm/", pos: "n.", zh: "同義詞", definition: "與另一個詞意思相同或幾乎相同的詞或短語。", example: "The key to paraphrasing is understanding synonyms and words with similar meaning.", roots: { parts: [{ form: "syn-", origin: "Greek syn-", meaning: "一起、相同" }, { form: "onym-", origin: "Greek onoma", meaning: "名字" }], summary: "syn-（相同）+ onym（名字）→ 同名異字 → 同義詞", family: ["antonym", "homonym", "anonymous"] } },
+  { id: 4008, word: "skim", phonetic: "/skɪm/", pos: "v.", zh: "略讀", definition: "快速閱讀某物以獲得內容的大致想法。", example: "You skim a text quickly to understand the general idea.", roots: { parts: [{ form: "skim", origin: "Old French escumer", meaning: "撇去浮沫" }], summary: "源自「撇去表面浮沫」，引申為只看文章表面要點、略讀", family: ["scan", "browse", "glance"] } },
+  { id: 4009, word: "scan", phonetic: "/skæn/", pos: "v.", zh: "掃讀", definition: "快速瀏覽文本以找到特定信息。", example: "You scan a text quickly in order to find specific information.", roots: { parts: [{ form: "scan-", origin: "Latin scandere", meaning: "攀登、按步計量" }], summary: "scandere（按步計量）→ 按行搜索 → 掃讀找出特定資訊", family: ["skim", "search", "scrutinize"] } },
+  { id: 4010, word: "distractor", phonetic: "/dɪˈstræktə/", pos: "n.", zh: "干擾選項", definition: "多選題中設計為具有誤導性的錯誤答案選項。", example: "The wrong options in multiple-choice questions are called distractors.", roots: { parts: [{ form: "dis-", origin: "Latin dis-", meaning: "分開" }, { form: "tract-", origin: "Latin trahere", meaning: "拉" }], summary: "dis-（分開）+ tract（拉）→ 把注意力拉開 → 干擾選項", family: ["distract", "distraction", "mislead"] } },
+  { id: 4011, word: "factual", phonetic: "/ˈfæktʃuəl/", pos: "adj.", zh: "事實的", definition: "基於或關注事實而非意見或解釋的。", example: "There are two types of question: those asking for factual information and those asking for opinion.", roots: { parts: [{ form: "fact-", origin: "Latin factum", meaning: "已做之事、事實" }], summary: "factum（已做之事）→ fact（事實）→ factual（基於事實的）", family: ["fact", "factor", "artifact"] } },
+  { id: 4012, word: "intonation", phonetic: "/ˌɪntəˈneɪʃən/", pos: "n.", zh: "語調", definition: "說話時聲音的升降，可改變意義或表達情感。", example: "Attitude can be shown through intonation as well as through the expressions a speaker uses.", roots: { parts: [{ form: "in-", origin: "Latin in-", meaning: "進入" }, { form: "ton-", origin: "Latin tonus / Greek tonos", meaning: "音調、張力" }], summary: "in-（進入）+ ton（音調）→ 進入音調變化 → 語調", family: ["tone", "monotone", "atonal"] } },
+  { id: 4013, word: "sequencing", phonetic: "/ˈsiːkwənsɪŋ/", pos: "n.", zh: "排序", definition: "按特定順序排列事物的過程。", example: "You need to use the correct sequencing words so the examiner can understand what happened.", roots: { parts: [{ form: "sequ-", origin: "Latin sequi", meaning: "跟隨" }], summary: "sequi（跟隨）→ sequence（按序排列）→ sequencing（排序的過程）", family: ["sequence", "subsequent", "consequence"] } },
+  { id: 4014, word: "marvellous", phonetic: "/ˈmɑːvələs/", pos: "adj.", zh: "極好的", definition: "極好或令人愉快的；引起極大驚嘆或欽佩。", example: "The results were stunning, and the team had done a marvellous job.", roots: { parts: [{ form: "marvel-", origin: "Old French merveille / Latin mirabilis", meaning: "令人驚嘆的事" }], summary: "mirabilis（令人驚嘆的）→ marvel（驚嘆）→ marvellous（令人驚嘆的、極好的）", family: ["marvel", "wonderful", "miraculous"] } },
+  { id: 4015, word: "dreadful", phonetic: "/ˈdredfəl/", pos: "adj.", zh: "糟糕的", definition: "造成或涉及極大痛苦、恐懼或不幸的；非常壞的。", example: "The disaster was a dreadful tragedy with a massive loss of life.", roots: { parts: [{ form: "dread", origin: "Old English drǣdan", meaning: "恐懼、害怕" }, { form: "-ful", origin: "Old English -full", meaning: "充滿" }], summary: "dread（恐懼）+ -ful（充滿）→ 充滿恐懼與痛苦的 → 糟糕的", family: ["dread", "terrible", "awful"] } },
+  { id: 4016, word: "distressing", phonetic: "/dɪˈstresɪŋ/", pos: "adj.", zh: "令人痛苦的", definition: "引起焦慮、悲傷或痛苦的。", example: "The report described a distressing situation for the affected families.", roots: { parts: [{ form: "dis-", origin: "Latin dis-", meaning: "分開、強調" }, { form: "strict-", origin: "Latin stringere", meaning: "拉緊、壓迫" }], summary: "dis-（加強）+ strict（壓迫）→ 被壓迫緊縮 → 極度痛苦", family: ["distress", "anguish", "upsetting"] } },
+  { id: 4017, word: "bizarre", phonetic: "/bɪˈzɑː/", pos: "adj.", zh: "奇異的", definition: "非常奇怪或不尋常的，尤其是以難以理解的方式。", example: "It was a really bizarre thing to happen to someone.", roots: { parts: [{ form: "bizarre", origin: "Spanish bizarro", meaning: "英勇的（後轉義為怪異的）" }], summary: "源自西班牙語 bizarro（英勇），傳入法語後語義轉變為奇怪、反常", family: ["strange", "weird", "peculiar"] } },
+  { id: 4018, word: "absurd", phonetic: "/əbˈsɜːd/", pos: "adj.", zh: "荒謬的", definition: "極度不合理、不合邏輯或不適當的。", example: "Some critics thought the proposal was completely absurd.", roots: { parts: [{ form: "ab-", origin: "Latin ab-", meaning: "偏離" }, { form: "surd-", origin: "Latin surdus", meaning: "耳聾的、不協調的" }], summary: "ab-（偏離）+ surd（不協調）→ 偏離正常理性 → 荒謬的", family: ["ridiculous", "preposterous", "ludicrous"] } },
+  { id: 4019, word: "peasant", phonetic: "/ˈpezənt/", pos: "n.", zh: "農民", definition: "地位低下的貧苦農民或農場工人，尤指歷史上的。", example: "Many peasants moved from European Russia to Siberia in the late 19th century.", roots: { parts: [{ form: "pays-", origin: "Old French pais / Latin pagus", meaning: "鄉村地區" }], summary: "pagus（鄉村）→ paysan（鄉村人）→ peasant（農民）", family: ["serf", "farmer", "rural worker"] } },
+  { id: 4020, word: "tsar", phonetic: "/zɑː/", pos: "n.", zh: "沙皇", definition: "1917年前俄羅斯皇帝的稱謂。", example: "The original Trans-Siberian Railway was built on the orders of Tsar Alexander III.", roots: { parts: [{ form: "tsar", origin: "Old Russian цѣсарь / Latin Caesar", meaning: "凱撒（羅馬皇帝稱號）" }], summary: "源自羅馬凱撒（Caesar）稱號，經斯拉夫語演變為俄羅斯皇帝稱謂", family: ["emperor", "Caesar", "kaiser"] } },
+  { id: 4021, word: "motorway", phonetic: "/ˈməʊtəweɪ/", pos: "n.", zh: "高速公路", definition: "為長距離快速行駛而建造的寬闊道路。", example: "A motorway was built connecting the city to the new residential areas.", roots: { parts: [{ form: "motor", origin: "Latin motor / movere", meaning: "移動者" }, { form: "way", origin: "Old English weg", meaning: "道路" }], summary: "motor（機動車）+ way（道路）→ 供機動車快速行駛的道路", family: ["highway", "freeway", "expressway"] } },
+  { id: 4022, word: "residential", phonetic: "/ˌrezɪˈdenʃəl/", pos: "adj.", zh: "住宅的", definition: "用作居住地的；與住宅區有關的。", example: "The map shows that new residential areas have been built in the south of the island.", roots: { parts: [{ form: "resid-", origin: "Latin residere", meaning: "坐下、居留" }], summary: "residere（居留）→ reside（居住）→ residential（住宅的）", family: ["reside", "resident", "residence"] } },
+  { id: 4023, word: "renovate", phonetic: "/ˈrenəveɪt/", pos: "v.", zh: "翻新", definition: "修復和改善建築物或房間使其恢復良好狀態。", example: "Several old buildings were renovated as part of the town's redevelopment plan.", roots: { parts: [{ form: "re-", origin: "Latin re-", meaning: "再次" }, { form: "nov-", origin: "Latin novus", meaning: "新的" }], summary: "re-（再次）+ nov（新）→ 再次變新 → 翻新", family: ["innovation", "novel", "renew"] } },
+  { id: 4024, word: "sponsor", phonetic: "/ˈspɒnsə/", pos: "v./n.", zh: "贊助", definition: "以廣告換取財務支持某活動、事件或人。", example: "It is a good idea for businesses to sponsor or advertise at the festival.", roots: { parts: [{ form: "spons-", origin: "Latin spondere", meaning: "鄭重承諾" }], summary: "spondere（鄭重承諾）→ sponsor（承諾提供支援的人）→ 贊助", family: ["response", "correspond", "sponsor"] } },
+  { id: 4025, word: "admission", phonetic: "/ədˈmɪʃən/", pos: "n.", zh: "入學許可", definition: "被學校、大學或其他機構接受。", example: "Admission to postgraduate programmes is based on achievement in previous university studies.", roots: { parts: [{ form: "ad-", origin: "Latin ad-", meaning: "朝向" }, { form: "miss-", origin: "Latin mittere", meaning: "送、讓進入" }], summary: "ad-（朝向）+ miss（送入）→ 讓某人進入某機構 → 入學許可", family: ["admit", "mission", "permission"] } },
+  { id: 4026, word: "enriching", phonetic: "/ɪnˈrɪtʃɪŋ/", pos: "adj.", zh: "充實的", definition: "使某事物變得更好或更有價值的，尤其通過經驗。", example: "Studying abroad as an international student can be an enriching experience.", roots: { parts: [{ form: "en-", origin: "French en-", meaning: "使" }, { form: "rich", origin: "Old English rīce", meaning: "有力量的、富有的" }], summary: "en-（使）+ rich（豐富）→ 使變得更豐富充實", family: ["enrich", "enrich", "fulfilling"] } },
+  { id: 4027, word: "cope", phonetic: "/kəʊp/", pos: "v.", zh: "應對", definition: "成功處理困難情況。", example: "Dr Thornton was interested in finding out how the participants coped with living in a small space.", roots: { parts: [{ form: "cope", origin: "Old French coper", meaning: "打擊、對抗" }], summary: "源自古法語 coper（對抗），引申為成功地面對和處理困難", family: ["manage", "handle", "deal with"] } },
+  { id: 4028, word: "psychological", phonetic: "/ˌsaɪkəˈlɒdʒɪkəl/", pos: "adj.", zh: "心理的", definition: "與心理及其運作方式有關的，包括感情和行為。", example: "Maria intended to focus on the psychological issues affecting the participants.", roots: { parts: [{ form: "psycho-", origin: "Greek psykhē", meaning: "靈魂、心智" }, { form: "-logy", origin: "Greek logos", meaning: "學科、研究" }], summary: "psychē（心智）+ -logy（學科）→ 研究心智的學科 → 心理學的", family: ["psychology", "psyche", "psychiatry"] } },
+  { id: 4029, word: "prestigious", phonetic: "/preˈstɪdʒəs/", pos: "adj.", zh: "有聲望的", definition: "激發尊重和欽佩的；具有高地位的。", example: "She gained admission to one of the most prestigious universities in the country.", roots: { parts: [{ form: "prestig-", origin: "Latin praestigium", meaning: "幻術、魔法（後轉義為聲望）" }], summary: "praestigium（幻術）→ prestige（聲望）→ prestigious（有聲望的）；聲望如魔法般令人折服", family: ["prestige", "renowned", "distinguished"] } },
+  { id: 4030, word: "application", phonetic: "/ˌæplɪˈkeɪʃən/", pos: "n.", zh: "申請", definition: "被考慮擔任職位、課程或福利的正式書面請求。", example: "Once you have chosen a university, you can submit an application for a place.", roots: { parts: [{ form: "ap-", origin: "Latin ad-", meaning: "朝向" }, { form: "plic-", origin: "Latin plicare", meaning: "折疊、應用" }], summary: "ap-（朝向）+ plic（折疊/應用）→ 把自己投向某職位 → 申請", family: ["apply", "applicable", "implication"] } },
+  { id: 4031, word: "offend", phonetic: "/əˈfend/", pos: "v.", zh: "冒犯", definition: "通過做或說某人認為不適當的事情使其感到難過或憤怒。", example: "The more you know about local customs, the less chance you have of offending locals.", roots: { parts: [{ form: "of-", origin: "Latin ob-", meaning: "對著" }, { form: "fend-", origin: "Latin fendere", meaning: "打擊" }], summary: "ob-（對著）+ fend（打擊）→ 對著他人打擊 → 冒犯", family: ["offense", "defend", "offender"] } },
+  { id: 4032, word: "cancellation", phonetic: "/ˌkænsəˈleɪʃən/", pos: "n.", zh: "取消", definition: "停止原本計劃發生的事情的行為。", example: "Travellers often face delays and cancellations, so it is important not to let them ruin your trip.", roots: { parts: [{ form: "cancel-", origin: "Latin cancellare", meaning: "以格子劃掉（取消）" }], summary: "cancellare（用格子線劃掉）→ cancel（取消）→ cancellation（取消行為）", family: ["cancel", "annul", "revoke"] } },
+  { id: 4033, word: "attraction", phonetic: "/əˈtrækʃən/", pos: "n.", zh: "景點", definition: "人們為了樂趣和興趣而參觀的地方或事物。", example: "Try to get up early in order to see all the best attractions and avoid the queues.", roots: { parts: [{ form: "at-", origin: "Latin ad-", meaning: "朝向" }, { form: "tract-", origin: "Latin trahere", meaning: "拉" }], summary: "at-（朝向）+ tract（拉）→ 把人拉向自己的事物 → 吸引力、景點", family: ["attract", "distract", "extract"] } },
+  { id: 4034, word: "mother tongue", phonetic: "/ˌmʌðə ˈtʌŋ/", pos: "n.", zh: "母語", definition: "你小時候學的第一語言。", example: "Although you may be tempted to shout in your mother tongue, it is more polite to use body language.", roots: { parts: [{ form: "tongue", origin: "Old English tunge", meaning: "舌頭、語言" }], summary: "mother（母親）+ tongue（舌頭/語言）→ 從母親那裡學到的第一語言", family: ["native language", "first language", "L1"] } },
+  { id: 4035, word: "body language", phonetic: "/ˈbɒdi ˈlæŋɡwɪdʒ/", pos: "n.", zh: "肢體語言", definition: "你移動和定位身體的方式，向人們展示你的感受或想法。", example: "When you cannot communicate verbally, try using body language instead.", roots: { parts: [{ form: "language", origin: "Latin lingua", meaning: "舌頭、語言" }], summary: "body（身體）+ language（語言）→ 以身體動作傳遞的非語言溝通", family: ["gesture", "nonverbal communication", "kinesics"] } },
+  { id: 4036, word: "glamorous", phonetic: "/ˈɡlæmərəs/", pos: "adj.", zh: "迷人的", definition: "具有與財富或名聲相關的吸引力和令人興奮的品質。", example: "The interior of the mansion was described as glamorous and expensive.", roots: { parts: [{ form: "glamour", origin: "Scottish alteration of grammar / Greek grammatike", meaning: "學問（中世紀魔法含義）" }], summary: "glamour 源自 grammar（學問），中世紀與魔法咒語聯繫，後引申為神奇的吸引力", family: ["glam", "allure", "enchanting"] } },
+  { id: 4037, word: "spacious", phonetic: "/ˈspeɪʃəs/", pos: "adj.", zh: "寬敞的", definition: "有或提供大量空間的；不狹窄的。", example: "The apartment was spacious with a large dining room and high ceilings.", roots: { parts: [{ form: "spaci-", origin: "Latin spatium", meaning: "空間、距離" }], summary: "spatium（空間）→ space（空間）→ spacious（空間充足的）", family: ["space", "spatial", "expansive"] } },
+  { id: 4038, word: "cellar", phonetic: "/ˈselə/", pos: "n.", zh: "地下室", definition: "建築物地面層以下的房間，通常用於儲存。", example: "The large mansion had a cellar used for storing wine and other goods.", roots: { parts: [{ form: "cell-", origin: "Latin cella", meaning: "小房間、儲藏室" }], summary: "cella（小房間）→ cellar（地下儲藏室）", family: ["cell", "cellar", "vault"] } },
+  { id: 4039, word: "staircase", phonetic: "/ˈsteəkeɪs/", pos: "n.", zh: "樓梯", definition: "建築物內部的一組樓梯及其周圍結構。", example: "The grand staircase in the entrance hall was made of rare marble.", roots: { parts: [{ form: "stair", origin: "Old English stǣger", meaning: "台階" }, { form: "case", origin: "Old Norman French casse", meaning: "外殼、框架" }], summary: "stair（台階）+ case（框架結構）→ 帶有框架結構的台階 → 樓梯間", family: ["stairs", "stairwell", "flight of stairs"] } },
+  { id: 4040, word: "marble", phonetic: "/ˈmɑːbəl/", pos: "n.", zh: "大理石", definition: "用於建築和雕塑的硬質石材，通常帶有彩色紋路。", example: "The floors were made of fine marble imported from Italy.", roots: { parts: [{ form: "marble", origin: "Greek marmaros", meaning: "閃光的石頭" }], summary: "marmaros（閃光的石頭）→ marble（大理石），因其光亮閃耀的表面而得名", family: ["granite", "limestone", "stone"] } },
+  { id: 4041, word: "bungalow", phonetic: "/ˈbʌŋɡələʊ/", pos: "n.", zh: "平房", definition: "只有一層的小房子。", example: "He had initially planned to build just a small bungalow on the property.", roots: { parts: [{ form: "bungalow", origin: "Hindi bangla", meaning: "孟加拉式的（房屋）" }], summary: "源自印地語 bangla（孟加拉式房屋），英國殖民印度時引入，指低矮的單層房屋", family: ["cottage", "chalet", "ranch house"] } },
+  { id: 4042, word: "circular", phonetic: "/ˈsɜːkjʊlə/", pos: "adj.", zh: "圓形的", definition: "具有圓的形狀的；在圓形中移動的。", example: "The roundabout has a circular design to manage traffic flow.", roots: { parts: [{ form: "circul-", origin: "Latin circulus", meaning: "小圓圈" }], summary: "circulus（小圓圈）→ circular（圓形的），形容圓形或環形事物", family: ["circle", "circuit", "circumference"] } },
+  { id: 4043, word: "windmill", phonetic: "/ˈwɪndmɪl/", pos: "n.", zh: "風車", definition: "帶有被風轉動的葉片的建築，用於研磨穀物或抽水。", example: "The old windmill was one of the features that remained the same on the map.", roots: { parts: [{ form: "wind", origin: "Old English wind", meaning: "風" }, { form: "mill", origin: "Latin mola", meaning: "磨石、磨坊" }], summary: "wind（風）+ mill（磨坊）→ 以風力驅動的磨坊", family: ["mill", "turbine", "windpower"] } },
+  { id: 4044, word: "stadium", phonetic: "/ˈsteɪdiəm/", pos: "n.", zh: "體育場", definition: "帶有觀眾席位的大型通常開放的結構，用於體育賽事。", example: "A new football stadium was built in the east of the island over the last twenty years.", roots: { parts: [{ form: "stadi-", origin: "Greek stadion", meaning: "古希臘長度單位，約185公尺的跑道" }], summary: "stadion（古希臘標準跑道長度）→ 跑道所在的競技場 → 體育場", family: ["arena", "colosseum", "amphitheatre"] } },
+  { id: 4045, word: "editorial", phonetic: "/ˌedɪˈtɔːrɪəl/", pos: "adj./n.", zh: "社論的", definition: "與出版物製作有關的；給出編輯意見的文章。", example: "The editorial team decided which news stories to publish each day.", roots: { parts: [{ form: "edit-", origin: "Latin edere", meaning: "給出、出版" }], summary: "edere（給出/出版）→ editor（編輯）→ editorial（社論的/編輯部的）", family: ["edit", "editor", "edition"] } },
+  { id: 4046, word: "manor", phonetic: "/ˈmænə/", pos: "n.", zh: "莊園", definition: "歷史上屬於貴族的帶有土地的大型鄉村房屋。", example: "The historic manor was donated to the state and opened as a tourist attraction.", roots: { parts: [{ form: "man-", origin: "Latin manere", meaning: "停留、居住" }], summary: "manere（居住）→ manor（主人居住之處）→ 貴族莊園", family: ["mansion", "mansion", "domain"] } },
+  { id: 4047, word: "legitimate", phonetic: "/lɪˈdʒɪtɪmɪt/", pos: "adj.", zh: "合法的", definition: "符合法律或既定標準的；公平合理的。", example: "The students wanted to discuss a legitimate approach to the research project.", roots: { parts: [{ form: "legitim-", origin: "Latin legitimus", meaning: "依法的" }], summary: "lex/legis（法律）→ legitimus（依法的）→ legitimate（合法的）", family: ["legal", "legislation", "illegitimate"] } },
+  { id: 4048, word: "collaborate", phonetic: "/kəˈlæbəreɪt/", pos: "v.", zh: "合作", definition: "與他人共同從事一個項目。", example: "The two researchers collaborated on studying the effects of isolation on human behaviour.", roots: { parts: [{ form: "col-", origin: "Latin com-", meaning: "一起" }, { form: "labor-", origin: "Latin laborare", meaning: "勞動、工作" }], summary: "col-（一起）+ labor（勞動）→ 一起勞動工作 → 合作", family: ["collaboration", "labor", "elaborate"] } },
+
+  // === 口說 Task 1 高頻片語（從每日口說練習累積）===
+  { id: 4101, word: "be into", pos: "phr.", zh: "熱衷於、很喜歡", level: 5, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "It's great to be into some kind of sport when you're young.", zh: "年輕時很喜歡某種運動是很棒的事。（口語常用變化：I've always been into sport）" }] },
+  { id: 4102, word: "come across", pos: "phr.v.", zh: "偶然看到、無意間發現", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "You often come across useful training videos online.", zh: "你常會在網路上偶然看到實用的訓練影片。（口語常用變化：I came across...）" }] },
+  { id: 4103, word: "take on", pos: "phr.v.", zh: "接下、承擔（挑戰）", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "I really wanted to take on that kind of challenge myself.", zh: "我很想自己接下那種挑戰。" }] },
+  { id: 4104, word: "fit in", pos: "phr.v.", zh: "擠出時間做", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "Even when I go away somewhere, I still fit in some training.", zh: "就算我出去玩，還是會擠出時間訓練。" }] },
+  { id: 4105, word: "wind down", pos: "phr.v.", zh: "放鬆、慢下來收尾", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "I usually wind down by reading before I go to bed.", zh: "睡前我通常靠看書放鬆。" }] },
+  { id: 4106, word: "on track", pos: "phr.", zh: "在正軌上、不脫節", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "Having a routine keeps me on track with my training.", zh: "有規律讓我的訓練不脫節。" }] },
+  { id: 4107, word: "get on with", pos: "phr.v.", zh: "著手進行、繼續做", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "After breakfast, I get on with work.", zh: "早餐後我就開始工作。" }] },
+  { id: 4108, word: "whole foods", pos: "n.", zh: "原型食物", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "I try to eat mostly whole foods rather than processed stuff.", zh: "我盡量以原型食物為主，而不是加工食品。" }] },
+  { id: 4109, word: "processed food", pos: "n.", zh: "加工食品", level: 5, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "I eat whole foods rather than processed food.", zh: "我吃原型食物，而不是加工食品。" }] },
+  { id: 4110, word: "consistent", phonetic: "/kənˈsɪstənt/", pos: "adj.", zh: "持續一致的、有恆的", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "For me, the key to staying healthy is just being consistent.", zh: "對我來說，維持健康的關鍵就是持之以恆。" }] },
+  { id: 4111, word: "backed by science", pos: "phr.", zh: "有科學根據的", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "A lot of the information online isn't really backed by science.", zh: "網路上很多資訊其實沒有科學根據。" }] },
+  { id: 4112, word: "self-employed", phonetic: "/ˌselfɪmˈplɔɪd/", pos: "adj.", zh: "自雇的、獨立工作的", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "I'm self-employed; I work for myself as a nutritionist.", zh: "我是自雇者，獨立做營養師的工作。" }] },
+  { id: 4113, word: "up to speed", pos: "phr.", zh: "達到該有的水準、進入狀況", level: 7, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "I'm getting my English up to speed by preparing for IELTS.", zh: "我正透過準備雅思，把英文拉到該有的水準。" }] },
+  { id: 4114, word: "square one", pos: "n.", zh: "原點、最開始", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "That's why I'm starting from square one with my English.", zh: "這就是為什麼我的英文從頭開始學。" }] },
+  { id: 4115, word: "handy", phonetic: "/ˈhændi/", pos: "adj.", zh: "方便好用的、就手的", level: 5, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "I like living here because everything is so handy.", zh: "我喜歡住這裡，因為什麼都很方便。" }] },
+  { id: 4116, word: "within easy reach", pos: "phr.", zh: "隨手可得、近在咫尺", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "Pretty much everything I need is within easy reach.", zh: "我需要的東西幾乎都隨手可得。" }] },
+  { id: 4117, word: "transport links", pos: "n.", zh: "交通連結、交通網", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "The transport links here are great, so it's easy to get around.", zh: "這裡的交通很方便，到哪都容易。" }] },
+  { id: 4118, word: "welcoming", phonetic: "/ˈwelkəmɪŋ/", pos: "adj.", zh: "親切的、令人感到受歡迎的", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "The people here are really friendly and welcoming.", zh: "這裡的人都很友善又親切。" }] },
+  { id: 4119, word: "home to", pos: "phr.", zh: "（某地）擁有、是…的所在地", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "Taipei is home to Taipei 101, which used to be the tallest building in the world.", zh: "台北有 101，它曾經是世界最高的大樓。" }] },
+  { id: 4120, word: "worn out", pos: "adj.", zh: "精疲力盡的", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "The only time I rest is when I'm completely worn out.", zh: "我唯一休息的時候，是累到動不了的時候。" }] },
+  { id: 4121, word: "pretty much", pos: "phr.", zh: "幾乎、差不多（緩衝詞）", level: 5, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "My weekdays and weekends are pretty much the same.", zh: "我的平日和假日幾乎一樣。" }] },
+  { id: 4122, word: "go with the flow", pos: "phr.", zh: "隨性、不強求、順其自然", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "I'm more of a go with the flow person and don't really plan things out.", zh: "我比較是隨性的人，不太會事先規劃。" }] },
+  { id: 4123, word: "domestic travel", pos: "n.", zh: "國內旅行", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "It's mostly domestic travel for me.", zh: "我大多是國內旅行。" }] },
+  { id: 4124, word: "refreshing", phonetic: "/rɪˈfreʃɪŋ/", pos: "adj.", zh: "令人耳目一新的、提神的", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "Seeing different ways of living is quite refreshing.", zh: "看到不一樣的生活方式很令人耳目一新。" }] },
+  { id: 4125, word: "distinct", phonetic: "/dɪˈstɪŋkt/", pos: "adj.", zh: "分明的、清楚區別的", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "Where I live, we get four distinct seasons.", zh: "我住的地方四季分明。" }] },
+  { id: 4126, word: "a nice breeze", pos: "phr.", zh: "舒服的微風", level: 5, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "In autumn there's usually a nice breeze.", zh: "秋天通常有舒服的微風。" }] },
+  { id: 4127, word: "switch off", pos: "phr.", zh: "放空、不去想事情", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "Listening to jazz helps me switch off and relax.", zh: "聽爵士樂能幫我放空、放鬆。" }] },
+  { id: 4128, word: "laid-back", phonetic: "/ˌleɪdˈbæk/", pos: "adj.", zh: "悠閒的、慵懶的", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "Jazz has a really laid-back feel.", zh: "爵士樂有種很悠閒的調性。" }] },
+  { id: 4129, word: "a sense of freedom", pos: "phr.", zh: "一種自由的感覺", level: 6, category: "口說片語", source: "口說Task1",
+    examples: [{ en: "There's something about jazz that gives me a sense of freedom.", zh: "爵士樂有種東西讓我感到自由。" }] },
+  { id: 4130, word: "translocation", phonetic: "/ˌtrænzloʊˈkeɪʃn/", pos: "n.", zh: "（動物）易地遷移、易地保育", level: 6, category: "聽力動物", source: "聽力C18T1P4",
+    examples: [{ en: "Moving significant numbers of elephants to a new home 300 kilometres away through translocation is a challenge.", zh: "透過易地保育把大量的象遷移到 300 公里外的新家是個挑戰。" }] },
+  { id: 4131, word: "tranquiliser", phonetic: "/ˈtræŋkwɪlaɪzə/", pos: "n.", zh: "鎮靜劑", level: 6, category: "聽力動物", source: "聽力C18T1P4",
+    examples: [{ en: "The elephants were immobilised with tranquilisers.", zh: "大象被鎮靜劑麻醉使其無法動彈。" }] },
+  { id: 4132, word: "immobilise", phonetic: "/ɪˈmoʊbəlaɪz/", pos: "v.", zh: "使無法動彈", level: 6, category: "聽力動物", source: "聽力C18T1P4",
+    examples: [{ en: "To immobilise the elephants was a tricky manoeuvre.", zh: "要使大象無法動彈是個棘手的操作。" }] },
+  { id: 4133, word: "poacher", phonetic: "/ˈpoʊtʃə/", pos: "n.", zh: "盜獵者", level: 5, category: "聽力動物", source: "聽力C18T1P4",
+    examples: [{ en: "The elephant population had been wiped out by poachers, who killed the elephants for their ivory.", zh: "象群曾被盜獵者殺光，他們為了象牙而獵殺大象。" }] },
+  { id: 4134, word: "overpopulation", phonetic: "/ˌoʊvəpɒpjuˈleɪʃn/", pos: "n.", zh: "數量過剩", level: 5, category: "聽力動物", source: "聽力C18T1P4",
+    examples: [{ en: "The translocation was done because of overpopulation of elephants in some areas.", zh: "這次遷移是因為某些地區的大象數量過剩。" }] },
+  { id: 4135, word: "matriarch", phonetic: "/ˈmeɪtriɑːk/", pos: "n.", zh: "（象群）首領母象", level: 6, category: "聽力動物", source: "聽力C18T1P4",
+    examples: [{ en: "Tracking devices were fitted to the matriarchs in each group.", zh: "追蹤裝置被安裝在每一群的首領母象身上。" }] },
+  { id: 4136, word: "suffocation", phonetic: "/ˌsʌfəˈkeɪʃn/", pos: "n.", zh: "窒息", level: 5, category: "聽力動物", source: "聽力C18T1P4",
+    examples: [{ en: "To avoid the risk of suffocation, the elephants were turned on their sides.", zh: "為了避免窒息的風險，大象被翻到側躺。" }] },
+  { id: 4137, word: "tusk", phonetic: "/tʌsk/", pos: "n.", zh: "（象）牙", level: 5, category: "聽力動物", source: "聽力C18T1P4",
+    examples: [{ en: "Elephants with large tusks would be at greater risk from poachers.", zh: "象牙大的大象面臨盜獵者的風險較高。" }] },
+  { id: 4138, word: "restock", phonetic: "/ˌriːˈstɒk/", pos: "v.", zh: "重新補充（族群／存貨）", level: 5, category: "聽力動物", source: "聽力C18T1P4",
+    examples: [{ en: "In 2003, the park was restocked and effective law enforcement was introduced.", zh: "2003 年，公園重新補充象群、也引入有效的執法。" }] },
+  { id: 4139, word: "ecotourism", phonetic: "/ˌiːkoʊˈtʊrɪzəm/", pos: "n.", zh: "生態旅遊", level: 5, category: "閱讀生態旅遊", source: "閱讀WorldEcotourism",
+    examples: [{ en: "Ecotourism enhances the ability of local and foreign tourists to learn about the environment.", zh: "生態旅遊提升了本地與外國旅客學習環境知識的能力。" }] },
+  { id: 4140, word: "conservation", phonetic: "/ˌkɒnsəˈveɪʃn/", pos: "n.", zh: "保育", level: 5, category: "閱讀生態旅遊", source: "閱讀WorldEcotourism",
+    examples: [{ en: "Ecotourism inspires the willingness of people to act on environmental conservation.", zh: "生態旅遊激發人們為環境保育採取行動的意願。" }] },
+  { id: 4141, word: "rejuvenate", phonetic: "/rɪˈdʒuːvəneɪt/", pos: "v.", zh: "使恢復活力（↔ diminish）", level: 6, category: "閱讀生態旅遊", source: "閱讀WorldEcotourism",
+    examples: [{ en: "Alleviating unlawful hunting will rejuvenate the wildlife population.", zh: "減少非法狩獵將使野生動物族群恢復活力。" }] },
+  { id: 4142, word: "perpetuate", phonetic: "/pəˈpetʃueɪt/", pos: "v.", zh: "使延續", level: 7, category: "閱讀生態旅遊", source: "閱讀WorldEcotourism",
+    examples: [{ en: "More people are trying to perpetuate efficient use of all resources for sustainable tourism development.", zh: "越來越多人試圖讓資源有效利用得以延續，以促進旅遊業的可持續發展。" }] },
+  { id: 4143, word: "deforestation", phonetic: "/diːˌfɒrɪˈsteɪʃn/", pos: "n.", zh: "森林砍伐", level: 5, category: "閱讀生態旅遊", source: "閱讀WorldEcotourism",
+    examples: [{ en: "Due to deforestation, indigenous people lost their territory.", zh: "由於森林砍伐，原住民失去了他們的領土。" }] },
+  { id: 4144, word: "biodiversity", phonetic: "/ˌbaɪoʊdaɪˈvɜːsəti/", pos: "n.", zh: "生物多樣性", level: 5, category: "閱讀生態旅遊", source: "閱讀WorldEcotourism",
+    examples: [{ en: "With the biodiversity, adventures into far-flung areas provide ecotourism opportunities.", zh: "由於生物多樣性，到偏遠地區探險提供了生態旅遊的機會。" }] },
+  { id: 4145, word: "endemic", phonetic: "/enˈdemɪk/", pos: "adj.", zh: "地方性流行的", level: 7, category: "閱讀生態旅遊", source: "閱讀WorldEcotourism",
+    examples: [{ en: "Histoplasma is associated with the most prevalent endemic fungal infection in the United States.", zh: "組織胞漿菌與美國最常見的地方性真菌感染有關。" }] },
+  { id: 4146, word: "sanitation", phonetic: "/ˌsænɪˈteɪʃn/", pos: "n.", zh: "衛生（設施）", level: 5, category: "閱讀生態旅遊", source: "閱讀WorldEcotourism",
+    examples: [{ en: "It is common for travellers to ignore proper sanitation during travel.", zh: "旅客在旅行中忽視適當的衛生措施是常見現象。" }] },
+  { id: 4147, word: "demographics", phonetic: "/ˌdeməˈɡræfɪks/", pos: "n.", zh: "人口結構、客群組成", level: 6, category: "閱讀生態旅遊", source: "閱讀WorldEcotourism",
+    examples: [{ en: "Indonesia aims at attracting different demographics with different ecotourism packages.", zh: "印尼用不同的生態旅遊套餐吸引不同的客群。" }] },
+  { id: 4148, word: "empowerment", phonetic: "/ɪmˈpaʊəmənt/", pos: "n.", zh: "賦權", level: 6, category: "閱讀生態旅遊", source: "閱讀WorldEcotourism",
+    examples: [{ en: "Many East Africa residents favour community empowerment.", zh: "許多東非居民支持社區賦權。" }] },
+  { id: 4149, word: "salvage", phonetic: "/ˈsælvɪdʒ/", pos: "v.", zh: "挽救、搶救", level: 6, category: "閱讀生態旅遊", source: "閱讀WorldEcotourism",
+    examples: [{ en: "Raul Castro introduced an initiative aimed at salvaging an important Cuban practice.", zh: "勞爾·卡斯特羅提出一項旨在挽救古巴重要習俗的倡議。" }] },
+  { id: 4150, word: "tincture", phonetic: "/ˈtɪŋktʃə/", pos: "n.", zh: "酊劑（草藥）", level: 7, category: "閱讀生態旅遊", source: "閱讀WorldEcotourism",
+    examples: [{ en: "Herbal medicine is used in creams, tinctures, teas, and ointments.", zh: "草藥被用於面霜、酊劑、茶與藥膏中。" }] },
+  { id: 4151, word: "ointment", phonetic: "/ˈɔɪntmənt/", pos: "n.", zh: "藥膏", level: 6, category: "閱讀生態旅遊", source: "閱讀WorldEcotourism",
+    examples: [{ en: "Herbal medicine is used in creams, tinctures, teas, and ointments.", zh: "草藥被用於面霜、酊劑、茶與藥膏中。" }] },
+  { id: 4152, word: "delicacy", phonetic: "/ˈdelɪkəsi/", pos: "n.", zh: "美味佳餚", level: 5, category: "閱讀生態旅遊", source: "閱讀WorldEcotourism",
+    examples: [{ en: "The cheese is a delicacy for tourists and the distinct eating experience is a famous form of ecotourism.", zh: "這款起司是旅客的美味佳餚，獨特的飲食體驗是著名的生態旅遊形式。" }] },
+  { id: 4153, word: "cohort", phonetic: "/ˈkoʊhɔːt/", pos: "n.", zh: "同一群體、同齡層", level: 7, category: "閱讀生態旅遊", source: "閱讀WorldEcotourism",
+    examples: [{ en: "Different ecotourism packages should be designed to target different cohorts.", zh: "應設計不同的生態旅遊套餐來鎖定不同的群體。" }] },
+  { id: 4154, word: "narrow-minded", phonetic: "/ˌnæroʊ ˈmaɪndɪd/", pos: "adj.", zh: "心胸狹隘的", level: 6, category: "聽力職涯", source: "聽力C18T1P3",
+    examples: [{ en: "He thinks students are a bit narrow-minded about the industry.", zh: "他覺得學生對這個產業有點心胸狹隘。" }] },
+  { id: 4155, word: "dishonest", phonetic: "/dɪsˈɒnɪst/", pos: "adj.", zh: "不誠實的", level: 4, category: "聽力職涯", source: "聽力C18T1P3",
+    examples: [{ en: "She told him that working for free as an unpaid assistant could be seen as dishonest.", zh: "她跟他說當無薪助理可能被視為不誠實。" }] },
+  { id: 4156, word: "competitive", phonetic: "/kəmˈpetətɪv/", pos: "adj.", zh: "競爭激烈的", level: 5, category: "聽力職涯", source: "聽力C18T1P3",
+    examples: [{ en: "We're going into a really competitive field, so it's obvious we may struggle to get work.", zh: "我們要進入一個競爭激烈的領域，所以很可能很難找到工作。" }] },
+  { id: 4157, word: "career", phonetic: "/kəˈrɪə/", pos: "n.", zh: "職涯", level: 4, category: "聽力職涯", source: "聽力C18T1P3",
+    examples: [{ en: "Did today's talk influence your thoughts on what career you'd like to take up?", zh: "今天的講座有沒有影響你對未來職涯的想法？" }] },
 ];
 
-const CATEGORIES = [...new Set(VOCAB.map(v => v.category))].sort();
-const SOURCES = [...new Set(VOCAB.map(v => v.source.split(' ')[0]))].sort();
+const CATEGORIES = [...new Set(VOCAB.map(v => v.category).filter(Boolean))].sort();
+const SOURCES = [...new Set(VOCAB.map(v => (v.source || "").split(' ')[0]).filter(Boolean))].sort();
