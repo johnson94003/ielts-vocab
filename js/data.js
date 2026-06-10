@@ -14525,6 +14525,35 @@ const VOCAB = [
     examples: [{ en: "We're going into a really competitive field, so it's obvious we may struggle to get work.", zh: "我們要進入一個競爭激烈的領域，所以很可能很難找到工作。" }] },
   { id: 4157, word: "career", phonetic: "/kəˈrɪə/", pos: "n.", zh: "職涯", level: 4, category: "聽力職涯", source: "聽力C18T1P3",
     examples: [{ en: "Did today's talk influence your thoughts on what career you'd like to take up?", zh: "今天的講座有沒有影響你對未來職涯的想法？" }] },
+
+  // === 閱讀 Museum Blockbuster 博物館重磅展覽 ===
+  { id: 4158, word: "blockbuster", pos: "n.", zh: "重磅展覽、賣座作品", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "A blockbuster is a large-scaled display that attracts crowds.", zh: "blockbuster 是吸引人潮的大型展覽。" }] },
+  { id: 4159, word: "curatorial", pos: "adj.", zh: "策展的", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Blockbuster success is the success of marketing and curatorial prowess.", zh: "blockbuster 的成功是行銷與策展能力的成功。" }] },
+  { id: 4160, word: "museology", pos: "n.", zh: "博物館學", level: 7, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "New museology aims to grow the number of visitors.", zh: "新博物館學的目標是擴大觀眾人數。" }] },
+  { id: 4161, word: "touring exhibition", pos: "n.", zh: "巡迴展覽", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Touring exhibitions entail huge expenses.", zh: "巡迴展覽花費極高。" }] },
+  { id: 4162, word: "gallery director", pos: "n.", zh: "畫廊館長", level: 5, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Today's gallery director plays multiple roles.", zh: "今天的畫廊館長身兼數職。" }] },
+  { id: 4163, word: "outlays", pos: "n.", zh: "開支、花費", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "The outlays required to run a blockbuster are huge.", zh: "辦 blockbuster 所需的開支極大。" }] },
+  { id: 4164, word: "capital expense", pos: "n.", zh: "資本支出", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Huge capital expense is required for blockbusters.", zh: "blockbuster 需要巨額資本支出。" }] },
+  { id: 4165, word: "surplus", pos: "n.", zh: "盈餘", level: 5, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Blockbusters can generate the surplus needed to finance other initiatives.", zh: "blockbuster 能產生盈餘來資助其他項目。" }] },
+  { id: 4166, word: "subsidise", pos: "v.", zh: "補貼", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Few chances for surplus to subsidise other initiatives.", zh: "用盈餘補貼其他項目的機會變少。" }] },
+  { id: 4167, word: "break even", pos: "v.phr.", zh: "損益兩平", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Some take a long time to break even between projects.", zh: "有些案子要很久才能達到損益兩平。" }] },
+  { id: 4168, word: "icons of culture", pos: "n.", zh: "文化象徵", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Museums are drawn away from being icons of culture.", zh: "博物館從文化象徵的位置被拉下來。" }] },
+  { id: 4169, word: "entertainment venue", pos: "n.", zh: "娛樂場所", level: 5, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Museums risk becoming mere entertainment venues.", zh: "博物館有變成單純娛樂場所的風險。" }] },
+  { id: 4170, word: "cost-effective", pos: "adj.", zh: "經濟實惠的", level: 5, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Most people seek cost-effective overseas venues.", zh: "大多數人想去經濟實惠的海外場館。" }] },
+  { id: 4171, word: "marketplace priorities", pos: "n.", zh: "市場優先順位", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Institutional activities now closely demonstrate marketplace priorities.", zh: "機構活動如今緊跟市場優先順位。" }] },
+  { id: 4172, word: "commercialised", pos: "adj.", zh: "商業化的", level: 5, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "The museum business has become more commercialised.", zh: "博物館事業已愈來愈商業化。" }] },
+  { id: 4173, word: "continuous product growth", pos: "n.", zh: "持續推陳出新", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Continuous product growth is the key to increase visitors.", zh: "持續推陳出新是擴大觀眾的關鍵。" }] },
+  { id: 4174, word: "entrepreneurial qualities", pos: "n.", zh: "創業特質", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Entrepreneurial qualities top the requirements list for curators.", zh: "創業特質位居策展人需求清單最前列。" }] },
+  { id: 4175, word: "business intellect", pos: "n.", zh: "商業頭腦", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Skills in business intellect are essential for managers.", zh: "商業頭腦對經理人至關重要。" }] },
+  { id: 4176, word: "contend with rivals", pos: "v.phr.", zh: "與對手抗衡", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Managers must contend with rivals in today's gallery scene.", zh: "在今日畫廊圈裡，經理人必須與對手抗衡。" }] },
+  { id: 4177, word: "memorabilia", pos: "n.", zh: "紀念品", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Sales of memorabilia contribute to the bottom line.", zh: "紀念品銷售貢獻營運底線。" }] },
+  { id: 4178, word: "tourist attraction", pos: "n.", zh: "觀光景點", level: 5, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Museums are increasingly viewed as tourist attractions.", zh: "博物館愈來愈被視為觀光景點。" }] },
+  { id: 4179, word: "non-elitist", pos: "adj.", zh: "非菁英的", level: 7, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Blockbusters are designed for non-elitist purposes.", zh: "blockbuster 為非菁英目的而設計。" }] },
+  { id: 4180, word: "scholarly", pos: "adj.", zh: "學術的、有學問的", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Blockbusters are less scholarly than other exhibitions.", zh: "blockbuster 比其他展覽更不學術。" }] },
+  { id: 4181, word: "popularist", pos: "adj.", zh: "大眾化的", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Blockbusters serve popularist purposes.", zh: "blockbuster 服務於大眾化目的。" }] },
+  { id: 4182, word: "privileged sector", pos: "n.", zh: "特權階層", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Blockbusters cover society rather than the limited privileged sector.", zh: "blockbuster 涵蓋全社會而非僅特權階層。" }] },
+  { id: 4183, word: "conservationist", pos: "n.", zh: "保育派", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Conservationists oppose the increase of museums as tourist attractions.", zh: "保育派反對博物館成為觀光景點。" }] },
+  { id: 4184, word: "resonate", pos: "v.", zh: "引起共鳴", level: 5, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Create something that resonates with people.", zh: "創造能引起人共鳴的東西。" }] }
 ];
 
 const CATEGORIES = [...new Set(VOCAB.map(v => v.category).filter(Boolean))].sort();
