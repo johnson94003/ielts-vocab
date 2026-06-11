@@ -14553,7 +14553,161 @@ const VOCAB = [
   { id: 4181, word: "popularist", pos: "adj.", zh: "大眾化的", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Blockbusters serve popularist purposes.", zh: "blockbuster 服務於大眾化目的。" }] },
   { id: 4182, word: "privileged sector", pos: "n.", zh: "特權階層", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Blockbusters cover society rather than the limited privileged sector.", zh: "blockbuster 涵蓋全社會而非僅特權階層。" }] },
   { id: 4183, word: "conservationist", pos: "n.", zh: "保育派", level: 6, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Conservationists oppose the increase of museums as tourist attractions.", zh: "保育派反對博物館成為觀光景點。" }] },
-  { id: 4184, word: "resonate", pos: "v.", zh: "引起共鳴", level: 5, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Create something that resonates with people.", zh: "創造能引起人共鳴的東西。" }] }
+  { id: 4184, word: "resonate", pos: "v.", zh: "引起共鳴", level: 5, category: "閱讀博物館", source: "閱讀 Museum Blockbuster", examples: [{ en: "Create something that resonates with people.", zh: "創造能引起人共鳴的東西。" }] },
+
+  // === 雅思哥單字卡 2026-06-11（17 字扣除 6 個已有重複 = 11 字） ===
+  { id: 4185, word: "confront", phonetic: "UK /kənˈfrʌnt/ US /kənˈfrʌnt/", pos: "v.", zh: "面對，面臨；正視，處理；對峙，對抗，對質，當面對證", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-11",
+    examples: [
+      { en: "Once again, I chose to confront the issue head-on.", zh: "又一次，我選擇了直面這個問題。" },
+      { en: "We must confront future with optimism.", zh: "我們必須樂觀地面對未來。" }
+    ],
+    phrases: [{ phrase: "confront with", zh: "使面臨" }],
+    synonyms: ["front", "compare"],
+    relatedWords: [
+      { word: "confrontational", zh: "對抗的；對抗性的" },
+      { word: "confrontation", zh: "對抗，面對；對質" }
+    ]
+  },
+  { id: 4186, word: "imitate", phonetic: "UK /ˈɪmɪteɪt/ US /ˈɪmɪteɪt/", pos: "v.", zh: "模仿，仿效；作滑稽模仿；仿造，偽造", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-11",
+    examples: [
+      { en: "Teachers provide a model for children to imitate.", zh: "教師是孩子仿效的典範。" },
+      { en: "He could imitate in speech or writing most of those he admired.", zh: "他能在口語或書寫中模仿大多數他崇拜的人。" }
+    ],
+    synonyms: ["simulate", "model after"],
+    relatedWords: [
+      { word: "imitation", zh: "人造的，仿製的" },
+      { word: "imitative", zh: "模仿的；仿製的" },
+      { word: "imitation", zh: "模仿、仿造；仿製品" },
+      { word: "imitator", zh: "模仿者；[自] 模擬器" }
+    ]
+  },
+  { id: 4187, word: "faithful", phonetic: "UK /ˈfeɪθfʊl/ US /ˈfeɪθfʊl/", pos: "adj./n.", zh: "忠實的，忠誠的；如實的，忠於原事（物）的；忠貞的，可信任的，可信賴的；忠實支持者（the faithful）", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-11",
+    examples: [
+      { en: "The officers died faithful to the honour of a soldier.", zh: "軍官們堅守對軍人氣節的忠誠殉職。" },
+      { en: "I have been a faithful reader of your newspaper for many years.", zh: "我是貴報多年來的忠實讀者。" }
+    ],
+    phrases: [{ phrase: "old faithful", zh: "追隨者；忠實的支持者" }],
+    synonyms: ["loving", "devoted"],
+    relatedWords: [
+      { word: "faithless", zh: "不忠的；無信仰的；無信義的" },
+      { word: "faithfully", zh: "忠實地；如實地；誠心誠意地；深信著地" },
+      { word: "faithlessly", zh: "事不信地；不忠實地" },
+      { word: "faith", zh: "信仰；信念；信任" },
+      { word: "faithfulness", zh: "忠誠；誠實；正確" },
+      { word: "faithlessness", zh: "不貞；無信仰；不可信賴" }
+    ]
+  },
+  { id: 4188, word: "reproduce", phonetic: "UK /ˌriːprəˈdjuːs/ US /ˌriːprəˈduːs/", pos: "v.", zh: "複製，翻印；模擬；再制造；再現；繁殖，生殖", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-11",
+    examples: [
+      { en: "These organisms reproduce parthenogenetically.", zh: "這些生物體通過單性生殖進行繁殖。" },
+      { en: "Most reptiles reproduce by laying eggs on land.", zh: "大多數爬行動物通過在陸地產卵進行繁殖。" }
+    ],
+    synonyms: ["generate", "repeat", "breed", "increase"],
+    relatedWords: [
+      { word: "reproductive", zh: "生殖的；再生的；複製的" },
+      { word: "reproducible", zh: "可再生的；可繁殖的；可複寫的" },
+      { word: "reproducibly", zh: "可再生產地" },
+      { word: "reproduction", zh: "繁殖，生殖；複製；複製品" },
+      { word: "reproducer", zh: "揚聲器；複製程序；再生機" }
+    ]
+  },
+  { id: 4189, word: "pad", phonetic: "UK /pæd/ US /pæd/", pos: "n./v./abbr.", zh: "n. 軟墊；墊狀物；肉掌；指尖；便箋本；發射台；停機坪；浮葉；低沉的腳步聲；焊接區；<非正式，舊>住處 / v. 加上襯墊；填補；拉長 / abbr. (PAD) 外周動脈疾病", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-11",
+    examples: [
+      { en: "The pad is impregnated with insecticide.", zh: "墊子上滿是殺蟲劑。" },
+      { en: "Have a pad and pencil ready and jot down some of your thoughts.", zh: "準備一本便箋簿和一支鉛筆，迅速地記下你的一些想法。" }
+    ],
+    phrases: [
+      { phrase: "brake pad", zh: "剎車片；盤式剎車片；制動內襯" },
+      { phrase: "pad printing", zh: "移印" },
+      { phrase: "launch pad", zh: "n. 發射台" }
+    ],
+    synonyms: ["liner", "interleaver", "foot", "hoof it"],
+    relatedWords: [
+      { word: "padded", zh: "有裝填輔料的；墊底有厚度的" },
+      { word: "padder", zh: "整音電容；[電] 微調電容器" },
+      { word: "padding", zh: "填料；墊塞" }
+    ]
+  },
+  { id: 4190, word: "provocation", phonetic: "UK /ˌprɒvəˈkeɪʃn/ US /ˌprɑːvəˈkeɪʃn/", pos: "n.", zh: "激怒，挑釁；挑釁性事件；<法律>挑釁（行為或語言）；性挑逗；激發試驗", level: 6, category: "雅思核心", source: "雅思哥單字卡 2026-06-11",
+    examples: [
+      { en: "He denies murder on the grounds of provocation.", zh: "他認為自己受到了挑釁而拒不認罪。" },
+      { en: "He reacted violently only under provocation.", zh: "只有在被激怒時，他才暴力相向。" }
+    ],
+    synonyms: ["wrath", "irritation"],
+    relatedWords: [
+      { word: "provocative", zh: "刺激的；挑釁的；氣人的" },
+      { word: "provoking", zh: "令人生氣的，激怒人的" },
+      { word: "provoked", zh: "被激怒的；受到挑釁的" },
+      { word: "provocative", zh: "刺激物；挑撥物；興奮劑" },
+      { word: "provoking", zh: "激怒；挑釁；誘發 (provoke的ing形式)" },
+      { word: "provoked", zh: "激起；挑釁 (provoke的過去分詞)" }
+    ]
+  },
+  { id: 4191, word: "ambition", phonetic: "UK /æmˈbɪʃ(ə)n/ US /æmˈbɪʃ(ə)n/", pos: "n./v.", zh: "n. 追求的目標，抱負；雄心，野心；幹勁 / v. 追求，有……野心", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-11",
+    examples: [
+      { en: "It had been her lifelong ambition.", zh: "這是她終身追求的目標。" },
+      { en: "He was corrupted by power and ambition.", zh: "權力與野心使他腐化墮落。" }
+    ],
+    synonyms: ["careerism", "aspiration", "pursue", "pursuit"],
+    relatedWords: [
+      { word: "ambitious", zh: "野心勃勃的；有雄心的；熱望的；炫耀的" },
+      { word: "ambitiously", zh: "雄心勃勃地；幹勁十足地；熱切地" },
+      { word: "ambitiousness", zh: "不凡的抱負" }
+    ]
+  },
+  { id: 4192, word: "besides", phonetic: "UK /bɪˈsaɪdz/ US /bɪˈsaɪdz/", pos: "prep./adv.", zh: "prep. 除……之外（還） / adv. 而且，再說；此外，也", level: 4, category: "雅思核心", source: "雅思哥單字卡 2026-06-11",
+    examples: [
+      { en: "I've got no family besides my parents.", zh: "除了父母，我沒有其他親人。" },
+      { en: "What other sports do you play besides hockey?", zh: "除了玩曲棍球你還做哪些運動？" }
+    ],
+    synonyms: ["moreover", "again", "also", "additionally"]
+  },
+  { id: 4193, word: "enlarge", phonetic: "UK /ɪnˈlɑːdʒ/ US /ɪnˈlɑːrdʒ/", pos: "v.", zh: "擴大，增大，放大；詳述", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-11",
+    examples: [
+      { en: "Reading will enlarge your vocabulary.", zh: "閱讀能擴大詞彙量。" },
+      { en: "There are plans to enlarge the recreation area.", zh: "已經有了擴大娛樂場地的計劃。" }
+    ],
+    phrases: [{ phrase: "enlarge on", zh: "詳述" }],
+    synonyms: ["extend", "broaden", "grow"],
+    relatedWords: [
+      { word: "enlarged", zh: "放大的；增大的；擴展的" },
+      { word: "enlargement", zh: "放大；放大的照片；增補物" },
+      { word: "enlarger", zh: "[攝] 放大機；擴大者；增補者" }
+    ]
+  },
+  { id: 4194, word: "murder", phonetic: "UK /ˈmɜːdə/ US /ˈmɜːrdər/", pos: "n./v.", zh: "n. 謀殺，凶殺；<非正式>困難的事，討厭的事；一群烏鴉 / v. 謀殺；糟蹋，毀壞；徹底擊敗；大發雷霆；貪婪地吃喝", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-11",
+    examples: [
+      { en: "The murder remains unresolved.", zh: "這宗謀殺案還沒有偵破。" },
+      { en: "She confessed to the murder.", zh: "她供認犯了謀殺罪。" }
+    ],
+    phrases: [
+      { phrase: "mass murder", zh: "大屠殺；大規模的謀殺；集體屠殺" },
+      { phrase: "attempted murder", zh: "謀殺未遂" },
+      { phrase: "commit murder", zh: "謀殺" }
+    ],
+    synonyms: ["murther", "killing", "rubout"],
+    relatedWords: [
+      { word: "murderous", zh: "殺人的；殘忍的；兇殘的；蓄意謀殺的" },
+      { word: "murderer", zh: "凶手；謀殺犯" },
+      { word: "murderee", zh: "被謀殺的人" },
+      { word: "murderess", zh: "女兇手；女凶手" }
+    ]
+  },
+  { id: 4195, word: "pat", phonetic: "UK /pæt/ US /pæt/", pos: "v./n./adj./adv.", zh: "v. 輕拍（以示喜愛、贊同或安慰）；輕拍撫平；拍干 / n. 輕拍；小塊（黃油等）/ adj. 脫口而出的，敷衍的 / adv. 記得一清二楚地；及時地", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-11",
+    examples: [
+      { en: "Pat has always loved gardening.", zh: "帕特一直喜歡園藝。" },
+      { en: "Pat it dry with a soft towel.", zh: "用柔軟的毛巾把它輕輕地拍干。" }
+    ],
+    phrases: [
+      { phrase: "pat on the back", zh: "鼓勵；[口]表揚" },
+      { phrase: "stand pat", zh: "堅持" }
+    ],
+    synonyms: ["experienced", "applicable", "skilled", "becoming"],
+    relatedWords: [
+      { word: "patter", zh: "行話；輕快腳步聲；急速拍打聲" },
+      { word: "patter", zh: "薄言地說；發出急速輕拍聲" }
+    ]
+  }
 ];
 
 const CATEGORIES = [...new Set(VOCAB.map(v => v.category).filter(Boolean))].sort();
