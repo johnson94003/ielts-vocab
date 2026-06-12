@@ -14953,6 +14953,15 @@ const VOCAB = [
     synonyms: ["mountain range", "cordillera"],
     relatedWords: [{ word: "ridged", zh: "有脊狀線的；成脊狀" }]
   },
+  { id: 4229, word: "conservatory", pos: "n.", zh: "玻璃暖房；溫室；音樂學院", level: 6, category: "聽力房屋", source: "聽力 House cleaning service", examples: [{ en: "My kitchen and conservatory need a thorough cleaning.", zh: "我的廚房和玻璃暖房需要徹底清潔。" }] },
+  { id: 4230, word: "lounge", pos: "n./v.", zh: "n. 客廳；休息室；候機室 / v. 懶散地坐臥", level: 5, category: "聽力房屋", source: "聽力 House cleaning service", examples: [{ en: "The lounge just needs a quick tidy-up.", zh: "客廳只需要快速整理一下。" }] },
+  { id: 4231, word: "dusting", pos: "n.", zh: "除塵；撒粉", level: 5, category: "聽力房屋", source: "聽力 House cleaning service", examples: [{ en: "The two double rooms need deep dusting.", zh: "兩間雙人房需要深度除塵。" }] },
+  { id: 4232, word: "bed linen", pos: "n.phr.", zh: "床上用品（床單、枕套、被罩）", level: 5, category: "聽力房屋", source: "聽力 House cleaning service", examples: [{ en: "We offer bed linen changes.", zh: "我們提供更換床上用品的服務。" }] },
+  { id: 4233, word: "iron", pos: "v./n.", zh: "v. 熨燙 / n. 熨斗；鐵", level: 4, category: "聽力房屋", source: "聽力 House cleaning service", examples: [{ en: "I have over 15 shirts to iron every week.", zh: "我每週有超過 15 件襯衫要熨。" }] },
+  { id: 4234, word: "fortnightly", pos: "adv./adj.", zh: "每兩週一次地（的）", level: 6, category: "聽力房屋", source: "聽力 House cleaning service", examples: [{ en: "Whether it's on a weekly or fortnightly basis.", zh: "無論是每週還是每兩週一次。" }] },
+  { id: 4235, word: "grout", pos: "n./v.", zh: "n. 磁磚縫隙的填縫材；灰漿 / v. 用灰漿勾縫", level: 7, category: "聽力房屋", source: "聽力 House cleaning service", examples: [{ en: "This includes a thorough scrubbing of tiles and grout.", zh: "包括徹底刷洗磁磚和縫隙。" }] },
+  { id: 4236, word: "sparkling", pos: "adj.", zh: "閃亮的；煥然一新的；起泡的", level: 5, category: "聽力房屋", source: "聽力 House cleaning service", examples: [{ en: "Ensure a sparkling clean finish.", zh: "確保煥然一新的清潔效果。" }] },
+  { id: 4237, word: "premium", pos: "adj./n.", zh: "adj. 高級的；優質的 / n. 額外費用；保險費", level: 5, category: "聽力房屋", source: "聽力 House cleaning service", examples: [{ en: "We also offer a premium deep cleaning option.", zh: "我們也提供高級深度清潔選項。" }] },
   { id: 4228, word: "approval", phonetic: "UK /əˈpruːv(ə)l/ US /əˈpruːv(ə)l/", pos: "n.", zh: "稱許，贊成；批准，許可", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
     examples: [
       { en: "There was a roar of approval.", zh: "響起了一片表示贊成的喊叫聲。" },
