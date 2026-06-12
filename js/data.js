@@ -14723,7 +14723,254 @@ const VOCAB = [
   { id: 4208, word: "redistribution", pos: "n.", zh: "再分配", level: 6, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "Early states tend to have developed redistribution systems.", zh: "早期國家通常發展出再分配系統。" }] },
   { id: 4209, word: "centralised", pos: "adj.", zh: "集中化的", level: 6, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "A centralised location makes distribution easier.", zh: "集中化的地點讓分配更容易。" }] },
   { id: 4210, word: "managerial", pos: "adj.", zh: "管理的", level: 6, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "Service developed a managerial benefits theory.", zh: "Service 提出了管理收益理論。" }] },
-  { id: 4211, word: "hypothesise", pos: "v.", zh: "假設", level: 7, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "His theory hypothesises that hierarchical societies benefit all.", zh: "他的理論假設階級社會對所有人都有益。" }] }
+  { id: 4211, word: "hypothesise", pos: "v.", zh: "假設", level: 7, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "His theory hypothesises that hierarchical societies benefit all.", zh: "他的理論假設階級社會對所有人都有益。" }] },
+  { id: 4212, word: "fantasy", phonetic: "UK /ˈfæntəsi/ US /ˈfæntəsi/", pos: "n./v.", zh: "n. 幻想；想象；想象產物；幻想作品；虛擬比賽（遊戲）；幻想曲；集成曲；期望 / v. 想象，幻想", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
+    examples: [
+      { en: "He retreated into a world of fantasy.", zh: "他遁入了幻想世界。" },
+      { en: "The story is a magical mix of fantasy and reality.", zh: "這個故事是一個幻想與現實的奇妙組合。" }
+    ],
+    phrases: [{ phrase: "sex fantasy", zh: "性幻想" }],
+    synonyms: ["fancy", "illusion", "visional", "imagine"],
+    relatedWords: [
+      { word: "fantastic", zh: "奇異的；空想的；極好的；不可思議的" },
+      { word: "fantastical", zh: "空想的；捕風捉影的" },
+      { word: "fantastically", zh: "想像中地；奇特地；難以置信地" },
+      { word: "fantasia", zh: "幻想曲；集成曲；幻想作品" },
+      { word: "fantasist", zh: "幻想曲作家" }
+    ]
+  },
+  { id: 4213, word: "enormous", phonetic: "UK /ɪˈnɔːməs/ US /ɪˈnɔːrməs/", pos: "adj.", zh: "巨大的，極大的；<古>凶暴的，極惡的", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
+    examples: [
+      { en: "The problems facing the President are enormous.", zh: "總統面臨的問題是巨大的。" },
+      { en: "They have suffered an enormous personal tragedy.", zh: "他們遭受了一場巨大的個人災難。" }
+    ],
+    synonyms: ["huge", "tremendous", "massive", "macro"],
+    relatedWords: [
+      { word: "enormously", zh: "巨大地；龐大地；非常地；在很大程度上" },
+      { word: "enormity", zh: "巨大；暴行；極惡" }
+    ]
+  },
+  { id: 4214, word: "moisture", phonetic: "UK /ˈmɔɪstʃə(r)/ US /ˈmɔɪstʃər/", pos: "n.", zh: "潮氣，水分", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
+    examples: [
+      { en: "The air is heavy with moisture.", zh: "空氣中充滿了濕氣。" },
+      { en: "My skin feels tight and lacking in moisture.", zh: "我的皮膚感覺緊巴巴的，缺乏水分。" }
+    ],
+    phrases: [
+      { phrase: "moisture content", zh: "水分含量；含濕量" },
+      { phrase: "soil moisture", zh: "土壤水分；土壤濕度" },
+      { phrase: "moisture absorption", zh: "水分吸收" }
+    ],
+    synonyms: ["rainfall", "humidity content"],
+    relatedWords: [
+      { word: "moist", zh: "潮濕的；多雨的；含淚的" },
+      { word: "moistly", zh: "潮濕地；含淚地" },
+      { word: "moistener", zh: "潤濕器；噴水裝置" },
+      { word: "moistness", zh: "濕" },
+      { word: "moisten", zh: "潮濕；變濕" }
+    ]
+  },
+  { id: 4215, word: "frustrate", phonetic: "UK /frʌˈstreɪt/ US /ˈfrʌstreɪt/", pos: "v./adj.", zh: "v. 使懊惱，使沮喪；挫敗；阻撓；受挫 / adj. <古>痛苦的，受挫的", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
+    examples: [
+      { en: "Words frustrate her, like fastened buttons at which she can only fumble.", zh: "言語使她感到挫敗，就像扣上的釦子，她只能摸索著看。" },
+      { en: "Gender inequality continues to frustrate a lot of female employees.", zh: "性別不平等仍然讓許多女性員工感到沮喪。" }
+    ],
+    synonyms: ["defeat", "discomfit", "founder", "come to naught"],
+    relatedWords: [
+      { word: "frustrated", zh: "失意的；挫敗的；洩氣的" },
+      { word: "frustrating", zh: "令人沮喪的" },
+      { word: "frustration", zh: "挫折" }
+    ]
+  },
+  { id: 4216, word: "external", phonetic: "UK /ɪkˈstɜːn(ə)l/ US /ɪkˈstɜːrn(ə)l/", pos: "adj./n.", zh: "adj. 外部的，外面的；對外的；與外國有關的；外來的，外聘的；（藥品等類似物質）外用的 / n. 外表，外部特徵", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
+    examples: [
+      { en: "An external auditor will verify the accounts.", zh: "外部審計師將核實這些賬目。" },
+      { en: "Many external influences can affect your state of mind.", zh: "許多外在因素都可能影響你的心情。" }
+    ],
+    phrases: [
+      { phrase: "external environment", zh: "外環境" },
+      { phrase: "external force", zh: "外力" },
+      { phrase: "external wall", zh: "外牆；外壁" }
+    ],
+    synonyms: ["foreign", "outer", "outside", "surface"],
+    relatedWords: [
+      { word: "exterior", zh: "外部的；表面的；外在的" },
+      { word: "extern", zh: "外面的；外來的" },
+      { word: "externally", zh: "外部地；表面上，外觀上" },
+      { word: "externality", zh: "外在性；外形；外部事物" }
+    ]
+  },
+  { id: 4217, word: "circumstance", phonetic: "UK /ˈsɜːkəmstəns/ US /ˈsɜːrkəmstæns/", pos: "n./v.", zh: "n. 條件，情況；環境；境況；經濟狀況；詳情；原委；命運；境遇 / v. 處於某種情況", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
+    examples: [
+      { en: "I know I can trust her in any circumstance.", zh: "我知道我在任何情況下都能信任她。" },
+      { en: "In every moment and every circumstance, you can choose to have fuller, richer life by setting a clear intention.", zh: "在任何時刻、任何情況下，你都可以通過設定一個明確的目標來擁有更充實、更豐富的生活。" }
+    ],
+    phrases: [
+      { phrase: "in the circumstances", zh: "在這種情況下；既然這樣" },
+      { phrase: "under the circumstance", zh: "在這種情況下" },
+      { phrase: "in no circumstances", zh: "決不" }
+    ],
+    synonyms: ["context", "situation", "setting", "event"],
+    relatedWords: [
+      { word: "circumstantial", zh: "依據情況的；詳細的" },
+      { word: "circumstantially", zh: "依據情況地" }
+    ]
+  },
+  { id: 4218, word: "revise", phonetic: "UK /rɪˈvaɪz/ US /rɪˈvaɪz/", pos: "v./n.", zh: "v. 改變，修正；修改，修訂（書刊、估算等）；<英>溫習，複習 / n. 修訂，校訂；（印刷）改樣", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
+    examples: [
+      { en: "I can't come out tonight. I have to revise.", zh: "我今晚不能出去，我得複習。" },
+      { en: "With time he came to revise his opinion of the profession.", zh: "隨著時間的推移，他開始修正自己以前對這一職業的看法。" }
+    ],
+    phrases: [{ phrase: "revise for", zh: "複習功課（投考）" }],
+    synonyms: ["update", "edit", "to amend", "recension"],
+    relatedWords: [
+      { word: "revised", zh: "改後的" },
+      { word: "revision", zh: "[印刷] 修訂；複習；修訂本" },
+      { word: "revisionism", zh: "修正主義" },
+      { word: "revisal", zh: "修正；修訂" },
+      { word: "reviser", zh: "校訂者；修訂者" }
+    ]
+  },
+  { id: 4219, word: "authority", phonetic: "UK /ɔːˈθɒrəti/ US /əˈθɔːrəti/", pos: "n.", zh: "專家，權威人士；行政管理機構；權力；權限；權威；威信；許可，授權；當局，官方", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
+    examples: [
+      { en: "She had an aura of authority.", zh: "她有一種權威氣質。" },
+      { en: "His authority is steadily weakening.", zh: "他的權威日趨減弱。" }
+    ],
+    phrases: [
+      { phrase: "competent authority", zh: "[法] 主管當局，主管部門" },
+      { phrase: "authority on", zh: "有關……的權威；……的專家" },
+      { phrase: "local authority", zh: "地方當局；地方政權" }
+    ],
+    synonyms: ["rod", "jurisdiction"],
+    relatedWords: [
+      { word: "authoritative", zh: "有權威的；命令式的；當局的" },
+      { word: "authoritarian", zh: "獨裁主義的；權力主義的" },
+      { word: "authoritatively", zh: "權威地；命令地；可信地" },
+      { word: "authoritarianism", zh: "獨裁主義；權力主義" }
+    ]
+  },
+  { id: 4220, word: "creature", phonetic: "UK /ˈkriːtʃə(r)/ US /ˈkriːtʃər/", pos: "n.", zh: "生物，動物；（具有某種特徵的）人；怪物；受支配的人，產物", level: 4, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
+    examples: [
+      { en: "The panda is a shy creature.", zh: "熊貓是一種害羞的動物。" },
+      { en: "He is a reclusive, timorous creature.", zh: "他是個離群索居且膽怯的人。" }
+    ],
+    phrases: [
+      { phrase: "living creature", zh: "生物；生命單位" },
+      { phrase: "fellow creature", zh: "同類動物；人類" },
+      { phrase: "creature comfort", zh: "物質享受（尤指食物）" }
+    ],
+    synonyms: ["animal", "biology", "person"],
+    relatedWords: [
+      { word: "creative", zh: "創造性的；有創造力的" },
+      { word: "creatively", zh: "創造性地；有創造力地" },
+      { word: "creation", zh: "創造；創作；創作物，產物" },
+      { word: "creativity", zh: "創造力" },
+      { word: "creator", zh: "創造者；創建者" },
+      { word: "creationism", zh: "特別創造說；創造宇宙說" }
+    ]
+  },
+  { id: 4221, word: "gasoline", phonetic: "UK /ˈɡæsəliːn/ US /ˌɡæsəˈliːn/", pos: "n.", zh: "<美>汽油（=gasolene；英式英文為 petrol）", level: 4, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
+    examples: [
+      { en: "I siphoned the gasoline out of the car into a can.", zh: "我用虹吸管把汽車裡的汽油抽到桶裡。" },
+      { en: "I fill up the tank with gasoline about once a week.", zh: "我大約每個星期都加滿一箱汽油。" }
+    ],
+    phrases: [
+      { phrase: "gasoline engine", zh: "汽油機；汽油發動機" },
+      { phrase: "unleaded gasoline", zh: "無鉛汽油" },
+      { phrase: "gasoline tank", zh: "油箱；汽油箱" }
+    ],
+    synonyms: ["gas", "benzine"]
+  },
+  { id: 4222, word: "indispensable", phonetic: "UK /ˌɪndɪˈspensəb(ə)l/ US /ˌɪndɪˈspensəb(ə)l/", pos: "adj./n.", zh: "adj. 不可或缺的，必需的；不能撇開的，責無旁貸的 / n. 不可缺少之物，不可少的人", level: 6, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
+    examples: [
+      { en: "She was becoming indispensable to him.", zh: "對他來說她正變得不可缺少。" },
+      { en: "She made herself indispensable to the department.", zh: "她成為這個部門不可或缺的一分子。" }
+    ],
+    synonyms: ["obbligato"],
+    relatedWords: [{ word: "indispensability", zh: "不可缺少；必要；責無旁貸" }]
+  },
+  { id: 4223, word: "lens", phonetic: "UK /lenz/ US /lenz/", pos: "n./v.", zh: "n. 透鏡，鏡片；（相機的）鏡頭；（眼球的）晶狀體；隱形眼鏡 / v. 給……攝影", level: 4, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
+    examples: [
+      { en: "Some adjustment of the lens may be necessary.", zh: "可能需要調整一下鏡頭。" },
+      { en: "He took off his spectacles and rubbed frantically at the lens.", zh: "他摘下眼鏡瘋狂地揉擦鏡片。" }
+    ],
+    phrases: [
+      { phrase: "intraocular lens", zh: "人工晶體；眼內透鏡" },
+      { phrase: "camera lens", zh: "攝影機鏡頭；攝像頭" },
+      { phrase: "contact lens", zh: "隱形眼鏡；接觸鏡片" }
+    ],
+    synonyms: ["cryst"]
+  },
+  { id: 4224, word: "nowhere", phonetic: "UK /ˈnəʊweə(r)/ US /ˈnoʊwer/", pos: "adv./n./adj.", zh: "adv. 無處，哪裡都不；沒有任何地方；無名的小地方 / n. 不存在的地方；荒蕪的地區 / adj. <非正式>無望成功的；不知名的", level: 4, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
+    examples: [
+      { en: "There was nowhere for me to sit.", zh: "我無處可坐。" },
+      { en: "This discussion is leading us nowhere.", zh: "我們這場討論將毫無結果。" }
+    ],
+    phrases: [
+      { phrase: "out of nowhere", zh: "不知打哪兒來；突然冒出來；莫名其妙的出現" },
+      { phrase: "nowhere near", zh: "遠不及；離……很遠" },
+      { phrase: "get nowhere", zh: "一事無成；無進展" }
+    ],
+    synonyms: ["noplace", "anywhere", "inexistent", "non-existent"]
+  },
+  { id: 4225, word: "spoil", phonetic: "UK /spɔɪl/ US /spɔɪl/", pos: "v./n.", zh: "v. 破壞，糟蹋；溺愛，寵壞；善待；格外關照；（食物）變質，腐敗；使（選票）作廢 / n. 贓物，戰利品（the spoils）；成功所帶來的好處（spoils）；（開掘時挖出的）廢土，廢泥土", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
+    examples: [
+      { en: "Don't spoil the children.", zh: "不要溺愛孩子。" },
+      { en: "Don't let him spoil your evening.", zh: "別讓他攪和你一晚上不開心。" }
+    ],
+    phrases: [{ phrase: "the spoils of war", zh: "戰利品" }],
+    synonyms: ["harry", "dote upon", "prey upon", "take a turn for the worse"],
+    relatedWords: [
+      { word: "spoilt", zh: "寵壞的；損壞的" },
+      { word: "spoilage", zh: "損壞；搶奪；損壞物" },
+      { word: "spoiler", zh: "擾流器；掠奪者；損壞者" }
+    ]
+  },
+  { id: 4226, word: "multiply", phonetic: "UK /ˈmʌltɪplaɪ/ US /ˈmʌltɪplaɪ/", pos: "v./adv./adj.", zh: "v. 大大增加，倍增；乘；乘以；繁殖，滋生 / adv. 多樣地，多方面地 / adj. 多層的（multi-ply）", level: 4, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
+    examples: [
+      { en: "These creatures can multiply quickly.", zh: "這些生物能迅速大量繁殖。" },
+      { en: "Multiply 2 and 6 together and you get 12.", zh: "2 和 6 相乘得 12。" }
+    ],
+    phrases: [{ phrase: "multiply by", zh: "乘以；乘上" }],
+    synonyms: ["ride", "breed", "improve", "accelerate"],
+    relatedWords: [
+      { word: "multiple", zh: "多重的；多樣的；許多的" },
+      { word: "multiplex", zh: "多樣的；多元的；[通信] 多路傳輸的" },
+      { word: "multiplicative", zh: "[數] 乘法的；增加的" },
+      { word: "multipliable", zh: "可增加的；增加的" },
+      { word: "multistorey", zh: "多層的；有多層樓的" }
+    ]
+  },
+  { id: 4227, word: "ridge", phonetic: "UK /rɪdʒ/ US /rɪdʒ/", pos: "n./v.", zh: "n. 山脊，山脈；屋脊；隆起部分；脊狀突起；（大氣層的）高壓脊，高壓帶 / v. 使隆起，使形成脊狀；（表面）成脊狀，起皺", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
+    examples: [
+      { en: "The fawn ran to the top of the ridge.", zh: "那隻小鹿跑上山脊。" },
+      { en: "He slowed the pace as they crested the ridge.", zh: "當他們到達山脊時，他放慢了步伐。" }
+    ],
+    phrases: [
+      { phrase: "mountain ridge", zh: "山嶺；山脊；山梁" },
+      { phrase: "alveolar ridge", zh: "[醫] 牙槽嵴" },
+      { phrase: "ridge line", zh: "山脊線；甲板中線；分水嶺" }
+    ],
+    synonyms: ["mountain range", "cordillera"],
+    relatedWords: [{ word: "ridged", zh: "有脊狀線的；成脊狀" }]
+  },
+  { id: 4228, word: "approval", phonetic: "UK /əˈpruːv(ə)l/ US /əˈpruːv(ə)l/", pos: "n.", zh: "稱許，贊成；批准，許可", level: 5, category: "雅思核心", source: "雅思哥單字卡 2026-06-12",
+    examples: [
+      { en: "There was a roar of approval.", zh: "響起了一片表示贊成的喊叫聲。" },
+      { en: "Do the plans meet with your approval?", zh: "這些計劃你贊成嗎？" }
+    ],
+    phrases: [
+      { phrase: "approval of", zh: "批准；同意" },
+      { phrase: "examination and approval", zh: "審查准許" },
+      { phrase: "for approval", zh: "提交批准" }
+    ],
+    synonyms: ["confirmation", "authorization", "validation", "ratification"],
+    relatedWords: [
+      { word: "approved", zh: "被認可的；經批准的" },
+      { word: "approving", zh: "贊成的；滿意的" },
+      { word: "approvingly", zh: "贊許地；滿意地" },
+      { word: "approver", zh: "批准者；承認者；贊成者" }
+    ]
+  }
 ];
 
 const CATEGORIES = [...new Set(VOCAB.map(v => v.category).filter(Boolean))].sort();
