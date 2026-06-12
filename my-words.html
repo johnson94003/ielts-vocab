@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>雅思單字 - 我的單字</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>⭐ 我的單字</h1>
+    <nav>
+      <a href="index.html">瀏覽</a>
+      <a href="speaking.html">口說</a>
+      <a href="my-words.html" class="active">我的</a>
+      <a href="quiz.html">測驗</a>
+      <a href="help.html" class="nav-help">說明</a>
+    </nav>
+  </header>
+
+  <main>
+    <div id="streakInfo" class="streak-info"></div>
+
+    <section class="my-words-tabs">
+      <button class="tab-btn active" data-tab="starred">⭐ 標記中（<span id="starredCount">0</span>）</button>
+      <button class="tab-btn" data-tab="mastered">✅ 已掌握（<span id="masteredCount">0</span>）</button>
+      <button class="tab-btn" data-tab="recent">🆕 最近練過（<span id="recentCount">0</span>）</button>
+    </section>
+
+    <section class="my-words-actions">
+      <button class="btn-primary" id="quizStarredBtn">📝 用 ⭐ 字測驗</button>
+      <button class="btn-secondary" id="clearStarredBtn">清空 ⭐ 標記</button>
+    </section>
+
+    <section id="myList" class="vocab-list"></section>
+
+    <div id="emptyState" class="empty-state" style="display:none;">
+      <p>還沒有單字在這個分類裡。</p>
+      <p>多去 <a href="quiz.html">測驗</a> 或 <a href="index.html">瀏覽</a> 累積吧！</p>
+    </div>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/my-words.js"></script>
+</body>
+</html>

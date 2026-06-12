@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>雅思單字 - 瀏覽</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-top">
+      <h1>📘 雅思單字</h1>
+      <div id="streakInfo" class="streak-chip"></div>
+    </div>
+    <nav>
+      <a href="index.html" class="active">瀏覽</a>
+      <a href="speaking.html">口說</a>
+      <a href="my-words.html">我的</a>
+      <a href="quiz.html">測驗</a>
+      <a href="help.html" class="nav-help">說明</a>
+      <button id="addWordBtn" class="nav-add-btn">＋ 新增單字</button>
+    </nav>
+  </header>
+
+  <!-- 新增單字 Modal -->
+  <div id="addWordOverlay" class="modal-overlay" style="display:none;">
+    <div class="modal-box">
+      <h3 style="margin:0 0 16px 0;font-size:17px;">新增單字</h3>
+      <div class="add-word-form">
+        <input id="awWord" type="text" placeholder="英文單字" autocomplete="off" autocorrect="off" spellcheck="false" />
+      </div>
+      <p style="font-size:13px;color:var(--text-light);margin:0 0 12px 0;">輸入單字後，下次請 Claude 更新時會自動補上中文、詞性、例句與字根字首。</p>
+      <div id="addWordError" style="color:#f44336;font-size:13px;min-height:18px;margin-bottom:8px;"></div>
+      <div class="modal-actions">
+        <button class="btn-secondary" id="awCancel">取消</button>
+        <button class="btn-primary" id="awSave">存入待新增</button>
+      </div>
+      <div id="pendingList" style="margin-top:16px;"></div>
+    </div>
+  </div>
+
+  <main>
+
+    <section class="filters">
+      <input type="text" id="search" placeholder="🔍 搜尋單字 / 中文..." />
+      <div class="filter-row">
+        <select id="categoryFilter">
+          <option value="">全部主題</option>
+        </select>
+        <select id="levelFilter">
+          <option value="">全部難度</option>
+          <option value="4">4+</option>
+          <option value="5">5+</option>
+          <option value="6">6+</option>
+          <option value="7">7+</option>
+        </select>
+        <select id="statusFilter">
+          <option value="">全部狀態</option>
+          <option value="starred">⭐ 標記</option>
+          <option value="mastered">✓ 已掌握</option>
+          <option value="unmastered">未掌握</option>
+        </select>
+      </div>
+      <div class="stats">
+        <span id="totalCount">共 0 字</span>
+        <span id="masteredCount">✓ 已掌握 0</span>
+        <span id="starredCount">⭐ 標記 0</span>
+      </div>
+      <div class="flip-mode-toggle">
+        <label>
+          <input type="checkbox" id="flipMode"> 翻面模式（中文/例句先模糊，點才翻面）
+        </label>
+      </div>
+    </section>
+
+    <section id="vocabList" class="vocab-list"></section>
+  </main>
+
+  <footer>
+    <p>累積來源：所有口說、聽力、閱讀練習</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
