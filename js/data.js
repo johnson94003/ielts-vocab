@@ -14707,7 +14707,23 @@ const VOCAB = [
       { word: "patter", zh: "行話；輕快腳步聲；急速拍打聲" },
       { word: "patter", zh: "薄言地說；發出急速輕拍聲" }
     ]
-  }
+  },
+  { id: 4196, word: "anthropologist", pos: "n.", zh: "人類學家", level: 6, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "Sociologists and anthropologists classify society groups based on resources.", zh: "社會學家與人類學家依資源來分類社會群體。" }] },
+  { id: 4197, word: "prestige", pos: "n.", zh: "聲望、威望", level: 6, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "Chiefs are given a code of prestige.", zh: "首領被賦予一套聲望制度。" }] },
+  { id: 4198, word: "clan", pos: "n.", zh: "氏族、家族", level: 5, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "Clans consist of a small group of people related through marriage.", zh: "氏族由因婚姻而連結的小群體組成。" }] },
+  { id: 4199, word: "tribe", pos: "n.", zh: "部落", level: 4, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "Tribes are much larger than clans.", zh: "部落比氏族大得多。" }] },
+  { id: 4200, word: "chiefdom", pos: "n.", zh: "酋邦", level: 7, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "Chiefdoms tend to flourish in agricultural areas.", zh: "酋邦傾向在農業地區興起。" }] },
+  { id: 4201, word: "nomadic", pos: "adj.", zh: "游牧的", level: 6, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "Clans are usually a nomadic group of people.", zh: "氏族通常是游牧的群體。" }] },
+  { id: 4202, word: "roam", pos: "v.", zh: "漫遊、徘徊", level: 5, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "They roam the land looking for food.", zh: "他們漫遊土地尋找食物。" }] },
+  { id: 4203, word: "descent", pos: "n.", zh: "血統、世系", level: 6, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "People in clans are connected through marriage and descent.", zh: "氏族中的人靠婚姻與血統連結。" }] },
+  { id: 4204, word: "hierarchy", pos: "n.", zh: "階級制度、層級", level: 6, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "Clans do not exhibit hierarchy.", zh: "氏族不顯現階級。" }] },
+  { id: 4205, word: "stratification", pos: "n.", zh: "階層化", level: 7, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "There is no true stratification into classes in chiefdoms.", zh: "酋邦裡並無真正的階級分層。" }] },
+  { id: 4206, word: "lineage", pos: "n.", zh: "血統、家族世系", level: 7, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "The ruling lineage is viewed as the ultimate owner of the land.", zh: "統治家族被視為土地的最終所有者。" }] },
+  { id: 4207, word: "bureaucratic", pos: "adj.", zh: "官僚的", level: 7, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "The bureaucratic administration collects revenue.", zh: "官僚體系徵收稅收。" }] },
+  { id: 4208, word: "redistribution", pos: "n.", zh: "再分配", level: 6, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "Early states tend to have developed redistribution systems.", zh: "早期國家通常發展出再分配系統。" }] },
+  { id: 4209, word: "centralised", pos: "adj.", zh: "集中化的", level: 6, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "A centralised location makes distribution easier.", zh: "集中化的地點讓分配更容易。" }] },
+  { id: 4210, word: "managerial", pos: "adj.", zh: "管理的", level: 6, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "Service developed a managerial benefits theory.", zh: "Service 提出了管理收益理論。" }] },
+  { id: 4211, word: "hypothesise", pos: "v.", zh: "假設", level: 7, category: "閱讀古代社會", source: "閱讀 Ancient societies classification", examples: [{ en: "His theory hypothesises that hierarchical societies benefit all.", zh: "他的理論假設階級社會對所有人都有益。" }] }
 ];
 
 const CATEGORIES = [...new Set(VOCAB.map(v => v.category).filter(Boolean))].sort();
